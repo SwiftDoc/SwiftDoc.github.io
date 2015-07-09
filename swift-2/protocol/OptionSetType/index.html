@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/swift-2/protocol/OptionSetType/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-b475863d5311f20551bb302db3e97fa6.js" type="text/javascript"></script>
+    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -93,7 +93,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b3</strong>
     		
 		</div>
     </div>
@@ -204,7 +204,7 @@ and only if <code>a.rawValue &amp; b.rawValue == b.rawValue</code>.</p>
 <code class="inherits">SetAlgebraType, RawRepresentable</code>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
-<h3>Associated types</h3>
+<h3 id="aliases">Associated types</h3>
 <div class="declaration">
 <code class="language-swift">typealias Element = Self</code>
 <div class="comment">
@@ -232,20 +232,20 @@ and only if <code>a.rawValue &amp; b.rawValue == b.rawValue</code>.</p>
 
 
 
-<div class="declaration">
+<div class="declaration" id="func-union">
 <code class="language-swift">func union(other: Self) -> Self</code>
 <div class="comment">
     <p>Returns the set of elements contained in <code>self</code>, in <code>other</code>, or in
 both <code>self</code> and <code>other</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-intersect">
 <code class="language-swift">func intersect(other: Self) -> Self</code>
 <div class="comment">
     <p>Returns the set of elements contained in both <code>self</code> and <code>other</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-exclusiveOr">
 <code class="language-swift">func exclusiveOr(other: Self) -> Self</code>
 <div class="comment">
     <p>Returns the set of elements contained in <code>self</code> or in <code>other</code>,
@@ -261,7 +261,7 @@ but not in both <code>self</code> and <code>other</code>.</p>
 
 <h4>Where Element == Self</h4>
 
-<div class="declaration">
+<div class="declaration" id="func-contains">
 <code class="language-swift">func contains(member: Self) -> Bool</code>
 <div class="comment">
     <p>Returns <code>true</code> if <code>self</code> contains <code>member</code>.</p>
@@ -269,7 +269,7 @@ but not in both <code>self</code> and <code>other</code>.</p>
 <ul><li>Equivalent to <code>self.intersect([member]) == [member]</code></li></ul>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-insert">
 <code class="language-swift">mutating func insert(member: Self)</code>
 <div class="comment">
     <p>If <code>member</code> is not already contained in <code>self</code>, insert it.</p>
@@ -278,7 +278,7 @@ but not in both <code>self</code> and <code>other</code>.</p>
 <strong>Postcondition:</strong> <code>self.contains(member)</code></li></ul>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-remove">
 <code class="language-swift">mutating func remove(member: Self) -> Self?</code>
 <div class="comment">
     <p>If <code>member</code> is contained in <code>self</code>, remove and return it.
@@ -294,7 +294,7 @@ Otherwise, return <code>nil</code>.</p>
 
 <h4>Where RawValue : BitwiseOperationsType</h4>
 
-<div class="declaration">
+<div class="declaration" id="func-unionInPlace">
 <code class="language-swift">mutating func unionInPlace(other: Self)</code>
 <div class="comment">
     <p>Insert all elements of <code>other</code> into <code>self</code>.</p>
@@ -303,7 +303,7 @@ Otherwise, return <code>nil</code>.</p>
 <strong>Postcondition:</strong> <code>self.isSupersetOf(other)</code></li></ul>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-intersectInPlace">
 <code class="language-swift">mutating func intersectInPlace(other: Self)</code>
 <div class="comment">
     <p>Remove all elements of <code>self</code> that are not also present in
@@ -313,7 +313,7 @@ Otherwise, return <code>nil</code>.</p>
 <strong>Postcondition:</strong> <code>self.isSubsetOf(other)</code></li></ul>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-exclusiveOrInPlace">
 <code class="language-swift">mutating func exclusiveOrInPlace(other: Self)</code>
 <div class="comment">
     <p>Replace <code>self</code> with a set containing all elements contained in
@@ -338,7 +338,7 @@ either <code>self</code> or <code>other</code>, but not both.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift version 1.2 (602.0.49.3) & 2.0 (700.0.38.1)</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.45</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">
