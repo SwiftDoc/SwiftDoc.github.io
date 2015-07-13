@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/protocol/_ObjectiveCBridgeable/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -190,7 +190,7 @@ on each elmeent of the source container.</p>
 <h3>Inheritance</h3>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
-<h3>Associated types</h3>
+<h3 id="aliases">Associated types</h3>
 <div class="declaration">
 <code class="language-swift">typealias _ObjectiveCType</code>
 </div>
@@ -201,7 +201,7 @@ on each elmeent of the source container.</p>
 
 
 <h3>Static Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-_isBridgedToObjectiveC">
 <code class="language-swift">static func _isBridgedToObjectiveC() -> Bool</code>
 <div class="comment">
     <p>Return true iff instances of <code>Self</code> can be converted to
@@ -212,13 +212,13 @@ convert successfully to <code>[String]</code> if it contains only
 <code>NSString</code>s.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-_getObjectiveCType">
 <code class="language-swift">static func _getObjectiveCType() -> Any.Type</code>
 <div class="comment">
     <p>Must return <code>_ObjectiveCType.self</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-_forceBridgeFromObjectiveC">
 <code class="language-swift">static func _forceBridgeFromObjectiveC(source: _ObjectiveCType, inout result: Self?)</code>
 <div class="comment">
     <p>Bridge from an Objective-C object of the bridged class type to a
@@ -233,7 +233,7 @@ the checking for the individual elements of the array.</p>
 will always contain a value.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-_conditionallyBridgeFromObjectiveC">
 <code class="language-swift">static func _conditionallyBridgeFromObjectiveC(source: _ObjectiveCType, inout result: Self?) -> Bool</code>
 <div class="comment">
     <p>Try to bridge from an Objective-C object of the bridged class
@@ -254,7 +254,7 @@ to determine success.</p>
 </div>
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-_bridgeToObjectiveC">
 <code class="language-swift">func _bridgeToObjectiveC() -> _ObjectiveCType</code>
 <div class="comment">
     <p>Convert <code>self</code> to Objective-C</p>

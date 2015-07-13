@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/type/LazyForwardCollection/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -202,7 +202,7 @@ instance.</p>
 
 
 <h3>Instance Variables</h3>
-<div class="declaration">
+<div class="declaration" id="prop-startIndex">
 <code class="language-swift">var startIndex: S.Index { get }</code>
 <div class="comment">
     <p>The position of the first element in a non-empty collection.</p>
@@ -210,7 +210,7 @@ instance.</p>
 <p>Identical to <code>endIndex</code> in an empty collection.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-endIndex">
 <code class="language-swift">var endIndex: S.Index { get }</code>
 <div class="comment">
     <p>The collection&#39;s &quot;past the end&quot; position.</p>
@@ -220,19 +220,19 @@ reachable from <code>startIndex</code> by zero or more applications of
 <code>successor()</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-isEmpty">
 <code class="language-swift">var isEmpty: Bool { get }</code>
 <div class="comment">
     <p>True if and only if the collection is empty</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-first">
 <code class="language-swift">var first: S.Generator.Element? { get }</code>
 <div class="comment">
     <p>The first element, or <code>nil</code> if <code>self</code> is empty</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-array">
 <code class="language-swift">var array: [S.Generator.Element] { get }</code>
 <div class="comment">
     <p>an Array, created on-demand, containing the elements of this
@@ -242,7 +242,7 @@ lazy CollectionType.</p>
 
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-generate">
 <code class="language-swift">func generate() -> S.Generator</code>
 <div class="comment">
     <p>Return a <em>generator</em> over the elements of this <em>sequence</em>.</p>
@@ -250,14 +250,14 @@ lazy CollectionType.</p>
 <p>Complexity: O(1)</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-filter">
 <code class="language-swift">func filter(includeElement: (S.Generator.Element) -&gt; Bool) -> LazySequence&lt;FilterSequenceView&lt;S&gt;&gt;</code>
 <div class="comment">
     <p>Return a lazy SequenceType containing the elements <code>x</code> of <code>source</code> for
 which <code>includeElement(x)</code> is <code>true</code></p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-map">
 <code class="language-swift">func map&lt;U&gt;(transform: (S.Generator.Element) -&gt; U) -> LazyForwardCollection&lt;MapCollectionView&lt;S, U&gt;&gt;</code>
 <div class="comment">
     <p>Return a <code>MapCollectionView</code> over this <code>LazyForwardCollection</code>.  The elements of

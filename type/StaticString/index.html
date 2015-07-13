@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/type/StaticString/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -236,7 +236,7 @@ compile-time&quot;.</p>
 
 
 <h3>Instance Variables</h3>
-<div class="declaration">
+<div class="declaration" id="prop-utf8Start">
 <code class="language-swift">var utf8Start: UnsafePointer&lt;UInt8&gt; { get }</code>
 <div class="comment">
     <p>A pointer to the beginning of UTF-8 code units</p>
@@ -245,7 +245,7 @@ compile-time&quot;.</p>
 units.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-unicodeScalar">
 <code class="language-swift">var unicodeScalar: UnicodeScalar { get }</code>
 <div class="comment">
     <p>The stored Unicode scalar value</p>
@@ -253,7 +253,7 @@ units.</p>
 <p>Requires: <code>self</code> stores a single Unicode scalar value.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-byteSize">
 <code class="language-swift">var byteSize: Word { get }</code>
 <div class="comment">
     <p>If <code>self</code> stores a pointer to ASCII or UTF-8 code units, the
@@ -263,13 +263,13 @@ length in bytes of that data.</p>
 <code>byteSize</code> is unspecified.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-hasPointerRepresentation">
 <code class="language-swift">var hasPointerRepresentation: Bool { get }</code>
 <div class="comment">
     <p><code>true</code> iff <code>self</code> stores a pointer to ASCII or UTF-8 code units</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-isASCII">
 <code class="language-swift">var isASCII: Bool { get }</code>
 <div class="comment">
     <p><code>true</code> if <code>self</code> stores a pointer to ASCII code units.</p>
@@ -278,20 +278,20 @@ length in bytes of that data.</p>
 <code>isASCII</code> is unspecified.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-stringValue">
 <code class="language-swift">var stringValue: String { get }</code>
 <div class="comment">
     <p>Return a <code>String</code> representing the same sequence of Unicode
 scalar values as <code>self</code> does.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-description">
 <code class="language-swift">var description: String { get }</code>
 <div class="comment">
     <p>A textual representation of <code>self</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-debugDescription">
 <code class="language-swift">var debugDescription: String { get }</code>
 <div class="comment">
     <p>A textual representation of <code>self</code>, suitable for debugging.</p>
@@ -300,7 +300,7 @@ scalar values as <code>self</code> does.</p>
 
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-withUTF8Buffer">
 <code class="language-swift">func withUTF8Buffer&lt;R&gt;(body: @noescape (UnsafeBufferPointer&lt;UInt8&gt;) -&gt; R) -> R</code>
 <div class="comment">
     <p>Invoke <code>body</code> with a buffer containing the UTF-8 code units of

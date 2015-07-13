@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/type/RangeGenerator/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -187,7 +187,7 @@
 <code class="inherits">GeneratorType, SequenceType</code>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
-<h3>Associated types</h3>
+<h3 id="aliases">Associated types</h3>
 <div class="declaration">
 <code class="language-swift">typealias Element = T</code>
 <div class="comment">
@@ -214,13 +214,13 @@ sequence, in order.</p>
 
 
 <h3>Instance Variables</h3>
-<div class="declaration">
+<div class="declaration" id="prop-startIndex">
 <code class="language-swift">var startIndex: T { get set }</code>
 <div class="comment">
     <p>The lower bound of the remaining range.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-endIndex">
 <code class="language-swift">var endIndex: T { get set }</code>
 <div class="comment">
     <p>The upper bound of the remaining range; not included in the
@@ -230,14 +230,14 @@ generated sequence.</p>
 
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-next">
 <code class="language-swift">mutating func next() -> T?</code>
 <div class="comment">
     <p>Advance to the next element and return it, or <code>nil</code> if no next
 element exists.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-generate">
 <code class="language-swift">func generate() -> RangeGenerator&lt;T&gt;</code>
 <div class="comment">
     <p><code>RangeGenerator</code> is also a <code>SequenceType</code>, so it

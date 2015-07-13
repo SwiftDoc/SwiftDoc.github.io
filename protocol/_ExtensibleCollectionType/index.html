@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/protocol/_ExtensibleCollectionType/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -206,7 +206,7 @@ be satisfied by types conforming to that protocol.</p>
 
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-reserveCapacity">
 <code class="language-swift">mutating func reserveCapacity(n: Self.Index.Distance)</code>
 <div class="comment">
     <p>A non-binding request to ensure <code>n</code> elements of available storage.</p>
@@ -217,7 +217,7 @@ reserve more than <code>n</code>, exactly <code>n</code>, less than <code>n</cod
 storage, or even ignore the request completely.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-append">
 <code class="language-swift">mutating func append(x: Self.Generator.Element)</code>
 <div class="comment">
     <p>Append <code>x</code> to <code>self</code>.</p>
@@ -228,7 +228,7 @@ storage, or even ignore the request completely.</p>
 <p>Complexity: amortized O(1).</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-extend">
 <code class="language-swift">mutating func extend&lt;S : SequenceType where Self.Generator.Element == Self.Generator.Element&gt;(newElements: S)</code>
 <div class="comment">
     <p>Append the elements of <code>newElements</code> to <code>self</code>.</p>

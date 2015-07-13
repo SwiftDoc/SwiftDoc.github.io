@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/type/Set/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -187,7 +187,7 @@
 <code class="inherits">Hashable, CollectionType, ArrayLiteralConvertible, Printable, DebugPrintable, Reflectable</code>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
-<h3>Associated types</h3>
+<h3 id="aliases">Associated types</h3>
 <div class="declaration">
 <code class="language-swift">typealias Element = T</code>
 </div>
@@ -227,7 +227,7 @@ smallest power of 2 that&#39;s &gt;= <code>minimumCapacity</code>.</p>
 
 
 <h3>Instance Variables</h3>
-<div class="declaration">
+<div class="declaration" id="prop-startIndex">
 <code class="language-swift">var startIndex: SetIndex&lt;T&gt; { get }</code>
 <div class="comment">
     <p>The position of the first element in a non-empty set.</p>
@@ -238,7 +238,7 @@ smallest power of 2 that&#39;s &gt;= <code>minimumCapacity</code>.</p>
 <code>NSSet</code>, O(N) otherwise.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-endIndex">
 <code class="language-swift">var endIndex: SetIndex&lt;T&gt; { get }</code>
 <div class="comment">
     <p>The collection&#39;s &quot;past the end&quot; position.</p>
@@ -251,7 +251,7 @@ reachable from <code>startIndex</code> by zero or more applications of
 <code>NSSet</code>, O(N) otherwise.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-count">
 <code class="language-swift">var count: Int { get }</code>
 <div class="comment">
     <p>The number of members in the set.</p>
@@ -259,29 +259,29 @@ reachable from <code>startIndex</code> by zero or more applications of
 <p>Complexity: O(1)</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-first">
 <code class="language-swift">var first: T? { get }</code>
 <div class="comment">
     <p>The first element obtained when iterating, or <code>nil</code> if <code>self</code> is
 empty.  Equivalent to <code>self.generate().next()</code></p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-isEmpty">
 <code class="language-swift">var isEmpty: Bool { get }</code>
 <div class="comment">
     <p><code>true</code> if the set is empty.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-hashValue">
 <code class="language-swift">var hashValue: Int { get }</code>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-description">
 <code class="language-swift">var description: String { get }</code>
 <div class="comment">
     <p>A textual representation of <code>self</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-debugDescription">
 <code class="language-swift">var debugDescription: String { get }</code>
 <div class="comment">
     <p>A textual representation of <code>self</code>, suitable for debugging.</p>
@@ -290,51 +290,51 @@ empty.  Equivalent to <code>self.generate().next()</code></p>
 
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-contains">
 <code class="language-swift">func contains(member: T) -> Bool</code>
 <div class="comment">
     <p>Returns <code>true</code> if the set contains a member.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-indexOf">
 <code class="language-swift">func indexOf(member: T) -> SetIndex&lt;T&gt;?</code>
 <div class="comment">
     <p>Returns the <code>Index</code> of a given member, or <code>nil</code> if the member is not
 present in the set.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-insert">
 <code class="language-swift">mutating func insert(member: T)</code>
 <div class="comment">
     <p>Insert a member into the set.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-remove">
 <code class="language-swift">mutating func remove(member: T) -> T?</code>
 <div class="comment">
     <p>Remove the member from the set and return it if it was present.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-removeAtIndex">
 <code class="language-swift">mutating func removeAtIndex(index: SetIndex&lt;T&gt;)</code>
 <div class="comment">
     <p>Remove the member referenced by the given index.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-removeAll">
 <code class="language-swift">mutating func removeAll(keepCapacity: Bool = default)</code>
 <div class="comment">
     <p>Erase all the elements.  If <code>keepCapacity</code> is <code>true</code>, <code>capacity</code>
 will not decrease.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-removeFirst">
 <code class="language-swift">mutating func removeFirst() -> T</code>
 <div class="comment">
     <p>Remove a member from the set and return it. Requires: <code>count &gt; 0</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-generate">
 <code class="language-swift">func generate() -> SetGenerator&lt;T&gt;</code>
 <div class="comment">
     <p>Return a <em>generator</em> over the members.</p>
@@ -342,83 +342,83 @@ will not decrease.</p>
 <p>Complexity: O(1)</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-isSubsetOf">
 <code class="language-swift">func isSubsetOf&lt;S : SequenceType where T == T&gt;(sequence: S) -> Bool</code>
 <div class="comment">
     <p>Returns true if the set is a subset of a finite sequence as a <code>Set</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-isStrictSubsetOf">
 <code class="language-swift">func isStrictSubsetOf&lt;S : SequenceType where T == T&gt;(sequence: S) -> Bool</code>
 <div class="comment">
     <p>Returns true if the set is a subset of a finite sequence as a <code>Set</code>
 but not equal.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-isSupersetOf">
 <code class="language-swift">func isSupersetOf&lt;S : SequenceType where T == T&gt;(sequence: S) -> Bool</code>
 <div class="comment">
     <p>Returns true if the set is a superset of a finite sequence as a <code>Set</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-isStrictSupersetOf">
 <code class="language-swift">func isStrictSupersetOf&lt;S : SequenceType where T == T&gt;(sequence: S) -> Bool</code>
 <div class="comment">
     <p>Returns true if the set is a superset of a finite sequence as a <code>Set</code>
 but not equal.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-isDisjointWith">
 <code class="language-swift">func isDisjointWith&lt;S : SequenceType where T == T&gt;(sequence: S) -> Bool</code>
 <div class="comment">
     <p>Returns true if no members in the set are in a finite sequence as a <code>Set</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-union">
 <code class="language-swift">func union&lt;S : SequenceType where T == T&gt;(sequence: S) -> Set&lt;T&gt;</code>
 <div class="comment">
     <p>Return a new <code>Set</code> with items in both this set and a finite sequence.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-unionInPlace">
 <code class="language-swift">mutating func unionInPlace&lt;S : SequenceType where T == T&gt;(sequence: S)</code>
 <div class="comment">
     <p>Insert elements of a finite sequence into this <code>Set</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-subtract">
 <code class="language-swift">func subtract&lt;S : SequenceType where T == T&gt;(sequence: S) -> Set&lt;T&gt;</code>
 <div class="comment">
     <p>Return a new set with elements in this set that do not occur
 in a finite sequence.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-subtractInPlace">
 <code class="language-swift">mutating func subtractInPlace&lt;S : SequenceType where T == T&gt;(sequence: S)</code>
 <div class="comment">
     <p>Remove all members in the set that occur in a finite sequence.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-intersect">
 <code class="language-swift">func intersect&lt;S : SequenceType where T == T&gt;(sequence: S) -> Set&lt;T&gt;</code>
 <div class="comment">
     <p>Return a new set with elements common to this set and a finite sequence.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-intersectInPlace">
 <code class="language-swift">mutating func intersectInPlace&lt;S : SequenceType where T == T&gt;(sequence: S)</code>
 <div class="comment">
     <p>Remove any members of this set that aren&#39;t also in a finite sequence.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-exclusiveOr">
 <code class="language-swift">func exclusiveOr&lt;S : SequenceType where T == T&gt;(sequence: S) -> Set&lt;T&gt;</code>
 <div class="comment">
     <p>Return a new set with elements that are either in the set or a finite
 sequence but do not occur in both.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-exclusiveOrInPlace">
 <code class="language-swift">mutating func exclusiveOrInPlace&lt;S : SequenceType where T == T&gt;(sequence: S)</code>
 <div class="comment">
     <p>For each element of a finite sequence, remove it from the set if it is a
@@ -426,7 +426,7 @@ common element, otherwise add it to the set. Repeated elements of the
 sequence will be ignored.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-getMirror">
 <code class="language-swift">func getMirror() -> MirrorType</code>
 <div class="comment">
     <p>Returns a mirror that reflects <code>self</code>.</p>

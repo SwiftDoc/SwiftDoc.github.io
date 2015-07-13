@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/type/UTF16/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -187,7 +187,7 @@
 <code class="inherits">UnicodeCodecType</code>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
-<h3>Associated types</h3>
+<h3 id="aliases">Associated types</h3>
 <div class="declaration">
 <code class="language-swift">typealias CodeUnit = UInt16</code>
 <div class="comment">
@@ -206,20 +206,20 @@ encoding.</p>
 
 
 <h3>Static Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-encode">
 <code class="language-swift">static func encode&lt;S : SinkType where CodeUnit == CodeUnit&gt;(input: UnicodeScalar, inout output: S)</code>
 <div class="comment">
     <p>Encode a <code>UnicodeScalar</code> as a series of <code>CodeUnit</code>s by
 <code>put</code>&#39;ing each <code>CodeUnit</code> to <code>output</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-width">
 <code class="language-swift">static func width(x: UnicodeScalar) -> Int</code>
 <div class="comment">
     <p>Return the number of code units required to encode <code>x</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-leadSurrogate">
 <code class="language-swift">static func leadSurrogate(x: UnicodeScalar) -> CodeUnit</code>
 <div class="comment">
     <p>Return the high surrogate code unit of a <a href="http://www.unicode.org/glossary/#surrogate_pair">surrogate pair</a> representing
@@ -228,7 +228,7 @@ encoding.</p>
 <p>Requires: <code>width(x) == 2</code></p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-trailSurrogate">
 <code class="language-swift">static func trailSurrogate(x: UnicodeScalar) -> CodeUnit</code>
 <div class="comment">
     <p>Return the low surrogate code unit of a <a href="http://www.unicode.org/glossary/#surrogate_pair">surrogate pair</a> representing
@@ -237,13 +237,13 @@ encoding.</p>
 <p>Requires: <code>width(x) == 2</code></p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-isLeadSurrogate">
 <code class="language-swift">static func isLeadSurrogate(x: CodeUnit) -> Bool</code>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-isTrailSurrogate">
 <code class="language-swift">static func isTrailSurrogate(x: CodeUnit) -> Bool</code>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-measure">
 <code class="language-swift">static func measure&lt;Encoding : UnicodeCodecType, Input : GeneratorType where Encoding.CodeUnit == Encoding.CodeUnit&gt;(_: Encoding.Type, input: Input, repairIllFormedSequences: Bool) -> (Int, Bool)?</code>
 <div class="comment">
     <p>Returns the number of UTF-16 code units required for the given code unit
@@ -257,7 +257,7 @@ found in <code>input</code>.</p>
 </div>
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-decode">
 <code class="language-swift">mutating func decode&lt;G : GeneratorType where CodeUnit == CodeUnit&gt;(inout input: G) -> UnicodeDecodingResult</code>
 <div class="comment">
     <p>Start or continue decoding a UTF sequence.</p>

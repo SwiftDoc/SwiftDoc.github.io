@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/func/withExtendedLifetime/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -177,14 +177,14 @@
           </header>
           
           <article class="content">
-          <div class="declaration">
+          <div class="declaration" id="func-withExtendedLifetime">
 <code class="language-swift">func withExtendedLifetime&lt;T, Result&gt;(x: T, f: @noescape T -&gt; Result) -> Result</code>
 <div class="comment">
     <p>Evaluate <code>f(x)</code> and return its result, ensuring that <code>x</code> is not
 destroyed before f returns.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-withExtendedLifetime">
 <code class="language-swift">func withExtendedLifetime&lt;T, Result&gt;(x: T, f: @noescape () -&gt; Result) -> Result</code>
 <div class="comment">
     <p>Evaluate <code>f()</code> and return its result, ensuring that <code>x</code> is not

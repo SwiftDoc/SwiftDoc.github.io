@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/type/UnsafeBufferPointer/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -203,14 +203,14 @@ underlying elements.</p>
 
 
 <h3>Instance Variables</h3>
-<div class="declaration">
+<div class="declaration" id="prop-startIndex">
 <code class="language-swift">var startIndex: Int { get }</code>
 <div class="comment">
     <p>Always zero, which is the index of the first element in a
 non-empty buffer.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-endIndex">
 <code class="language-swift">var endIndex: Int { get }</code>
 <div class="comment">
     <p>The &quot;past the end&quot; position; always identical to <code>count</code>.</p>
@@ -220,19 +220,19 @@ reachable from <code>startIndex</code> by zero or more applications of
 <code>successor()</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-baseAddress">
 <code class="language-swift">var baseAddress: UnsafePointer&lt;T&gt; { get }</code>
 <div class="comment">
     <p>A pointer to the first element of the buffer</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-count">
 <code class="language-swift">var count: Int { get }</code>
 <div class="comment">
     <p>The number of elements in the buffer</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-debugDescription">
 <code class="language-swift">var debugDescription: String { get }</code>
 <div class="comment">
     <p>A textual representation of <code>self</code>, suitable for debugging.</p>
@@ -241,7 +241,7 @@ reachable from <code>startIndex</code> by zero or more applications of
 
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-generate">
 <code class="language-swift">func generate() -> UnsafeBufferPointerGenerator&lt;T&gt;</code>
 <div class="comment">
     <p>Return a <em>generator</em> over the elements of this <em>sequence</em>.</p>

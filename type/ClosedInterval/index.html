@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/type/ClosedInterval/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -188,7 +188,7 @@
 <code class="inherits">IntervalType, Equatable, Printable, DebugPrintable, Reflectable</code>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
-<h3>Associated types</h3>
+<h3 id="aliases">Associated types</h3>
 <div class="declaration">
 <code class="language-swift">typealias Bound = T</code>
 <div class="comment">
@@ -215,31 +215,31 @@
 
 
 <h3>Instance Variables</h3>
-<div class="declaration">
+<div class="declaration" id="prop-start">
 <code class="language-swift">var start: T { get }</code>
 <div class="comment">
     <p>The <code>Interval</code>&#39;s lower bound. Invariant: <code>start</code> &lt;= <code>end</code></p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-end">
 <code class="language-swift">var end: T { get }</code>
 <div class="comment">
     <p>The <code>Interval</code>&#39;s upper bound. Invariant: <code>start</code> &lt;= <code>end</code></p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-description">
 <code class="language-swift">var description: String { get }</code>
 <div class="comment">
     <p>A textual representation of <code>self</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-debugDescription">
 <code class="language-swift">var debugDescription: String { get }</code>
 <div class="comment">
     <p>A textual representation of <code>self</code>, suitable for debugging.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-isEmpty">
 <code class="language-swift">var isEmpty: Bool { get }</code>
 <div class="comment">
     <p><code>true</code> iff the <code>Interval</code> is empty.  In the case of
@@ -249,13 +249,13 @@
 
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-contains">
 <code class="language-swift">func contains(x: T) -> Bool</code>
 <div class="comment">
     <p>Returns <code>true</code> iff the <code>Interval</code> contains <code>x</code></p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-clamp">
 <code class="language-swift">func clamp(intervalToClamp: ClosedInterval&lt;T&gt;) -> ClosedInterval&lt;T&gt;</code>
 <div class="comment">
     <p>Return <code>intervalToClamp</code> clamped to <code>self</code>.  The bounds of the
@@ -263,7 +263,7 @@ result, even if it is empty, are always limited to the bounds of
 <code>self</code></p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-getMirror">
 <code class="language-swift">func getMirror() -> MirrorType</code>
 <div class="comment">
     <p>Returns a mirror that reflects <code>self</code>.</p>

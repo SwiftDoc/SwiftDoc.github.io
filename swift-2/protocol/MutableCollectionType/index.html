@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/swift-2/protocol/MutableCollectionType/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -291,6 +291,20 @@ a pivot index <em>p</em>.</p>
   over the elements in <code>self</code>.</p>
 </div>
 </div>
+<div class="declaration" id="func-sortInPlace">
+<code class="language-swift">mutating func sortInPlace()</code>
+<div class="comment">
+    <p>Sort <code>self</code> in-place.</p>
+
+<p>The sorting algorithm is not stable (can change the relative order of
+elements that compare equal).</p>
+
+<p><strong>Requires:</strong> The less-than operator (<code>func &lt;</code>) defined in
+  the <code>Comparable</code> conformance is a
+  <a href="http://en.wikipedia.org/wiki/Strict_weak_order#Strict_weak_orderings">strict weak ordering</a>
+  over the elements in <code>self</code>.</p>
+</div>
+</div>
 
 
 
@@ -315,27 +329,6 @@ elements that compare equal).</p>
 </div>
 
 
-
-
-
-
-
-<h4>Where Index : RandomAccessIndexType, Self.Generator.Element : Comparable</h4>
-
-<div class="declaration" id="func-sortInPlace">
-<code class="language-swift">mutating func sortInPlace()</code>
-<div class="comment">
-    <p>Sort <code>self</code> in-place.</p>
-
-<p>The sorting algorithm is not stable (can change the relative order of
-elements that compare equal).</p>
-
-<p><strong>Requires:</strong> The less-than operator (<code>func &lt;</code>) defined in
-  the <code>Comparable</code> conformance is a
-  <a href="http://en.wikipedia.org/wiki/Strict_weak_order#Strict_weak_orderings">strict weak ordering</a>
-  over the elements in <code>self</code>.</p>
-</div>
-</div>
 
 
 

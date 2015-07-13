@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/protocol/MirrorType/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -191,44 +191,44 @@ reflection on <code>x</code></p>
 
 
 <h3>Instance Variables</h3>
-<div class="declaration">
+<div class="declaration" id="prop-value">
 <code class="language-swift">var value: Any { get }</code>
 <div class="comment">
     <p>The instance being reflected</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-valueType">
 <code class="language-swift">var valueType: Any.Type { get }</code>
 <div class="comment">
     <p>Identical to <code>value.dynamicType</code></p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-objectIdentifier">
 <code class="language-swift">var objectIdentifier: ObjectIdentifier? { get }</code>
 <div class="comment">
     <p>A unique identifier for <code>value</code> if it is a class instance; <code>nil</code>
 otherwise.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-count">
 <code class="language-swift">var count: Int { get }</code>
 <div class="comment">
     <p>The count of <code>value</code>&#39;s logical children </p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-summary">
 <code class="language-swift">var summary: String { get }</code>
 <div class="comment">
     <p>A string description of <code>value</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-quickLookObject">
 <code class="language-swift">var quickLookObject: QuickLookObject? { get }</code>
 <div class="comment">
     <p>A rich representation of <code>value</code> for an IDE, or <code>nil</code> if none is supplied.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-disposition">
 <code class="language-swift">var disposition: MirrorDisposition { get }</code>
 <div class="comment">
     <p>How <code>value</code> should be presented in an IDE.</p>

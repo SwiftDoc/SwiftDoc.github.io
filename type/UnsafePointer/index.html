@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/type/UnsafePointer/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -253,14 +253,14 @@ been deallocated previously);</p></li><li><p>memory is allocated, but value has 
 
 
 <h3>Instance Variables</h3>
-<div class="declaration">
+<div class="declaration" id="prop-memory">
 <code class="language-swift">var memory: T { get }</code>
 <div class="comment">
     <p>Access the underlying raw memory, getting and
 setting values.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-hashValue">
 <code class="language-swift">var hashValue: Int { get }</code>
 <div class="comment">
     <p>The hash value.</p>
@@ -272,7 +272,7 @@ different invocations of the same program.  Do not persist the
 hash value across program runs.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-debugDescription">
 <code class="language-swift">var debugDescription: String { get }</code>
 <div class="comment">
     <p>A textual representation of <code>self</code>, suitable for debugging.</p>
@@ -281,7 +281,7 @@ hash value across program runs.</p>
 
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-successor">
 <code class="language-swift">func successor() -> UnsafePointer&lt;T&gt;</code>
 <div class="comment">
     <p>Returns the next consecutive value after <code>self</code>.</p>
@@ -289,7 +289,7 @@ hash value across program runs.</p>
 <p>Requires: the next value is representable.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-predecessor">
 <code class="language-swift">func predecessor() -> UnsafePointer&lt;T&gt;</code>
 <div class="comment">
     <p>Returns the previous consecutive value before <code>self</code>.</p>
@@ -297,7 +297,7 @@ hash value across program runs.</p>
 <p>Requires: the previous value is representable.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-distanceTo">
 <code class="language-swift">func distanceTo(x: UnsafePointer&lt;T&gt;) -> Int</code>
 <div class="comment">
     <p>Return the minimum number of applications of <code>successor</code> or
@@ -306,7 +306,7 @@ hash value across program runs.</p>
 <p>Complexity: O(1).</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-advancedBy">
 <code class="language-swift">func advancedBy(n: Int) -> UnsafePointer&lt;T&gt;</code>
 <div class="comment">
     <p>Return <code>self</code> offset by <code>n</code> steps.</p>
@@ -318,13 +318,13 @@ hash value across program runs.</p>
 <p>Complexity: O(1)</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-getMirror">
 <code class="language-swift">func getMirror() -> MirrorType</code>
 <div class="comment">
     <p>Returns a mirror that reflects <code>self</code>.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-encode">
 <code class="language-swift">func encode() -> [Word]</code>
 <div class="comment">
     <p>Transform <code>self</code> into a series of machine words that can be

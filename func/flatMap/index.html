@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/func/flatMap/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -177,20 +177,20 @@
           </header>
           
           <article class="content">
-          <div class="declaration">
+          <div class="declaration" id="func-flatMap">
 <code class="language-swift">func flatMap&lt;T, U&gt;(x: T?, f: @noescape (T) -&gt; U?) -> U?</code>
 <div class="comment">
     <p>Returns <code>f(self)!</code> iff <code>self</code> and <code>f(self)</code> are not nil.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-flatMap">
 <code class="language-swift">func flatMap&lt;C : CollectionType, T&gt;(source: C, transform: (C.Generator.Element) -&gt; [T]) -> [T]</code>
 <div class="comment">
     <p>Return an <code>Array</code> containing the results of mapping <code>transform</code>
 over <code>source</code> and flattening the result.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-flatMap">
 <code class="language-swift">func flatMap&lt;S : SequenceType, T&gt;(source: S, transform: @noescape (S.Generator.Element) -&gt; [T]) -> [T]</code>
 <div class="comment">
     <p>Return an <code>Array</code> containing the results of mapping <code>transform</code>

@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/protocol/RangeReplaceableCollectionType/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -196,7 +196,7 @@ of elements with the elements of another collection.</p>
 
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-replaceRange">
 <code class="language-swift">mutating func replaceRange&lt;C : CollectionType where Self.Generator.Element == Self.Generator.Element&gt;(subRange: Range&lt;Self.Index&gt;, with newElements: C)</code>
 <div class="comment">
     <p>Replace the given <code>subRange</code> of elements with <code>newElements</code>.</p>
@@ -208,7 +208,7 @@ of elements with the elements of another collection.</p>
 O(<code>count(self)</code> + <code>count(newElements)</code>) otherwise.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-insert">
 <code class="language-swift">mutating func insert(newElement: Self.Generator.Element, atIndex i: Self.Index)</code>
 <div class="comment">
     <p>Insert <code>newElement</code> at index <code>i</code>.</p>
@@ -222,7 +222,7 @@ O(<code>count(self)</code> + <code>count(newElements)</code>) otherwise.</p>
 <pre><code class="language-swift">Swift.insert(&amp;self, newElement, atIndex: i)</code></pre>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-splice">
 <code class="language-swift">mutating func splice&lt;S : CollectionType where Self.Generator.Element == Self.Generator.Element&gt;(newElements: S, atIndex i: Self.Index)</code>
 <div class="comment">
     <p>Insert <code>newElements</code> at index <code>i</code></p>
@@ -236,7 +236,7 @@ O(<code>count(self)</code> + <code>count(newElements)</code>) otherwise.</p>
 <pre><code class="language-swift">Swift.splice(&amp;self, newElements, atIndex: i)</code></pre>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-removeAtIndex">
 <code class="language-swift">mutating func removeAtIndex(i: Self.Index) -> Self.Generator.Element</code>
 <div class="comment">
     <p>Remove the element at index <code>i</code></p>
@@ -250,7 +250,7 @@ O(<code>count(self)</code> + <code>count(newElements)</code>) otherwise.</p>
 <pre><code class="language-swift">Swift.removeAtIndex(&amp;self, i)</code></pre>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-removeRange">
 <code class="language-swift">mutating func removeRange(subRange: Range&lt;Self.Index&gt;)</code>
 <div class="comment">
     <p>Remove the indicated <code>subRange</code> of elements</p>
@@ -264,7 +264,7 @@ O(<code>count(self)</code> + <code>count(newElements)</code>) otherwise.</p>
 <pre><code class="language-swift">Swift.removeRange(&amp;self, subRange)</code></pre>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-removeAll">
 <code class="language-swift">mutating func removeAll(#keepCapacity: Bool)</code>
 <div class="comment">
     <p>Remove all elements</p>

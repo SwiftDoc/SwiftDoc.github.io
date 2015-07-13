@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/protocol/_ArrayType/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -184,7 +184,7 @@
 <code class="inherits">__ArrayType, RangeReplaceableCollectionType, MutableSliceable, ArrayLiteralConvertible</code>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
-<h3>Associated types</h3>
+<h3 id="aliases">Associated types</h3>
 <div class="declaration">
 <code class="language-swift">typealias _Buffer : _ArrayBufferType</code>
 </div>
@@ -210,31 +210,31 @@
 
 
 <h3>Instance Variables</h3>
-<div class="declaration">
+<div class="declaration" id="prop-count">
 <code class="language-swift">var count: Int { get }</code>
 <div class="comment">
     <p>How many elements the Array stores</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-capacity">
 <code class="language-swift">var capacity: Int { get }</code>
 <div class="comment">
     <p>How many elements the Array can store without reallocation</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-isEmpty">
 <code class="language-swift">var isEmpty: Bool { get }</code>
 <div class="comment">
     <p>true if and only if the Array is empty</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-_owner">
 <code class="language-swift">var _owner: AnyObject? { get }</code>
 <div class="comment">
     <p>An object that guarantees the lifetime of this array&#39;s elements</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-_baseAddressIfContiguous">
 <code class="language-swift">var _baseAddressIfContiguous: UnsafeMutablePointer&lt;Self.Element&gt; { get }</code>
 <div class="comment">
     <p>If the elements are stored contiguously, a pointer to the first
@@ -244,7 +244,7 @@ element. Otherwise, nil.</p>
 
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-reserveCapacity">
 <code class="language-swift">mutating func reserveCapacity(minimumCapacity: Int)</code>
 <div class="comment">
     <p>Reserve enough space to store minimumCapacity elements.</p>
@@ -255,32 +255,32 @@ mutable contiguous storage.</p>
 <p>Complexity: O(<code>count</code>)</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-append">
 <code class="language-swift">mutating func append(newElement: Self.Generator.Element)</code>
 <div class="comment">
     <p>Append newElement to the Array in O(1) (amortized)</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-extend">
 <code class="language-swift">mutating func extend&lt;S : SequenceType where Self.Generator.Element == Self.Generator.Element&gt;(sequence: S)</code>
 <div class="comment">
     <p>Append elements from <code>sequence</code> to the Array</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-+=">
 <code class="language-swift">func +=&lt;S : SequenceType where Self.Generator.Element == Self.Generator.Element&gt;(inout lhs: Self, rhs: S)</code>
 <div class="comment">
     <p>Operator form of extend</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-removeLast">
 <code class="language-swift">mutating func removeLast() -> Self.Generator.Element</code>
 <div class="comment">
     <p>Remove an element from the end of the Array in O(1).  Returns:
 the removed element. Requires: count &gt; 0</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-insert">
 <code class="language-swift">mutating func insert(newElement: Self.Generator.Element, atIndex i: Int)</code>
 <div class="comment">
     <p>Insert <code>newElement</code> at index <code>i</code>.</p>
@@ -292,27 +292,27 @@ the removed element. Requires: count &gt; 0</p>
 <p>Requires: <code>atIndex</code> &lt;= <code>count</code></p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-removeAtIndex">
 <code class="language-swift">mutating func removeAtIndex(index: Int) -> Self.Generator.Element</code>
 <div class="comment">
     <p>Remove and return the element at the given index.  Returns: the removed
 element.  Worst case complexity: O(N).  Requires: count &gt; index</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-removeAll">
 <code class="language-swift">mutating func removeAll(#keepCapacity: Bool)</code>
 <div class="comment">
     <p>Erase all the elements.  If <code>keepCapacity</code> is <code>true</code>, <code>capacity</code>
 will not change</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-join">
 <code class="language-swift">func join&lt;S : SequenceType where Self == Self&gt;(elements: S) -> Self</code>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-reduce">
 <code class="language-swift">func reduce&lt;U&gt;(initial: U, combine: @noescape (U, Self.Generator.Element) -&gt; U) -> U</code>
 </div>
-<div class="declaration">
+<div class="declaration" id="func-sort">
 <code class="language-swift">mutating func sort(isOrderedBefore: (Self.Generator.Element, Self.Generator.Element) -&gt; Bool)</code>
 <div class="comment">
     <p>Sort <code>self</code> in-place according to <code>isOrderedBefore</code>.  Requires:

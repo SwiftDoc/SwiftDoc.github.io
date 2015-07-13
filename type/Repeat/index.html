@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/type/Repeat/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6f46611478744f01eade586cd2dd0c99.js" type="text/javascript"></script>
+    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -187,7 +187,7 @@
 <code class="inherits">CollectionType</code>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
-<h3>Associated types</h3>
+<h3 id="aliases">Associated types</h3>
 <div class="declaration">
 <code class="language-swift">typealias Index = Int</code>
 <div class="comment">
@@ -211,27 +211,27 @@ value <code>repeatedValue</code>.</p>
 
 
 <h3>Instance Variables</h3>
-<div class="declaration">
+<div class="declaration" id="prop-startIndex">
 <code class="language-swift">var startIndex: Index { get }</code>
 <div class="comment">
     <p>Always zero, which is the index of the first element in a
 non-empty instance.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-endIndex">
 <code class="language-swift">var endIndex: Index { get }</code>
 <div class="comment">
     <p>Always equal to <code>count</code>, which is one greater than the index of
 the last element in a non-empty instance.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-count">
 <code class="language-swift">var count: Int { get set }</code>
 <div class="comment">
     <p>The number of elements in this collection.</p>
 </div>
 </div>
-<div class="declaration">
+<div class="declaration" id="prop-repeatedValue">
 <code class="language-swift">var repeatedValue: T { get }</code>
 <div class="comment">
     <p>The value of every element in this collection.</p>
@@ -240,7 +240,7 @@ the last element in a non-empty instance.</p>
 
 
 <h3>Instance Methods</h3>
-<div class="declaration">
+<div class="declaration" id="func-generate">
 <code class="language-swift">func generate() -> IndexingGenerator&lt;Repeat&lt;T&gt;&gt;</code>
 <div class="comment">
     <p>Return a <em>generator</em> over the elements of this <em>sequence</em>.</p>
