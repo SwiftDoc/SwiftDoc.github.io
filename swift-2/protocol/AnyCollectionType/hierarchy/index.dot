@@ -7,16 +7,13 @@ strict digraph "AnyCollectionType - Type Hierarchy - SwiftDoc.org" {
     "AnyForwardCollection" [URL="/type/AnyForwardCollection/", style=filled]
     "AnyRandomAccessCollection" [URL="/type/AnyRandomAccessCollection/", style=filled]
     "CollectionType" [URL="/protocol/CollectionType/"]
-    "SequenceType" [URL="/protocol/SequenceType/"]
-    "_CollectionDefaultsType" [URL="/protocol/_CollectionDefaultsType/"]
-    "_CollectionGeneratorDefaultsType" [URL="/protocol/_CollectionGeneratorDefaultsType/"]    "AnyCollectionType" -> "AnyBidirectionalCollection"
+    "Indexable" [URL="/protocol/Indexable/"]
+    "SequenceType" [URL="/protocol/SequenceType/"]    "AnyCollectionType" -> "AnyBidirectionalCollection"
     "AnyCollectionType" -> "AnyForwardCollection"
     "AnyCollectionType" -> "AnyRandomAccessCollection"
     "CollectionType" -> "AnyCollectionType"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
     subgraph Types {
         rank = max; "AnyBidirectionalCollection"; "AnyForwardCollection"; "AnyRandomAccessCollection";
     }

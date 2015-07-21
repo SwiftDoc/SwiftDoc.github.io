@@ -4,19 +4,14 @@ strict digraph "UnsafeBufferPointer<Element> - Type Hierarchy - SwiftDoc.org" {
     edge [color="#cccccc"]
     "CollectionType" [URL="/protocol/CollectionType/"]
     "CustomDebugStringConvertible" [URL="/protocol/CustomDebugStringConvertible/"]
+    "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
-    "UnsafeBufferPointer<Element>" [URL="/type/UnsafeBufferPointer/", style="filled", fillcolor="#ee543d", color="#ee543d"]
-    "_CollectionDefaultsType" [URL="/protocol/_CollectionDefaultsType/"]
-    "_CollectionGeneratorDefaultsType" [URL="/protocol/_CollectionGeneratorDefaultsType/"]    "CollectionType" -> "UnsafeBufferPointer<Element>"
+    "UnsafeBufferPointer<Element>" [URL="/type/UnsafeBufferPointer/", style="filled", fillcolor="#ee543d", color="#ee543d"]    "CollectionType" -> "UnsafeBufferPointer<Element>"
+    "Indexable" -> "UnsafeBufferPointer<Element>"
     "SequenceType" -> "UnsafeBufferPointer<Element>"
-    "_CollectionDefaultsType" -> "UnsafeBufferPointer<Element>"
-    "_CollectionGeneratorDefaultsType" -> "UnsafeBufferPointer<Element>"
     "CustomDebugStringConvertible" -> "UnsafeBufferPointer<Element>"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
-    "SequenceType" -> "_CollectionDefaultsType"
     subgraph Types {
         rank = max; "UnsafeBufferPointer<Element>";
     }

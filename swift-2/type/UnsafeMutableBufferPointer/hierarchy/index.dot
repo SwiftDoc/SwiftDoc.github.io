@@ -4,26 +4,19 @@ strict digraph "UnsafeMutableBufferPointer<Element> - Type Hierarchy - SwiftDoc.
     edge [color="#cccccc"]
     "CollectionType" [URL="/protocol/CollectionType/"]
     "CustomDebugStringConvertible" [URL="/protocol/CustomDebugStringConvertible/"]
+    "Indexable" [URL="/protocol/Indexable/"]
     "MutableCollectionType" [URL="/protocol/MutableCollectionType/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
-    "UnsafeMutableBufferPointer<Element>" [URL="/type/UnsafeMutableBufferPointer/", style="filled", fillcolor="#ee543d", color="#ee543d"]
-    "_CollectionDefaultsType" [URL="/protocol/_CollectionDefaultsType/"]
-    "_CollectionGeneratorDefaultsType" [URL="/protocol/_CollectionGeneratorDefaultsType/"]    "MutableCollectionType" -> "UnsafeMutableBufferPointer<Element>"
+    "UnsafeMutableBufferPointer<Element>" [URL="/type/UnsafeMutableBufferPointer/", style="filled", fillcolor="#ee543d", color="#ee543d"]    "MutableCollectionType" -> "UnsafeMutableBufferPointer<Element>"
     "CollectionType" -> "UnsafeMutableBufferPointer<Element>"
+    "Indexable" -> "UnsafeMutableBufferPointer<Element>"
     "SequenceType" -> "UnsafeMutableBufferPointer<Element>"
-    "_CollectionDefaultsType" -> "UnsafeMutableBufferPointer<Element>"
-    "_CollectionGeneratorDefaultsType" -> "UnsafeMutableBufferPointer<Element>"
     "CustomDebugStringConvertible" -> "UnsafeMutableBufferPointer<Element>"
     "CollectionType" -> "MutableCollectionType"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
-    "SequenceType" -> "_CollectionDefaultsType"
     subgraph Types {
         rank = max; "UnsafeMutableBufferPointer<Element>";
     }

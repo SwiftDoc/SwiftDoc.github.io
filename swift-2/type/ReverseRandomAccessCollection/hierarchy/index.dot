@@ -3,18 +3,13 @@ strict digraph "ReverseRandomAccessCollection<Base : CollectionType where Base.I
     node [shape=box, style="filled,rounded", color="#999999", fillcolor="#999999", fontcolor=white, fontname=Helvetica, fontnames="Helvetica,sansserif", fontsize=12, margin="0.07,0.05", height="0.3"]
     edge [color="#cccccc"]
     "CollectionType" [URL="/protocol/CollectionType/"]
+    "Indexable" [URL="/protocol/Indexable/"]
     "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>" [URL="/type/ReverseRandomAccessCollection/", style="filled", fillcolor="#ee543d", color="#ee543d"]
-    "SequenceType" [URL="/protocol/SequenceType/"]
-    "_CollectionDefaultsType" [URL="/protocol/_CollectionDefaultsType/"]
-    "_CollectionGeneratorDefaultsType" [URL="/protocol/_CollectionGeneratorDefaultsType/"]    "CollectionType" -> "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>"
+    "SequenceType" [URL="/protocol/SequenceType/"]    "CollectionType" -> "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>"
+    "Indexable" -> "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>"
     "SequenceType" -> "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>"
-    "_CollectionGeneratorDefaultsType" -> "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>"
-    "_CollectionDefaultsType" -> "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
-    "SequenceType" -> "_CollectionDefaultsType"
     subgraph Types {
         rank = max; "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>";
     }

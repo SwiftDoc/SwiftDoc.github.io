@@ -6,33 +6,24 @@ strict digraph "MutableSliceable - Type Hierarchy - SwiftDoc.org" {
     "ArraySlice" [URL="/type/ArraySlice/", style=filled]
     "CollectionType" [URL="/protocol/CollectionType/"]
     "ContiguousArray" [URL="/type/ContiguousArray/", style=filled]
+    "Indexable" [URL="/protocol/Indexable/"]
     "MutableCollectionType" [URL="/protocol/MutableCollectionType/"]
     "MutableSliceable" [URL="/protocol/MutableSliceable/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]
     "SequenceType" [URL="/protocol/SequenceType/"]
-    "Sliceable" [URL="/protocol/Sliceable/"]
-    "_ArrayType" [URL="/protocol/_ArrayType/"]
-    "_CollectionDefaultsType" [URL="/protocol/_CollectionDefaultsType/"]
-    "_CollectionGeneratorDefaultsType" [URL="/protocol/_CollectionGeneratorDefaultsType/"]
-    "_Sliceable" [URL="/protocol/_Sliceable/"]    "MutableSliceable" -> "Array"
+    "_ArrayType" [URL="/protocol/_ArrayType/"]    "MutableSliceable" -> "Array"
     "MutableSliceable" -> "ArraySlice"
     "MutableSliceable" -> "ContiguousArray"
     "MutableSliceable" -> "_ArrayType"
     "_ArrayType" -> "Array"
     "_ArrayType" -> "ArraySlice"
     "_ArrayType" -> "ContiguousArray"
-    "Sliceable" -> "MutableSliceable"
+    "CollectionType" -> "MutableSliceable"
     "MutableCollectionType" -> "MutableSliceable"
-    "_Sliceable" -> "Sliceable"
-    "CollectionType" -> "_Sliceable"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
     "CollectionType" -> "MutableCollectionType"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
     subgraph Types {
         rank = max; "Array"; "ArraySlice"; "ContiguousArray";
     }

@@ -5,23 +5,16 @@ strict digraph "AnyForwardCollection<Element> - Type Hierarchy - SwiftDoc.org" {
     "AnyCollectionType" [URL="/protocol/AnyCollectionType/"]
     "AnyForwardCollection<Element>" [URL="/type/AnyForwardCollection/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "CollectionType" [URL="/protocol/CollectionType/"]
-    "SequenceType" [URL="/protocol/SequenceType/"]
-    "_CollectionDefaultsType" [URL="/protocol/_CollectionDefaultsType/"]
-    "_CollectionGeneratorDefaultsType" [URL="/protocol/_CollectionGeneratorDefaultsType/"]    "AnyCollectionType" -> "AnyForwardCollection<Element>"
+    "Indexable" [URL="/protocol/Indexable/"]
+    "SequenceType" [URL="/protocol/SequenceType/"]    "AnyCollectionType" -> "AnyForwardCollection<Element>"
     "CollectionType" -> "AnyForwardCollection<Element>"
+    "Indexable" -> "AnyForwardCollection<Element>"
     "SequenceType" -> "AnyForwardCollection<Element>"
-    "_CollectionDefaultsType" -> "AnyForwardCollection<Element>"
-    "_CollectionGeneratorDefaultsType" -> "AnyForwardCollection<Element>"
     "CollectionType" -> "AnyCollectionType"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
-    "SequenceType" -> "_CollectionDefaultsType"
     subgraph Types {
         rank = max; "AnyForwardCollection<Element>";
     }

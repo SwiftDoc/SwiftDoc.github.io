@@ -6,14 +6,13 @@ strict digraph "MutableCollectionType - Type Hierarchy - SwiftDoc.org" {
     "ArraySlice" [URL="/type/ArraySlice/", style=filled]
     "CollectionType" [URL="/protocol/CollectionType/"]
     "ContiguousArray" [URL="/type/ContiguousArray/", style=filled]
+    "Indexable" [URL="/protocol/Indexable/"]
     "MutableCollectionType" [URL="/protocol/MutableCollectionType/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]
     "MutableSliceable" [URL="/protocol/MutableSliceable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
     "UnsafeMutableBufferPointer" [URL="/type/UnsafeMutableBufferPointer/", style=filled]
     "_ArrayBufferType" [URL="/protocol/_ArrayBufferType/"]
-    "_ArrayType" [URL="/protocol/_ArrayType/"]
-    "_CollectionDefaultsType" [URL="/protocol/_CollectionDefaultsType/"]
-    "_CollectionGeneratorDefaultsType" [URL="/protocol/_CollectionGeneratorDefaultsType/"]    "MutableCollectionType" -> "Array"
+    "_ArrayType" [URL="/protocol/_ArrayType/"]    "MutableCollectionType" -> "Array"
     "MutableCollectionType" -> "ArraySlice"
     "MutableCollectionType" -> "ContiguousArray"
     "MutableCollectionType" -> "MutableSliceable"
@@ -27,10 +26,8 @@ strict digraph "MutableCollectionType - Type Hierarchy - SwiftDoc.org" {
     "_ArrayType" -> "ArraySlice"
     "_ArrayType" -> "ContiguousArray"
     "CollectionType" -> "MutableCollectionType"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
     subgraph Types {
         rank = max; "Array"; "ArraySlice"; "ContiguousArray"; "UnsafeMutableBufferPointer";
     }

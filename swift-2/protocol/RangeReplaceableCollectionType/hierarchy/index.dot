@@ -6,14 +6,12 @@ strict digraph "RangeReplaceableCollectionType - Type Hierarchy - SwiftDoc.org" 
     "ArraySlice" [URL="/type/ArraySlice/", style=filled]
     "CollectionType" [URL="/protocol/CollectionType/"]
     "ContiguousArray" [URL="/type/ContiguousArray/", style=filled]
-    "ExtensibleCollectionType" [URL="/protocol/ExtensibleCollectionType/"]
+    "Indexable" [URL="/protocol/Indexable/"]
     "RangeReplaceableCollectionType" [URL="/protocol/RangeReplaceableCollectionType/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]
     "SequenceType" [URL="/protocol/SequenceType/"]
     "String.CharacterView" [URL="/type/String.CharacterView/", style=filled]
     "String.UnicodeScalarView" [URL="/type/String.UnicodeScalarView/", style=filled]
-    "_ArrayType" [URL="/protocol/_ArrayType/"]
-    "_CollectionDefaultsType" [URL="/protocol/_CollectionDefaultsType/"]
-    "_CollectionGeneratorDefaultsType" [URL="/protocol/_CollectionGeneratorDefaultsType/"]    "RangeReplaceableCollectionType" -> "Array"
+    "_ArrayType" [URL="/protocol/_ArrayType/"]    "RangeReplaceableCollectionType" -> "Array"
     "RangeReplaceableCollectionType" -> "ArraySlice"
     "RangeReplaceableCollectionType" -> "ContiguousArray"
     "RangeReplaceableCollectionType" -> "_ArrayType"
@@ -22,12 +20,9 @@ strict digraph "RangeReplaceableCollectionType - Type Hierarchy - SwiftDoc.org" 
     "_ArrayType" -> "Array"
     "_ArrayType" -> "ArraySlice"
     "_ArrayType" -> "ContiguousArray"
-    "ExtensibleCollectionType" -> "RangeReplaceableCollectionType"
-    "CollectionType" -> "ExtensibleCollectionType"
+    "CollectionType" -> "RangeReplaceableCollectionType"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
     subgraph Types {
         rank = max; "Array"; "ArraySlice"; "ContiguousArray"; "String.CharacterView"; "String.UnicodeScalarView";
     }

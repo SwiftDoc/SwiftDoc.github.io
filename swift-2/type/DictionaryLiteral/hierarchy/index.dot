@@ -5,18 +5,13 @@ strict digraph "DictionaryLiteral<Key, Value> - Type Hierarchy - SwiftDoc.org" {
     "CollectionType" [URL="/protocol/CollectionType/"]
     "DictionaryLiteral<Key, Value>" [URL="/type/DictionaryLiteral/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "DictionaryLiteralConvertible" [URL="/protocol/DictionaryLiteralConvertible/"]
-    "SequenceType" [URL="/protocol/SequenceType/"]
-    "_CollectionDefaultsType" [URL="/protocol/_CollectionDefaultsType/"]
-    "_CollectionGeneratorDefaultsType" [URL="/protocol/_CollectionGeneratorDefaultsType/"]    "DictionaryLiteralConvertible" -> "DictionaryLiteral<Key, Value>"
+    "Indexable" [URL="/protocol/Indexable/"]
+    "SequenceType" [URL="/protocol/SequenceType/"]    "DictionaryLiteralConvertible" -> "DictionaryLiteral<Key, Value>"
     "CollectionType" -> "DictionaryLiteral<Key, Value>"
+    "Indexable" -> "DictionaryLiteral<Key, Value>"
     "SequenceType" -> "DictionaryLiteral<Key, Value>"
-    "_CollectionGeneratorDefaultsType" -> "DictionaryLiteral<Key, Value>"
-    "_CollectionDefaultsType" -> "DictionaryLiteral<Key, Value>"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
-    "SequenceType" -> "_CollectionDefaultsType"
     subgraph Types {
         rank = max; "DictionaryLiteral<Key, Value>";
     }

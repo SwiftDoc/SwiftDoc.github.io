@@ -11,7 +11,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Swift documentation for 'ArraySlice': The Array-like type that represents a sub-sequence of any Array, ContiguousArray, or other ArraySlice.">
-    <meta name="keywords" content="ArraySlice,struct,swift,documentation,reserveCapacity,append,extend,removeLast,insert,removeAtIndex,removeAll,join,getMirror,withUnsafeBufferPointer,withUnsafeMutableBufferPointer,replaceRange,splice,removeRange,startIndex,endIndex,count,capacity,description,debugDescription,SubSlice">
+    <meta name="keywords" content="ArraySlice,struct,swift,documentation,reserveCapacity,append,extend,extend,removeLast,insert,removeAtIndex,removeAll,join,withUnsafeBufferPointer,withUnsafeMutableBufferPointer,replaceRange,startIndex,endIndex,count,capacity,description,debugDescription,SubSlice">
     <link rel="canonical" href="http://swiftdoc.org/swift-2/type/ArraySlice/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/swift-2/type/ArraySlice/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-6cc343b71991ef7f981293f9ff3f39e5.js" type="text/javascript"></script>
+    <script src="/assets/swift-3a0b806dc9b3b3252ac1a27e3b51df4e.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -93,7 +93,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b3</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b4</strong>
     		
 		</div>
     </div>
@@ -197,7 +197,7 @@ transient computation.</p>
 </div>
 
 <h3>Inheritance</h3>
-<code class="inherits">_CollectionDefaultsType, SequenceType, _CollectionGeneratorDefaultsType, CollectionType, MutableCollectionType, Sliceable, _Sliceable, _DestructorSafeContainer, __ArrayType, ArrayLiteralConvertible, _ArrayType, MutableSliceable, RangeReplaceableCollectionType, ExtensibleCollectionType, _Reflectable, CustomStringConvertible, CustomDebugStringConvertible</code>
+<code class="inherits">Indexable, SequenceType, CollectionType, MutableCollectionType, _DestructorSafeContainer, ArrayLiteralConvertible, _ArrayType, MutableSliceable, RangeReplaceableCollectionType, _Reflectable, CustomStringConvertible, CustomDebugStringConvertible</code>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
 <h3 id="aliases">Associated types</h3>
@@ -306,6 +306,14 @@ subscript argument.</p>
 <p><strong>Complexity:</strong> O(<em>length of result</em>).</p>
 </div>
 </div>
+<div class="declaration" id="func-extend">
+<code class="language-swift">mutating func extend&lt;C : CollectionType where C.Generator.Element == Element&gt;(newElements: C)</code>
+<div class="comment">
+    <p>Append the elements of <code>newElements</code> to <code>self</code>.</p>
+
+<p><strong>Complexity:</strong> O(<em>length of result</em>).</p>
+</div>
+</div>
 <div class="declaration" id="func-removeLast">
 <code class="language-swift">mutating func removeLast() -> Element</code>
 <div class="comment">
@@ -353,12 +361,6 @@ example, <code>[-1, -2].join([[1, 2, 3], [4, 5, 6], [7, 8, 9]])</code>
 yields <code>[1, 2, 3, -1, -2, 4, 5, 6, -1, -2, 7, 8, 9]</code>.</p>
 </div>
 </div>
-<div class="declaration" id="func-getMirror">
-<code class="language-swift">func getMirror() -> MirrorType</code>
-<div class="comment">
-    <p>Returns a mirror that reflects <code>self</code>.</p>
-</div>
-</div>
 <div class="declaration" id="func-withUnsafeBufferPointer">
 <code class="language-swift">func withUnsafeBufferPointer&lt;R&gt;(@noescape body: (UnsafeBufferPointer&lt;Element&gt;) -&gt; R) -> R</code>
 <div class="comment">
@@ -397,24 +399,6 @@ speed.</p>
   == self.endIndex</code> and <code>isEmpty(newElements)</code>, O(N) otherwise.</p>
 </div>
 </div>
-<div class="declaration" id="func-splice">
-<code class="language-swift">mutating func splice&lt;S : CollectionType where S.Generator.Element == Element&gt;(newElements: S, atIndex i: Int)</code>
-<div class="comment">
-    <p>Insert <code>newElements</code> at index <code>i</code>.</p>
-
-<p>Invalidates all indices with respect to <code>self</code>.</p>
-
-<p><strong>Complexity:</strong> O(<code>count + newElements.count</code>).</p>
-</div>
-</div>
-<div class="declaration" id="func-removeRange">
-<code class="language-swift">mutating func removeRange(subRange: Range&lt;Int&gt;)</code>
-<div class="comment">
-    <p>Remove the indicated <code>subRange</code> of elements.</p>
-
-<p><strong>Complexity:</strong> O(<code>count</code>).</p>
-</div>
-</div>
 
 <h3>Subscripts</h3>
 <div class="declaration">
@@ -437,7 +421,7 @@ speed.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.45</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.47.4</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

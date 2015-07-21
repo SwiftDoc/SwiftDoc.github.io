@@ -8,26 +8,21 @@ strict digraph "Set<Element : Hashable> - Type Hierarchy - SwiftDoc.org" {
     "CustomStringConvertible" [URL="/protocol/CustomStringConvertible/"]
     "Equatable" [URL="/protocol/Equatable/"]
     "Hashable" [URL="/protocol/Hashable/"]
+    "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
     "Set<Element : Hashable>" [URL="/type/Set/", style="filled", fillcolor="#ee543d", color="#ee543d"]
-    "_CollectionDefaultsType" [URL="/protocol/_CollectionDefaultsType/"]
-    "_CollectionGeneratorDefaultsType" [URL="/protocol/_CollectionGeneratorDefaultsType/"]
     "_Reflectable" [URL="/protocol/_Reflectable/"]    "Hashable" -> "Set<Element : Hashable>"
     "Equatable" -> "Set<Element : Hashable>"
     "CollectionType" -> "Set<Element : Hashable>"
+    "Indexable" -> "Set<Element : Hashable>"
     "SequenceType" -> "Set<Element : Hashable>"
-    "_CollectionDefaultsType" -> "Set<Element : Hashable>"
-    "_CollectionGeneratorDefaultsType" -> "Set<Element : Hashable>"
     "ArrayLiteralConvertible" -> "Set<Element : Hashable>"
     "CustomStringConvertible" -> "Set<Element : Hashable>"
     "CustomDebugStringConvertible" -> "Set<Element : Hashable>"
     "_Reflectable" -> "Set<Element : Hashable>"
     "Equatable" -> "Hashable"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
-    "SequenceType" -> "_CollectionDefaultsType"
     subgraph Types {
         rank = max; "Set<Element : Hashable>";
     }

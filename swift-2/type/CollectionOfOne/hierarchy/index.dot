@@ -4,19 +4,14 @@ strict digraph "CollectionOfOne<Element> - Type Hierarchy - SwiftDoc.org" {
     edge [color="#cccccc"]
     "CollectionOfOne<Element>" [URL="/type/CollectionOfOne/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "CollectionType" [URL="/protocol/CollectionType/"]
+    "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
-    "_CollectionDefaultsType" [URL="/protocol/_CollectionDefaultsType/"]
-    "_CollectionGeneratorDefaultsType" [URL="/protocol/_CollectionGeneratorDefaultsType/"]
     "_Reflectable" [URL="/protocol/_Reflectable/"]    "CollectionType" -> "CollectionOfOne<Element>"
+    "Indexable" -> "CollectionOfOne<Element>"
     "SequenceType" -> "CollectionOfOne<Element>"
-    "_CollectionDefaultsType" -> "CollectionOfOne<Element>"
-    "_CollectionGeneratorDefaultsType" -> "CollectionOfOne<Element>"
     "_Reflectable" -> "CollectionOfOne<Element>"
+    "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
-    "_CollectionDefaultsType" -> "CollectionType"
-    "_CollectionGeneratorDefaultsType" -> "CollectionType"
-    "SequenceType" -> "_CollectionDefaultsType"
-    "SequenceType" -> "_CollectionDefaultsType"
     subgraph Types {
         rank = max; "CollectionOfOne<Element>";
     }

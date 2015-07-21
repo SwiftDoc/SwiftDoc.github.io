@@ -11,7 +11,6 @@ strict digraph "UnsafeMutablePointer<Memory> - Type Hierarchy - SwiftDoc.org" {
     "Hashable" [URL="/protocol/Hashable/"]
     "NilLiteralConvertible" [URL="/protocol/NilLiteralConvertible/"]
     "RandomAccessIndexType" [URL="/protocol/RandomAccessIndexType/"]
-    "SinkType" [URL="/protocol/SinkType/"]
     "Strideable" [URL="/protocol/Strideable/"]
     "UnsafeMutablePointer<Memory>" [URL="/type/UnsafeMutablePointer/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]
@@ -30,7 +29,6 @@ strict digraph "UnsafeMutablePointer<Memory> - Type Hierarchy - SwiftDoc.org" {
     "_PointerType" -> "UnsafeMutablePointer<Memory>"
     "CustomDebugStringConvertible" -> "UnsafeMutablePointer<Memory>"
     "_Reflectable" -> "UnsafeMutablePointer<Memory>"
-    "SinkType" -> "UnsafeMutablePointer<Memory>"
     "CVarArgType" -> "UnsafeMutablePointer<Memory>"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "Strideable" -> "RandomAccessIndexType"
