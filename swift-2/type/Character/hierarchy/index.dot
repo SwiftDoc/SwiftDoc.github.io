@@ -10,16 +10,16 @@ strict digraph "Character - Type Hierarchy - SwiftDoc.org" {
     "Hashable" [URL="/protocol/Hashable/"]
     "Streamable" [URL="/protocol/Streamable/"]
     "UnicodeScalarLiteralConvertible" [URL="/protocol/UnicodeScalarLiteralConvertible/"]
-    "_Reflectable" [URL="/protocol/_Reflectable/"]    "ExtendedGraphemeClusterLiteralConvertible" -> "Character"
-    "UnicodeScalarLiteralConvertible" -> "Character"
+    "_Reflectable" [URL="/protocol/_Reflectable/"]    "Hashable" -> "Character"
     "Equatable" -> "Character"
-    "Hashable" -> "Character"
+    "ExtendedGraphemeClusterLiteralConvertible" -> "Character"
+    "UnicodeScalarLiteralConvertible" -> "Character"
     "Comparable" -> "Character"
     "CustomDebugStringConvertible" -> "Character"
     "_Reflectable" -> "Character"
     "Streamable" -> "Character"
-    "UnicodeScalarLiteralConvertible" -> "ExtendedGraphemeClusterLiteralConvertible"
     "Equatable" -> "Hashable"
+    "UnicodeScalarLiteralConvertible" -> "ExtendedGraphemeClusterLiteralConvertible"
     "Equatable" -> "Comparable"
     subgraph Types {
         rank = max; "Character";

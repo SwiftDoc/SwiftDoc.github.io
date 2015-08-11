@@ -117,7 +117,7 @@
 </g>
 </g>
 <!-- BidirectionalIndexType&#45;&gt;RandomAccessIndexType -->
-<g id="edge15" class="edge">
+<g id="edge19" class="edge">
 <path fill="none" stroke="#cccccc" d="M348.351,-115.988C380.722,-106.74 428.985,-92.9502 464.218,-82.8836"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="465.589,-86.1319 474.243,-80.0192 463.666,-79.4012 465.589,-86.1319"/>
 </g>
@@ -130,7 +130,7 @@
 </g>
 </g>
 <!-- BidirectionalIndexType&#45;&gt;UnsafePointer&lt;Memory&gt; -->
-<g id="edge2" class="edge">
+<g id="edge5" class="edge">
 <path fill="none" stroke="#cccccc" d="M321.947,-116C335.43,-101.042 362.99,-73.002 392.31,-58 426.332,-40.5926 467.138,-29.6225 502.366,-22.7844"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="503.431,-26.1465 512.623,-20.878 502.152,-19.2643 503.431,-26.1465"/>
 </g>
@@ -164,12 +164,12 @@
 </g>
 </g>
 <!-- Comparable&#45;&gt;Strideable -->
-<g id="edge20" class="edge">
+<g id="edge21" class="edge">
 <path fill="none" stroke="#cccccc" d="M674.316,-173.988C678.013,-166.595 683.16,-156.301 687.648,-147.325"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="690.817,-148.813 692.158,-138.304 684.556,-145.683 690.817,-148.813"/>
 </g>
 <!-- Comparable&#45;&gt;UnsafePointer&lt;Memory&gt; -->
-<g id="edge7" class="edge">
+<g id="edge10" class="edge">
 <path fill="none" stroke="#cccccc" d="M631.516,-180.481C575.348,-172.988 471.515,-149.921 425.31,-80 401.957,-44.6591 452.644,-27.6184 502.851,-19.4409"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="503.503,-22.8822 512.864,-17.9208 502.452,-15.9615 503.503,-22.8822"/>
 </g>
@@ -195,7 +195,7 @@
 </g>
 </g>
 <!-- Equatable&#45;&gt;Comparable -->
-<g id="edge22" class="edge">
+<g id="edge23" class="edge">
 <path fill="none" stroke="#cccccc" d="M765.904,-289.883C747.877,-270.496 708.262,-227.891 685.765,-203.697"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="688.221,-201.198 678.848,-196.258 683.095,-205.965 688.221,-201.198"/>
 </g>
@@ -208,12 +208,12 @@
 </g>
 </g>
 <!-- Equatable&#45;&gt;Hashable -->
-<g id="edge23" class="edge">
+<g id="edge15" class="edge">
 <path fill="none" stroke="#cccccc" d="M807.447,-290.627C840.288,-281.048 891.377,-266.147 926.93,-255.778"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="928.352,-259.009 936.972,-252.849 926.392,-252.289 928.352,-259.009"/>
 </g>
 <!-- Equatable&#45;&gt;UnsafePointer&lt;Memory&gt; -->
-<g id="edge5" class="edge">
+<g id="edge1" class="edge">
 <path fill="none" stroke="#cccccc" d="M782.81,-289.918C796.31,-270.741 823.31,-227.231 823.31,-186 823.31,-186 823.31,-186 823.31,-126 823.31,-54.4693 735.018,-27.7774 665.762,-17.8431"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="666.071,-14.3533 655.695,-16.4957 665.142,-21.2914 666.071,-14.3533"/>
 </g>
@@ -226,7 +226,7 @@
 </g>
 </g>
 <!-- Equatable&#45;&gt;_Incrementable -->
-<g id="edge19" class="edge">
+<g id="edge18" class="edge">
 <path fill="none" stroke="#cccccc" d="M742.9,-296.706C652.21,-287.489 395.041,-261.352 280.521,-249.713"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="280.853,-246.229 270.55,-248.699 280.145,-253.193 280.853,-246.229"/>
 </g>
@@ -239,17 +239,17 @@
 </g>
 </g>
 <!-- ForwardIndexType&#45;&gt;BidirectionalIndexType -->
-<g id="edge17" class="edge">
+<g id="edge16" class="edge">
 <path fill="none" stroke="#cccccc" d="M240.222,-173.988C253.68,-165.52 273.189,-153.245 288.666,-143.507"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="290.637,-146.402 297.237,-138.114 286.909,-140.477 290.637,-146.402"/>
 </g>
 <!-- ForwardIndexType&#45;&gt;UnsafePointer&lt;Memory&gt; -->
-<g id="edge3" class="edge">
+<g id="edge6" class="edge">
 <path fill="none" stroke="#cccccc" d="M210.785,-173.911C181.958,-151.243 119.738,-95.346 153.31,-58 176.194,-32.5442 384.264,-20.0365 502.726,-14.9303"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="503.005,-18.4218 512.848,-14.5026 502.71,-11.428 503.005,-18.4218"/>
 </g>
 <!-- Hashable&#45;&gt;UnsafePointer&lt;Memory&gt; -->
-<g id="edge9" class="edge">
+<g id="edge2" class="edge">
 <path fill="none" stroke="#cccccc" d="M977.34,-231.886C1006.05,-201.746 1083.48,-111.327 1035.31,-58 1011.07,-31.1568 789.079,-19.1452 665.847,-14.5061"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="665.816,-11.0027 655.694,-14.1322 665.559,-17.998 665.816,-11.0027"/>
 </g>
@@ -262,32 +262,32 @@
 </g>
 </g>
 <!-- NilLiteralConvertible&#45;&gt;UnsafePointer&lt;Memory&gt; -->
-<g id="edge10" class="edge">
+<g id="edge3" class="edge">
 <path fill="none" stroke="#cccccc" d="M646.723,-57.9883C635.445,-49.6784 619.193,-37.7028 606.1,-28.0554"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="608.163,-25.2281 598.036,-22.1138 604.011,-30.8635 608.163,-25.2281"/>
 </g>
 <!-- RandomAccessIndexType&#45;&gt;UnsafePointer&lt;Memory&gt; -->
-<g id="edge1" class="edge">
+<g id="edge8" class="edge">
 <path fill="none" stroke="#cccccc" d="M522.719,-57.9883C533.742,-49.7576 549.582,-37.9305 562.438,-28.3316"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="564.846,-30.9012 570.765,-22.1138 560.658,-25.2923 564.846,-30.9012"/>
 </g>
 <!-- Strideable&#45;&gt;RandomAccessIndexType -->
-<g id="edge16" class="edge">
+<g id="edge20" class="edge">
 <path fill="none" stroke="#cccccc" d="M664.992,-116.373C634.033,-107.151 587.092,-93.1691 552.849,-82.9691"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="553.691,-79.5677 543.108,-80.0673 551.692,-86.2764 553.691,-79.5677"/>
 </g>
 <!-- Strideable&#45;&gt;UnsafePointer&lt;Memory&gt; -->
-<g id="edge6" class="edge">
+<g id="edge9" class="edge">
 <path fill="none" stroke="#cccccc" d="M708.187,-115.605C721.49,-101.611 740.686,-76.3532 727.31,-58 712.73,-37.9942 689.302,-26.5 665.592,-19.9558"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="666.347,-16.5371 655.799,-17.5235 664.66,-23.3307 666.347,-16.5371"/>
 </g>
 <!-- _Incrementable&#45;&gt;ForwardIndexType -->
-<g id="edge18" class="edge">
+<g id="edge17" class="edge">
 <path fill="none" stroke="#cccccc" d="M224.31,-231.988C224.31,-224.91 224.31,-215.171 224.31,-206.478"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="227.811,-206.304 224.31,-196.304 220.811,-206.304 227.811,-206.304"/>
 </g>
 <!-- _Incrementable&#45;&gt;UnsafePointer&lt;Memory&gt; -->
-<g id="edge4" class="edge">
+<g id="edge7" class="edge">
 <path fill="none" stroke="#cccccc" d="M195.519,-231.966C123.839,-205.557 -52.129,-131.111 15.3104,-58 47.6613,-22.9282 353.324,-14.5914 502.795,-12.6133"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="502.891,-16.1125 512.846,-12.4867 502.803,-9.11301 502.891,-16.1125"/>
 </g>
@@ -300,7 +300,7 @@
 </g>
 </g>
 <!-- _PointerType&#45;&gt;UnsafePointer&lt;Memory&gt; -->
-<g id="edge11" class="edge">
+<g id="edge4" class="edge">
 <path fill="none" stroke="#cccccc" d="M851.209,-60.5587C846.524,-59.6938 841.812,-58.826 837.31,-58 773.709,-46.329 701.087,-33.1391 650.012,-23.8852"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="650.557,-20.4271 640.093,-22.0885 649.309,-27.315 650.557,-20.4271"/>
 </g>
@@ -326,12 +326,12 @@
 </g>
 </g>
 <!-- _Strideable&#45;&gt;Strideable -->
-<g id="edge21" class="edge">
+<g id="edge22" class="edge">
 <path fill="none" stroke="#cccccc" d="M749.047,-173.988C740.022,-165.966 727.154,-154.527 716.509,-145.065"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="718.702,-142.332 708.902,-138.304 714.051,-147.563 718.702,-142.332"/>
 </g>
 <!-- _Strideable&#45;&gt;UnsafePointer&lt;Memory&gt; -->
-<g id="edge8" class="edge">
+<g id="edge11" class="edge">
 <path fill="none" stroke="#cccccc" d="M762.406,-173.711C766.567,-150.136 773.153,-91.6531 744.31,-58 724.793,-35.2279 694.811,-23.3588 666.053,-17.2954"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="666.428,-13.8043 655.952,-15.3844 665.127,-20.6823 666.428,-13.8043"/>
 </g>

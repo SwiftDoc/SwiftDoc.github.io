@@ -37,7 +37,8 @@ strict digraph "Indexable - Type Hierarchy - SwiftDoc.org" {
     "UnsafeBufferPointer" [URL="/type/UnsafeBufferPointer/", style=filled]
     "UnsafeMutableBufferPointer" [URL="/type/UnsafeMutableBufferPointer/", style=filled]
     "_ArrayBufferType" [URL="/protocol/_ArrayBufferType/"]
-    "_ArrayType" [URL="/protocol/_ArrayType/"]    "Indexable" -> "AnyBidirectionalCollection"
+    "_ArrayType" [URL="/protocol/_ArrayType/"]
+    "_prext_LazyCollectionType" [URL="/protocol/_prext_LazyCollectionType/"]    "Indexable" -> "AnyBidirectionalCollection"
     "Indexable" -> "AnyForwardCollection"
     "Indexable" -> "AnyRandomAccessCollection"
     "Indexable" -> "Array"
@@ -94,6 +95,7 @@ strict digraph "Indexable - Type Hierarchy - SwiftDoc.org" {
     "CollectionType" -> "UnicodeScalar.UTF16View"
     "CollectionType" -> "UnsafeBufferPointer"
     "CollectionType" -> "UnsafeMutableBufferPointer"
+    "CollectionType" -> "_prext_LazyCollectionType"
     "CollectionType" -> "String.CharacterView"
     "CollectionType" -> "String.UnicodeScalarView"
     "CollectionType" -> "String.UTF16View"

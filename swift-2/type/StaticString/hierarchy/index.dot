@@ -8,12 +8,12 @@ strict digraph "StaticString - Type Hierarchy - SwiftDoc.org" {
     "StaticString" [URL="/type/StaticString/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "StringLiteralConvertible" [URL="/protocol/StringLiteralConvertible/"]
     "UnicodeScalarLiteralConvertible" [URL="/protocol/UnicodeScalarLiteralConvertible/"]
-    "_Reflectable" [URL="/protocol/_Reflectable/"]    "UnicodeScalarLiteralConvertible" -> "StaticString"
+    "_Reflectable" [URL="/protocol/_Reflectable/"]    "_Reflectable" -> "StaticString"
+    "UnicodeScalarLiteralConvertible" -> "StaticString"
     "ExtendedGraphemeClusterLiteralConvertible" -> "StaticString"
     "StringLiteralConvertible" -> "StaticString"
     "CustomStringConvertible" -> "StaticString"
     "CustomDebugStringConvertible" -> "StaticString"
-    "_Reflectable" -> "StaticString"
     "UnicodeScalarLiteralConvertible" -> "ExtendedGraphemeClusterLiteralConvertible"
     "ExtendedGraphemeClusterLiteralConvertible" -> "StringLiteralConvertible"
     "UnicodeScalarLiteralConvertible" -> "ExtendedGraphemeClusterLiteralConvertible"

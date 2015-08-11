@@ -117,7 +117,7 @@
 </g>
 </g>
 <!-- CustomDebugStringConvertible&#45;&gt;StaticString -->
-<g id="edge5" class="edge">
+<g id="edge6" class="edge">
 <path fill="none" stroke="#cccccc" d="M147.282,-57.9883C210.861,-47.0667 311.302,-29.8131 369.387,-19.8353"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="370.112,-23.2622 379.375,-18.1197 368.927,-16.3633 370.112,-23.2622"/>
 </g>
@@ -130,7 +130,7 @@
 </g>
 </g>
 <!-- CustomStringConvertible&#45;&gt;StaticString -->
-<g id="edge4" class="edge">
+<g id="edge5" class="edge">
 <path fill="none" stroke="#cccccc" d="M294.281,-57.9883C317.86,-49.0057 352.683,-35.7398 378.876,-25.7614"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="380.352,-28.9445 388.451,-22.1138 377.86,-22.4031 380.352,-28.9445"/>
 </g>
@@ -143,7 +143,7 @@
 </g>
 </g>
 <!-- ExtendedGraphemeClusterLiteralConvertible&#45;&gt;StaticString -->
-<g id="edge2" class="edge">
+<g id="edge3" class="edge">
 <path fill="none" stroke="#cccccc" d="M399.628,-115.86C392.088,-102.57 381.241,-78.5363 387,-58 389.751,-48.1892 395.234,-38.3948 400.625,-30.3809"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="403.523,-32.3454 406.521,-22.1835 397.841,-28.2579 403.523,-32.3454"/>
 </g>
@@ -161,7 +161,7 @@
 <polygon fill="#cccccc" stroke="#cccccc" points="447.832,-89.8088 452.512,-80.3039 442.926,-84.8154 447.832,-89.8088"/>
 </g>
 <!-- StringLiteralConvertible&#45;&gt;StaticString -->
-<g id="edge3" class="edge">
+<g id="edge4" class="edge">
 <path fill="none" stroke="#cccccc" d="M454.419,-57.9883C447.745,-50.2019 438.312,-39.1971 430.347,-29.9049"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="432.997,-27.6187 423.832,-22.3039 427.682,-32.1742 432.997,-27.6187"/>
 </g>
@@ -179,7 +179,7 @@
 <polygon fill="#cccccc" stroke="#cccccc" points="429.853,-141.228 419.726,-138.114 425.7,-146.864 429.853,-141.228"/>
 </g>
 <!-- UnicodeScalarLiteralConvertible&#45;&gt;StaticString -->
-<g id="edge1" class="edge">
+<g id="edge2" class="edge">
 <path fill="none" stroke="#cccccc" d="M502.058,-173.951C515.228,-166.138 531.377,-153.947 539,-138 554.334,-105.921 559.304,-87.1881 539,-58 521.366,-32.6506 488.039,-21.2401 460.374,-16.1192"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="460.91,-12.6605 450.477,-14.5029 459.782,-19.569 460.91,-12.6605"/>
 </g>
@@ -192,7 +192,7 @@
 </g>
 </g>
 <!-- _Reflectable&#45;&gt;StaticString -->
-<g id="edge6" class="edge">
+<g id="edge1" class="edge">
 <path fill="none" stroke="#cccccc" d="M586.635,-57.9883C551.282,-48.5159 498.153,-34.2802 460.381,-24.1595"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="461.212,-20.7587 450.646,-21.5512 459.4,-27.5202 461.212,-20.7587"/>
 </g>

@@ -11,7 +11,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Swift documentation for 'CollectionType': A multi-pass sequence with addressable positions.">
-    <meta name="keywords" content="CollectionType,protocol,swift,documentation,generate,isEmpty,count,first,Generator,SubSequence">
+    <meta name="keywords" content="CollectionType,protocol,swift,documentation,generate,prefixUpTo,suffixFrom,prefixThrough,isEmpty,count,first,Generator,SubSequence">
     <link rel="canonical" href="http://swiftdoc.org/swift-2/protocol/CollectionType/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/swift-2/protocol/CollectionType/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-3a0b806dc9b3b3252ac1a27e3b51df4e.js" type="text/javascript"></script>
+    <script src="/assets/swift-16c245161d8c9edcba9666329187630a.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -93,7 +93,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b4</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
     		
 		</div>
     </div>
@@ -255,7 +255,31 @@ elements.</p>
 
 <h3>Instance Methods</h3>
 <div class="declaration" id="func-generate">
-<code class="language-swift">func generate() -> Self.Generator</code>
+<code class="language-swift">public func generate() -> Self.Generator</code>
+</div>
+<div class="declaration" id="func-prefixUpTo">
+<code class="language-swift">public func prefixUpTo(end: Self.Index) -> Self.SubSequence</code>
+<div class="comment">
+    <p>Returns <code>self[startIndex..&lt;end]</code></p>
+
+<p><strong>Complexity:</strong> O(1)</p>
+</div>
+</div>
+<div class="declaration" id="func-suffixFrom">
+<code class="language-swift">public func suffixFrom(start: Self.Index) -> Self.SubSequence</code>
+<div class="comment">
+    <p>Returns <code>self[start..&lt;endIndex]</code></p>
+
+<p><strong>Complexity:</strong> O(1)</p>
+</div>
+</div>
+<div class="declaration" id="func-prefixThrough">
+<code class="language-swift">public func prefixThrough(position: Self.Index) -> Self.SubSequence</code>
+<div class="comment">
+    <p>Returns <code>prefixUpTo(position.successor())</code></p>
+
+<p><strong>Complexity:</strong> O(1)</p>
+</div>
 </div>
 
 <h3>Subscripts</h3>
@@ -272,7 +296,7 @@ elements.</p>
 
 
 <div class="declaration" id="func-underestimateCount">
-<code class="language-swift">func underestimateCount() -> Int</code>
+<code class="language-swift">public func underestimateCount() -> Int</code>
 <div class="comment">
     <p>Returns a value less than or equal to the number of elements in
 <code>self</code>, <em>nondestructively</em>.</p>
@@ -281,7 +305,7 @@ elements.</p>
 </div>
 </div>
 <div class="declaration" id="func-map">
-<code class="language-swift">func map&lt;T&gt;(@noescape transform: (Self.Generator.Element) -&gt; T) -> [T]</code>
+<code class="language-swift">public func map&lt;T&gt;(@noescape transform: (Self.Generator.Element) -&gt; T) -> [T]</code>
 <div class="comment">
     <p>Return an <code>Array</code> containing the results of mapping <code>transform</code>
 over <code>self</code>.</p>
@@ -289,15 +313,94 @@ over <code>self</code>.</p>
 <p><strong>Complexity:</strong> O(N).</p>
 </div>
 </div>
-<div class="declaration" id="func-filter">
-<code class="language-swift">func filter(@noescape includeElement: (Self.Generator.Element) -&gt; Bool) -> [Self.Generator.Element]</code>
+<div class="declaration" id="func-dropFirst">
+<code class="language-swift">public func dropFirst(n: Int) -> Self.SubSequence</code>
 <div class="comment">
-    <p>Returns an <code>Array</code> containing the elements of <code>self</code>,
-in order, that satisfy the predicate <code>includeElement</code>.</p>
+    <p>Returns a subsequence containing all but the first <code>n</code> elements.</p>
+
+<p><strong>Requires:</strong> <code>n &gt;= 0</code>
+<strong>Complexity:</strong> O(<code>n</code>)</p>
+</div>
+</div>
+<div class="declaration" id="func-dropLast">
+<code class="language-swift">public func dropLast(n: Int) -> Self.SubSequence</code>
+<div class="comment">
+    <p>Returns a subsequence containing all but the last <code>n</code> elements.</p>
+
+<p><strong>Requires:</strong> <code>n &gt;= 0</code>
+<strong>Complexity:</strong> O(<code>self.count</code>)</p>
+</div>
+</div>
+<div class="declaration" id="func-prefix">
+<code class="language-swift">public func prefix(maxLength: Int) -> Self.SubSequence</code>
+<div class="comment">
+    <p>Returns a subsequence, up to <code>maxLength</code> in length, containing the
+initial elements.</p>
+
+<p>If <code>maxLength</code> exceeds <code>self.count</code>, the result contains all
+the elements of <code>self</code>.</p>
+
+<p><strong>Requires:</strong> <code>maxLength &gt;= 0</code>
+<strong>Complexity:</strong> O(<code>maxLength</code>)</p>
+</div>
+</div>
+<div class="declaration" id="func-suffix">
+<code class="language-swift">public func suffix(maxLength: Int) -> Self.SubSequence</code>
+<div class="comment">
+    <p>Returns a slice, up to <code>maxLength</code> in length, containing the
+final elements of <code>s</code>.</p>
+
+<p>If <code>maxLength</code> exceeds <code>s.count</code>, the result contains all
+the elements of <code>s</code>.</p>
+
+<p><strong>Requires:</strong> <code>maxLength &gt;= 0</code>
+<strong>Complexity:</strong> O(<code>self.count</code>)</p>
+</div>
+</div>
+<div class="declaration" id="func-prefixUpTo">
+<code class="language-swift">public func prefixUpTo(end: Self.Index) -> Self.SubSequence</code>
+<div class="comment">
+    <p>Returns <code>self[startIndex..&lt;end]</code></p>
+
+<p><strong>Complexity:</strong> O(1)</p>
+</div>
+</div>
+<div class="declaration" id="func-suffixFrom">
+<code class="language-swift">public func suffixFrom(start: Self.Index) -> Self.SubSequence</code>
+<div class="comment">
+    <p>Returns <code>self[start..&lt;endIndex]</code></p>
+
+<p><strong>Complexity:</strong> O(1)</p>
+</div>
+</div>
+<div class="declaration" id="func-prefixThrough">
+<code class="language-swift">public func prefixThrough(position: Self.Index) -> Self.SubSequence</code>
+<div class="comment">
+    <p>Returns <code>prefixUpTo(position.successor())</code></p>
+
+<p><strong>Complexity:</strong> O(1)</p>
+</div>
+</div>
+<div class="declaration" id="func-split">
+<code class="language-swift">public func split(maxSplit: Int = default, allowEmptySlices: Bool = default, @noescape isSeparator: (Self.Generator.Element) -&gt; Bool) -> [Self.SubSequence]</code>
+<div class="comment">
+    <p>Returns the maximal <code>SubSequence</code>s of <code>self</code>, in order, that
+don&#39;t contain elements satisfying the predicate <code>isSeparator</code>.</p>
+
+<ul><li><p>Parameter maxSplits: The maximum number of <code>SubSequence</code>s to
+return, minus 1.
+If <code>maxSplit + 1</code> <code>SubSequence</code>s are returned, the last one is
+a suffix of <code>self</code> containing the remaining elements.
+The default value is <code>Int.max</code>.</p></li><li><p>Parameter allowEmptySubsequences: If <code>true</code>, an empty <code>SubSequence</code>
+is produced in the result for each pair of consecutive elements
+satisfying <code>isSeparator</code>.
+The default value is <code>false</code>.</p></li></ul>
+
+<p><strong>Requires:</strong> <code>maxSplit &gt;= 0</code></p>
 </div>
 </div>
 <div class="declaration" id="func-indexOf">
-<code class="language-swift">func indexOf(@noescape predicate: (Self.Generator.Element) -&gt; Bool) -> Self.Index?</code>
+<code class="language-swift">public func indexOf(@noescape predicate: (Self.Generator.Element) -&gt; Bool) -> Self.Index?</code>
 <div class="comment">
     <p>Returns the first index where <code>predicate</code> returns <code>true</code> for the
 corresponding value, or <code>nil</code> if such value is not found.</p>
@@ -310,12 +413,16 @@ corresponding value, or <code>nil</code> if such value is not found.</p>
 <code class="language-swift">var isEmpty: Bool { get }</code>
 <div class="comment">
     <p>Returns <code>true</code> iff <code>self</code> is empty.</p>
+
+<p><strong>Complexity:</strong> O(1)</p>
 </div>
 </div>
 <div class="declaration" id="prop-first">
 <code class="language-swift">var first: Self.Generator.Element? { get }</code>
 <div class="comment">
     <p>Returns the first element of <code>self</code>, or <code>nil</code> if <code>self</code> is empty.</p>
+
+<p><strong>Complexity:</strong> O(1)</p>
 </div>
 </div>
 <div class="declaration" id="prop-count">
@@ -344,7 +451,7 @@ all valid subscript arguments for <code>self</code>, omitting its <code>endIndex
 <h4>Where Generator == IndexingGenerator<Self></h4>
 
 <div class="declaration" id="func-generate">
-<code class="language-swift">func generate() -> IndexingGenerator&lt;Self&gt;</code>
+<code class="language-swift">public func generate() -> IndexingGenerator&lt;Self&gt;</code>
 </div>
 
 
@@ -361,12 +468,96 @@ all valid subscript arguments for <code>self</code>, omitting its <code>endIndex
 
 
 
+<h4>Where SubSequence == Self</h4>
+
+<div class="declaration" id="func-popFirst">
+<code class="language-swift">public mutating func popFirst() -> Self.Generator.Element?</code>
+<div class="comment">
+    <p>If <code>!self.isEmpty</code>, remove the first element and return it, otherwise
+return <code>nil</code>.</p>
+
+<p><strong>Complexity:</strong> O(<code>self.count</code>)</p>
+</div>
+</div>
+<div class="declaration" id="func-popLast">
+<code class="language-swift">public mutating func popLast() -> Self.Generator.Element?</code>
+<div class="comment">
+    <p>If <code>!self.isEmpty</code>, remove the last element and return it, otherwise
+return <code>nil</code>.</p>
+
+<p><strong>Complexity:</strong> O(<code>self.count</code>)</p>
+</div>
+</div>
+<div class="declaration" id="func-removeFirst">
+<code class="language-swift">public mutating func removeFirst() -> Self.Generator.Element</code>
+</div>
+
+
+
+
+
+
+
+<h4>Where Generator.Element : Equatable</h4>
+
+<div class="declaration" id="func-split">
+<code class="language-swift">public func split(separator: Self.Generator.Element, maxSplit: Int = default, allowEmptySlices: Bool = default) -> [Self.SubSequence]</code>
+<div class="comment">
+    <p>Returns the maximal <code>SubSequence</code>s of <code>self</code>, in order, around a
+<code>separator</code> element.</p>
+
+<ul><li><p>Parameter maxSplits: The maximum number of <code>SubSequence</code>s to
+return, minus 1.
+If <code>maxSplit + 1</code> <code>SubSequence</code>s are returned, the last one is
+a suffix of <code>self</code> containing the remaining elements.
+The default value is <code>Int.max</code>.</p></li><li><p>Parameter allowEmptySubsequences: If <code>true</code>, an empty <code>SubSequence</code>
+is produced in the result for each pair of consecutive elements
+satisfying <code>isSeparator</code>.
+The default value is <code>false</code>.</p></li></ul>
+
+<p><strong>Requires:</strong> <code>maxSplit &gt;= 0</code></p>
+</div>
+</div>
+<div class="declaration" id="func-indexOf">
+<code class="language-swift">public func indexOf(element: Self.Generator.Element) -> Self.Index?</code>
+<div class="comment">
+    <p>Returns the first index where <code>value</code> appears in <code>self</code> or <code>nil</code> if
+<code>value</code> is not found.</p>
+
+<p><strong>Complexity:</strong> O(<code>self.count</code>).</p>
+</div>
+</div>
+
+
+
 
 
 <h4>Where Index : BidirectionalIndexType</h4>
 
+<div class="declaration" id="func-dropLast">
+<code class="language-swift">public func dropLast(n: Int) -> Self.SubSequence</code>
+<div class="comment">
+    <p>Returns a subsequence containing all but the last <code>n</code> elements.</p>
+
+<p><strong>Requires:</strong> <code>n &gt;= 0</code>
+<strong>Complexity:</strong> O(<code>n</code>)</p>
+</div>
+</div>
+<div class="declaration" id="func-suffix">
+<code class="language-swift">public func suffix(maxLength: Int) -> Self.SubSequence</code>
+<div class="comment">
+    <p>Returns a slice, up to <code>maxLength</code> in length, containing the
+final elements of <code>s</code>.</p>
+
+<p>If <code>maxLength</code> exceeds <code>s.count</code>, the result contains all
+the elements of <code>s</code>.</p>
+
+<p><strong>Requires:</strong> <code>maxLength &gt;= 0</code>
+<strong>Complexity:</strong> O(<code>maxLength</code>)</p>
+</div>
+</div>
 <div class="declaration" id="func-reverse">
-<code class="language-swift">func reverse() -> ReverseCollection&lt;Self&gt;</code>
+<code class="language-swift">public func reverse() -> ReverseCollection&lt;Self&gt;</code>
 <div class="comment">
     <p>Return a lazy <code>CollectionType</code> containing the elements of <code>self</code>
 in reverse order.</p>
@@ -380,15 +571,53 @@ in reverse order.</p>
 
 
 
-<h4>Where Generator.Element : Equatable</h4>
+<h4>Where Generator.Element : CollectionType</h4>
 
-<div class="declaration" id="func-indexOf">
-<code class="language-swift">func indexOf(element: Self.Generator.Element) -> Self.Index?</code>
+
+
+
+
+
+<h4>Where Generator.Element : CollectionType, Index : BidirectionalIndexType, Generator.Element.Index : BidirectionalIndexType</h4>
+
+
+
+
+
+
+<h4>Where Self : _ReverseCollectionType, Base.Index : RandomAccessIndexType</h4>
+
+
+<div class="declaration" id="prop-startIndex">
+<code class="language-swift">var startIndex: _prext_ReverseRandomAccessIndex&lt;Self.Base.Index&gt; { get }</code>
+</div>
+
+
+
+
+<h4>Where Self : _ReverseCollectionType, Index.Base == Base.Index</h4>
+
+
+<div class="declaration" id="prop-startIndex">
+<code class="language-swift">var startIndex: Self.Index { get }</code>
+</div>
+<div class="declaration" id="prop-endIndex">
+<code class="language-swift">var endIndex: Self.Index { get }</code>
+</div>
+
+<div class="declaration">
+<code class="language-swift">subscript(position: Self.Index) -> Self.Base.Generator.Element { get }</code>
+</div>
+
+
+
+<h4>Where Index : RandomAccessIndexType</h4>
+
+<div class="declaration" id="func-reverse">
+<code class="language-swift">public func reverse() -> ReverseRandomAccessCollection&lt;Self&gt;</code>
 <div class="comment">
-    <p>Returns the first index where <code>value</code> appears in <code>self</code> or <code>nil</code> if
-<code>value</code> is not found.</p>
-
-<p><strong>Complexity:</strong> O(<code>self.count</code>).</p>
+    <p>Return a lazy <code>CollectionType</code> containing the elements of <code>self</code>
+in reverse order.</p>
 </div>
 </div>
 
@@ -399,10 +628,10 @@ in reverse order.</p>
 <h4>Where Self : _CollectionWrapperType, Index == Base.Index</h4>
 
 <div class="declaration" id="func-map">
-<code class="language-swift">func map&lt;T&gt;(@noescape transform: (Self.Base.Generator.Element) -&gt; T) -> [T]</code>
+<code class="language-swift">public func map&lt;T&gt;(@noescape transform: (Self.Base.Generator.Element) -&gt; T) -> [T]</code>
 </div>
 <div class="declaration" id="func-filter">
-<code class="language-swift">func filter(@noescape includeElement: (Self.Base.Generator.Element) -&gt; Bool) -> [Self.Base.Generator.Element]</code>
+<code class="language-swift">public func filter(@noescape includeElement: (Self.Base.Generator.Element) -&gt; Bool) -> [Self.Base.Generator.Element]</code>
 </div>
 
 <div class="declaration" id="prop-startIndex">
@@ -430,20 +659,6 @@ reachable from <code>startIndex</code> by zero or more applications of
 
 
 
-<h4>Where Index : RandomAccessIndexType</h4>
-
-<div class="declaration" id="func-reverse">
-<code class="language-swift">func reverse() -> ReverseRandomAccessCollection&lt;Self&gt;</code>
-<div class="comment">
-    <p>Return a lazy <code>CollectionType</code> containing the elements of <code>self</code>
-in reverse order.</p>
-</div>
-</div>
-
-
-
-
-
           </article>
 
     
@@ -455,7 +670,7 @@ in reverse order.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.47.4</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

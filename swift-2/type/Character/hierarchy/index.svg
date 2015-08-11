@@ -143,7 +143,7 @@
 </g>
 </g>
 <!-- Equatable&#45;&gt;Character -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <path fill="none" stroke="#cccccc" d="M36.3995,-115.811C17.011,-102.051 -11.4203,-77.0564 5.15705,-58 41.972,-15.6796 212.786,-11.1141 292.712,-11.3622"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="292.887,-14.8632 302.907,-11.4218 292.928,-7.86333 292.887,-14.8632"/>
 </g>
@@ -161,7 +161,7 @@
 </g>
 </g>
 <!-- Equatable&#45;&gt;Hashable -->
-<g id="edge10" class="edge">
+<g id="edge9" class="edge">
 <path fill="none" stroke="#cccccc" d="M67.5321,-115.988C80.4153,-107.599 99.0358,-95.4743 113.923,-85.7804"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="116.155,-88.5036 122.625,-80.1138 112.335,-82.6376 116.155,-88.5036"/>
 </g>
@@ -174,12 +174,12 @@
 </g>
 </g>
 <!-- ExtendedGraphemeClusterLiteralConvertible&#45;&gt;Character -->
-<g id="edge1" class="edge">
+<g id="edge3" class="edge">
 <path fill="none" stroke="#cccccc" d="M507.434,-57.9883C470.22,-48.1116 413.494,-33.0563 375.177,-22.8867"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="375.936,-19.4671 365.372,-20.2846 374.14,-26.2328 375.936,-19.4671"/>
 </g>
 <!-- Hashable&#45;&gt;Character -->
-<g id="edge4" class="edge">
+<g id="edge1" class="edge">
 <path fill="none" stroke="#cccccc" d="M168.353,-59.3727C201.725,-49.8378 255.673,-34.424 292.922,-23.7814"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="294.301,-27.0276 302.955,-20.915 292.378,-20.2969 294.301,-27.0276"/>
 </g>
@@ -205,12 +205,12 @@
 </g>
 </g>
 <!-- UnicodeScalarLiteralConvertible&#45;&gt;Character -->
-<g id="edge2" class="edge">
+<g id="edge4" class="edge">
 <path fill="none" stroke="#cccccc" d="M456.367,-115.906C444.74,-106.676 427.16,-92.586 412.157,-80 391.646,-62.7936 368.583,-42.5767 352.89,-28.685"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="355.211,-26.0652 345.408,-22.0465 350.565,-31.3014 355.211,-26.0652"/>
 </g>
 <!-- UnicodeScalarLiteralConvertible&#45;&gt;ExtendedGraphemeClusterLiteralConvertible -->
-<g id="edge9" class="edge">
+<g id="edge10" class="edge">
 <path fill="none" stroke="#cccccc" d="M482.744,-115.988C494.022,-107.678 510.275,-95.7028 523.368,-86.0554"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="525.457,-88.8635 531.431,-80.1138 521.304,-83.2281 525.457,-88.8635"/>
 </g>

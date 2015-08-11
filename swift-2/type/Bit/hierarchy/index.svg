@@ -117,7 +117,7 @@
 </g>
 </g>
 <!-- BidirectionalIndexType&#45;&gt;Bit -->
-<g id="edge4" class="edge">
+<g id="edge5" class="edge">
 <path fill="none" stroke="#cccccc" d="M1124.31,-234.273C1180.18,-226.618 1255.36,-213.508 1280,-196 1313.8,-171.982 1305.5,-150.826 1328,-116 1338.57,-99.6391 1346.5,-98.3633 1353,-80 1358.43,-64.6563 1359.47,-46.178 1359.27,-32.3588"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="1362.75,-31.8779 1358.88,-22.0176 1355.76,-32.143 1362.75,-31.8779"/>
 </g>
@@ -143,7 +143,7 @@
 </g>
 </g>
 <!-- BidirectionalIndexType&#45;&gt;RandomAccessIndexType -->
-<g id="edge53" class="edge">
+<g id="edge51" class="edge">
 <path fill="none" stroke="#cccccc" d="M1009.48,-231.988C962.454,-222.482 891.699,-208.177 841.604,-198.05"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="842.055,-194.57 831.56,-196.019 840.668,-201.431 842.055,-194.57"/>
 </g>
@@ -195,7 +195,7 @@
 </g>
 </g>
 <!-- Comparable&#45;&gt;Bit -->
-<g id="edge2" class="edge">
+<g id="edge3" class="edge">
 <path fill="none" stroke="#cccccc" d="M432.404,-298.656C578.36,-293.283 1103.03,-272.74 1133,-254 1217.88,-200.918 1168.7,-123.975 1244,-58 1265.91,-38.8014 1296.87,-26.9982 1320.99,-20.1622"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="1322.11,-23.4875 1330.87,-17.5296 1320.3,-16.7237 1322.11,-23.4875"/>
 </g>
@@ -239,7 +239,7 @@
 </g>
 </g>
 <!-- Comparable&#45;&gt;Strideable -->
-<g id="edge57" class="edge">
+<g id="edge55" class="edge">
 <path fill="none" stroke="#cccccc" d="M432.427,-294.426C502.946,-283.923 655.037,-261.271 728.958,-250.262"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="729.478,-253.723 738.854,-248.788 728.447,-246.799 729.478,-253.723"/>
 </g>
@@ -314,12 +314,12 @@
 </g>
 </g>
 <!-- ForwardIndexType&#45;&gt;BidirectionalIndexType -->
-<g id="edge55" class="edge">
+<g id="edge53" class="edge">
 <path fill="none" stroke="#cccccc" d="M1301.26,-289.988C1250.97,-280.442 1175.2,-266.058 1121.81,-255.923"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="1122.26,-252.446 1111.78,-254.019 1120.95,-259.323 1122.26,-252.446"/>
 </g>
 <!-- ForwardIndexType&#45;&gt;Bit -->
-<g id="edge5" class="edge">
+<g id="edge6" class="edge">
 <path fill="none" stroke="#cccccc" d="M1365.66,-289.851C1374.8,-281.233 1387.09,-268.055 1394,-254 1428.82,-183.217 1421.18,-158.494 1429,-80 1429.97,-70.2703 1433.67,-66.5904 1429,-58 1421.48,-44.1607 1407.8,-33.8436 1394.44,-26.5264"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="1395.82,-23.3067 1385.32,-21.9335 1392.68,-29.5583 1395.82,-23.3067"/>
 </g>
@@ -390,7 +390,7 @@
 </g>
 </g>
 <!-- IntegerType&#45;&gt;Int -->
-<g id="edge19" class="edge">
+<g id="edge18" class="edge">
 <path fill="none" stroke="#cccccc" d="M541.121,-115.976C545.538,-102.402 554.279,-77.6175 565,-58 570.261,-48.3726 577.208,-38.3951 583.371,-30.2033"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="586.278,-32.1658 589.633,-22.1162 580.743,-27.88 586.278,-32.1658"/>
 </g>
@@ -403,7 +403,7 @@
 </g>
 </g>
 <!-- IntegerType&#45;&gt;SignedIntegerType -->
-<g id="edge50" class="edge">
+<g id="edge58" class="edge">
 <path fill="none" stroke="#cccccc" d="M516.904,-115.988C498.393,-107.204 471.25,-94.3222 450.397,-84.4255"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="451.846,-81.2393 441.311,-80.1138 448.845,-87.5633 451.846,-81.2393"/>
 </g>
@@ -421,7 +421,7 @@
 <polygon fill="#cccccc" stroke="#cccccc" points="635.716,-16.2766 625.212,-17.665 634.289,-23.1297 635.716,-16.2766"/>
 </g>
 <!-- RandomAccessIndexType&#45;&gt;Bit -->
-<g id="edge3" class="edge">
+<g id="edge4" class="edge">
 <path fill="none" stroke="#cccccc" d="M836.104,-173.983C917.579,-158.174 1076.06,-124.593 1206,-80 1250.17,-64.8427 1299.11,-41.7425 1329.22,-26.7562"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="1330.94,-29.8103 1338.3,-22.1959 1327.8,-23.5543 1330.94,-29.8103"/>
 </g>
@@ -431,12 +431,12 @@
 <polygon fill="#cccccc" stroke="#cccccc" points="626.816,-24.1797 616.425,-22.1115 623.259,-30.2082 626.816,-24.1797"/>
 </g>
 <!-- RandomAccessIndexType&#45;&gt;IntegerType -->
-<g id="edge52" class="edge">
+<g id="edge50" class="edge">
 <path fill="none" stroke="#cccccc" d="M738.378,-173.988C695.013,-164.036 628.736,-148.825 584.418,-138.653"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="585.011,-135.199 574.482,-136.373 583.446,-142.021 585.011,-135.199"/>
 </g>
 <!-- SignedIntegerType&#45;&gt;Int -->
-<g id="edge18" class="edge">
+<g id="edge19" class="edge">
 <path fill="none" stroke="#cccccc" d="M451.823,-57.9883C482.412,-48.3648 528.627,-33.8251 560.879,-23.6786"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="562.333,-26.8902 570.822,-20.5504 560.232,-20.2129 562.333,-26.8902"/>
 </g>
@@ -469,17 +469,17 @@
 <polygon fill="#cccccc" stroke="#cccccc" points="614.955,-28.1133 606.129,-22.2519 609.373,-32.3378 614.955,-28.1133"/>
 </g>
 <!-- Strideable&#45;&gt;RandomAccessIndexType -->
-<g id="edge54" class="edge">
+<g id="edge52" class="edge">
 <path fill="none" stroke="#cccccc" d="M772.967,-231.988C774.372,-224.831 776.312,-214.955 778.034,-206.189"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="781.483,-206.791 779.976,-196.304 774.614,-205.442 781.483,-206.791"/>
 </g>
 <!-- _Incrementable&#45;&gt;Bit -->
-<g id="edge6" class="edge">
+<g id="edge2" class="edge">
 <path fill="none" stroke="#cccccc" d="M1400.29,-355.308C1464.81,-350.626 1577.2,-338.789 1607,-312 1630.43,-290.938 1627,-275.502 1627,-244 1627,-244 1627,-244 1627,-126 1627,-26.5312 1469.15,-12.5593 1395.28,-11.4663"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="1395.05,-7.96456 1385.02,-11.3898 1395,-14.9644 1395.05,-7.96456"/>
 </g>
 <!-- _Incrementable&#45;&gt;ForwardIndexType -->
-<g id="edge56" class="edge">
+<g id="edge54" class="edge">
 <path fill="none" stroke="#cccccc" d="M1354,-347.988C1354,-340.91 1354,-331.171 1354,-322.478"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="1357.5,-322.304 1354,-312.304 1350.5,-322.304 1357.5,-322.304"/>
 </g>
@@ -522,7 +522,7 @@
 <polygon fill="#cccccc" stroke="#cccccc" points="577.772,-30.894 583.657,-22.0834 573.562,-25.3015 577.772,-30.894"/>
 </g>
 <!-- _IntegerType&#45;&gt;IntegerType -->
-<g id="edge51" class="edge">
+<g id="edge49" class="edge">
 <path fill="none" stroke="#cccccc" d="M484.621,-173.988C493.932,-165.966 507.209,-154.527 518.192,-145.065"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="520.749,-147.483 526.04,-138.304 516.18,-142.179 520.749,-147.483"/>
 </g>
@@ -555,7 +555,7 @@
 <polygon fill="#cccccc" stroke="#cccccc" points="561.144,-16.9702 570.955,-12.9711 560.791,-9.97906 561.144,-16.9702"/>
 </g>
 <!-- _SignedIntegerType&#45;&gt;SignedIntegerType -->
-<g id="edge49" class="edge">
+<g id="edge57" class="edge">
 <path fill="none" stroke="#cccccc" d="M392.079,-115.988C396.615,-108.517 402.951,-98.0812 408.44,-89.0393"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="411.546,-90.6682 413.744,-80.3039 405.562,-87.0353 411.546,-90.6682"/>
 </g>
@@ -578,7 +578,7 @@
 <polygon fill="#cccccc" stroke="#cccccc" points="607.544,-30.5615 601.128,-22.1305 600.886,-32.7225 607.544,-30.5615"/>
 </g>
 <!-- _Strideable&#45;&gt;Strideable -->
-<g id="edge58" class="edge">
+<g id="edge56" class="edge">
 <path fill="none" stroke="#cccccc" d="M771,-289.988C771,-282.91 771,-273.171 771,-264.478"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="774.5,-264.304 771,-254.304 767.5,-264.304 774.5,-264.304"/>
 </g>

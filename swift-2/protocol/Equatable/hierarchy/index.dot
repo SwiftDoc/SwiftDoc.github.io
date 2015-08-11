@@ -62,9 +62,7 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "_DisallowMixedSignArithmetic" [URL="/protocol/_DisallowMixedSignArithmetic/"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]
     "_IntegerType" [URL="/protocol/_IntegerType/"]
-    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]
-    "_SwiftNSOperatingSystemVersion" [URL="/type/_SwiftNSOperatingSystemVersion/", style=filled]    "Equatable" -> "_SwiftNSOperatingSystemVersion"
-    "Equatable" -> "AnyBidirectionalIndex"
+    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]    "Equatable" -> "AnyBidirectionalIndex"
     "Equatable" -> "AnyForwardIndex"
     "Equatable" -> "AnyRandomAccessIndex"
     "Equatable" -> "AutoreleasingUnsafeMutablePointer"
@@ -108,7 +106,6 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "Equatable" -> "String.UnicodeScalarView.Index"
     "Equatable" -> "String.UTF16View.Index"
     "Equatable" -> "String.UTF8View.Index"
-    "Comparable" -> "_SwiftNSOperatingSystemVersion"
     "Comparable" -> "AnyRandomAccessIndex"
     "Comparable" -> "Bit"
     "Comparable" -> "Character"
@@ -575,6 +572,6 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int8"
     "Int" -> "Bit"
     subgraph Types {
-        rank = max; "_SwiftNSOperatingSystemVersion"; "AnyBidirectionalIndex"; "AnyForwardIndex"; "AnyRandomAccessIndex"; "AutoreleasingUnsafeMutablePointer"; "Bool"; "COpaquePointer"; "Character"; "ClosedInterval"; "DictionaryIndex"; "Double"; "FilterCollectionIndex"; "Float"; "Float80"; "FloatingPointClassification"; "HalfOpenInterval"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "ManagedBufferPointer"; "ObjectIdentifier"; "Range"; "ReverseIndex"; "ReverseRandomAccessIndex"; "Set"; "SetIndex"; "String"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnicodeScalar"; "UnsafeMutablePointer"; "UnsafePointer"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index"; "String.UTF8View.Index"; "Bit";
+        rank = max; "AnyBidirectionalIndex"; "AnyForwardIndex"; "AnyRandomAccessIndex"; "AutoreleasingUnsafeMutablePointer"; "Bool"; "COpaquePointer"; "Character"; "ClosedInterval"; "DictionaryIndex"; "Double"; "FilterCollectionIndex"; "Float"; "Float80"; "FloatingPointClassification"; "HalfOpenInterval"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "ManagedBufferPointer"; "ObjectIdentifier"; "Range"; "ReverseIndex"; "ReverseRandomAccessIndex"; "Set"; "SetIndex"; "String"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnicodeScalar"; "UnsafeMutablePointer"; "UnsafePointer"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index"; "String.UTF8View.Index"; "Bit";
     }
 }

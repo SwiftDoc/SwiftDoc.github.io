@@ -56,7 +56,9 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "UnsafeMutableBufferPointer" [URL="/type/UnsafeMutableBufferPointer/", style=filled]
     "Zip2Sequence" [URL="/type/Zip2Sequence/", style=filled]
     "_ArrayBufferType" [URL="/protocol/_ArrayBufferType/"]
-    "_ArrayType" [URL="/protocol/_ArrayType/"]    "SequenceType" -> "AnyBidirectionalCollection"
+    "_ArrayType" [URL="/protocol/_ArrayType/"]
+    "_prext_LazyCollectionType" [URL="/protocol/_prext_LazyCollectionType/"]
+    "_prext_LazySequenceType" [URL="/protocol/_prext_LazySequenceType/"]    "SequenceType" -> "AnyBidirectionalCollection"
     "SequenceType" -> "AnyForwardCollection"
     "SequenceType" -> "AnyGenerator"
     "SequenceType" -> "AnyRandomAccessCollection"
@@ -100,6 +102,7 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "SequenceType" -> "UnsafeBufferPointerGenerator"
     "SequenceType" -> "UnsafeMutableBufferPointer"
     "SequenceType" -> "Zip2Sequence"
+    "SequenceType" -> "_prext_LazySequenceType"
     "SequenceType" -> "String.CharacterView"
     "SequenceType" -> "String.UnicodeScalarView"
     "SequenceType" -> "String.UTF16View"
@@ -132,6 +135,7 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "CollectionType" -> "UnicodeScalar.UTF16View"
     "CollectionType" -> "UnsafeBufferPointer"
     "CollectionType" -> "UnsafeMutableBufferPointer"
+    "CollectionType" -> "_prext_LazyCollectionType"
     "CollectionType" -> "String.CharacterView"
     "CollectionType" -> "String.UnicodeScalarView"
     "CollectionType" -> "String.UTF16View"
@@ -168,6 +172,7 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "_ArrayType" -> "Array"
     "_ArrayType" -> "ArraySlice"
     "_ArrayType" -> "ContiguousArray"
+    "_prext_LazySequenceType" -> "_prext_LazyCollectionType"
     subgraph Types {
         rank = max; "AnyBidirectionalCollection"; "AnyForwardCollection"; "AnyGenerator"; "AnyRandomAccessCollection"; "AnySequence"; "Array"; "ArraySlice"; "CollectionOfOne"; "ContiguousArray"; "Dictionary"; "DictionaryLiteral"; "EmptyCollection"; "EmptyGenerator"; "EnumerateGenerator"; "EnumerateSequence"; "FilterCollection"; "FilterGenerator"; "FilterSequence"; "GeneratorOfOne"; "GeneratorSequence"; "IndexingGenerator"; "LazyBidirectionalCollection"; "LazyForwardCollection"; "LazyRandomAccessCollection"; "LazySequence"; "MapCollection"; "MapGenerator"; "MapSequence"; "PermutationGenerator"; "Range"; "RangeGenerator"; "Repeat"; "ReverseCollection"; "ReverseRandomAccessCollection"; "Set"; "Slice"; "StrideThrough"; "StrideTo"; "UnicodeScalar.UTF16View"; "UnsafeBufferPointer"; "UnsafeBufferPointerGenerator"; "UnsafeMutableBufferPointer"; "Zip2Sequence"; "String.CharacterView"; "String.UnicodeScalarView"; "String.UTF16View"; "String.UTF8View";
     }

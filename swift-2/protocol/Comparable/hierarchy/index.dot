@@ -42,9 +42,7 @@ strict digraph "Comparable - Type Hierarchy - SwiftDoc.org" {
     "UnsignedIntegerType" [URL="/protocol/UnsignedIntegerType/"]
     "_DisallowMixedSignArithmetic" [URL="/protocol/_DisallowMixedSignArithmetic/"]
     "_IntegerType" [URL="/protocol/_IntegerType/"]
-    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]
-    "_SwiftNSOperatingSystemVersion" [URL="/type/_SwiftNSOperatingSystemVersion/", style=filled]    "Comparable" -> "_SwiftNSOperatingSystemVersion"
-    "Comparable" -> "AnyRandomAccessIndex"
+    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]    "Comparable" -> "AnyRandomAccessIndex"
     "Comparable" -> "Bit"
     "Comparable" -> "Character"
     "Comparable" -> "DictionaryIndex"
@@ -243,6 +241,6 @@ strict digraph "Comparable - Type Hierarchy - SwiftDoc.org" {
     "UnsignedIntegerType" -> "UInt8"
     "Equatable" -> "Comparable"
     subgraph Types {
-        rank = max; "_SwiftNSOperatingSystemVersion"; "AnyRandomAccessIndex"; "Bit"; "Character"; "DictionaryIndex"; "Double"; "Float"; "Float80"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "ObjectIdentifier"; "ReverseRandomAccessIndex"; "SetIndex"; "String"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnicodeScalar"; "UnsafeMutablePointer"; "UnsafePointer"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index";
+        rank = max; "AnyRandomAccessIndex"; "Bit"; "Character"; "DictionaryIndex"; "Double"; "Float"; "Float80"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "ObjectIdentifier"; "ReverseRandomAccessIndex"; "SetIndex"; "String"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnicodeScalar"; "UnsafeMutablePointer"; "UnsafePointer"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index";
     }
 }

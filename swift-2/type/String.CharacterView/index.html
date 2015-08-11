@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="http://swiftdoc.org/swift-2/type/String.CharacterView/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-3a0b806dc9b3b3252ac1a27e3b51df4e.js" type="text/javascript"></script>
+    <script src="/assets/swift-16c245161d8c9edcba9666329187630a.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -93,7 +93,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b4</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
     		
 		</div>
     </div>
@@ -237,7 +237,7 @@ reachable from <code>startIndex</code> by zero or more applications of
 
 <h3>Instance Methods</h3>
 <div class="declaration" id="func-replaceRange">
-<code class="language-swift">mutating func replaceRange&lt;C : CollectionType where C.Generator.Element == Character&gt;(subRange: Range&lt;String.CharacterView.Index&gt;, with newElements: C)</code>
+<code class="language-swift">public mutating func replaceRange&lt;C : CollectionType where C.Generator.Element == Character&gt;(subRange: Range&lt;String.CharacterView.Index&gt;, with newElements: C)</code>
 <div class="comment">
     <p>Replace the given <code>subRange</code> of elements with <code>newElements</code>.</p>
 
@@ -248,7 +248,7 @@ reachable from <code>startIndex</code> by zero or more applications of
 </div>
 </div>
 <div class="declaration" id="func-reserveCapacity">
-<code class="language-swift">mutating func reserveCapacity(n: Int)</code>
+<code class="language-swift">public mutating func reserveCapacity(n: Int)</code>
 <div class="comment">
     <p>Reserve enough space to store <code>n</code> ASCII characters.</p>
 
@@ -256,7 +256,7 @@ reachable from <code>startIndex</code> by zero or more applications of
 </div>
 </div>
 <div class="declaration" id="func-append">
-<code class="language-swift">mutating func append(c: Character)</code>
+<code class="language-swift">public mutating func append(c: Character)</code>
 <div class="comment">
     <p>Append <code>c</code> to <code>self</code>.</p>
 
@@ -264,13 +264,13 @@ reachable from <code>startIndex</code> by zero or more applications of
 </div>
 </div>
 <div class="declaration" id="func-extend">
-<code class="language-swift">mutating func extend&lt;S : SequenceType where S.Generator.Element == Character&gt;(newElements: S)</code>
+<code class="language-swift">public mutating func extend&lt;S : SequenceType where S.Generator.Element == Character&gt;(newElements: S)</code>
 <div class="comment">
     <p>Append the elements of <code>newElements</code> to <code>self</code>.</p>
 </div>
 </div>
 <div class="declaration" id="func-join">
-<code class="language-swift">func join&lt;S : SequenceType where S.Generator.Element == String.CharacterView&gt;(elements: S) -> String.CharacterView</code>
+<code class="language-swift">public func join&lt;S : SequenceType where S.Generator.Element == String.CharacterView&gt;(elements: S) -> String.CharacterView</code>
 <div class="comment">
     <p>Interpose <code>self</code> between every pair of consecutive <code>elements</code>,
 then concatenate the result.  For example:</p>
@@ -300,7 +300,7 @@ then concatenate the result.  For example:</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.47.4</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">
