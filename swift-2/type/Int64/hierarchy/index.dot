@@ -23,6 +23,7 @@ strict digraph "Int64 - Type Hierarchy - SwiftDoc.org" {
     "_Incrementable" [URL="/protocol/_Incrementable/"]
     "_IntegerArithmeticType" [URL="/protocol/_IntegerArithmeticType/"]
     "_IntegerType" [URL="/protocol/_IntegerType/"]
+    "_RandomAccessAmbiguity" [URL="/protocol/_RandomAccessAmbiguity/"]
     "_Reflectable" [URL="/protocol/_Reflectable/"]
     "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]
     "_Strideable" [URL="/protocol/_Strideable/"]    "_SignedIntegerType" -> "Int64"
@@ -41,6 +42,7 @@ strict digraph "Int64 - Type Hierarchy - SwiftDoc.org" {
     "ForwardIndexType" -> "Int64"
     "Strideable" -> "Int64"
     "_Strideable" -> "Int64"
+    "_RandomAccessAmbiguity" -> "Int64"
     "SignedNumberType" -> "Int64"
     "IntegerLiteralConvertible" -> "Int64"
     "BitwiseOperationsType" -> "Int64"
@@ -94,6 +96,7 @@ strict digraph "Int64 - Type Hierarchy - SwiftDoc.org" {
     "Equatable" -> "_Incrementable"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"
@@ -133,6 +136,7 @@ strict digraph "Int64 - Type Hierarchy - SwiftDoc.org" {
     "Equatable" -> "_Incrementable"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"
@@ -143,6 +147,7 @@ strict digraph "Int64 - Type Hierarchy - SwiftDoc.org" {
     "Equatable" -> "_Incrementable"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"

@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-type p-Unmanaged">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -193,10 +194,9 @@ keeping the object alive.</p>
 
 
 
-
-<h3>Instance Methods</h3>
+<h3>Static Methods</h3>
 <div class="declaration" id="func-fromOpaque">
-<code class="language-swift">public static func fromOpaque(value: COpaquePointer) -> Unmanaged&lt;Instance&gt;</code>
+<code class="language-swift">static func fromOpaque(value: COpaquePointer) -> Unmanaged&lt;Instance&gt;</code>
 <div class="comment">
     <p>Unsafely turn an opaque C pointer into an unmanaged
 class reference.</p>
@@ -206,19 +206,8 @@ class reference.</p>
 <pre><code class="language-swift">let str: CFString = Unmanaged.fromOpaque(ptr).takeUnretainedValue()</code></pre>
 </div>
 </div>
-<div class="declaration" id="func-toOpaque">
-<code class="language-swift">public func toOpaque() -> COpaquePointer</code>
-<div class="comment">
-    <p>Unsafely turn an unmanaged class reference into an opaque
-C pointer.</p>
-
-<p>This operation does not change reference counts.</p>
-
-<pre><code class="language-swift">let str: CFString = Unmanaged.fromOpaque(ptr).takeUnretainedValue()</code></pre>
-</div>
-</div>
 <div class="declaration" id="func-passRetained">
-<code class="language-swift">public static func passRetained(value: Instance) -> Unmanaged&lt;Instance&gt;</code>
+<code class="language-swift">static func passRetained(value: Instance) -> Unmanaged&lt;Instance&gt;</code>
 <div class="comment">
     <p>Create an unmanaged reference with an unbalanced retain.
 The object will leak if nothing eventually balances the retain.</p>
@@ -229,7 +218,7 @@ API expects you to pass the object at +1.</p>
 </div>
 </div>
 <div class="declaration" id="func-passUnretained">
-<code class="language-swift">public static func passUnretained(value: Instance) -> Unmanaged&lt;Instance&gt;</code>
+<code class="language-swift">static func passUnretained(value: Instance) -> Unmanaged&lt;Instance&gt;</code>
 <div class="comment">
     <p>Create an unmanaged reference without performing an unbalanced
 retain.</p>
@@ -242,8 +231,21 @@ API expects you to pass the object at +0.</p>
                        .passUnretained(object))</code></pre>
 </div>
 </div>
+
+<h3>Instance Methods</h3>
+<div class="declaration" id="func-toOpaque">
+<code class="language-swift">func toOpaque() -> COpaquePointer</code>
+<div class="comment">
+    <p>Unsafely turn an unmanaged class reference into an opaque
+C pointer.</p>
+
+<p>This operation does not change reference counts.</p>
+
+<pre><code class="language-swift">let str: CFString = Unmanaged.fromOpaque(ptr).takeUnretainedValue()</code></pre>
+</div>
+</div>
 <div class="declaration" id="func-takeUnretainedValue">
-<code class="language-swift">public func takeUnretainedValue() -> Instance</code>
+<code class="language-swift">func takeUnretainedValue() -> Instance</code>
 <div class="comment">
     <p>Get the value of this unmanaged reference as a managed
 reference without consuming an unbalanced retain of it.</p>
@@ -253,7 +255,7 @@ and you know that you&#39;re not responsible for releasing the result.</p>
 </div>
 </div>
 <div class="declaration" id="func-takeRetainedValue">
-<code class="language-swift">public func takeRetainedValue() -> Instance</code>
+<code class="language-swift">func takeRetainedValue() -> Instance</code>
 <div class="comment">
     <p>Get the value of this unmanaged reference as a managed
 reference and consume an unbalanced retain of it.</p>
@@ -263,19 +265,19 @@ and you know that you&#39;re responsible for releasing the result.</p>
 </div>
 </div>
 <div class="declaration" id="func-retain">
-<code class="language-swift">public func retain() -> Unmanaged&lt;Instance&gt;</code>
+<code class="language-swift">func retain() -> Unmanaged&lt;Instance&gt;</code>
 <div class="comment">
     <p>Perform an unbalanced retain of the object.</p>
 </div>
 </div>
 <div class="declaration" id="func-release">
-<code class="language-swift">public func release()</code>
+<code class="language-swift">func release() </code>
 <div class="comment">
     <p>Perform an unbalanced release of the object.</p>
 </div>
 </div>
 <div class="declaration" id="func-autorelease">
-<code class="language-swift">public func autorelease() -> Unmanaged&lt;Instance&gt;</code>
+<code class="language-swift">func autorelease() -> Unmanaged&lt;Instance&gt;</code>
 <div class="comment">
     <p>Perform an unbalanced autorelease of the object.</p>
 </div>
@@ -295,7 +297,7 @@ and you know that you&#39;re responsible for releasing the result.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

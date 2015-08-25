@@ -9,6 +9,7 @@ strict digraph "ArraySlice<Element> - Type Hierarchy - SwiftDoc.org" {
     "CustomStringConvertible" [URL="/protocol/CustomStringConvertible/"]
     "Indexable" [URL="/protocol/Indexable/"]
     "MutableCollectionType" [URL="/protocol/MutableCollectionType/"]
+    "MutableIndexable" [URL="/protocol/MutableIndexable/"]
     "MutableSliceable" [URL="/protocol/MutableSliceable/"]
     "RangeReplaceableCollectionType" [URL="/protocol/RangeReplaceableCollectionType/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
@@ -18,6 +19,7 @@ strict digraph "ArraySlice<Element> - Type Hierarchy - SwiftDoc.org" {
     "SequenceType" -> "ArraySlice<Element>"
     "CollectionType" -> "ArraySlice<Element>"
     "MutableCollectionType" -> "ArraySlice<Element>"
+    "MutableIndexable" -> "ArraySlice<Element>"
     "_DestructorSafeContainer" -> "ArraySlice<Element>"
     "ArrayLiteralConvertible" -> "ArraySlice<Element>"
     "_ArrayType" -> "ArraySlice<Element>"
@@ -28,6 +30,7 @@ strict digraph "ArraySlice<Element> - Type Hierarchy - SwiftDoc.org" {
     "CustomDebugStringConvertible" -> "ArraySlice<Element>"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
+    "MutableIndexable" -> "MutableCollectionType"
     "CollectionType" -> "MutableCollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
@@ -41,6 +44,7 @@ strict digraph "ArraySlice<Element> - Type Hierarchy - SwiftDoc.org" {
     "MutableCollectionType" -> "MutableSliceable"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
+    "MutableIndexable" -> "MutableCollectionType"
     "CollectionType" -> "MutableCollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
@@ -48,6 +52,7 @@ strict digraph "ArraySlice<Element> - Type Hierarchy - SwiftDoc.org" {
     "MutableCollectionType" -> "MutableSliceable"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
+    "MutableIndexable" -> "MutableCollectionType"
     "CollectionType" -> "MutableCollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"

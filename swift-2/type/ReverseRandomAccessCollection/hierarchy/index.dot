@@ -5,9 +5,14 @@ strict digraph "ReverseRandomAccessCollection<Base : CollectionType where Base.I
     "CollectionType" [URL="/protocol/CollectionType/"]
     "Indexable" [URL="/protocol/Indexable/"]
     "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>" [URL="/type/ReverseRandomAccessCollection/", style="filled", fillcolor="#ee543d", color="#ee543d"]
-    "SequenceType" [URL="/protocol/SequenceType/"]    "CollectionType" -> "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>"
+    "SequenceType" [URL="/protocol/SequenceType/"]
+    "_ReverseCollectionType" [URL="/protocol/_ReverseCollectionType/"]    "_ReverseCollectionType" -> "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>"
+    "CollectionType" -> "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>"
     "Indexable" -> "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>"
     "SequenceType" -> "ReverseRandomAccessCollection<Base : CollectionType where Base.Index : RandomAccessIndexType>"
+    "CollectionType" -> "_ReverseCollectionType"
+    "Indexable" -> "CollectionType"
+    "SequenceType" -> "CollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {

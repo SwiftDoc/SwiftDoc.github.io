@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-type p-ImplicitlyUnwrappedOptional">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -177,15 +178,15 @@
           </header>
           
           <article class="content">
-          <code class="language-swift">enum ImplicitlyUnwrappedOptional&lt;T&gt; { ... }</code>
+          <code class="language-swift">enum ImplicitlyUnwrappedOptional&lt;Wrapped&gt; { ... }</code>
 
 <div class="comment">
     <p>An optional type that allows implicit member access (via compiler
 magic).</p>
 
 <p>The compiler has special knowledge of the existence of
-<code>ImplicitlyUnwrappedOptional&lt;T&gt;</code>, but always interacts with it using the
-library intrinsics below.</p>
+<code>ImplicitlyUnwrappedOptional&lt;Wrapped&gt;</code>, but always interacts with it using
+the library intrinsics below.</p>
 </div>
 
 <h3>Inheritance</h3>
@@ -199,7 +200,7 @@ library intrinsics below.</p>
 <code class="language-swift">case None</code>
 </div>
 <div class="declaration">
-<code class="language-swift">case SomeT</code>
+<code class="language-swift">case SomeWrapped</code>
 </div>
 
 <h3>Initializers</h3>
@@ -210,16 +211,16 @@ library intrinsics below.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">init(_ some: T)</code>
+<code class="language-swift">init(_ some: Wrapped)</code>
 <div class="comment">
     <p>Construct a non-<code>nil</code> instance that stores <code>some</code>.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">init(_ v: T?)</code>
+<code class="language-swift">init(_ v: Wrapped?)</code>
 <div class="comment">
     <p>Construct an instance from an explicitly unwrapped optional
-(<code>T?</code>).</p>
+(<code>Wrapped?</code>).</p>
 </div>
 </div>
 <div class="declaration">
@@ -241,13 +242,13 @@ library intrinsics below.</p>
 
 <h3>Instance Methods</h3>
 <div class="declaration" id="func-map">
-<code class="language-swift">public func map&lt;U&gt;(@noescape f: (T) -&gt; U) -> U!</code>
+<code class="language-swift">func map&lt;U&gt;(@noescape f: (Wrapped) throws -&gt; U) rethrows -> U!</code>
 <div class="comment">
     <p>If <code>self == nil</code>, returns <code>nil</code>.  Otherwise, returns <code>f(self!)</code>.</p>
 </div>
 </div>
 <div class="declaration" id="func-flatMap">
-<code class="language-swift">public func flatMap&lt;U&gt;(@noescape f: (T) -&gt; U!) -> U!</code>
+<code class="language-swift">func flatMap&lt;U&gt;(@noescape f: (Wrapped) throws -&gt; U!) rethrows -> U!</code>
 <div class="comment">
     <p>Returns <code>nil</code> if <code>self</code> is nil, <code>f(self!)</code> otherwise.</p>
 </div>
@@ -267,7 +268,7 @@ library intrinsics below.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-type p-Dictionary">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -255,7 +256,7 @@ reachable from <code>startIndex</code> by zero or more applications of
 </div>
 </div>
 <div class="declaration" id="prop-keys">
-<code class="language-swift">var keys: LazyForwardCollection&lt;MapCollection&lt;[Key : Value], Key&gt;&gt; { get }</code>
+<code class="language-swift">var keys: LazyMapCollection&lt;[Key : Value], Key&gt; { get }</code>
 <div class="comment">
     <p>A collection containing just the keys of <code>self</code>.</p>
 
@@ -265,7 +266,7 @@ unique value.</p>
 </div>
 </div>
 <div class="declaration" id="prop-values">
-<code class="language-swift">var values: LazyForwardCollection&lt;MapCollection&lt;[Key : Value], Value&gt;&gt; { get }</code>
+<code class="language-swift">var values: LazyMapCollection&lt;[Key : Value], Value&gt; { get }</code>
 <div class="comment">
     <p>A collection containing just the values of <code>self</code>.</p>
 
@@ -295,14 +296,14 @@ of key-value pairs in <code>self</code>.</p>
 
 <h3>Instance Methods</h3>
 <div class="declaration" id="func-indexForKey">
-<code class="language-swift">public func indexForKey(key: Key) -> DictionaryIndex&lt;Key, Value&gt;?</code>
+<code class="language-swift">func indexForKey(key: Key) -> DictionaryIndex&lt;Key, Value&gt;?</code>
 <div class="comment">
     <p>Returns the <code>Index</code> for the given key, or <code>nil</code> if the key is not
 present in the dictionary.</p>
 </div>
 </div>
 <div class="declaration" id="func-updateValue">
-<code class="language-swift">public mutating func updateValue(value: Value, forKey key: Key) -> Value?</code>
+<code class="language-swift">mutating func updateValue(value: Value, forKey key: Key) -> Value?</code>
 <div class="comment">
     <p>Update the value stored in the dictionary for the given key, or, if they
 key does not exist, add a new key-value pair to the dictionary.</p>
@@ -312,7 +313,7 @@ was added.</p>
 </div>
 </div>
 <div class="declaration" id="func-removeAtIndex">
-<code class="language-swift">public mutating func removeAtIndex(index: DictionaryIndex&lt;Key, Value&gt;) -> (Key, Value)</code>
+<code class="language-swift">mutating func removeAtIndex(index: DictionaryIndex&lt;Key, Value&gt;) -> (Key, Value)</code>
 <div class="comment">
     <p>Remove the key-value pair at <code>index</code>.</p>
 
@@ -322,7 +323,7 @@ was added.</p>
 </div>
 </div>
 <div class="declaration" id="func-removeValueForKey">
-<code class="language-swift">public mutating func removeValueForKey(key: Key) -> Value?</code>
+<code class="language-swift">mutating func removeValueForKey(key: Key) -> Value?</code>
 <div class="comment">
     <p>Remove a given key and the associated value from the dictionary.
 Returns the value that was removed, or <code>nil</code> if the key was not present
@@ -330,7 +331,7 @@ in the dictionary.</p>
 </div>
 </div>
 <div class="declaration" id="func-removeAll">
-<code class="language-swift">public mutating func removeAll(keepCapacity keepCapacity: Bool = default)</code>
+<code class="language-swift">mutating func removeAll(keepCapacity keepCapacity: Bool = default) </code>
 <div class="comment">
     <p>Remove all elements.</p>
 
@@ -347,7 +348,7 @@ in the dictionary.</p>
 </div>
 </div>
 <div class="declaration" id="func-generate">
-<code class="language-swift">public func generate() -> DictionaryGenerator&lt;Key, Value&gt;</code>
+<code class="language-swift">func generate() -> DictionaryGenerator&lt;Key, Value&gt;</code>
 <div class="comment">
     <p>Return a <em>generator</em> over the (key, value) pairs.</p>
 
@@ -355,7 +356,7 @@ in the dictionary.</p>
 </div>
 </div>
 <div class="declaration" id="func-popFirst">
-<code class="language-swift">public mutating func popFirst() -> (Key, Value)?</code>
+<code class="language-swift">mutating func popFirst() -> (Key, Value)?</code>
 <div class="comment">
     <p>If <code>!self.isEmpty</code>, return the first key-value pair in the sequence of
 elements, otherwise return <code>nil</code>.</p>
@@ -385,7 +386,7 @@ elements, otherwise return <code>nil</code>.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

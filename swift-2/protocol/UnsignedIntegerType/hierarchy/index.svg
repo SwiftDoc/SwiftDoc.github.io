@@ -103,23 +103,23 @@
 <!-- BidirectionalIndexType -->
 <g id="node1" class="node">
 <g id="a_node1"><a xlink:href="/swift-2/protocol/BidirectionalIndexType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M197.725,-254C197.725,-254 82.2746,-254 82.2746,-254 78.6079,-254 74.9413,-250.333 74.9413,-246.667 74.9413,-246.667 74.9413,-239.333 74.9413,-239.333 74.9413,-235.667 78.6079,-232 82.2746,-232 82.2746,-232 197.725,-232 197.725,-232 201.392,-232 205.059,-235.667 205.059,-239.333 205.059,-239.333 205.059,-246.667 205.059,-246.667 205.059,-250.333 201.392,-254 197.725,-254"/>
-<text text-anchor="middle" x="140" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">BidirectionalIndexType</text>
+<path fill="#999999" stroke="#999999" d="M357.725,-254C357.725,-254 242.275,-254 242.275,-254 238.608,-254 234.941,-250.333 234.941,-246.667 234.941,-246.667 234.941,-239.333 234.941,-239.333 234.941,-235.667 238.608,-232 242.275,-232 242.275,-232 357.725,-232 357.725,-232 361.392,-232 365.059,-235.667 365.059,-239.333 365.059,-239.333 365.059,-246.667 365.059,-246.667 365.059,-250.333 361.392,-254 357.725,-254"/>
+<text text-anchor="middle" x="300" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">BidirectionalIndexType</text>
 </a>
 </g>
 </g>
 <!-- RandomAccessIndexType -->
 <g id="node11" class="node">
 <g id="a_node11"><a xlink:href="/swift-2/protocol/RandomAccessIndexType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M207.225,-196C207.225,-196 72.7747,-196 72.7747,-196 69.108,-196 65.4413,-192.333 65.4413,-188.667 65.4413,-188.667 65.4413,-181.333 65.4413,-181.333 65.4413,-177.667 69.108,-174 72.7747,-174 72.7747,-174 207.225,-174 207.225,-174 210.892,-174 214.559,-177.667 214.559,-181.333 214.559,-181.333 214.559,-188.667 214.559,-188.667 214.559,-192.333 210.892,-196 207.225,-196"/>
-<text text-anchor="middle" x="140" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">RandomAccessIndexType</text>
+<path fill="#999999" stroke="#999999" d="M287.225,-196C287.225,-196 152.775,-196 152.775,-196 149.108,-196 145.441,-192.333 145.441,-188.667 145.441,-188.667 145.441,-181.333 145.441,-181.333 145.441,-177.667 149.108,-174 152.775,-174 152.775,-174 287.225,-174 287.225,-174 290.892,-174 294.559,-177.667 294.559,-181.333 294.559,-181.333 294.559,-188.667 294.559,-188.667 294.559,-192.333 290.892,-196 287.225,-196"/>
+<text text-anchor="middle" x="220" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">RandomAccessIndexType</text>
 </a>
 </g>
 </g>
 <!-- BidirectionalIndexType&#45;&gt;RandomAccessIndexType -->
 <g id="edge22" class="edge">
-<path fill="none" stroke="#cccccc" d="M140,-231.988C140,-224.91 140,-215.171 140,-206.478"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="143.5,-206.304 140,-196.304 136.5,-206.304 143.5,-206.304"/>
+<path fill="none" stroke="#cccccc" d="M285.698,-231.988C273.826,-223.678 256.718,-211.703 242.936,-202.055"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="244.648,-198.981 234.448,-196.114 240.634,-204.716 244.648,-198.981"/>
 </g>
 <!-- BitwiseOperationsType -->
 <g id="node2" class="node">
@@ -172,7 +172,7 @@
 </g>
 </g>
 <!-- Comparable&#45;&gt;Strideable -->
-<g id="edge26" class="edge">
+<g id="edge27" class="edge">
 <path fill="none" stroke="#cccccc" d="M246.369,-349.933C206.7,-341.373 142.132,-327.281 77.2109,-312.248"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="77.7459,-308.779 67.2133,-309.926 76.1623,-315.598 77.7459,-308.779"/>
 </g>
@@ -237,9 +237,9 @@
 </g>
 </g>
 <!-- ForwardIndexType&#45;&gt;BidirectionalIndexType -->
-<g id="edge24" class="edge">
-<path fill="none" stroke="#cccccc" d="M140,-289.988C140,-282.91 140,-273.171 140,-264.478"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="143.5,-264.304 140,-254.304 136.5,-264.304 143.5,-264.304"/>
+<g id="edge25" class="edge">
+<path fill="none" stroke="#cccccc" d="M168.605,-289.988C194.576,-280.898 233.079,-267.422 261.699,-257.405"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="263.091,-260.626 271.374,-254.019 260.779,-254.019 263.091,-260.626"/>
 </g>
 <!-- Hashable&#45;&gt;_IntegerType -->
 <g id="edge11" class="edge">
@@ -287,13 +287,13 @@
 </g>
 <!-- RandomAccessIndexType&#45;&gt;IntegerType -->
 <g id="edge21" class="edge">
-<path fill="none" stroke="#cccccc" d="M194.17,-173.988C251.74,-163.348 341.826,-146.699 396.351,-136.622"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="397.235,-140.018 406.432,-134.758 395.963,-133.134 397.235,-140.018"/>
+<path fill="none" stroke="#cccccc" d="M259.868,-173.988C298.211,-164.36 356.153,-149.809 396.561,-139.662"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="397.587,-143.013 406.434,-137.183 395.882,-136.224 397.587,-143.013"/>
 </g>
 <!-- Strideable&#45;&gt;RandomAccessIndexType -->
 <g id="edge23" class="edge">
-<path fill="none" stroke="#cccccc" d="M37.6331,-289.739C41.7206,-275.445 50.7513,-249.345 66,-232 77.3887,-219.046 93.3127,-208.506 107.473,-200.799"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="109.187,-203.853 116.458,-196.147 105.968,-197.637 109.187,-203.853"/>
+<path fill="none" stroke="#cccccc" d="M34.8999,-289.7C35.3334,-274.872 38.3818,-247.585 54,-232 75.5866,-210.46 106.315,-198.781 135.477,-192.525"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="136.149,-195.96 145.291,-190.605 134.805,-189.09 136.149,-195.96"/>
 </g>
 <!-- UInt -->
 <g id="node13" class="node">
@@ -374,7 +374,7 @@
 <polygon fill="#cccccc" stroke="#cccccc" points="535.875,-83.8178 525.88,-80.3039 531.502,-89.2839 535.875,-83.8178"/>
 </g>
 <!-- _Incrementable&#45;&gt;ForwardIndexType -->
-<g id="edge25" class="edge">
+<g id="edge26" class="edge">
 <path fill="none" stroke="#cccccc" d="M342.02,-347.988C300.52,-338.541 238.208,-324.356 193.772,-314.241"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="194.541,-310.826 184.013,-312.019 192.987,-317.652 194.541,-310.826"/>
 </g>
@@ -406,16 +406,29 @@
 <path fill="none" stroke="#cccccc" d="M583,-231.883C583,-213.17 583,-172.827 583,-148.287"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="586.5,-148.258 583,-138.258 579.5,-148.258 586.5,-148.258"/>
 </g>
-<!-- _Strideable -->
+<!-- _RandomAccessAmbiguity -->
 <g id="node23" class="node">
-<g id="a_node23"><a xlink:href="/swift-2/protocol/_Strideable/" target="_top">
+<g id="a_node23"><a xlink:href="/swift-2/protocol/_RandomAccessAmbiguity/" target="_top">
+<path fill="#999999" stroke="#999999" d="M209.214,-254C209.214,-254 70.7864,-254 70.7864,-254 67.1197,-254 63.453,-250.333 63.453,-246.667 63.453,-246.667 63.453,-239.333 63.453,-239.333 63.453,-235.667 67.1197,-232 70.7864,-232 70.7864,-232 209.214,-232 209.214,-232 212.88,-232 216.547,-235.667 216.547,-239.333 216.547,-239.333 216.547,-246.667 216.547,-246.667 216.547,-250.333 212.88,-254 209.214,-254"/>
+<text text-anchor="middle" x="140" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_RandomAccessAmbiguity</text>
+</a>
+</g>
+</g>
+<!-- _RandomAccessAmbiguity&#45;&gt;RandomAccessIndexType -->
+<g id="edge24" class="edge">
+<path fill="none" stroke="#cccccc" d="M154.302,-231.988C166.174,-223.678 183.282,-211.703 197.064,-202.055"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="199.366,-204.716 205.552,-196.114 195.352,-198.981 199.366,-204.716"/>
+</g>
+<!-- _Strideable -->
+<g id="node24" class="node">
+<g id="a_node24"><a xlink:href="/swift-2/protocol/_Strideable/" target="_top">
 <path fill="#999999" stroke="#999999" d="M62.6997,-370C62.6997,-370 7.30027,-370 7.30027,-370 3.63361,-370 -0.0330612,-366.333 -0.0330612,-362.667 -0.0330612,-362.667 -0.0330612,-355.333 -0.0330612,-355.333 -0.0330612,-351.667 3.63361,-348 7.30027,-348 7.30027,-348 62.6997,-348 62.6997,-348 66.3664,-348 70.0331,-351.667 70.0331,-355.333 70.0331,-355.333 70.0331,-362.667 70.0331,-362.667 70.0331,-366.333 66.3664,-370 62.6997,-370"/>
 <text text-anchor="middle" x="35" y="-355.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Strideable</text>
 </a>
 </g>
 </g>
 <!-- _Strideable&#45;&gt;Strideable -->
-<g id="edge27" class="edge">
+<g id="edge28" class="edge">
 <path fill="none" stroke="#cccccc" d="M35,-347.988C35,-340.91 35,-331.171 35,-322.478"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="38.5001,-322.304 35,-312.304 31.5001,-322.304 38.5001,-322.304"/>
 </g>

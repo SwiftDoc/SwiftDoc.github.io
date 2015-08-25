@@ -5,8 +5,10 @@ strict digraph "_ArrayBufferType - Type Hierarchy - SwiftDoc.org" {
     "CollectionType" [URL="/protocol/CollectionType/"]
     "Indexable" [URL="/protocol/Indexable/"]
     "MutableCollectionType" [URL="/protocol/MutableCollectionType/"]
+    "MutableIndexable" [URL="/protocol/MutableIndexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
     "_ArrayBufferType" [URL="/protocol/_ArrayBufferType/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]    "MutableCollectionType" -> "_ArrayBufferType"
+    "MutableIndexable" -> "MutableCollectionType"
     "CollectionType" -> "MutableCollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"

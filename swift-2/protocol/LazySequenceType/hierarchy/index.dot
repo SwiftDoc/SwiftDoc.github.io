@@ -1,0 +1,27 @@
+strict digraph "LazySequenceType - Type Hierarchy - SwiftDoc.org" {
+    pad="0.1,0.8"
+    node [shape=box, style="filled,rounded", color="#999999", fillcolor="#999999", fontcolor=white, fontname=Helvetica, fontnames="Helvetica,sansserif", fontsize=12, margin="0.07,0.05", height="0.3"]
+    edge [color="#cccccc"]
+    "LazyCollection" [URL="/type/LazyCollection/", style=filled]
+    "LazyCollectionType" [URL="/protocol/LazyCollectionType/"]
+    "LazyFilterCollection" [URL="/type/LazyFilterCollection/", style=filled]
+    "LazyFilterSequence" [URL="/type/LazyFilterSequence/", style=filled]
+    "LazyMapCollection" [URL="/type/LazyMapCollection/", style=filled]
+    "LazyMapSequence" [URL="/type/LazyMapSequence/", style=filled]
+    "LazySequence" [URL="/type/LazySequence/", style=filled]
+    "LazySequenceType" [URL="/protocol/LazySequenceType/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]
+    "SequenceType" [URL="/protocol/SequenceType/"]    "LazySequenceType" -> "LazyCollection"
+    "LazySequenceType" -> "LazyCollectionType"
+    "LazySequenceType" -> "LazyFilterCollection"
+    "LazySequenceType" -> "LazyFilterSequence"
+    "LazySequenceType" -> "LazyMapCollection"
+    "LazySequenceType" -> "LazyMapSequence"
+    "LazySequenceType" -> "LazySequence"
+    "LazyCollectionType" -> "LazyCollection"
+    "LazyCollectionType" -> "LazyFilterCollection"
+    "LazyCollectionType" -> "LazyMapCollection"
+    "SequenceType" -> "LazySequenceType"
+    subgraph Types {
+        rank = max; "LazyCollection"; "LazyFilterCollection"; "LazyFilterSequence"; "LazyMapCollection"; "LazyMapSequence"; "LazySequence";
+    }
+}

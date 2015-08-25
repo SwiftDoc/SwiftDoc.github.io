@@ -9,6 +9,7 @@ strict digraph "_ArrayType - Type Hierarchy - SwiftDoc.org" {
     "ContiguousArray" [URL="/type/ContiguousArray/", style=filled]
     "Indexable" [URL="/protocol/Indexable/"]
     "MutableCollectionType" [URL="/protocol/MutableCollectionType/"]
+    "MutableIndexable" [URL="/protocol/MutableIndexable/"]
     "MutableSliceable" [URL="/protocol/MutableSliceable/"]
     "RangeReplaceableCollectionType" [URL="/protocol/RangeReplaceableCollectionType/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
@@ -25,6 +26,7 @@ strict digraph "_ArrayType - Type Hierarchy - SwiftDoc.org" {
     "MutableCollectionType" -> "MutableSliceable"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
+    "MutableIndexable" -> "MutableCollectionType"
     "CollectionType" -> "MutableCollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"

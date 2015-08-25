@@ -6,12 +6,15 @@ strict digraph "UnsafeMutableBufferPointer<Element> - Type Hierarchy - SwiftDoc.
     "CustomDebugStringConvertible" [URL="/protocol/CustomDebugStringConvertible/"]
     "Indexable" [URL="/protocol/Indexable/"]
     "MutableCollectionType" [URL="/protocol/MutableCollectionType/"]
+    "MutableIndexable" [URL="/protocol/MutableIndexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
     "UnsafeMutableBufferPointer<Element>" [URL="/type/UnsafeMutableBufferPointer/", style="filled", fillcolor="#ee543d", color="#ee543d"]    "MutableCollectionType" -> "UnsafeMutableBufferPointer<Element>"
     "CollectionType" -> "UnsafeMutableBufferPointer<Element>"
     "Indexable" -> "UnsafeMutableBufferPointer<Element>"
     "SequenceType" -> "UnsafeMutableBufferPointer<Element>"
+    "MutableIndexable" -> "UnsafeMutableBufferPointer<Element>"
     "CustomDebugStringConvertible" -> "UnsafeMutableBufferPointer<Element>"
+    "MutableIndexable" -> "MutableCollectionType"
     "CollectionType" -> "MutableCollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"

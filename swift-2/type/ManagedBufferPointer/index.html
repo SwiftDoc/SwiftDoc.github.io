@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-type p-ManagedBufferPointer">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -284,7 +285,7 @@ an instance is created.</p>
 
 <h3>Instance Methods</h3>
 <div class="declaration" id="func-withUnsafeMutablePointerToValue">
-<code class="language-swift">public func withUnsafeMutablePointerToValue&lt;R&gt;(body: (UnsafeMutablePointer&lt;Value&gt;) -&gt; R) -> R</code>
+<code class="language-swift">func withUnsafeMutablePointerToValue&lt;R&gt;(body: (UnsafeMutablePointer&lt;Value&gt;) -&gt; R) -> R</code>
 <div class="comment">
     <p>Call <code>body</code> with an <code>UnsafeMutablePointer</code> to the stored
 <code>Value</code>.</p>
@@ -294,7 +295,7 @@ an instance is created.</p>
 </div>
 </div>
 <div class="declaration" id="func-withUnsafeMutablePointerToElements">
-<code class="language-swift">public func withUnsafeMutablePointerToElements&lt;R&gt;(body: (UnsafeMutablePointer&lt;Element&gt;) -&gt; R) -> R</code>
+<code class="language-swift">func withUnsafeMutablePointerToElements&lt;R&gt;(body: (UnsafeMutablePointer&lt;Element&gt;) -&gt; R) -> R</code>
 <div class="comment">
     <p>Call <code>body</code> with an <code>UnsafeMutablePointer</code> to the <code>Element</code>
 storage.</p>
@@ -304,7 +305,7 @@ storage.</p>
 </div>
 </div>
 <div class="declaration" id="func-withUnsafeMutablePointers">
-<code class="language-swift">public func withUnsafeMutablePointers&lt;R&gt;(body: (UnsafeMutablePointer&lt;Value&gt;, UnsafeMutablePointer&lt;Element&gt;) -&gt; R) -> R</code>
+<code class="language-swift">func withUnsafeMutablePointers&lt;R&gt;(body: (UnsafeMutablePointer&lt;Value&gt;, UnsafeMutablePointer&lt;Element&gt;) -&gt; R) -> R</code>
 <div class="comment">
     <p>Call <code>body</code> with <code>UnsafeMutablePointer</code>s to the stored <code>Value</code>
 and raw <code>Element</code> storage.</p>
@@ -314,7 +315,7 @@ and raw <code>Element</code> storage.</p>
 </div>
 </div>
 <div class="declaration" id="func-holdsUniqueReference">
-<code class="language-swift">public mutating func holdsUniqueReference() -> Bool</code>
+<code class="language-swift">mutating func holdsUniqueReference() -> Bool</code>
 <div class="comment">
     <p>Returns true iff <code>self</code> holds the only strong reference to its buffer.</p>
 
@@ -322,7 +323,7 @@ and raw <code>Element</code> storage.</p>
 </div>
 </div>
 <div class="declaration" id="func-holdsUniqueOrPinnedReference">
-<code class="language-swift">public mutating func holdsUniqueOrPinnedReference() -> Bool</code>
+<code class="language-swift">mutating func holdsUniqueOrPinnedReference() -> Bool</code>
 <div class="comment">
     <p>Returns true iff either <code>self</code> holds the only strong reference
 to its buffer or the pinned has been &#39;pinned&#39;.</p>
@@ -345,7 +346,7 @@ to its buffer or the pinned has been &#39;pinned&#39;.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

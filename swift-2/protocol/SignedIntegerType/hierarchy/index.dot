@@ -25,6 +25,7 @@ strict digraph "SignedIntegerType - Type Hierarchy - SwiftDoc.org" {
     "_Incrementable" [URL="/protocol/_Incrementable/"]
     "_IntegerArithmeticType" [URL="/protocol/_IntegerArithmeticType/"]
     "_IntegerType" [URL="/protocol/_IntegerType/"]
+    "_RandomAccessAmbiguity" [URL="/protocol/_RandomAccessAmbiguity/"]
     "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]
     "_Strideable" [URL="/protocol/_Strideable/"]    "SignedIntegerType" -> "Int"
     "SignedIntegerType" -> "Int16"
@@ -65,6 +66,7 @@ strict digraph "SignedIntegerType - Type Hierarchy - SwiftDoc.org" {
     "Equatable" -> "_Incrementable"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"

@@ -15,6 +15,7 @@ strict digraph "UnsafeMutablePointer<Memory> - Type Hierarchy - SwiftDoc.org" {
     "UnsafeMutablePointer<Memory>" [URL="/type/UnsafeMutablePointer/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]
     "_PointerType" [URL="/protocol/_PointerType/"]
+    "_RandomAccessAmbiguity" [URL="/protocol/_RandomAccessAmbiguity/"]
     "_Reflectable" [URL="/protocol/_Reflectable/"]
     "_Strideable" [URL="/protocol/_Strideable/"]    "Equatable" -> "UnsafeMutablePointer<Memory>"
     "Hashable" -> "UnsafeMutablePointer<Memory>"
@@ -27,6 +28,7 @@ strict digraph "UnsafeMutablePointer<Memory> - Type Hierarchy - SwiftDoc.org" {
     "Strideable" -> "UnsafeMutablePointer<Memory>"
     "Comparable" -> "UnsafeMutablePointer<Memory>"
     "_Strideable" -> "UnsafeMutablePointer<Memory>"
+    "_RandomAccessAmbiguity" -> "UnsafeMutablePointer<Memory>"
     "CustomDebugStringConvertible" -> "UnsafeMutablePointer<Memory>"
     "_Reflectable" -> "UnsafeMutablePointer<Memory>"
     "CVarArgType" -> "UnsafeMutablePointer<Memory>"
@@ -39,6 +41,7 @@ strict digraph "UnsafeMutablePointer<Memory> - Type Hierarchy - SwiftDoc.org" {
     "Equatable" -> "_Incrementable"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"

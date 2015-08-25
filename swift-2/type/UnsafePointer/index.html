@@ -11,7 +11,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Swift documentation for 'UnsafePointer': A pointer to an object of type Memory.  This type provides no automated memory management, and therefore the user must take care to allocate and free memory appropriately.">
-    <meta name="keywords" content="UnsafePointer,struct,swift,documentation,successor,predecessor,distanceTo,advancedBy,memory,hashValue,debugDescription">
+    <meta name="keywords" content="UnsafePointer,struct,swift,documentation,successor,predecessor,distanceTo,advancedBy,memory,hashValue,debugDescription,Distance">
     <link rel="canonical" href="http://swiftdoc.org/swift-2/type/UnsafePointer/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-type p-UnsafePointer">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -191,9 +192,13 @@ been deallocated previously);</p></li><li><p>memory is allocated, but value has 
 </div>
 
 <h3>Inheritance</h3>
-<code class="inherits">Equatable, Hashable, NilLiteralConvertible, _PointerType, BidirectionalIndexType, ForwardIndexType, _Incrementable, RandomAccessIndexType, Strideable, Comparable, _Strideable, CustomDebugStringConvertible, _Reflectable, CVarArgType</code>
+<code class="inherits">Equatable, Hashable, NilLiteralConvertible, _PointerType, BidirectionalIndexType, ForwardIndexType, _Incrementable, RandomAccessIndexType, Strideable, Comparable, _Strideable, _RandomAccessAmbiguity, CustomDebugStringConvertible, _Reflectable, CVarArgType</code>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
+<h3 id="aliases">Associated types</h3>
+<div class="declaration">
+<code class="language-swift">typealias Distance = Int</code>
+</div>
 
 
 
@@ -281,7 +286,7 @@ been deallocated previously);</p></li><li><p>memory is allocated, but value has 
 
 <h3>Instance Methods</h3>
 <div class="declaration" id="func-successor">
-<code class="language-swift">public func successor() -> UnsafePointer&lt;Memory&gt;</code>
+<code class="language-swift">func successor() -> UnsafePointer&lt;Memory&gt;</code>
 <div class="comment">
     <p>Returns the next consecutive value after <code>self</code>.</p>
 
@@ -289,7 +294,7 @@ been deallocated previously);</p></li><li><p>memory is allocated, but value has 
 </div>
 </div>
 <div class="declaration" id="func-predecessor">
-<code class="language-swift">public func predecessor() -> UnsafePointer&lt;Memory&gt;</code>
+<code class="language-swift">func predecessor() -> UnsafePointer&lt;Memory&gt;</code>
 <div class="comment">
     <p>Returns the previous consecutive value before <code>self</code>.</p>
 
@@ -297,25 +302,10 @@ been deallocated previously);</p></li><li><p>memory is allocated, but value has 
 </div>
 </div>
 <div class="declaration" id="func-distanceTo">
-<code class="language-swift">public func distanceTo(x: UnsafePointer&lt;Memory&gt;) -> Int</code>
-<div class="comment">
-    <p>Return the minimum number of applications of <code>successor</code> or
-<code>predecessor</code> required to reach <code>other</code> from <code>self</code>.</p>
-
-<p><strong>Complexity:</strong> O(1).</p>
-</div>
+<code class="language-swift">func distanceTo(x: UnsafePointer&lt;Memory&gt;) -> Int</code>
 </div>
 <div class="declaration" id="func-advancedBy">
-<code class="language-swift">public func advancedBy(n: Int) -> UnsafePointer&lt;Memory&gt;</code>
-<div class="comment">
-    <p>Return <code>self</code> offset by <code>n</code> steps.</p>
-
-<p><strong>Returns:</strong> If <code>n &gt; 0</code>, the result of applying <code>successor</code> to
-  <code>self</code> <code>n</code> times.  If <code>n &lt; 0</code>, the result of applying
-  <code>predecessor</code> to <code>self</code> <code>-n</code> times. Otherwise, <code>self</code>.</p>
-
-<p><strong>Complexity:</strong> O(1).</p>
-</div>
+<code class="language-swift">func advancedBy(n: Int) -> UnsafePointer&lt;Memory&gt;</code>
 </div>
 
 <h3>Subscripts</h3>
@@ -336,7 +326,7 @@ been deallocated previously);</p></li><li><p>memory is allocated, but value has 
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

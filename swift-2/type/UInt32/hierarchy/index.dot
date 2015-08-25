@@ -21,6 +21,7 @@ strict digraph "UInt32 - Type Hierarchy - SwiftDoc.org" {
     "_Incrementable" [URL="/protocol/_Incrementable/"]
     "_IntegerArithmeticType" [URL="/protocol/_IntegerArithmeticType/"]
     "_IntegerType" [URL="/protocol/_IntegerType/"]
+    "_RandomAccessAmbiguity" [URL="/protocol/_RandomAccessAmbiguity/"]
     "_Reflectable" [URL="/protocol/_Reflectable/"]
     "_Strideable" [URL="/protocol/_Strideable/"]    "_IntegerArithmeticType" -> "UInt32"
     "Comparable" -> "UInt32"
@@ -39,6 +40,7 @@ strict digraph "UInt32 - Type Hierarchy - SwiftDoc.org" {
     "ForwardIndexType" -> "UInt32"
     "Strideable" -> "UInt32"
     "_Strideable" -> "UInt32"
+    "_RandomAccessAmbiguity" -> "UInt32"
     "BitwiseOperationsType" -> "UInt32"
     "_Reflectable" -> "UInt32"
     "CVarArgType" -> "UInt32"
@@ -84,6 +86,7 @@ strict digraph "UInt32 - Type Hierarchy - SwiftDoc.org" {
     "Equatable" -> "_Incrementable"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"
@@ -119,6 +122,7 @@ strict digraph "UInt32 - Type Hierarchy - SwiftDoc.org" {
     "Equatable" -> "_Incrementable"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"
@@ -129,6 +133,7 @@ strict digraph "UInt32 - Type Hierarchy - SwiftDoc.org" {
     "Equatable" -> "_Incrementable"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"

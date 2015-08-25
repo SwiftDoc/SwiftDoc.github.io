@@ -117,8 +117,8 @@
 </g>
 </g>
 <!-- _ArrayType -->
-<g id="node11" class="node">
-<g id="a_node11"><a xlink:href="/swift-2/protocol/_ArrayType/" target="_top">
+<g id="node12" class="node">
+<g id="a_node12"><a xlink:href="/swift-2/protocol/_ArrayType/" target="_top">
 <path fill="#ee543d" stroke="#ee543d" d="M229.19,-80C229.19,-80 172.81,-80 172.81,-80 169.144,-80 165.477,-76.3333 165.477,-72.6667 165.477,-72.6667 165.477,-65.3333 165.477,-65.3333 165.477,-61.6667 169.144,-58 172.81,-58 172.81,-58 229.19,-58 229.19,-58 232.856,-58 236.523,-61.6667 236.523,-65.3333 236.523,-65.3333 236.523,-72.6667 236.523,-72.6667 236.523,-76.3333 232.856,-80 229.19,-80"/>
 <text text-anchor="middle" x="201" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ArrayType</text>
 </a>
@@ -140,8 +140,8 @@
 <!-- CollectionType -->
 <g id="node4" class="node">
 <g id="a_node4"><a xlink:href="/swift-2/protocol/CollectionType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M237.704,-254C237.704,-254 164.296,-254 164.296,-254 160.63,-254 156.963,-250.333 156.963,-246.667 156.963,-246.667 156.963,-239.333 156.963,-239.333 156.963,-235.667 160.63,-232 164.296,-232 164.296,-232 237.704,-232 237.704,-232 241.37,-232 245.037,-235.667 245.037,-239.333 245.037,-239.333 245.037,-246.667 245.037,-246.667 245.037,-250.333 241.37,-254 237.704,-254"/>
-<text text-anchor="middle" x="201" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionType</text>
+<path fill="#999999" stroke="#999999" d="M248.704,-254C248.704,-254 175.296,-254 175.296,-254 171.63,-254 167.963,-250.333 167.963,-246.667 167.963,-246.667 167.963,-239.333 167.963,-239.333 167.963,-235.667 171.63,-232 175.296,-232 175.296,-232 248.704,-232 248.704,-232 252.37,-232 256.037,-235.667 256.037,-239.333 256.037,-239.333 256.037,-246.667 256.037,-246.667 256.037,-250.333 252.37,-254 248.704,-254"/>
+<text text-anchor="middle" x="212" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionType</text>
 </a>
 </g>
 </g>
@@ -154,13 +154,13 @@
 </g>
 </g>
 <!-- CollectionType&#45;&gt;MutableCollectionType -->
-<g id="edge12" class="edge">
-<path fill="none" stroke="#cccccc" d="M184.195,-231.988C169.847,-223.441 148.99,-211.015 132.572,-201.234"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="134.359,-198.225 123.977,-196.114 130.776,-204.239 134.359,-198.225"/>
+<g id="edge13" class="edge">
+<path fill="none" stroke="#cccccc" d="M193.228,-231.988C176.979,-223.322 153.255,-210.67 134.803,-200.828"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="136.434,-197.732 125.963,-196.114 133.14,-203.908 136.434,-197.732"/>
 </g>
 <!-- MutableSliceable -->
-<g id="node8" class="node">
-<g id="a_node8"><a xlink:href="/swift-2/protocol/MutableSliceable/" target="_top">
+<g id="node9" class="node">
+<g id="a_node9"><a xlink:href="/swift-2/protocol/MutableSliceable/" target="_top">
 <path fill="#999999" stroke="#999999" d="M244.208,-138C244.208,-138 157.792,-138 157.792,-138 154.126,-138 150.459,-134.333 150.459,-130.667 150.459,-130.667 150.459,-123.333 150.459,-123.333 150.459,-119.667 154.126,-116 157.792,-116 157.792,-116 244.208,-116 244.208,-116 247.874,-116 251.541,-119.667 251.541,-123.333 251.541,-123.333 251.541,-130.667 251.541,-130.667 251.541,-134.333 247.874,-138 244.208,-138"/>
 <text text-anchor="middle" x="201" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">MutableSliceable</text>
 </a>
@@ -168,12 +168,12 @@
 </g>
 <!-- CollectionType&#45;&gt;MutableSliceable -->
 <g id="edge10" class="edge">
-<path fill="none" stroke="#cccccc" d="M201,-231.883C201,-213.17 201,-172.827 201,-148.287"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="204.5,-148.258 201,-138.258 197.5,-148.258 204.5,-148.258"/>
+<path fill="none" stroke="#cccccc" d="M211.024,-231.883C209.218,-213.17 205.325,-172.827 202.957,-148.287"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="206.434,-147.876 201.99,-138.258 199.467,-148.548 206.434,-147.876"/>
 </g>
 <!-- RangeReplaceableCollectionType -->
-<g id="node9" class="node">
-<g id="a_node9"><a xlink:href="/swift-2/protocol/RangeReplaceableCollectionType/" target="_top">
+<g id="node10" class="node">
+<g id="a_node10"><a xlink:href="/swift-2/protocol/RangeReplaceableCollectionType/" target="_top">
 <path fill="#999999" stroke="#999999" d="M411.76,-196C411.76,-196 236.24,-196 236.24,-196 232.573,-196 228.906,-192.333 228.906,-188.667 228.906,-188.667 228.906,-181.333 228.906,-181.333 228.906,-177.667 232.573,-174 236.24,-174 236.24,-174 411.76,-174 411.76,-174 415.427,-174 419.094,-177.667 419.094,-181.333 419.094,-181.333 419.094,-188.667 419.094,-188.667 419.094,-192.333 415.427,-196 411.76,-196"/>
 <text text-anchor="middle" x="324" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">RangeReplaceableCollectionType</text>
 </a>
@@ -181,8 +181,8 @@
 </g>
 <!-- CollectionType&#45;&gt;RangeReplaceableCollectionType -->
 <g id="edge7" class="edge">
-<path fill="none" stroke="#cccccc" d="M222.99,-231.988C242.372,-223.164 270.833,-210.206 292.609,-200.292"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="294.135,-203.443 301.786,-196.114 291.234,-197.072 294.135,-203.443"/>
+<path fill="none" stroke="#cccccc" d="M232.023,-231.988C249.435,-223.283 274.892,-210.554 294.613,-200.694"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="296.393,-203.717 303.772,-196.114 293.263,-197.456 296.393,-203.717"/>
 </g>
 <!-- ContiguousArray -->
 <g id="node5" class="node">
@@ -195,20 +195,33 @@
 <!-- Indexable -->
 <g id="node6" class="node">
 <g id="a_node6"><a xlink:href="/swift-2/protocol/Indexable/" target="_top">
-<path fill="#999999" stroke="#999999" d="M177.699,-312C177.699,-312 130.301,-312 130.301,-312 126.634,-312 122.968,-308.333 122.968,-304.667 122.968,-304.667 122.968,-297.333 122.968,-297.333 122.968,-293.667 126.634,-290 130.301,-290 130.301,-290 177.699,-290 177.699,-290 181.366,-290 185.032,-293.667 185.032,-297.333 185.032,-297.333 185.032,-304.667 185.032,-304.667 185.032,-308.333 181.366,-312 177.699,-312"/>
-<text text-anchor="middle" x="154" y="-297.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Indexable</text>
+<path fill="#999999" stroke="#999999" d="M188.699,-312C188.699,-312 141.301,-312 141.301,-312 137.634,-312 133.968,-308.333 133.968,-304.667 133.968,-304.667 133.968,-297.333 133.968,-297.333 133.968,-293.667 137.634,-290 141.301,-290 141.301,-290 188.699,-290 188.699,-290 192.366,-290 196.032,-293.667 196.032,-297.333 196.032,-297.333 196.032,-304.667 196.032,-304.667 196.032,-308.333 192.366,-312 188.699,-312"/>
+<text text-anchor="middle" x="165" y="-297.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Indexable</text>
 </a>
 </g>
 </g>
 <!-- Indexable&#45;&gt;CollectionType -->
 <g id="edge8" class="edge">
-<path fill="none" stroke="#cccccc" d="M162.403,-289.988C168.872,-282.281 177.988,-271.419 185.736,-262.187"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="188.604,-264.214 192.352,-254.304 183.242,-259.714 188.604,-264.214"/>
+<path fill="none" stroke="#cccccc" d="M173.403,-289.988C179.872,-282.281 188.988,-271.419 196.736,-262.187"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="199.604,-264.214 203.352,-254.304 194.242,-259.714 199.604,-264.214"/>
 </g>
 <!-- MutableCollectionType&#45;&gt;MutableSliceable -->
 <g id="edge11" class="edge">
 <path fill="none" stroke="#cccccc" d="M123.805,-173.988C138.153,-165.441 159.01,-153.015 175.428,-143.234"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="177.224,-146.239 184.023,-138.114 173.641,-140.225 177.224,-146.239"/>
+</g>
+<!-- MutableIndexable -->
+<g id="node8" class="node">
+<g id="a_node8"><a xlink:href="/swift-2/protocol/MutableIndexable/" target="_top">
+<path fill="#999999" stroke="#999999" d="M141.718,-254C141.718,-254 52.2818,-254 52.2818,-254 48.6151,-254 44.9484,-250.333 44.9484,-246.667 44.9484,-246.667 44.9484,-239.333 44.9484,-239.333 44.9484,-235.667 48.6151,-232 52.2818,-232 52.2818,-232 141.718,-232 141.718,-232 145.385,-232 149.052,-235.667 149.052,-239.333 149.052,-239.333 149.052,-246.667 149.052,-246.667 149.052,-250.333 145.385,-254 141.718,-254"/>
+<text text-anchor="middle" x="97" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">MutableIndexable</text>
+</a>
+</g>
+</g>
+<!-- MutableIndexable&#45;&gt;MutableCollectionType -->
+<g id="edge12" class="edge">
+<path fill="none" stroke="#cccccc" d="M98.7878,-231.988C100.066,-224.831 101.83,-214.955 103.395,-206.189"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="106.848,-206.763 105.16,-196.304 99.9565,-205.533 106.848,-206.763"/>
 </g>
 <!-- MutableSliceable&#45;&gt;_ArrayType -->
 <g id="edge5" class="edge">
@@ -221,17 +234,17 @@
 <polygon fill="#cccccc" stroke="#cccccc" points="225.196,-83.1575 215.075,-80.0236 221.033,-88.7848 225.196,-83.1575"/>
 </g>
 <!-- SequenceType -->
-<g id="node10" class="node">
-<g id="a_node10"><a xlink:href="/swift-2/protocol/SequenceType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M285.718,-312C285.718,-312 210.282,-312 210.282,-312 206.615,-312 202.949,-308.333 202.949,-304.667 202.949,-304.667 202.949,-297.333 202.949,-297.333 202.949,-293.667 206.615,-290 210.282,-290 210.282,-290 285.718,-290 285.718,-290 289.385,-290 293.051,-293.667 293.051,-297.333 293.051,-297.333 293.051,-304.667 293.051,-304.667 293.051,-308.333 289.385,-312 285.718,-312"/>
-<text text-anchor="middle" x="248" y="-297.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
+<g id="node11" class="node">
+<g id="a_node11"><a xlink:href="/swift-2/protocol/SequenceType/" target="_top">
+<path fill="#999999" stroke="#999999" d="M296.718,-312C296.718,-312 221.282,-312 221.282,-312 217.615,-312 213.949,-308.333 213.949,-304.667 213.949,-304.667 213.949,-297.333 213.949,-297.333 213.949,-293.667 217.615,-290 221.282,-290 221.282,-290 296.718,-290 296.718,-290 300.385,-290 304.051,-293.667 304.051,-297.333 304.051,-297.333 304.051,-304.667 304.051,-304.667 304.051,-308.333 300.385,-312 296.718,-312"/>
+<text text-anchor="middle" x="259" y="-297.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>
 </g>
 </g>
 <!-- SequenceType&#45;&gt;CollectionType -->
 <g id="edge9" class="edge">
-<path fill="none" stroke="#cccccc" d="M239.597,-289.988C233.128,-282.281 224.012,-271.419 216.264,-262.187"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="218.758,-259.714 209.648,-254.304 213.396,-264.214 218.758,-259.714"/>
+<path fill="none" stroke="#cccccc" d="M250.597,-289.988C244.128,-282.281 235.012,-271.419 227.264,-262.187"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="229.758,-259.714 220.648,-254.304 224.396,-264.214 229.758,-259.714"/>
 </g>
 <!-- _ArrayType&#45;&gt;Array -->
 <g id="edge1" class="edge">

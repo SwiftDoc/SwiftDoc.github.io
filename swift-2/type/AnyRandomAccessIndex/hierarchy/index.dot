@@ -10,6 +10,7 @@ strict digraph "AnyRandomAccessIndex - Type Hierarchy - SwiftDoc.org" {
     "RandomAccessIndexType" [URL="/protocol/RandomAccessIndexType/"]
     "Strideable" [URL="/protocol/Strideable/"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]
+    "_RandomAccessAmbiguity" [URL="/protocol/_RandomAccessAmbiguity/"]
     "_Strideable" [URL="/protocol/_Strideable/"]    "ForwardIndexType" -> "AnyRandomAccessIndex"
     "_Incrementable" -> "AnyRandomAccessIndex"
     "Equatable" -> "AnyRandomAccessIndex"
@@ -18,11 +19,13 @@ strict digraph "AnyRandomAccessIndex - Type Hierarchy - SwiftDoc.org" {
     "Strideable" -> "AnyRandomAccessIndex"
     "Comparable" -> "AnyRandomAccessIndex"
     "_Strideable" -> "AnyRandomAccessIndex"
+    "_RandomAccessAmbiguity" -> "AnyRandomAccessIndex"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"
     "Equatable" -> "_Incrementable"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"

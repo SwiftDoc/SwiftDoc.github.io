@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-protocol p-Strideable">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -182,8 +183,6 @@
 <div class="comment">
     <p>Conforming types are notionally continuous, one-dimensional
 values that can be offset and measured.</p>
-
-<p><strong>See Also:</strong> <code>stride(from: to: by:)</code> and <code>stride(from: through: by:)</code></p>
 </div>
 
 <h3>Inheritance</h3>
@@ -206,7 +205,7 @@ values that can be offset and measured.</p>
 
 <h3>Instance Methods</h3>
 <div class="declaration" id="func-distanceTo">
-<code class="language-swift">public func distanceTo(other: Self) -> Self.Stride</code>
+<code class="language-swift">func distanceTo(other: Self) -> Self.Stride</code>
 <div class="comment">
     <p>Returns a stride <code>x</code> such that <code>self.advancedBy(x)</code> approximates
 <code>other</code>.</p>
@@ -218,7 +217,7 @@ values that can be offset and measured.</p>
 </div>
 </div>
 <div class="declaration" id="func-advancedBy">
-<code class="language-swift">public func advancedBy(n: Self.Stride) -> Self</code>
+<code class="language-swift">func advancedBy(n: Self.Stride) -> Self</code>
 <div class="comment">
     <p>Returns a <code>Self</code> <code>x</code> such that <code>self.distanceTo(x)</code> approximates
 <code>n</code>.</p>
@@ -229,6 +228,34 @@ values that can be offset and measured.</p>
   provides a stronger semantic guarantee.</p>
 </div>
 </div>
+
+
+
+<h3>Default Implementations</h3>
+
+
+
+<div class="declaration" id="func-stride">
+<code class="language-swift">func stride(to end: Self, by stride: Self.Stride) -> StrideTo&lt;Self&gt;</code>
+<div class="comment">
+    <p>Return the sequence of values (<code>self</code>, <code>self + stride</code>, <code>self +
+stride + stride</code>, ... <em>last</em>) where <em>last</em> is the last value in
+the progression that is less than <code>end</code>.</p>
+</div>
+</div>
+<div class="declaration" id="func-stride">
+<code class="language-swift">func stride(through end: Self, by stride: Self.Stride) -> StrideThrough&lt;Self&gt;</code>
+<div class="comment">
+    <p>Return the sequence of values (<code>start</code>, <code>start + stride</code>, <code>start +
+stride + stride</code>, ... <em>last</em>) where <em>last</em> is the last value in
+the progression less than or equal to <code>end</code>.</p>
+
+<p><strong>Note:</strong> There is no guarantee that <code>end</code> is an element of the sequence.</p>
+</div>
+</div>
+
+
+
 
 
 
@@ -244,7 +271,7 @@ values that can be offset and measured.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-func p-anyGenerator">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -178,7 +179,7 @@
           
           <article class="content">
           <div class="declaration" id="func-anyGenerator">
-<code class="language-swift">public func anyGenerator&lt;G : GeneratorType&gt;(base: G) -> AnyGenerator&lt;G.Element&gt;</code>
+<code class="language-swift">func anyGenerator&lt;G : GeneratorType&gt;(base: G) -> AnyGenerator&lt;G.Element&gt;</code>
 <div class="comment">
     <p>Return a <code>GeneratorType</code> instance that wraps <code>base</code> but whose type
 depends only on the type of <code>G.Element</code>.</p>
@@ -186,7 +187,7 @@ depends only on the type of <code>G.Element</code>.</p>
 <p>Example:</p>
 
 <pre><code class="language-swift">func countStrings() -&gt; AnyGenerator&lt;String&gt; {
-  let lazyStrings = lazy(0..&lt;10).map { String($0) }
+  let lazyStrings = (0..&lt;10).lazy.map { String($0) }
 
   // This is a really complicated type of no interest to our
   // clients.
@@ -197,7 +198,7 @@ depends only on the type of <code>G.Element</code>.</p>
 </div>
 </div>
 <div class="declaration" id="func-anyGenerator">
-<code class="language-swift">public func anyGenerator&lt;Element&gt;(body: () -&gt; Element?) -> AnyGenerator&lt;Element&gt;</code>
+<code class="language-swift">func anyGenerator&lt;Element&gt;(body: () -&gt; Element?) -> AnyGenerator&lt;Element&gt;</code>
 <div class="comment">
     <p>Return a <code>GeneratorType</code> instance whose <code>next</code> method invokes
 <code>body</code> and returns the result.</p>
@@ -221,7 +222,7 @@ let a = Array(g) // [ 7, 8, 9, 10, 11, 12, 13, 14 ]</code></pre>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

@@ -10,8 +10,8 @@
     <title>LazySequence &#8212; SwiftDoc.org</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Swift documentation for 'LazySequence': A sequence that forwards its implementation to an underlying sequence instance while exposing lazy computations as methods.">
-    <meta name="keywords" content="LazySequence,struct,swift,documentation,generate,underestimateCount,filter,map,array">
+    <meta name="description" content="Swift documentation for 'LazySequence': A sequence containing the same elements as a Base sequence, but on which some operations such as map and filter are implemented lazily.">
+    <meta name="keywords" content="LazySequence,struct,swift,documentation,elements">
     <link rel="canonical" href="http://swiftdoc.org/swift-2/type/LazySequence/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -24,14 +24,14 @@
     <meta property="og:image" content="http://swiftdoc.org/assets/images/touch-icon-ipad-retina.png"/>
     <meta property="og:title" content="LazySequence"/>
     <meta property="og:url" content="http://swiftdoc.org/swift-2/type/LazySequence/index.html"/>
-    <meta property="og:description" content="Swift documentation for 'LazySequence': A sequence that forwards its implementation to an underlying sequence instance while exposing lazy computations as methods."/>
+    <meta property="og:description" content="Swift documentation for 'LazySequence': A sequence containing the same elements as a Base sequence, but on which some operations such as map and filter are implemented lazily."/>
 
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@SwiftDocOrg"/>
     <meta name="twitter:creator" content="@SwiftDocOrg"/>
     <meta name="twitter:title" content="LazySequence"/>
     <meta name="twitter:image" content="http://swiftdoc.org/assets/images/touch-icon-ipad-retina.png"/>
-    <meta name="twitter:description" content="Swift documentation for 'LazySequence': A sequence that forwards its implementation to an underlying sequence instance while exposing lazy computations as methods."/>
+    <meta name="twitter:description" content="Swift documentation for 'LazySequence': A sequence containing the same elements as a Base sequence, but on which some operations such as map and filter are implemented lazily."/>
     <meta name="twitter:url" content="http://swiftdoc.org/swift-2/type/LazySequence/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-type p-LazySequence">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -180,12 +181,15 @@
           <code class="language-swift">struct LazySequence&lt;Base : SequenceType&gt; { ... }</code>
 
 <div class="comment">
-    <p>A sequence that forwards its implementation to an underlying
-sequence instance while exposing lazy computations as methods.</p>
+    <p>A sequence containing the same elements as a <code>Base</code> sequence, but
+on which some operations such as <code>map</code> and <code>filter</code> are
+implemented lazily.</p>
+
+<p><strong>See Also:</strong> <code>LazySequenceType</code></p>
 </div>
 
 <h3>Inheritance</h3>
-<code class="inherits">SequenceType</code>
+<code class="inherits">LazySequenceType, SequenceType, _SequenceWrapperType</code>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
 
@@ -195,49 +199,22 @@ sequence instance while exposing lazy computations as methods.</p>
 <div class="declaration">
 <code class="language-swift">init(_ base: Base)</code>
 <div class="comment">
-    <p>Construct an instance with <code>base</code> as its underlying sequence
-instance.</p>
+    <p>Creates a sequence that has the same elements as <code>base</code>, but on
+which some operations such as <code>map</code> and <code>filter</code> are implemented
+lazily.</p>
 </div>
 </div>
 
 
 <h3>Instance Variables</h3>
-<div class="declaration" id="prop-array">
-<code class="language-swift">var array: [Base.Generator.Element] { get }</code>
+<div class="declaration" id="prop-elements">
+<code class="language-swift">var elements: Base { get }</code>
 <div class="comment">
-    <p>an Array, created on-demand, containing the elements of this
-lazy SequenceType.</p>
+    <p>The <code>Base</code> (presumably non-lazy) sequence from which <code>self</code> was created.</p>
 </div>
 </div>
 
 
-<h3>Instance Methods</h3>
-<div class="declaration" id="func-generate">
-<code class="language-swift">public func generate() -> Base.Generator</code>
-<div class="comment">
-    <p>Return a <em>generator</em> over the elements of this <em>sequence</em>.</p>
-
-<p><strong>Complexity:</strong> O(1).</p>
-</div>
-</div>
-<div class="declaration" id="func-underestimateCount">
-<code class="language-swift">public func underestimateCount() -> Int</code>
-</div>
-<div class="declaration" id="func-filter">
-<code class="language-swift">public func filter(includeElement: (Base.Generator.Element) -&gt; Bool) -> LazySequence&lt;FilterSequence&lt;Base&gt;&gt;</code>
-<div class="comment">
-    <p>Return a lazy SequenceType containing the elements <code>x</code> of <code>source</code> for
-which <code>includeElement(x)</code> is <code>true</code>.</p>
-</div>
-</div>
-<div class="declaration" id="func-map">
-<code class="language-swift">public func map&lt;U&gt;(transform: (Base.Generator.Element) -&gt; U) -> LazySequence&lt;MapSequence&lt;Base, U&gt;&gt;</code>
-<div class="comment">
-    <p>Return a <code>MapSequence</code> over this <code>LazySequence</code>.  The elements of
-the result are computed lazily, each time they are read, by
-calling <code>transform</code> function on a base element.</p>
-</div>
-</div>
 
 
 
@@ -253,7 +230,7 @@ calling <code>transform</code> function on a base element.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

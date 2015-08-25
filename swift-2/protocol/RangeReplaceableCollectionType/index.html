@@ -11,7 +11,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Swift documentation for 'RangeReplaceableCollectionType': A collection that supports replacement of an arbitrary subRange of elements with the elements of another collection.">
-    <meta name="keywords" content="RangeReplaceableCollectionType,protocol,swift,documentation,replaceRange,reserveCapacity,append,extend,insert,splice,removeAtIndex,removeFirst,removeFirst,removeRange,removeAll">
+    <meta name="keywords" content="RangeReplaceableCollectionType,protocol,swift,documentation,replaceRange,reserveCapacity,append,appendContentsOf,insert,insertContentsOf,removeAtIndex,removeFirst,removeFirst,removeRange,removeAll">
     <link rel="canonical" href="http://swiftdoc.org/swift-2/protocol/RangeReplaceableCollectionType/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-protocol p-RangeReplaceableCollectionType">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -204,19 +205,19 @@ of elements with the elements of another collection.</p>
 
 <h3>Instance Methods</h3>
 <div class="declaration" id="func-replaceRange">
-<code class="language-swift">public mutating func replaceRange&lt;C : CollectionType where C.Generator.Element == Generator.Element&gt;(subRange: Range&lt;Self.Index&gt;, with newElements: C)</code>
+<code class="language-swift">mutating func replaceRange&lt;C : CollectionType where C.Generator.Element == Generator.Element&gt;(subRange: Range&lt;Self.Index&gt;, with newElements: C) </code>
 <div class="comment">
     <p>Replace the given <code>subRange</code> of elements with <code>newElements</code>.</p>
 
 <p>Invalidates all indices with respect to <code>self</code>.</p>
 
 <p><strong>Complexity:</strong> O(<code>subRange.count</code>) if
-  <code>subRange.endIndex == self.endIndex</code> and <code>isEmpty(newElements)</code>,
+  <code>subRange.endIndex == self.endIndex</code> and <code>newElements.isEmpty</code>,
   O(<code>self.count</code> + <code>newElements.count</code>) otherwise.</p>
 </div>
 </div>
 <div class="declaration" id="func-reserveCapacity">
-<code class="language-swift">public mutating func reserveCapacity(n: Self.Index.Distance)</code>
+<code class="language-swift">mutating func reserveCapacity(n: Self.Index.Distance) </code>
 <div class="comment">
     <p>A non-binding request to ensure <code>n</code> elements of available storage.</p>
 
@@ -227,7 +228,7 @@ storage, or even ignore the request completely.</p>
 </div>
 </div>
 <div class="declaration" id="func-append">
-<code class="language-swift">public mutating func append(x: Self.Generator.Element)</code>
+<code class="language-swift">mutating func append(x: Self.Generator.Element) </code>
 <div class="comment">
     <p>Append <code>x</code> to <code>self</code>.</p>
 
@@ -237,8 +238,8 @@ storage, or even ignore the request completely.</p>
 <p><strong>Complexity:</strong> Amortized O(1).</p>
 </div>
 </div>
-<div class="declaration" id="func-extend">
-<code class="language-swift">public mutating func extend&lt;S : SequenceType where S.Generator.Element == Generator.Element&gt;(newElements: S)</code>
+<div class="declaration" id="func-appendContentsOf">
+<code class="language-swift">mutating func appendContentsOf&lt;S : SequenceType where S.Generator.Element == Generator.Element&gt;(newElements: S) </code>
 <div class="comment">
     <p>Append the elements of <code>newElements</code> to <code>self</code>.</p>
 
@@ -246,7 +247,7 @@ storage, or even ignore the request completely.</p>
 </div>
 </div>
 <div class="declaration" id="func-insert">
-<code class="language-swift">public mutating func insert(newElement: Self.Generator.Element, atIndex i: Self.Index)</code>
+<code class="language-swift">mutating func insert(newElement: Self.Generator.Element, atIndex i: Self.Index) </code>
 <div class="comment">
     <p>Insert <code>newElement</code> at index <code>i</code>.</p>
 
@@ -255,8 +256,8 @@ storage, or even ignore the request completely.</p>
 <p><strong>Complexity:</strong> O(<code>self.count</code>).</p>
 </div>
 </div>
-<div class="declaration" id="func-splice">
-<code class="language-swift">public mutating func splice&lt;S : CollectionType where S.Generator.Element == Generator.Element&gt;(newElements: S, atIndex i: Self.Index)</code>
+<div class="declaration" id="func-insertContentsOf">
+<code class="language-swift">mutating func insertContentsOf&lt;S : CollectionType where S.Generator.Element == Generator.Element&gt;(newElements: S, at i: Self.Index) </code>
 <div class="comment">
     <p>Insert <code>newElements</code> at index <code>i</code>.</p>
 
@@ -266,7 +267,7 @@ storage, or even ignore the request completely.</p>
 </div>
 </div>
 <div class="declaration" id="func-removeAtIndex">
-<code class="language-swift">public mutating func removeAtIndex(i: Self.Index) -> Self.Generator.Element</code>
+<code class="language-swift">mutating func removeAtIndex(i: Self.Index) -> Self.Generator.Element</code>
 <div class="comment">
     <p>Remove the element at index <code>i</code>.</p>
 
@@ -276,7 +277,7 @@ storage, or even ignore the request completely.</p>
 </div>
 </div>
 <div class="declaration" id="func-removeFirst">
-<code class="language-swift">public mutating func removeFirst() -> Self.Generator.Element</code>
+<code class="language-swift">mutating func removeFirst() -> Self.Generator.Element</code>
 <div class="comment">
     <p>Remove the element at <code>startIndex</code> and return it.</p>
 
@@ -285,16 +286,16 @@ storage, or even ignore the request completely.</p>
 </div>
 </div>
 <div class="declaration" id="func-removeFirst">
-<code class="language-swift">public mutating func removeFirst(n: Int)</code>
+<code class="language-swift">mutating func removeFirst(n: Int) </code>
 <div class="comment">
     <p>Remove the first <code>n</code> elements.</p>
 
 <p><strong>Complexity:</strong> O(<code>self.count</code>)
-<strong>Requires:</strong> <code>!self.isEmpty</code>.</p>
+<strong>Requires:</strong> <code>self.count &gt;= n</code>.</p>
 </div>
 </div>
 <div class="declaration" id="func-removeRange">
-<code class="language-swift">public mutating func removeRange(subRange: Range&lt;Self.Index&gt;)</code>
+<code class="language-swift">mutating func removeRange(subRange: Range&lt;Self.Index&gt;) </code>
 <div class="comment">
     <p>Remove the indicated <code>subRange</code> of elements.</p>
 
@@ -304,7 +305,7 @@ storage, or even ignore the request completely.</p>
 </div>
 </div>
 <div class="declaration" id="func-removeAll">
-<code class="language-swift">public mutating func removeAll(keepCapacity keepCapacity: Bool)</code>
+<code class="language-swift">mutating func removeAll(keepCapacity keepCapacity: Bool) </code>
 <div class="comment">
     <p>Remove all elements.</p>
 
@@ -325,34 +326,34 @@ storage, or even ignore the request completely.</p>
 
 
 <div class="declaration" id="func-append">
-<code class="language-swift">public mutating func append(newElement: Self.Generator.Element)</code>
+<code class="language-swift">mutating func append(newElement: Self.Generator.Element) </code>
 </div>
-<div class="declaration" id="func-extend">
-<code class="language-swift">public mutating func extend&lt;S : SequenceType where S.Generator.Element == Generator.Element&gt;(newElements: S)</code>
+<div class="declaration" id="func-appendContentsOf">
+<code class="language-swift">mutating func appendContentsOf&lt;S : SequenceType where S.Generator.Element == Generator.Element&gt;(newElements: S) </code>
 </div>
 <div class="declaration" id="func-insert">
-<code class="language-swift">public mutating func insert(newElement: Self.Generator.Element, atIndex i: Self.Index)</code>
+<code class="language-swift">mutating func insert(newElement: Self.Generator.Element, atIndex i: Self.Index) </code>
 </div>
-<div class="declaration" id="func-splice">
-<code class="language-swift">public mutating func splice&lt;C : CollectionType where C.Generator.Element == Generator.Element&gt;(newElements: C, atIndex i: Self.Index)</code>
+<div class="declaration" id="func-insertContentsOf">
+<code class="language-swift">mutating func insertContentsOf&lt;C : CollectionType where C.Generator.Element == Generator.Element&gt;(newElements: C, at i: Self.Index) </code>
 </div>
 <div class="declaration" id="func-removeAtIndex">
-<code class="language-swift">public mutating func removeAtIndex(index: Self.Index) -> Self.Generator.Element</code>
+<code class="language-swift">mutating func removeAtIndex(index: Self.Index) -> Self.Generator.Element</code>
 </div>
 <div class="declaration" id="func-removeRange">
-<code class="language-swift">public mutating func removeRange(subRange: Range&lt;Self.Index&gt;)</code>
+<code class="language-swift">mutating func removeRange(subRange: Range&lt;Self.Index&gt;) </code>
 </div>
 <div class="declaration" id="func-removeFirst">
-<code class="language-swift">public mutating func removeFirst(n: Int)</code>
+<code class="language-swift">mutating func removeFirst(n: Int) </code>
 </div>
 <div class="declaration" id="func-removeFirst">
-<code class="language-swift">public mutating func removeFirst() -> Self.Generator.Element</code>
+<code class="language-swift">mutating func removeFirst() -> Self.Generator.Element</code>
 </div>
 <div class="declaration" id="func-removeAll">
-<code class="language-swift">public mutating func removeAll(keepCapacity keepCapacity: Bool = default)</code>
+<code class="language-swift">mutating func removeAll(keepCapacity keepCapacity: Bool = default) </code>
 </div>
 <div class="declaration" id="func-reserveCapacity">
-<code class="language-swift">public mutating func reserveCapacity(n: Self.Index.Distance)</code>
+<code class="language-swift">mutating func reserveCapacity(n: Self.Index.Distance) </code>
 </div>
 
 
@@ -364,7 +365,7 @@ storage, or even ignore the request completely.</p>
 <h4>Where Index : BidirectionalIndexType</h4>
 
 <div class="declaration" id="func-removeLast">
-<code class="language-swift">public mutating func removeLast() -> Self.Generator.Element</code>
+<code class="language-swift">mutating func removeLast() -> Self.Generator.Element</code>
 <div class="comment">
     <p>Remove an element from the end.</p>
 
@@ -388,7 +389,7 @@ storage, or even ignore the request completely.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

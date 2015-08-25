@@ -11,7 +11,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Swift documentation for 'String.UnicodeScalarView': A collection of Unicode scalar values that encode a String .">
-    <meta name="keywords" content="String.UnicodeScalarView,struct,swift,documentation,generate,reserveCapacity,append,extend,replaceRange,startIndex,endIndex,description,debugDescription">
+    <meta name="keywords" content="String.UnicodeScalarView,struct,swift,documentation,generate,reserveCapacity,append,appendContentsOf,replaceRange,startIndex,endIndex,description,debugDescription">
     <link rel="canonical" href="http://swiftdoc.org/swift-2/type/String.UnicodeScalarView/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-type p-String.UnicodeScalarView">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -230,7 +231,7 @@ reachable from <code>startIndex</code> by zero or more applications of
 
 <h3>Instance Methods</h3>
 <div class="declaration" id="func-generate">
-<code class="language-swift">public func generate() -> String.UnicodeScalarView.Generator</code>
+<code class="language-swift">func generate() -> String.UnicodeScalarView.Generator</code>
 <div class="comment">
     <p>Return a <em>generator</em> over the <code>UnicodeScalar</code>s that comprise
 this <em>sequence</em>.</p>
@@ -239,7 +240,7 @@ this <em>sequence</em>.</p>
 </div>
 </div>
 <div class="declaration" id="func-reserveCapacity">
-<code class="language-swift">public mutating func reserveCapacity(n: Int)</code>
+<code class="language-swift">mutating func reserveCapacity(n: Int) </code>
 <div class="comment">
     <p>Reserve enough space to store <code>n</code> ASCII characters.</p>
 
@@ -247,15 +248,15 @@ this <em>sequence</em>.</p>
 </div>
 </div>
 <div class="declaration" id="func-append">
-<code class="language-swift">public mutating func append(x: UnicodeScalar)</code>
+<code class="language-swift">mutating func append(x: UnicodeScalar) </code>
 <div class="comment">
     <p>Append <code>x</code> to <code>self</code>.</p>
 
 <p><strong>Complexity:</strong> Amortized O(1).</p>
 </div>
 </div>
-<div class="declaration" id="func-extend">
-<code class="language-swift">public mutating func extend&lt;S : SequenceType where S.Generator.Element == UnicodeScalar&gt;(newElements: S)</code>
+<div class="declaration" id="func-appendContentsOf">
+<code class="language-swift">mutating func appendContentsOf&lt;S : SequenceType where S.Generator.Element == UnicodeScalar&gt;(newElements: S) </code>
 <div class="comment">
     <p>Append the elements of <code>newElements</code> to <code>self</code>.</p>
 
@@ -263,14 +264,14 @@ this <em>sequence</em>.</p>
 </div>
 </div>
 <div class="declaration" id="func-replaceRange">
-<code class="language-swift">public mutating func replaceRange&lt;C : CollectionType where C.Generator.Element == UnicodeScalar&gt;(subRange: Range&lt;String.UnicodeScalarView.Index&gt;, with newElements: C)</code>
+<code class="language-swift">mutating func replaceRange&lt;C : CollectionType where C.Generator.Element == UnicodeScalar&gt;(subRange: Range&lt;String.UnicodeScalarView.Index&gt;, with newElements: C) </code>
 <div class="comment">
     <p>Replace the given <code>subRange</code> of elements with <code>newElements</code>.</p>
 
 <p>Invalidates all indices with respect to <code>self</code>.</p>
 
 <p><strong>Complexity:</strong> O(<code>subRange.count</code>) if <code>subRange.endIndex
-  == self.endIndex</code> and <code>isEmpty(newElements)</code>, O(N) otherwise.</p>
+  == self.endIndex</code> and <code>newElements.isEmpty</code>, O(N) otherwise.</p>
 </div>
 </div>
 
@@ -295,7 +296,7 @@ this <em>sequence</em>.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

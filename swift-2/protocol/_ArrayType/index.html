@@ -11,7 +11,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Swift documentation for protocol '_ArrayType'.">
-    <meta name="keywords" content="_ArrayType,protocol,swift,documentation,reserveCapacity,+=,insert,removeAtIndex,join,count,capacity,isEmpty">
+    <meta name="keywords" content="_ArrayType,protocol,swift,documentation,reserveCapacity,+=,insert,removeAtIndex,count,capacity,isEmpty">
     <link rel="canonical" href="http://swiftdoc.org/swift-2/protocol/_ArrayType/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-protocol p-_ArrayType">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -222,7 +223,7 @@
 
 <h3>Instance Methods</h3>
 <div class="declaration" id="func-reserveCapacity">
-<code class="language-swift">public mutating func reserveCapacity(minimumCapacity: Int)</code>
+<code class="language-swift">mutating func reserveCapacity(minimumCapacity: Int) </code>
 <div class="comment">
     <p>Reserve enough space to store minimumCapacity elements.</p>
 
@@ -233,13 +234,13 @@
 </div>
 </div>
 <div class="declaration" id="func-+=">
-<code class="language-swift">func +=&lt;S : SequenceType where S.Generator.Element == Generator.Element&gt;(inout lhs: Self, rhs: S)</code>
+<code class="language-swift">func +=&lt;S : SequenceType where S.Generator.Element == Generator.Element&gt;(inout lhs: Self, rhs: S) </code>
 <div class="comment">
-    <p>Operator form of <code>extend</code>.</p>
+    <p>Operator form of <code>appendContentsOf</code>.</p>
 </div>
 </div>
 <div class="declaration" id="func-insert">
-<code class="language-swift">public mutating func insert(newElement: Self.Generator.Element, atIndex i: Int)</code>
+<code class="language-swift">mutating func insert(newElement: Self.Generator.Element, atIndex i: Int) </code>
 <div class="comment">
     <p>Insert <code>newElement</code> at index <code>i</code>.</p>
 
@@ -251,7 +252,7 @@
 </div>
 </div>
 <div class="declaration" id="func-removeAtIndex">
-<code class="language-swift">public mutating func removeAtIndex(index: Int) -> Self.Generator.Element</code>
+<code class="language-swift">mutating func removeAtIndex(index: Int) -> Self.Generator.Element</code>
 <div class="comment">
     <p>Remove and return the element at the given index.</p>
 
@@ -261,9 +262,6 @@
 
 <p><strong>Requires:</strong> <code>count &gt; index</code>.</p>
 </div>
-</div>
-<div class="declaration" id="func-join">
-<code class="language-swift">public func join&lt;S : SequenceType where S.Generator.Element == Self&gt;(elements: S) -> Self</code>
 </div>
 
 <h3>Subscripts</h3>
@@ -284,7 +282,7 @@
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

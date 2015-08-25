@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-type p-Int32">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -185,7 +186,7 @@ type.</p>
 </div>
 
 <h3>Inheritance</h3>
-<code class="inherits">_IntegerArithmeticType, Comparable, Equatable, _SignedIntegerType, _IntegerType, IntegerArithmeticType, IntegerType, SignedIntegerType, Hashable, CustomStringConvertible, _Incrementable, RandomAccessIndexType, BidirectionalIndexType, ForwardIndexType, Strideable, _Strideable, SignedNumberType, IntegerLiteralConvertible, BitwiseOperationsType, _Reflectable, CVarArgType</code>
+<code class="inherits">_IntegerArithmeticType, Comparable, Equatable, _SignedIntegerType, _IntegerType, IntegerArithmeticType, IntegerType, SignedIntegerType, Hashable, CustomStringConvertible, _Incrementable, RandomAccessIndexType, BidirectionalIndexType, ForwardIndexType, Strideable, _Strideable, _RandomAccessAmbiguity, SignedNumberType, IntegerLiteralConvertible, BitwiseOperationsType, _Reflectable, CVarArgType</code>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
 <h3 id="aliases">Associated types</h3>
@@ -394,47 +395,9 @@ byte order if necessary.</p>
 </div>
 </div>
 
-
-<h3>Instance Methods</h3>
-<div class="declaration" id="func-successor">
-<code class="language-swift">public func successor() -> Int32</code>
-<div class="comment">
-    <p>Returns the next consecutive value after <code>self</code>.</p>
-
-<p><strong>Requires:</strong> The next value is representable.</p>
-</div>
-</div>
-<div class="declaration" id="func-predecessor">
-<code class="language-swift">public func predecessor() -> Int32</code>
-<div class="comment">
-    <p>Returns the previous consecutive value before <code>self</code>.</p>
-
-<p><strong>Requires:</strong> The previous value is representable.</p>
-</div>
-</div>
-<div class="declaration" id="func-distanceTo">
-<code class="language-swift">public func distanceTo(other: Int32) -> Distance</code>
-<div class="comment">
-    <p>Return the minimum number of applications of <code>successor</code> or
-<code>predecessor</code> required to reach <code>other</code> from <code>self</code>.</p>
-
-<p><strong>Complexity:</strong> O(1).</p>
-</div>
-</div>
-<div class="declaration" id="func-advancedBy">
-<code class="language-swift">public func advancedBy(amount: Distance) -> Int32</code>
-<div class="comment">
-    <p>Return <code>self</code> offset by <code>n</code> steps.</p>
-
-<p><strong>Returns:</strong> If <code>n &gt; 0</code>, the result of applying <code>successor</code> to
-  <code>self</code> <code>n</code> times.  If <code>n &lt; 0</code>, the result of applying
-  <code>predecessor</code> to <code>self</code> <code>-n</code> times. Otherwise, <code>self</code>.</p>
-
-<p><strong>Complexity:</strong> O(1).</p>
-</div>
-</div>
+<h3>Static Methods</h3>
 <div class="declaration" id="func-addWithOverflow">
-<code class="language-swift">public static func addWithOverflow(lhs: Int32, _ rhs: Int32) -> (Int32, overflow: Bool)</code>
+<code class="language-swift">static func addWithOverflow(lhs: Int32, _ rhs: Int32) -> (Int32, overflow: Bool)</code>
 <div class="comment">
     <p>Add <code>lhs</code> and <code>rhs</code>, returning a result and a
 <code>Bool</code> that is true iff the operation caused an arithmetic
@@ -442,7 +405,7 @@ overflow.</p>
 </div>
 </div>
 <div class="declaration" id="func-subtractWithOverflow">
-<code class="language-swift">public static func subtractWithOverflow(lhs: Int32, _ rhs: Int32) -> (Int32, overflow: Bool)</code>
+<code class="language-swift">static func subtractWithOverflow(lhs: Int32, _ rhs: Int32) -> (Int32, overflow: Bool)</code>
 <div class="comment">
     <p>Subtract <code>lhs</code> and <code>rhs</code>, returning a result and a
 <code>Bool</code> that is true iff the operation caused an arithmetic
@@ -450,7 +413,7 @@ overflow.</p>
 </div>
 </div>
 <div class="declaration" id="func-multiplyWithOverflow">
-<code class="language-swift">public static func multiplyWithOverflow(lhs: Int32, _ rhs: Int32) -> (Int32, overflow: Bool)</code>
+<code class="language-swift">static func multiplyWithOverflow(lhs: Int32, _ rhs: Int32) -> (Int32, overflow: Bool)</code>
 <div class="comment">
     <p>Multiply <code>lhs</code> and <code>rhs</code>, returning a result and a
 <code>Bool</code> that is true iff the operation caused an arithmetic
@@ -458,7 +421,7 @@ overflow.</p>
 </div>
 </div>
 <div class="declaration" id="func-divideWithOverflow">
-<code class="language-swift">public static func divideWithOverflow(lhs: Int32, _ rhs: Int32) -> (Int32, overflow: Bool)</code>
+<code class="language-swift">static func divideWithOverflow(lhs: Int32, _ rhs: Int32) -> (Int32, overflow: Bool)</code>
 <div class="comment">
     <p>Divide <code>lhs</code> and <code>rhs</code>, returning
 a result and a <code>Bool</code>
@@ -466,15 +429,39 @@ that is true iff the operation caused an arithmetic overflow.</p>
 </div>
 </div>
 <div class="declaration" id="func-remainderWithOverflow">
-<code class="language-swift">public static func remainderWithOverflow(lhs: Int32, _ rhs: Int32) -> (Int32, overflow: Bool)</code>
+<code class="language-swift">static func remainderWithOverflow(lhs: Int32, _ rhs: Int32) -> (Int32, overflow: Bool)</code>
 <div class="comment">
     <p>Divide <code>lhs</code> and <code>rhs</code>, returning
 the remainder and a <code>Bool</code>
 that is true iff the operation caused an arithmetic overflow.</p>
 </div>
 </div>
+
+<h3>Instance Methods</h3>
+<div class="declaration" id="func-successor">
+<code class="language-swift">func successor() -> Int32</code>
+<div class="comment">
+    <p>Returns the next consecutive value after <code>self</code>.</p>
+
+<p><strong>Requires:</strong> The next value is representable.</p>
+</div>
+</div>
+<div class="declaration" id="func-predecessor">
+<code class="language-swift">func predecessor() -> Int32</code>
+<div class="comment">
+    <p>Returns the previous consecutive value before <code>self</code>.</p>
+
+<p><strong>Requires:</strong> The previous value is representable.</p>
+</div>
+</div>
+<div class="declaration" id="func-distanceTo">
+<code class="language-swift">func distanceTo(other: Int32) -> Distance</code>
+</div>
+<div class="declaration" id="func-advancedBy">
+<code class="language-swift">func advancedBy(n: Distance) -> Int32</code>
+</div>
 <div class="declaration" id="func-toIntMax">
-<code class="language-swift">public func toIntMax() -> IntMax</code>
+<code class="language-swift">func toIntMax() -> IntMax</code>
 <div class="comment">
     <p>Represent this number using Swift&#39;s widest native signed
 integer type.</p>
@@ -495,7 +482,7 @@ integer type.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

@@ -17,7 +17,8 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "DictionaryIndex" [URL="/type/DictionaryIndex/", style=filled]
     "Double" [URL="/type/Double/", style=filled]
     "Equatable" [URL="/protocol/Equatable/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]
-    "FilterCollectionIndex" [URL="/type/FilterCollectionIndex/", style=filled]
+    "FlattenBidirectionalCollectionIndex" [URL="/type/FlattenBidirectionalCollectionIndex/", style=filled]
+    "FlattenCollectionIndex" [URL="/type/FlattenCollectionIndex/", style=filled]
     "Float" [URL="/type/Float/", style=filled]
     "Float80" [URL="/type/Float80/", style=filled]
     "FloatingPointClassification" [URL="/type/FloatingPointClassification/", style=filled]
@@ -32,12 +33,14 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "Int8" [URL="/type/Int8/", style=filled]
     "IntegerArithmeticType" [URL="/protocol/IntegerArithmeticType/"]
     "IntegerType" [URL="/protocol/IntegerType/"]
+    "LazyFilterIndex" [URL="/type/LazyFilterIndex/", style=filled]
     "ManagedBufferPointer" [URL="/type/ManagedBufferPointer/", style=filled]
     "ObjectIdentifier" [URL="/type/ObjectIdentifier/", style=filled]
     "OptionSetType" [URL="/protocol/OptionSetType/"]
     "RandomAccessIndexType" [URL="/protocol/RandomAccessIndexType/"]
     "Range" [URL="/type/Range/", style=filled]
     "ReverseIndex" [URL="/type/ReverseIndex/", style=filled]
+    "ReverseIndexType" [URL="/protocol/ReverseIndexType/"]
     "ReverseRandomAccessIndex" [URL="/type/ReverseRandomAccessIndex/", style=filled]
     "Set" [URL="/type/Set/", style=filled]
     "SetAlgebraType" [URL="/protocol/SetAlgebraType/"]
@@ -73,7 +76,8 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "Equatable" -> "Comparable"
     "Equatable" -> "DictionaryIndex"
     "Equatable" -> "Double"
-    "Equatable" -> "FilterCollectionIndex"
+    "Equatable" -> "FlattenBidirectionalCollectionIndex"
+    "Equatable" -> "FlattenCollectionIndex"
     "Equatable" -> "Float"
     "Equatable" -> "Float80"
     "Equatable" -> "FloatingPointClassification"
@@ -84,6 +88,7 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "Equatable" -> "Int32"
     "Equatable" -> "Int64"
     "Equatable" -> "Int8"
+    "Equatable" -> "LazyFilterIndex"
     "Equatable" -> "ManagedBufferPointer"
     "Equatable" -> "ObjectIdentifier"
     "Equatable" -> "Range"
@@ -396,13 +401,15 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "_Incrementable" -> "AnyRandomAccessIndex"
     "_Incrementable" -> "Bit"
     "_Incrementable" -> "DictionaryIndex"
-    "_Incrementable" -> "FilterCollectionIndex"
+    "_Incrementable" -> "FlattenBidirectionalCollectionIndex"
+    "_Incrementable" -> "FlattenCollectionIndex"
     "_Incrementable" -> "ForwardIndexType"
     "_Incrementable" -> "Int"
     "_Incrementable" -> "Int16"
     "_Incrementable" -> "Int32"
     "_Incrementable" -> "Int64"
     "_Incrementable" -> "Int8"
+    "_Incrementable" -> "LazyFilterIndex"
     "_Incrementable" -> "ReverseIndex"
     "_Incrementable" -> "ReverseRandomAccessIndex"
     "_Incrementable" -> "SetIndex"
@@ -424,12 +431,14 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "ForwardIndexType" -> "BidirectionalIndexType"
     "ForwardIndexType" -> "Bit"
     "ForwardIndexType" -> "DictionaryIndex"
-    "ForwardIndexType" -> "FilterCollectionIndex"
+    "ForwardIndexType" -> "FlattenBidirectionalCollectionIndex"
+    "ForwardIndexType" -> "FlattenCollectionIndex"
     "ForwardIndexType" -> "Int"
     "ForwardIndexType" -> "Int16"
     "ForwardIndexType" -> "Int32"
     "ForwardIndexType" -> "Int64"
     "ForwardIndexType" -> "Int8"
+    "ForwardIndexType" -> "LazyFilterIndex"
     "ForwardIndexType" -> "ReverseIndex"
     "ForwardIndexType" -> "ReverseRandomAccessIndex"
     "ForwardIndexType" -> "SetIndex"
@@ -447,6 +456,7 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "BidirectionalIndexType" -> "AnyBidirectionalIndex"
     "BidirectionalIndexType" -> "AnyRandomAccessIndex"
     "BidirectionalIndexType" -> "Bit"
+    "BidirectionalIndexType" -> "FlattenBidirectionalCollectionIndex"
     "BidirectionalIndexType" -> "Int"
     "BidirectionalIndexType" -> "Int16"
     "BidirectionalIndexType" -> "Int32"
@@ -454,6 +464,7 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "BidirectionalIndexType" -> "Int8"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "BidirectionalIndexType" -> "ReverseIndex"
+    "BidirectionalIndexType" -> "ReverseIndexType"
     "BidirectionalIndexType" -> "ReverseRandomAccessIndex"
     "BidirectionalIndexType" -> "UInt"
     "BidirectionalIndexType" -> "UInt16"
@@ -507,6 +518,8 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "UnsignedIntegerType" -> "UInt32"
     "UnsignedIntegerType" -> "UInt64"
     "UnsignedIntegerType" -> "UInt8"
+    "ReverseIndexType" -> "ReverseIndex"
+    "ReverseIndexType" -> "ReverseRandomAccessIndex"
     "Int" -> "Bit"
     "Int" -> "Bit"
     "_IntegerType" -> "Int"
@@ -572,6 +585,6 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int8"
     "Int" -> "Bit"
     subgraph Types {
-        rank = max; "AnyBidirectionalIndex"; "AnyForwardIndex"; "AnyRandomAccessIndex"; "AutoreleasingUnsafeMutablePointer"; "Bool"; "COpaquePointer"; "Character"; "ClosedInterval"; "DictionaryIndex"; "Double"; "FilterCollectionIndex"; "Float"; "Float80"; "FloatingPointClassification"; "HalfOpenInterval"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "ManagedBufferPointer"; "ObjectIdentifier"; "Range"; "ReverseIndex"; "ReverseRandomAccessIndex"; "Set"; "SetIndex"; "String"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnicodeScalar"; "UnsafeMutablePointer"; "UnsafePointer"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index"; "String.UTF8View.Index"; "Bit";
+        rank = max; "AnyBidirectionalIndex"; "AnyForwardIndex"; "AnyRandomAccessIndex"; "AutoreleasingUnsafeMutablePointer"; "Bool"; "COpaquePointer"; "Character"; "ClosedInterval"; "DictionaryIndex"; "Double"; "FlattenBidirectionalCollectionIndex"; "FlattenCollectionIndex"; "Float"; "Float80"; "FloatingPointClassification"; "HalfOpenInterval"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "LazyFilterIndex"; "ManagedBufferPointer"; "ObjectIdentifier"; "Range"; "ReverseIndex"; "ReverseRandomAccessIndex"; "Set"; "SetIndex"; "String"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnicodeScalar"; "UnsafeMutablePointer"; "UnsafePointer"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index"; "String.UTF8View.Index"; "Bit";
     }
 }

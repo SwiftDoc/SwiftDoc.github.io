@@ -10,8 +10,8 @@
     <title>ReverseRandomAccessCollection &#8212; SwiftDoc.org</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Swift documentation for 'ReverseRandomAccessCollection': The lazy CollectionType returned by reverse(c) where c is a CollectionType with an Index conforming to RandomAccessIndexType.">
-    <meta name="keywords" content="ReverseRandomAccessCollection,struct,swift,documentation,startIndex,endIndex,Index,Generator">
+    <meta name="description" content="Swift documentation for 'ReverseRandomAccessCollection': A Collection that presents the elements of its Base collection in reverse order.">
+    <meta name="keywords" content="ReverseRandomAccessCollection,struct,swift,documentation,Index,Generator">
     <link rel="canonical" href="http://swiftdoc.org/swift-2/type/ReverseRandomAccessCollection/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -24,14 +24,14 @@
     <meta property="og:image" content="http://swiftdoc.org/assets/images/touch-icon-ipad-retina.png"/>
     <meta property="og:title" content="ReverseRandomAccessCollection"/>
     <meta property="og:url" content="http://swiftdoc.org/swift-2/type/ReverseRandomAccessCollection/index.html"/>
-    <meta property="og:description" content="Swift documentation for 'ReverseRandomAccessCollection': The lazy CollectionType returned by reverse(c) where c is a CollectionType with an Index conforming to RandomAccessIndexType."/>
+    <meta property="og:description" content="Swift documentation for 'ReverseRandomAccessCollection': A Collection that presents the elements of its Base collection in reverse order."/>
 
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@SwiftDocOrg"/>
     <meta name="twitter:creator" content="@SwiftDocOrg"/>
     <meta name="twitter:title" content="ReverseRandomAccessCollection"/>
     <meta name="twitter:image" content="http://swiftdoc.org/assets/images/touch-icon-ipad-retina.png"/>
-    <meta name="twitter:description" content="Swift documentation for 'ReverseRandomAccessCollection': The lazy CollectionType returned by reverse(c) where c is a CollectionType with an Index conforming to RandomAccessIndexType."/>
+    <meta name="twitter:description" content="Swift documentation for 'ReverseRandomAccessCollection': A Collection that presents the elements of its Base collection in reverse order."/>
     <meta name="twitter:url" content="http://swiftdoc.org/swift-2/type/ReverseRandomAccessCollection/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-type p-ReverseRandomAccessCollection">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -180,12 +181,16 @@
           <code class="language-swift">struct ReverseRandomAccessCollection&lt;Base : CollectionType where Base.Index : RandomAccessIndexType&gt; { ... }</code>
 
 <div class="comment">
-    <p>The lazy <code>CollectionType</code> returned by <code>reverse(c)</code> where <code>c</code> is a
-<code>CollectionType</code> with an <code>Index</code> conforming to <code>RandomAccessIndexType</code>.</p>
+    <p>A Collection that presents the elements of its <code>Base</code> collection
+in reverse order.</p>
+
+<p><strong>Note:</strong> This type is the result of <code>x.reverse()</code> where <code>x</code> is a
+  collection having random access indices.
+<strong>See Also:</strong> <code>ReverseCollection</code></p>
 </div>
 
 <h3>Inheritance</h3>
-<code class="inherits">CollectionType, Indexable, SequenceType</code>
+<code class="inherits">_ReverseCollectionType, CollectionType, Indexable, SequenceType</code>
 <span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
 
 <h3 id="aliases">Associated types</h3>
@@ -201,41 +206,28 @@
 <div class="declaration">
 <code class="language-swift">typealias Generator = IndexingGenerator&lt;ReverseRandomAccessCollection&lt;Base&gt;&gt;</code>
 <div class="comment">
-    <p>A type whose instances can produce the elements of this
-sequence, in order.</p>
+    <p>A type that provides the <em>sequence</em>&#39;s iteration interface and
+encapsulates its iteration state.</p>
 </div>
 </div>
 
 
 
-
-
-<h3>Instance Variables</h3>
-<div class="declaration" id="prop-startIndex">
-<code class="language-swift">var startIndex: ReverseRandomAccessIndex&lt;Base.Index&gt; { get }</code>
-<div class="comment">
-    <p>The position of the first element in a non-empty collection.</p>
-
-<p>In an empty collection, <code>startIndex == endIndex</code>.</p>
-</div>
-</div>
-<div class="declaration" id="prop-endIndex">
-<code class="language-swift">var endIndex: ReverseRandomAccessIndex&lt;Base.Index&gt; { get }</code>
-<div class="comment">
-    <p>The collection&#39;s &quot;past the end&quot; position.</p>
-
-<p><code>endIndex</code> is not a valid argument to <code>subscript</code>, and is always
-reachable from <code>startIndex</code> by zero or more applications of
-<code>successor()</code>.</p>
-</div>
-</div>
-
-
-
-<h3>Subscripts</h3>
+<h3>Initializers</h3>
 <div class="declaration">
-<code class="language-swift">subscript(position: ReverseRandomAccessIndex&lt;Base.Index&gt;) -> Base.Generator.Element { get }</code>
+<code class="language-swift">init(_ base: Base)</code>
+<div class="comment">
+    <p>Creates an instance that presents the elements of <code>base</code> in
+reverse order.</p>
+
+<p><strong>Complexity:</strong> O(1)</p>
 </div>
+</div>
+
+
+
+
+
 
 
 
@@ -250,7 +242,7 @@ reachable from <code>startIndex</code> by zero or more applications of
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

@@ -19,20 +19,26 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "EmptyGenerator" [URL="/type/EmptyGenerator/", style=filled]
     "EnumerateGenerator" [URL="/type/EnumerateGenerator/", style=filled]
     "EnumerateSequence" [URL="/type/EnumerateSequence/", style=filled]
-    "FilterCollection" [URL="/type/FilterCollection/", style=filled]
-    "FilterGenerator" [URL="/type/FilterGenerator/", style=filled]
-    "FilterSequence" [URL="/type/FilterSequence/", style=filled]
+    "FlattenBidirectionalCollection" [URL="/type/FlattenBidirectionalCollection/", style=filled]
+    "FlattenCollection" [URL="/type/FlattenCollection/", style=filled]
+    "FlattenGenerator" [URL="/type/FlattenGenerator/", style=filled]
+    "FlattenSequence" [URL="/type/FlattenSequence/", style=filled]
     "GeneratorOfOne" [URL="/type/GeneratorOfOne/", style=filled]
     "GeneratorSequence" [URL="/type/GeneratorSequence/", style=filled]
     "IndexingGenerator" [URL="/type/IndexingGenerator/", style=filled]
-    "LazyBidirectionalCollection" [URL="/type/LazyBidirectionalCollection/", style=filled]
-    "LazyForwardCollection" [URL="/type/LazyForwardCollection/", style=filled]
-    "LazyRandomAccessCollection" [URL="/type/LazyRandomAccessCollection/", style=filled]
+    "JoinSequence" [URL="/type/JoinSequence/", style=filled]
+    "LazyCollection" [URL="/type/LazyCollection/", style=filled]
+    "LazyCollectionType" [URL="/protocol/LazyCollectionType/"]
+    "LazyFilterCollection" [URL="/type/LazyFilterCollection/", style=filled]
+    "LazyFilterGenerator" [URL="/type/LazyFilterGenerator/", style=filled]
+    "LazyFilterSequence" [URL="/type/LazyFilterSequence/", style=filled]
+    "LazyMapCollection" [URL="/type/LazyMapCollection/", style=filled]
+    "LazyMapGenerator" [URL="/type/LazyMapGenerator/", style=filled]
+    "LazyMapSequence" [URL="/type/LazyMapSequence/", style=filled]
     "LazySequence" [URL="/type/LazySequence/", style=filled]
-    "MapCollection" [URL="/type/MapCollection/", style=filled]
-    "MapGenerator" [URL="/type/MapGenerator/", style=filled]
-    "MapSequence" [URL="/type/MapSequence/", style=filled]
+    "LazySequenceType" [URL="/protocol/LazySequenceType/"]
     "MutableCollectionType" [URL="/protocol/MutableCollectionType/"]
+    "MutableSlice" [URL="/type/MutableSlice/", style=filled]
     "MutableSliceable" [URL="/protocol/MutableSliceable/"]
     "PermutationGenerator" [URL="/type/PermutationGenerator/", style=filled]
     "Range" [URL="/type/Range/", style=filled]
@@ -57,8 +63,7 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "Zip2Sequence" [URL="/type/Zip2Sequence/", style=filled]
     "_ArrayBufferType" [URL="/protocol/_ArrayBufferType/"]
     "_ArrayType" [URL="/protocol/_ArrayType/"]
-    "_prext_LazyCollectionType" [URL="/protocol/_prext_LazyCollectionType/"]
-    "_prext_LazySequenceType" [URL="/protocol/_prext_LazySequenceType/"]    "SequenceType" -> "AnyBidirectionalCollection"
+    "_ReverseCollectionType" [URL="/protocol/_ReverseCollectionType/"]    "SequenceType" -> "AnyBidirectionalCollection"
     "SequenceType" -> "AnyForwardCollection"
     "SequenceType" -> "AnyGenerator"
     "SequenceType" -> "AnyRandomAccessCollection"
@@ -74,19 +79,24 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "SequenceType" -> "EmptyGenerator"
     "SequenceType" -> "EnumerateGenerator"
     "SequenceType" -> "EnumerateSequence"
-    "SequenceType" -> "FilterCollection"
-    "SequenceType" -> "FilterGenerator"
-    "SequenceType" -> "FilterSequence"
+    "SequenceType" -> "FlattenBidirectionalCollection"
+    "SequenceType" -> "FlattenCollection"
+    "SequenceType" -> "FlattenGenerator"
+    "SequenceType" -> "FlattenSequence"
     "SequenceType" -> "GeneratorOfOne"
     "SequenceType" -> "GeneratorSequence"
     "SequenceType" -> "IndexingGenerator"
-    "SequenceType" -> "LazyBidirectionalCollection"
-    "SequenceType" -> "LazyForwardCollection"
-    "SequenceType" -> "LazyRandomAccessCollection"
+    "SequenceType" -> "JoinSequence"
+    "SequenceType" -> "LazyCollection"
+    "SequenceType" -> "LazyFilterCollection"
+    "SequenceType" -> "LazyFilterGenerator"
+    "SequenceType" -> "LazyFilterSequence"
+    "SequenceType" -> "LazyMapCollection"
+    "SequenceType" -> "LazyMapGenerator"
+    "SequenceType" -> "LazyMapSequence"
     "SequenceType" -> "LazySequence"
-    "SequenceType" -> "MapCollection"
-    "SequenceType" -> "MapGenerator"
-    "SequenceType" -> "MapSequence"
+    "SequenceType" -> "LazySequenceType"
+    "SequenceType" -> "MutableSlice"
     "SequenceType" -> "PermutationGenerator"
     "SequenceType" -> "Range"
     "SequenceType" -> "RangeGenerator"
@@ -102,7 +112,6 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "SequenceType" -> "UnsafeBufferPointerGenerator"
     "SequenceType" -> "UnsafeMutableBufferPointer"
     "SequenceType" -> "Zip2Sequence"
-    "SequenceType" -> "_prext_LazySequenceType"
     "SequenceType" -> "String.CharacterView"
     "SequenceType" -> "String.UnicodeScalarView"
     "SequenceType" -> "String.UTF16View"
@@ -118,12 +127,14 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "CollectionType" -> "Dictionary"
     "CollectionType" -> "DictionaryLiteral"
     "CollectionType" -> "EmptyCollection"
-    "CollectionType" -> "FilterCollection"
-    "CollectionType" -> "LazyBidirectionalCollection"
-    "CollectionType" -> "LazyForwardCollection"
-    "CollectionType" -> "LazyRandomAccessCollection"
-    "CollectionType" -> "MapCollection"
+    "CollectionType" -> "FlattenBidirectionalCollection"
+    "CollectionType" -> "FlattenCollection"
+    "CollectionType" -> "LazyCollection"
+    "CollectionType" -> "LazyCollectionType"
+    "CollectionType" -> "LazyFilterCollection"
+    "CollectionType" -> "LazyMapCollection"
     "CollectionType" -> "MutableCollectionType"
+    "CollectionType" -> "MutableSlice"
     "CollectionType" -> "MutableSliceable"
     "CollectionType" -> "Range"
     "CollectionType" -> "RangeReplaceableCollectionType"
@@ -135,7 +146,7 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "CollectionType" -> "UnicodeScalar.UTF16View"
     "CollectionType" -> "UnsafeBufferPointer"
     "CollectionType" -> "UnsafeMutableBufferPointer"
-    "CollectionType" -> "_prext_LazyCollectionType"
+    "CollectionType" -> "_ReverseCollectionType"
     "CollectionType" -> "String.CharacterView"
     "CollectionType" -> "String.UnicodeScalarView"
     "CollectionType" -> "String.UTF16View"
@@ -143,9 +154,13 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "AnyCollectionType" -> "AnyBidirectionalCollection"
     "AnyCollectionType" -> "AnyForwardCollection"
     "AnyCollectionType" -> "AnyRandomAccessCollection"
+    "LazyCollectionType" -> "LazyCollection"
+    "LazyCollectionType" -> "LazyFilterCollection"
+    "LazyCollectionType" -> "LazyMapCollection"
     "MutableCollectionType" -> "Array"
     "MutableCollectionType" -> "ArraySlice"
     "MutableCollectionType" -> "ContiguousArray"
+    "MutableCollectionType" -> "MutableSlice"
     "MutableCollectionType" -> "MutableSliceable"
     "MutableCollectionType" -> "UnsafeMutableBufferPointer"
     "MutableCollectionType" -> "_ArrayBufferType"
@@ -172,8 +187,19 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "_ArrayType" -> "Array"
     "_ArrayType" -> "ArraySlice"
     "_ArrayType" -> "ContiguousArray"
-    "_prext_LazySequenceType" -> "_prext_LazyCollectionType"
+    "_ReverseCollectionType" -> "ReverseCollection"
+    "_ReverseCollectionType" -> "ReverseRandomAccessCollection"
+    "LazySequenceType" -> "LazyCollection"
+    "LazySequenceType" -> "LazyCollectionType"
+    "LazySequenceType" -> "LazyFilterCollection"
+    "LazySequenceType" -> "LazyFilterSequence"
+    "LazySequenceType" -> "LazyMapCollection"
+    "LazySequenceType" -> "LazyMapSequence"
+    "LazySequenceType" -> "LazySequence"
+    "LazyCollectionType" -> "LazyCollection"
+    "LazyCollectionType" -> "LazyFilterCollection"
+    "LazyCollectionType" -> "LazyMapCollection"
     subgraph Types {
-        rank = max; "AnyBidirectionalCollection"; "AnyForwardCollection"; "AnyGenerator"; "AnyRandomAccessCollection"; "AnySequence"; "Array"; "ArraySlice"; "CollectionOfOne"; "ContiguousArray"; "Dictionary"; "DictionaryLiteral"; "EmptyCollection"; "EmptyGenerator"; "EnumerateGenerator"; "EnumerateSequence"; "FilterCollection"; "FilterGenerator"; "FilterSequence"; "GeneratorOfOne"; "GeneratorSequence"; "IndexingGenerator"; "LazyBidirectionalCollection"; "LazyForwardCollection"; "LazyRandomAccessCollection"; "LazySequence"; "MapCollection"; "MapGenerator"; "MapSequence"; "PermutationGenerator"; "Range"; "RangeGenerator"; "Repeat"; "ReverseCollection"; "ReverseRandomAccessCollection"; "Set"; "Slice"; "StrideThrough"; "StrideTo"; "UnicodeScalar.UTF16View"; "UnsafeBufferPointer"; "UnsafeBufferPointerGenerator"; "UnsafeMutableBufferPointer"; "Zip2Sequence"; "String.CharacterView"; "String.UnicodeScalarView"; "String.UTF16View"; "String.UTF8View";
+        rank = max; "AnyBidirectionalCollection"; "AnyForwardCollection"; "AnyGenerator"; "AnyRandomAccessCollection"; "AnySequence"; "Array"; "ArraySlice"; "CollectionOfOne"; "ContiguousArray"; "Dictionary"; "DictionaryLiteral"; "EmptyCollection"; "EmptyGenerator"; "EnumerateGenerator"; "EnumerateSequence"; "FlattenBidirectionalCollection"; "FlattenCollection"; "FlattenGenerator"; "FlattenSequence"; "GeneratorOfOne"; "GeneratorSequence"; "IndexingGenerator"; "JoinSequence"; "LazyCollection"; "LazyFilterCollection"; "LazyFilterGenerator"; "LazyFilterSequence"; "LazyMapCollection"; "LazyMapGenerator"; "LazyMapSequence"; "LazySequence"; "MutableSlice"; "PermutationGenerator"; "Range"; "RangeGenerator"; "Repeat"; "ReverseCollection"; "ReverseRandomAccessCollection"; "Set"; "Slice"; "StrideThrough"; "StrideTo"; "UnicodeScalar.UTF16View"; "UnsafeBufferPointer"; "UnsafeBufferPointerGenerator"; "UnsafeMutableBufferPointer"; "Zip2Sequence"; "String.CharacterView"; "String.UnicodeScalarView"; "String.UTF16View"; "String.UTF8View";
     }
 }

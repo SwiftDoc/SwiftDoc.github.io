@@ -14,13 +14,15 @@ strict digraph "Indexable - Type Hierarchy - SwiftDoc.org" {
     "Dictionary" [URL="/type/Dictionary/", style=filled]
     "DictionaryLiteral" [URL="/type/DictionaryLiteral/", style=filled]
     "EmptyCollection" [URL="/type/EmptyCollection/", style=filled]
-    "FilterCollection" [URL="/type/FilterCollection/", style=filled]
+    "FlattenBidirectionalCollection" [URL="/type/FlattenBidirectionalCollection/", style=filled]
+    "FlattenCollection" [URL="/type/FlattenCollection/", style=filled]
     "Indexable" [URL="/protocol/Indexable/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]
-    "LazyBidirectionalCollection" [URL="/type/LazyBidirectionalCollection/", style=filled]
-    "LazyForwardCollection" [URL="/type/LazyForwardCollection/", style=filled]
-    "LazyRandomAccessCollection" [URL="/type/LazyRandomAccessCollection/", style=filled]
-    "MapCollection" [URL="/type/MapCollection/", style=filled]
+    "LazyCollection" [URL="/type/LazyCollection/", style=filled]
+    "LazyCollectionType" [URL="/protocol/LazyCollectionType/"]
+    "LazyFilterCollection" [URL="/type/LazyFilterCollection/", style=filled]
+    "LazyMapCollection" [URL="/type/LazyMapCollection/", style=filled]
     "MutableCollectionType" [URL="/protocol/MutableCollectionType/"]
+    "MutableSlice" [URL="/type/MutableSlice/", style=filled]
     "MutableSliceable" [URL="/protocol/MutableSliceable/"]
     "Range" [URL="/type/Range/", style=filled]
     "RangeReplaceableCollectionType" [URL="/protocol/RangeReplaceableCollectionType/"]
@@ -38,7 +40,7 @@ strict digraph "Indexable - Type Hierarchy - SwiftDoc.org" {
     "UnsafeMutableBufferPointer" [URL="/type/UnsafeMutableBufferPointer/", style=filled]
     "_ArrayBufferType" [URL="/protocol/_ArrayBufferType/"]
     "_ArrayType" [URL="/protocol/_ArrayType/"]
-    "_prext_LazyCollectionType" [URL="/protocol/_prext_LazyCollectionType/"]    "Indexable" -> "AnyBidirectionalCollection"
+    "_ReverseCollectionType" [URL="/protocol/_ReverseCollectionType/"]    "Indexable" -> "AnyBidirectionalCollection"
     "Indexable" -> "AnyForwardCollection"
     "Indexable" -> "AnyRandomAccessCollection"
     "Indexable" -> "Array"
@@ -49,11 +51,12 @@ strict digraph "Indexable - Type Hierarchy - SwiftDoc.org" {
     "Indexable" -> "Dictionary"
     "Indexable" -> "DictionaryLiteral"
     "Indexable" -> "EmptyCollection"
-    "Indexable" -> "FilterCollection"
-    "Indexable" -> "LazyBidirectionalCollection"
-    "Indexable" -> "LazyForwardCollection"
-    "Indexable" -> "LazyRandomAccessCollection"
-    "Indexable" -> "MapCollection"
+    "Indexable" -> "FlattenBidirectionalCollection"
+    "Indexable" -> "FlattenCollection"
+    "Indexable" -> "LazyCollection"
+    "Indexable" -> "LazyFilterCollection"
+    "Indexable" -> "LazyMapCollection"
+    "Indexable" -> "MutableSlice"
     "Indexable" -> "Range"
     "Indexable" -> "Repeat"
     "Indexable" -> "ReverseCollection"
@@ -78,12 +81,14 @@ strict digraph "Indexable - Type Hierarchy - SwiftDoc.org" {
     "CollectionType" -> "Dictionary"
     "CollectionType" -> "DictionaryLiteral"
     "CollectionType" -> "EmptyCollection"
-    "CollectionType" -> "FilterCollection"
-    "CollectionType" -> "LazyBidirectionalCollection"
-    "CollectionType" -> "LazyForwardCollection"
-    "CollectionType" -> "LazyRandomAccessCollection"
-    "CollectionType" -> "MapCollection"
+    "CollectionType" -> "FlattenBidirectionalCollection"
+    "CollectionType" -> "FlattenCollection"
+    "CollectionType" -> "LazyCollection"
+    "CollectionType" -> "LazyCollectionType"
+    "CollectionType" -> "LazyFilterCollection"
+    "CollectionType" -> "LazyMapCollection"
     "CollectionType" -> "MutableCollectionType"
+    "CollectionType" -> "MutableSlice"
     "CollectionType" -> "MutableSliceable"
     "CollectionType" -> "Range"
     "CollectionType" -> "RangeReplaceableCollectionType"
@@ -95,7 +100,7 @@ strict digraph "Indexable - Type Hierarchy - SwiftDoc.org" {
     "CollectionType" -> "UnicodeScalar.UTF16View"
     "CollectionType" -> "UnsafeBufferPointer"
     "CollectionType" -> "UnsafeMutableBufferPointer"
-    "CollectionType" -> "_prext_LazyCollectionType"
+    "CollectionType" -> "_ReverseCollectionType"
     "CollectionType" -> "String.CharacterView"
     "CollectionType" -> "String.UnicodeScalarView"
     "CollectionType" -> "String.UTF16View"
@@ -103,9 +108,13 @@ strict digraph "Indexable - Type Hierarchy - SwiftDoc.org" {
     "AnyCollectionType" -> "AnyBidirectionalCollection"
     "AnyCollectionType" -> "AnyForwardCollection"
     "AnyCollectionType" -> "AnyRandomAccessCollection"
+    "LazyCollectionType" -> "LazyCollection"
+    "LazyCollectionType" -> "LazyFilterCollection"
+    "LazyCollectionType" -> "LazyMapCollection"
     "MutableCollectionType" -> "Array"
     "MutableCollectionType" -> "ArraySlice"
     "MutableCollectionType" -> "ContiguousArray"
+    "MutableCollectionType" -> "MutableSlice"
     "MutableCollectionType" -> "MutableSliceable"
     "MutableCollectionType" -> "UnsafeMutableBufferPointer"
     "MutableCollectionType" -> "_ArrayBufferType"
@@ -132,7 +141,9 @@ strict digraph "Indexable - Type Hierarchy - SwiftDoc.org" {
     "_ArrayType" -> "Array"
     "_ArrayType" -> "ArraySlice"
     "_ArrayType" -> "ContiguousArray"
+    "_ReverseCollectionType" -> "ReverseCollection"
+    "_ReverseCollectionType" -> "ReverseRandomAccessCollection"
     subgraph Types {
-        rank = max; "AnyBidirectionalCollection"; "AnyForwardCollection"; "AnyRandomAccessCollection"; "Array"; "ArraySlice"; "CollectionOfOne"; "ContiguousArray"; "Dictionary"; "DictionaryLiteral"; "EmptyCollection"; "FilterCollection"; "LazyBidirectionalCollection"; "LazyForwardCollection"; "LazyRandomAccessCollection"; "MapCollection"; "Range"; "Repeat"; "ReverseCollection"; "ReverseRandomAccessCollection"; "Set"; "Slice"; "UnicodeScalar.UTF16View"; "UnsafeBufferPointer"; "UnsafeMutableBufferPointer"; "String.CharacterView"; "String.UnicodeScalarView"; "String.UTF16View"; "String.UTF8View";
+        rank = max; "AnyBidirectionalCollection"; "AnyForwardCollection"; "AnyRandomAccessCollection"; "Array"; "ArraySlice"; "CollectionOfOne"; "ContiguousArray"; "Dictionary"; "DictionaryLiteral"; "EmptyCollection"; "FlattenBidirectionalCollection"; "FlattenCollection"; "LazyCollection"; "LazyFilterCollection"; "LazyMapCollection"; "MutableSlice"; "Range"; "Repeat"; "ReverseCollection"; "ReverseRandomAccessCollection"; "Set"; "Slice"; "UnicodeScalar.UTF16View"; "UnsafeBufferPointer"; "UnsafeMutableBufferPointer"; "String.CharacterView"; "String.UnicodeScalarView"; "String.UTF16View"; "String.UTF8View";
     }
 }

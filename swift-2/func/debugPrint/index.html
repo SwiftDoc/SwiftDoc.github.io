@@ -10,7 +10,7 @@
     <title>debugPrint &#8212; SwiftDoc.org</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Swift documentation for func 'debugPrint'.">
+    <meta name="description" content="Swift documentation for 'debugPrint': Writes the textual representations of items most suitable for debugging, separated by separator and terminated by terminator, into the standard output.">
     <meta name="keywords" content="debugPrint,func,swift,documentation">
     <link rel="canonical" href="http://swiftdoc.org/swift-2/func/debugPrint/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
@@ -24,14 +24,14 @@
     <meta property="og:image" content="http://swiftdoc.org/assets/images/touch-icon-ipad-retina.png"/>
     <meta property="og:title" content="debugPrint"/>
     <meta property="og:url" content="http://swiftdoc.org/swift-2/func/debugPrint/index.html"/>
-    <meta property="og:description" content="Swift documentation for func 'debugPrint'."/>
+    <meta property="og:description" content="Swift documentation for 'debugPrint': Writes the textual representations of items most suitable for debugging, separated by separator and terminated by terminator, into the standard output."/>
 
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@SwiftDocOrg"/>
     <meta name="twitter:creator" content="@SwiftDocOrg"/>
     <meta name="twitter:title" content="debugPrint"/>
     <meta name="twitter:image" content="http://swiftdoc.org/assets/images/touch-icon-ipad-retina.png"/>
-    <meta name="twitter:description" content="Swift documentation for func 'debugPrint'."/>
+    <meta name="twitter:description" content="Swift documentation for 'debugPrint': Writes the textual representations of items most suitable for debugging, separated by separator and terminated by terminator, into the standard output."/>
     <meta name="twitter:url" content="http://swiftdoc.org/swift-2/func/debugPrint/index.html"/>
 
     <link href="/assets/swift-78438ac45d7a154719953ea28c7ab160.css" rel="stylesheet" type="text/css" />
@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-func p-debugPrint">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -178,49 +179,35 @@
           
           <article class="content">
           <div class="declaration" id="func-debugPrint">
-<code class="language-swift">public func debugPrint&lt;T&gt;(value: T)</code>
-</div>
-<div class="declaration" id="func-debugPrint">
-<code class="language-swift">public func debugPrint&lt;T&gt;(value: T, appendNewline: Bool)</code>
+<code class="language-swift">func debugPrint(items: Any..., separator: String = default, terminator: String = default) </code>
 <div class="comment">
-    <p>Writes the textual representation of <code>value</code> most suitable for debugging,
-and an optional newline, into the standard output.</p>
+    <p>Writes the textual representations of <code>items</code> most suitable for
+debugging, separated by <code>separator</code> and terminated by
+<code>terminator</code>, into the standard output.</p>
 
-<p>The textual representation is obtained from the <code>value</code> using its protocol
-conformances, in the following order of preference:
-<code>CustomDebugStringConvertible</code>, <code>CustomStringConvertible</code>, <code>Streamable</code>.
-If none of these conformances are found, a default text representation is
-constructed in an implementation-defined way, based on the type kind and
-structure.</p>
+<p>The textual representations are obtained for each <code>item</code> via
+the expression <code>String(reflecting: item)</code>.</p>
 
-<p>Do not overload this function for your type.  Instead, adopt one of the
-protocols mentioned above.</p>
+<p><strong>Note:</strong> to print without a trailing newline, pass <code>terminator: &quot;&quot;</code></p>
 
-<p><strong><code>appendNewline</code>:</strong>  Iff <code>true</code> (the default), write a trailing
-  newline.</p>
+<p><strong>See Also:</strong> <code>print</code>, Streamable<code>, </code>CustomStringConvertible<code>,
+  </code>CustomDebugStringConvertible`</p>
 </div>
 </div>
 <div class="declaration" id="func-debugPrint">
-<code class="language-swift">public func debugPrint&lt;T, TargetStream : OutputStreamType&gt;(value: T, inout _ target: TargetStream)</code>
-</div>
-<div class="declaration" id="func-debugPrint">
-<code class="language-swift">public func debugPrint&lt;T, TargetStream : OutputStreamType&gt;(value: T, inout _ target: TargetStream, appendNewline: Bool)</code>
+<code class="language-swift">func debugPrint&lt;Target : OutputStreamType&gt;(items: Any..., separator: String = default, terminator: String = default, inout toStream output: Target) </code>
 <div class="comment">
-    <p>Writes the textual representation of <code>value</code> most suitable for debugging,
-and an optional newline, into the stream <code>target</code>.</p>
+    <p>Writes the textual representations of <code>items</code> most suitable for
+debugging, separated by <code>separator</code> and terminated by
+<code>terminator</code>, into <code>output</code>.</p>
 
-<p>The textual representation is obtained from the <code>value</code> using its protocol
-conformances, in the following order of preference:
-<code>CustomDebugStringConvertible</code>, <code>CustomStringConvertible</code>, <code>Streamable</code>.
-If none of these conformances are found, a default text representation is
-constructed in an implementation-defined way, based on the type kind and
-structure.</p>
+<p>The textual representations are obtained for each <code>item</code> via
+the expression <code>String(reflecting: item)</code>.</p>
 
-<p>Do not overload this function for your type.  Instead, adopt one of the
-protocols mentioned above.</p>
+<p><strong>Note:</strong> to print without a trailing newline, pass <code>terminator: &quot;&quot;</code></p>
 
-<p><strong><code>appendNewline</code>:</strong>  Iff <code>true</code> (the default), write a trailing
-  newline.</p>
+<p><strong>See Also:</strong> <code>print</code>, Streamable<code>, </code>CustomStringConvertible<code>,
+  </code>CustomDebugStringConvertible`</p>
 </div>
 </div>
 
@@ -235,7 +222,7 @@ protocols mentioned above.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

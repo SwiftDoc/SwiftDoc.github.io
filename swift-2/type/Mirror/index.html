@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-type p-Mirror">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -218,7 +219,7 @@ instances of this type to <code>AnyBidirectionalCollection</code> or
 might write:</p>
 
 <pre><code class="language-swift">if let b = AnyBidirectionalCollection(someMirror.children) {
-  for i in advance(b.endIndex, -20, b.startIndex)..&lt;b.endIndex {
+  for i in b.endIndex.advancedBy(-20, limit: b.startIndex)..&lt;b.endIndex {
      print(b[i])
   }
 }</code></pre>
@@ -365,10 +366,10 @@ reflected subject.</p>
 
 <h3>Instance Methods</h3>
 <div class="declaration" id="func-superclassMirror">
-<code class="language-swift">public func superclassMirror() -> Mirror?</code>
+<code class="language-swift">func superclassMirror() -> Mirror?</code>
 </div>
 <div class="declaration" id="func-descendant">
-<code class="language-swift">public func descendant(first: MirrorPathType, _ rest: MirrorPathType...) -> Any?</code>
+<code class="language-swift">func descendant(first: MirrorPathType, _ rest: MirrorPathType...) -> Any?</code>
 <div class="comment">
     <p>Return a specific descendant of the reflected subject, or <code>nil</code>
 if no such descendant exists.</p>
@@ -382,15 +383,14 @@ An integer argument <em>n</em> select the <em>n</em>th <code>Child</code>.  For 
 
 <pre><code class="language-swift">var d = nil
 let children = Mirror(reflecting: x).children
-let p0 = advance(children.startIndex, 1, children.endIndex)
+let p0 = children.startIndex.advancedBy(1, limit: children.endIndex)
 if p0 != children.endIndex {
   let grandChildren = Mirror(reflecting: children[p0].value).children
   SeekTwo: for g in grandChildren {
     if g.label == &quot;two&quot; {
       let greatGrandChildren = Mirror(reflecting: g.value).children
-      let p1 = advance(
-        greatGrandChildren.startIndex, 3, 
-        greatGrandChildren.endIndex)
+      let p1 = greatGrandChildren.startIndex.advancedBy(3,
+        limit: greatGrandChildren.endIndex)
       if p1 != endIndex { d = greatGrandChildren[p1].value }
       break SeekTwo
     }
@@ -406,7 +406,7 @@ efficient.</p>
 </div>
 </div>
 <div class="declaration" id="func-customMirror">
-<code class="language-swift">public func customMirror() -> Mirror</code>
+<code class="language-swift">func customMirror() -> Mirror</code>
 </div>
 
 
@@ -423,7 +423,7 @@ efficient.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

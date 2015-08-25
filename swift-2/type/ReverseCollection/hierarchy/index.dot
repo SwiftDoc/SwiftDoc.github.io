@@ -5,9 +5,14 @@ strict digraph "ReverseCollection<Base : CollectionType where Base.Index : Bidir
     "CollectionType" [URL="/protocol/CollectionType/"]
     "Indexable" [URL="/protocol/Indexable/"]
     "ReverseCollection<Base : CollectionType where Base.Index : BidirectionalIndexType>" [URL="/type/ReverseCollection/", style="filled", fillcolor="#ee543d", color="#ee543d"]
-    "SequenceType" [URL="/protocol/SequenceType/"]    "CollectionType" -> "ReverseCollection<Base : CollectionType where Base.Index : BidirectionalIndexType>"
+    "SequenceType" [URL="/protocol/SequenceType/"]
+    "_ReverseCollectionType" [URL="/protocol/_ReverseCollectionType/"]    "CollectionType" -> "ReverseCollection<Base : CollectionType where Base.Index : BidirectionalIndexType>"
     "Indexable" -> "ReverseCollection<Base : CollectionType where Base.Index : BidirectionalIndexType>"
+    "_ReverseCollectionType" -> "ReverseCollection<Base : CollectionType where Base.Index : BidirectionalIndexType>"
     "SequenceType" -> "ReverseCollection<Base : CollectionType where Base.Index : BidirectionalIndexType>"
+    "Indexable" -> "CollectionType"
+    "SequenceType" -> "CollectionType"
+    "CollectionType" -> "_ReverseCollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {

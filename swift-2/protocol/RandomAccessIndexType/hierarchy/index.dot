@@ -27,6 +27,7 @@ strict digraph "RandomAccessIndexType - Type Hierarchy - SwiftDoc.org" {
     "UnsafePointer" [URL="/type/UnsafePointer/", style=filled]
     "UnsignedIntegerType" [URL="/protocol/UnsignedIntegerType/"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]
+    "_RandomAccessAmbiguity" [URL="/protocol/_RandomAccessAmbiguity/"]
     "_Strideable" [URL="/protocol/_Strideable/"]    "RandomAccessIndexType" -> "AnyRandomAccessIndex"
     "RandomAccessIndexType" -> "Bit"
     "RandomAccessIndexType" -> "Int"
@@ -70,6 +71,7 @@ strict digraph "RandomAccessIndexType - Type Hierarchy - SwiftDoc.org" {
     "UnsignedIntegerType" -> "UInt8"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"

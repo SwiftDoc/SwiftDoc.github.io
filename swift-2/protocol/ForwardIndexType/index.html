@@ -11,7 +11,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Swift documentation for 'ForwardIndexType': Represents a discrete value in a series, where a value&#39;s successor, if any, is reachable by applying the value&#39;s successor() method.">
-    <meta name="keywords" content="ForwardIndexType,protocol,swift,documentation,Distance">
+    <meta name="keywords" content="ForwardIndexType,protocol,swift,documentation,advancedBy,advancedBy,distanceTo,Distance">
     <link rel="canonical" href="http://swiftdoc.org/swift-2/protocol/ForwardIndexType/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -49,7 +49,8 @@
   <body class="p-swift-2 p-protocol p-ForwardIndexType">
     <div id="wrapper">
 
-    	<nav class="navbar navbar-default" role="navigation" id="navbar">
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -59,7 +60,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><a href="/">SwiftDoc.org</a></h1>
+          <h1><a href="/swift-2/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
 	    <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -82,7 +83,7 @@
 
 	<div id="header">
 		<div class="container">
-			<h1><a href="/">SwiftDoc.org</a></h1>
+			<h1><a href="/swift-2/">SwiftDoc.org</a></h1>
 			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
 			
 			
@@ -93,7 +94,7 @@
     <div id="version">
 		<div class="container">
     		
-			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b5</strong>
+			Swift version: <a href="/">1.2</a> &nbsp;|&nbsp; <strong>2.0b6</strong>
     		
 		</div>
     </div>
@@ -207,6 +208,77 @@ the other via zero or more applications of <code>successor</code>.</p>
 
 
 
+<h3>Instance Methods</h3>
+<div class="declaration" id="func-advancedBy">
+<code class="language-swift">func advancedBy(n: Self.Distance) -> Self</code>
+<div class="comment">
+    <p>Return the result of advancing <code>self</code> by <code>n</code> positions.</p>
+
+<p><strong>Returns:</strong>
+  - If <code>n &gt; 0</code>, the result of applying <code>successor</code> to <code>self</code> <code>n</code> times.
+  - If <code>n &lt; 0</code>, the result of applying <code>predecessor</code> to <code>self</code> <code>-n</code> times.
+  - Otherwise, <code>self</code>.</p>
+
+<p><strong>Requires:</strong> <code>n &gt;= 0</code> if only conforming to <code>ForwardIndexType</code>
+<strong>Complexity:</strong>
+  - O(1) if conforming to <code>RandomAccessIndexType</code>
+  - O(<code>abs(n)</code>) otherwise</p>
+</div>
+</div>
+<div class="declaration" id="func-advancedBy">
+<code class="language-swift">func advancedBy(n: Self.Distance, limit: Self) -> Self</code>
+<div class="comment">
+    <p>Return the result of advancing <code>self</code> by <code>n</code> positions, or until it
+equals <code>limit</code>.</p>
+
+<p><strong>Returns:</strong>
+  - If <code>n &gt; 0</code>, the result of applying <code>successor</code> to <code>self</code> <code>n</code> times
+    but not past <code>limit</code>.
+  - If <code>n &lt; 0</code>, the result of applying <code>predecessor</code> to <code>self</code> <code>-n</code> times
+    but not past <code>limit</code>.
+  - Otherwise, <code>self</code>.</p>
+
+<p><strong>Requires:</strong> <code>n &gt;= 0</code> if only conforming to <code>ForwardIndexType</code>.</p>
+
+<p><strong>Complexity:</strong>
+  - O(1) if conforming to <code>RandomAccessIndexType</code>
+  - O(<code>abs(n)</code>) otherwise</p>
+</div>
+</div>
+<div class="declaration" id="func-distanceTo">
+<code class="language-swift">func distanceTo(end: Self) -> Self.Distance</code>
+<div class="comment">
+    <p>Measure the distance between <code>self</code> and <code>end</code>.</p>
+
+<p><strong>Requires:</strong>
+  - <code>start</code> and <code>end</code> are part of the same sequence when conforming to
+    <code>RandomAccessSequenceType</code>.
+  - <code>end</code> is reachable from <code>self</code> by incrementation otherwise.</p>
+
+<p><strong>Complexity:</strong>
+  - O(1) if conforming to <code>RandomAccessIndexType</code>
+  - O(<code>n</code>) otherwise, where <code>n</code> is the function&#39;s result.</p>
+</div>
+</div>
+
+
+
+<h3>Default Implementations</h3>
+
+
+
+<div class="declaration" id="func-advancedBy">
+<code class="language-swift">func advancedBy(n: Self.Distance) -> Self</code>
+</div>
+<div class="declaration" id="func-advancedBy">
+<code class="language-swift">func advancedBy(n: Self.Distance, limit: Self) -> Self</code>
+</div>
+<div class="declaration" id="func-distanceTo">
+<code class="language-swift">func distanceTo(end: Self) -> Self.Distance</code>
+</div>
+
+
+
 
 
 
@@ -222,7 +294,7 @@ the other via zero or more applications of <code>successor</code>.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.0.52.2</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.0.57.3</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">
