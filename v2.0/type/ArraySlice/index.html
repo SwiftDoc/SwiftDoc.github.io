@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+  
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>ArraySlice &#8212; SwiftDoc.org</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Swift documentation for 'ArraySlice': The Array-like type that represents a sub-sequence of any Array, ContiguousArray, or other ArraySlice.">
+    <meta name="keywords" content="ArraySlice,struct,swift,documentation,reserveCapacity,append,appendContentsOf,appendContentsOf,removeLast,insert,removeAtIndex,removeAll,withUnsafeBufferPointer,withUnsafeMutableBufferPointer,replaceRange,startIndex,endIndex,count,capacity,description,debugDescription">
+    <link rel="canonical" href="http://swiftdoc.org/v2.0/type/ArraySlice/">
+    <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/touch-icon-ipad-retina.png">
+    <link rel="alternate" type="application/rss+xml" title="SwiftDoc.org" href="/feed.xml" />
+
+    <meta property="og:site_name" content="SwiftDoc.org"/>
+    <meta property="og:image" content="http://swiftdoc.org/assets/images/touch-icon-ipad-retina.png"/>
+    <meta property="og:title" content="ArraySlice"/>
+    <meta property="og:url" content="http://swiftdoc.org/v2.0/type/ArraySlice/index.html"/>
+    <meta property="og:description" content="Swift documentation for 'ArraySlice': The Array-like type that represents a sub-sequence of any Array, ContiguousArray, or other ArraySlice."/>
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@SwiftDocOrg"/>
+    <meta name="twitter:creator" content="@SwiftDocOrg"/>
+    <meta name="twitter:title" content="ArraySlice"/>
+    <meta name="twitter:image" content="http://swiftdoc.org/assets/images/touch-icon-ipad-retina.png"/>
+    <meta name="twitter:description" content="Swift documentation for 'ArraySlice': The Array-like type that represents a sub-sequence of any Array, ContiguousArray, or other ArraySlice."/>
+    <meta name="twitter:url" content="http://swiftdoc.org/v2.0/type/ArraySlice/index.html"/>
+
+    <link href="/assets/swift-40eb90c4196eede89b100f0b2a88fe8d.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/swift-3e0ba369b7924007999aa6a2d0bf43b8.js" type="text/javascript"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="/v2.0/assets/js/swift-linkdata.js"></script>
+    
+  </head>
+
+  <body class="p-v2.0 p-type p-ArraySlice">
+    <div id="wrapper">
+
+        
+	<nav class="navbar navbar-default" role="navigation" id="navbar">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1><a href="/">SwiftDoc.org</a></h1>
+          <span class="version"></span>
+        </div>
+	    <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <form class="navbar-form navbar-left" role="search">
+          
+    		<div class="form-group input-group has-feedback">
+    			<input type="hidden" class="form-control select2">
+    			<span class="glyphicon glyphicon-search form-control-feedback"></span>
+    		</div>
+            
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="/type/">Types</a></li>
+              <li><a href="/protocol/">Protocols</a></li>
+              <li><a href="/operator/">Operators</a></li>
+              <li><a href="/global/">Globals</a></li>
+          </ul>
+	    </div>
+	</nav>				
+
+	<div id="header">
+		<div class="container">
+			<h1><a href="/">SwiftDoc.org</a></h1>
+			<p>Auto-generated documentation for <a href="https://developer.apple.com/swift/">Swift</a>. Command-click no more.</p>
+			
+			
+		</div>
+	</div>
+
+    
+    <div id="version">
+		<div class="container">
+    		
+			Swift version: <a href="/v1.2/">1.2</a> &nbsp;|&nbsp; <strong>2.0</strong>
+    		
+		</div>
+    </div>
+    
+    
+	
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-md-3" id="sidebar">
+
+    		<div class="form-group input-group has-feedback">
+    			<input type="hidden" class="form-control select2">
+    			<span class="glyphicon glyphicon-search form-control-feedback"></span>
+    		</div>
+
+            <div class="panel-group" id="accordion">
+
+  <div class="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTypes">
+          Types
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTypes" class="panel-collapse collapse">
+      <div class="panel-body list-group">
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseProtocols">
+          Protocols
+        </a>
+      </h4>
+    </div>
+    <div id="collapseProtocols" class="panel-collapse collapse">
+      <div class="panel-body list-group">
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOperators">
+          Operators
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOperators" class="panel-collapse collapse">
+      <div class="panel-body list-group">
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseGlobals">
+          Globals
+        </a>
+      </h4>
+    </div>
+    <div id="collapseGlobals" class="panel-collapse collapse">
+      <div class="panel-body list-group">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+        </div>
+
+        <div class="col-sm-8 col-md-9" id="content">
+          <header>
+            <h2>ArraySlice</h2>
+          </header>
+          
+          <article class="content">
+          <code class="language-swift">struct ArraySlice&lt;Element&gt; { ... }</code>
+
+<div class="comment">
+    <p>The <code>Array</code>-like type that represents a sub-sequence of any
+<code>Array</code>, <code>ContiguousArray</code>, or other <code>ArraySlice</code>.</p>
+
+<p><code>ArraySlice</code> always uses contiguous storage and does not bridge to
+Objective-C.</p>
+
+<p><strong>Warning:</strong> Long-term storage of <code>ArraySlice</code> instances is discouraged.</p>
+
+<p>Because a <code>ArraySlice</code> presents a <em>view</em> onto the storage of some
+larger array even after the original array&#39;s lifetime ends,
+storing the slice may prolong the lifetime of elements that are
+no longer accessible, which can manifest as apparent memory and
+object leakage.  To prevent this effect, use <code>ArraySlice</code> only for
+transient computation.</p>
+</div>
+
+<h3>Inheritance</h3>
+<code class="inherits">Indexable, SequenceType, CollectionType, MutableCollectionType, MutableIndexable, _DestructorSafeContainer, ArrayLiteralConvertible, _ArrayType, MutableSliceable, RangeReplaceableCollectionType, _Reflectable, CustomStringConvertible, CustomDebugStringConvertible</code>
+<span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
+
+
+
+
+<h3>Initializers</h3>
+<div class="declaration">
+<code class="language-swift">init(arrayLiteral elements: Element...)</code>
+<div class="comment">
+    <p>Create an instance containing <code>elements</code>.</p>
+</div>
+</div>
+<div class="declaration">
+<code class="language-swift">init()</code>
+<div class="comment">
+    <p>Construct an empty ArraySlice.</p>
+</div>
+</div>
+<div class="declaration">
+<code class="language-swift">init&lt;S : SequenceType where S.Generator.Element == _Buffer.Element&gt;(_ s: S)</code>
+<div class="comment">
+    <p>Construct from an arbitrary sequence with elements of type <code>Element</code>.</p>
+</div>
+</div>
+<div class="declaration">
+<code class="language-swift">init(count: Int, repeatedValue: Element)</code>
+<div class="comment">
+    <p>Construct a ArraySlice of <code>count</code> elements, each initialized to
+<code>repeatedValue</code>.</p>
+</div>
+</div>
+
+
+<h3>Instance Variables</h3>
+<div class="declaration" id="prop-startIndex">
+<code class="language-swift">var startIndex: Int { get }</code>
+<div class="comment">
+    <p>Always zero, which is the index of the first element when non-empty.</p>
+</div>
+</div>
+<div class="declaration" id="prop-endIndex">
+<code class="language-swift">var endIndex: Int { get }</code>
+<div class="comment">
+    <p>A &quot;past-the-end&quot; element index; the successor of the last valid
+subscript argument.</p>
+</div>
+</div>
+<div class="declaration" id="prop-count">
+<code class="language-swift">var count: Int { get }</code>
+<div class="comment">
+    <p>The number of elements the ArraySlice stores.</p>
+</div>
+</div>
+<div class="declaration" id="prop-capacity">
+<code class="language-swift">var capacity: Int { get }</code>
+<div class="comment">
+    <p>The number of elements the <code>ArraySlice</code> can store without reallocation.</p>
+</div>
+</div>
+<div class="declaration" id="prop-description">
+<code class="language-swift">var description: String { get }</code>
+<div class="comment">
+    <p>A textual representation of <code>self</code>.</p>
+</div>
+</div>
+<div class="declaration" id="prop-debugDescription">
+<code class="language-swift">var debugDescription: String { get }</code>
+<div class="comment">
+    <p>A textual representation of <code>self</code>, suitable for debugging.</p>
+</div>
+</div>
+
+
+<h3>Instance Methods</h3>
+<div class="declaration" id="func-reserveCapacity">
+<code class="language-swift">mutating func reserveCapacity(minimumCapacity: Int) </code>
+<div class="comment">
+    <p>Reserve enough space to store <code>minimumCapacity</code> elements.</p>
+
+<p><strong>Postcondition:</strong> <code>capacity &gt;= minimumCapacity</code> and the array has
+  mutable contiguous storage.</p>
+
+<p><strong>Complexity:</strong> O(<code>count</code>).</p>
+</div>
+</div>
+<div class="declaration" id="func-append">
+<code class="language-swift">mutating func append(newElement: Element) </code>
+<div class="comment">
+    <p>Append <code>newElement</code> to the ArraySlice.</p>
+
+<p><strong>Complexity:</strong> Amortized O(1) unless <code>self</code>&#39;s storage is shared with another live array; O(<code>count</code>) otherwise..</p>
+</div>
+</div>
+<div class="declaration" id="func-appendContentsOf">
+<code class="language-swift">mutating func appendContentsOf&lt;S : SequenceType where S.Generator.Element == Element&gt;(newElements: S) </code>
+<div class="comment">
+    <p>Append the elements of <code>newElements</code> to <code>self</code>.</p>
+
+<p><strong>Complexity:</strong> O(<em>length of result</em>).</p>
+</div>
+</div>
+<div class="declaration" id="func-appendContentsOf">
+<code class="language-swift">mutating func appendContentsOf&lt;C : CollectionType where C.Generator.Element == Element&gt;(newElements: C) </code>
+<div class="comment">
+    <p>Append the elements of <code>newElements</code> to <code>self</code>.</p>
+
+<p><strong>Complexity:</strong> O(<em>length of result</em>).</p>
+</div>
+</div>
+<div class="declaration" id="func-removeLast">
+<code class="language-swift">mutating func removeLast() -> Element</code>
+<div class="comment">
+    <p>Remove an element from the end of the ArraySlice in O(1).</p>
+
+<p><strong>Requires:</strong> <code>count &gt; 0</code>.</p>
+</div>
+</div>
+<div class="declaration" id="func-insert">
+<code class="language-swift">mutating func insert(newElement: Element, atIndex i: Int) </code>
+<div class="comment">
+    <p>Insert <code>newElement</code> at index <code>i</code>.</p>
+
+<p><strong>Requires:</strong> <code>i &lt;= count</code>.</p>
+
+<p><strong>Complexity:</strong> O(<code>count</code>).</p>
+</div>
+</div>
+<div class="declaration" id="func-removeAtIndex">
+<code class="language-swift">mutating func removeAtIndex(index: Int) -> Element</code>
+<div class="comment">
+    <p>Remove and return the element at index <code>i</code>.</p>
+
+<p>Invalidates all indices with respect to <code>self</code>.</p>
+
+<p><strong>Complexity:</strong> O(<code>count</code>).</p>
+</div>
+</div>
+<div class="declaration" id="func-removeAll">
+<code class="language-swift">mutating func removeAll(keepCapacity keepCapacity: Bool = default) </code>
+<div class="comment">
+    <p>Remove all elements.</p>
+
+<p><strong>Postcondition:</strong> <code>capacity == 0</code> iff <code>keepCapacity</code> is <code>false</code>.</p>
+
+<p><strong>Complexity:</strong> O(<code>self.count</code>).</p>
+</div>
+</div>
+<div class="declaration" id="func-withUnsafeBufferPointer">
+<code class="language-swift">func withUnsafeBufferPointer&lt;R&gt;(@noescape body: (UnsafeBufferPointer&lt;Element&gt;) throws -&gt; R) rethrows -> R</code>
+<div class="comment">
+    <p>Call <code>body(p)</code>, where <code>p</code> is a pointer to the <code>ArraySlice</code>&#39;s
+contiguous storage.</p>
+
+<p>Often, the optimizer can eliminate bounds checks within an
+array algorithm, but when that fails, invoking the
+same algorithm on <code>body</code>&#39;s argument lets you trade safety for
+speed.</p>
+</div>
+</div>
+<div class="declaration" id="func-withUnsafeMutableBufferPointer">
+<code class="language-swift">mutating func withUnsafeMutableBufferPointer&lt;R&gt;(@noescape body: (inout UnsafeMutableBufferPointer&lt;Element&gt;) throws -&gt; R) rethrows -> R</code>
+<div class="comment">
+    <p>Call <code>body(p)</code>, where <code>p</code> is a pointer to the <code>ArraySlice</code>&#39;s
+mutable contiguous storage.</p>
+
+<p>Often, the optimizer can eliminate bounds- and uniqueness-checks
+within an array algorithm, but when that fails, invoking the
+same algorithm on <code>body</code>&#39;s argument lets you trade safety for
+speed.</p>
+
+<p><strong>Warning:</strong> Do not rely on anything about <code>self</code> (the <code>ArraySlice</code>
+  that is the target of this method) during the execution of
+  <code>body</code>: it may not appear to have its correct value.  Instead,
+  use only the <code>UnsafeMutableBufferPointer</code> argument to <code>body</code>.</p>
+</div>
+</div>
+<div class="declaration" id="func-replaceRange">
+<code class="language-swift">mutating func replaceRange&lt;C : CollectionType where C.Generator.Element == _Buffer.Element&gt;(subRange: Range&lt;Int&gt;, with newElements: C) </code>
+<div class="comment">
+    <p>Replace the given <code>subRange</code> of elements with <code>newElements</code>.</p>
+
+<p><strong>Complexity:</strong> O(<code>subRange.count</code>) if <code>subRange.endIndex
+  == self.endIndex</code> and <code>newElements.isEmpty</code>, O(N) otherwise.</p>
+</div>
+</div>
+
+<h3>Subscripts</h3>
+<div class="declaration">
+<code class="language-swift">subscript(index: Int) -> Element</code>
+</div>
+<div class="declaration">
+<code class="language-swift">subscript(subRange: Range&lt;Int&gt;) -> ArraySlice&lt;Element&gt;</code>
+</div>
+
+
+
+          </article>
+
+    
+        </div><!-- content -->
+      </div><!-- row -->
+    </div><!-- cont -->
+        <div class="push"></div>
+    </div><!-- wrapper -->
+
+            <div id="footer">
+            <span class="line">
+                <span class="version">Swift versions 602.0.49.3 & 700.0.59</span> &nbsp;&sdot;&nbsp;
+                <a href="/news/">News</a>
+            </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
+            <span class="line">
+                <a href="https://twitter.com/SwiftDocOrg">@SwiftDocOrg</a> &nbsp;&sdot;&nbsp;
+                <a href="https://github.com/SwiftDocOrg">github.com/SwiftDocOrg</a>
+            </span>
+        </div>
+        
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58091972-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  
+  </body>
+</html>
