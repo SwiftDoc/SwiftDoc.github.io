@@ -34,8 +34,8 @@
     <meta name="twitter:description" content="Swift documentation for 'PlaygroundQuickLook': The sum of types that can be used as a quick look representation."/>
     <meta name="twitter:url" content="http://swiftdoc.org/v2.0/type/PlaygroundQuickLook/index.html"/>
 
-    <link href="/assets/swift-40eb90c4196eede89b100f0b2a88fe8d.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-3e0ba369b7924007999aa6a2d0bf43b8.js" type="text/javascript"></script>
+    <link href="/assets/swift-ad53d83d7f511c875fe435187584402e.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/swift-1180b690b3443cebd37afe75496dce73.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -189,67 +189,67 @@
 
 <h3 id="cases">Cases</h3>
 <div class="declaration">
-<code class="language-swift">case TextString</code>
+<code class="language-swift">case Text(String)</code>
 <div class="comment">
     <p>Plain text.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case IntInt64</code>
+<code class="language-swift">case Int(Int64)</code>
 <div class="comment">
     <p>An integer numeric value.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case UIntUInt64</code>
+<code class="language-swift">case UInt(UInt64)</code>
 <div class="comment">
     <p>An unsigned integer numeric value.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case FloatFloat32</code>
+<code class="language-swift">case Float(Float32)</code>
 <div class="comment">
     <p>A single precision floating-point numeric value.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case DoubleFloat64</code>
+<code class="language-swift">case Double(Float64)</code>
 <div class="comment">
     <p>A double precision floating-point numeric value.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case ImageAny</code>
+<code class="language-swift">case Image(Any)</code>
 <div class="comment">
     <p>An image.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case SoundAny</code>
+<code class="language-swift">case Sound(Any)</code>
 <div class="comment">
     <p>A sound.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case ColorAny</code>
+<code class="language-swift">case Color(Any)</code>
 <div class="comment">
     <p>A color.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case BezierPathAny</code>
+<code class="language-swift">case BezierPath(Any)</code>
 <div class="comment">
     <p>A bezier path.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case AttributedStringAny</code>
+<code class="language-swift">case AttributedString(Any)</code>
 <div class="comment">
     <p>An attributed string.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case RectangleFloat64, Float64, Float64, Float64</code>
+<code class="language-swift">case Rectangle(Float64, Float64, Float64, Float64)</code>
 <div class="comment">
     <p>A rectangle.</p>
 
@@ -257,7 +257,7 @@
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case PointFloat64, Float64</code>
+<code class="language-swift">case Point(Float64, Float64)</code>
 <div class="comment">
     <p>A point.</p>
 
@@ -265,7 +265,7 @@
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case SizeFloat64, Float64</code>
+<code class="language-swift">case Size(Float64, Float64)</code>
 <div class="comment">
     <p>A size.</p>
 
@@ -273,13 +273,13 @@
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case LogicalBool</code>
+<code class="language-swift">case Logical(Bool)</code>
 <div class="comment">
     <p>A logical value.</p>
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case RangeUInt64, UInt64</code>
+<code class="language-swift">case Range(UInt64, UInt64)</code>
 <div class="comment">
     <p>A range.</p>
 
@@ -287,7 +287,7 @@
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case ViewAny</code>
+<code class="language-swift">case View(Any)</code>
 <div class="comment">
     <p>A GUI view.</p>
 
@@ -295,7 +295,7 @@
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case SpriteAny</code>
+<code class="language-swift">case Sprite(Any)</code>
 <div class="comment">
     <p>A graphical sprite.</p>
 
@@ -303,7 +303,7 @@
 </div>
 </div>
 <div class="declaration">
-<code class="language-swift">case URLString</code>
+<code class="language-swift">case URL(String)</code>
 <div class="comment">
     <p>A Uniform Resource Locator.</p>
 </div>
