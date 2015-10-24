@@ -1,0 +1,23 @@
+strict digraph "LazyCollectionType - Type Hierarchy - SwiftDoc.org" {
+    pad="0.1,0.8"
+    node [shape=box, style="filled,rounded", color="#999999", fillcolor="#999999", fontcolor=white, fontname=Helvetica, fontnames="Helvetica,sansserif", fontsize=12, margin="0.07,0.05", height="0.3"]
+    edge [color="#cccccc"]
+    "CollectionType" [URL="/protocol/CollectionType/"]
+    "Indexable" [URL="/protocol/Indexable/"]
+    "LazyCollection" [URL="/type/LazyCollection/", style=filled]
+    "LazyCollectionType" [URL="/protocol/LazyCollectionType/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]
+    "LazyFilterCollection" [URL="/type/LazyFilterCollection/", style=filled]
+    "LazyMapCollection" [URL="/type/LazyMapCollection/", style=filled]
+    "LazySequenceType" [URL="/protocol/LazySequenceType/"]
+    "SequenceType" [URL="/protocol/SequenceType/"]    "LazyCollectionType" -> "LazyCollection"
+    "LazyCollectionType" -> "LazyFilterCollection"
+    "LazyCollectionType" -> "LazyMapCollection"
+    "CollectionType" -> "LazyCollectionType"
+    "LazySequenceType" -> "LazyCollectionType"
+    "Indexable" -> "CollectionType"
+    "SequenceType" -> "CollectionType"
+    "SequenceType" -> "LazySequenceType"
+    subgraph Types {
+        rank = max; "LazyCollection"; "LazyFilterCollection"; "LazyMapCollection";
+    }
+}

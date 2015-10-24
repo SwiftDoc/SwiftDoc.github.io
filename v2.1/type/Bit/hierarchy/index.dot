@@ -1,0 +1,115 @@
+strict digraph "Bit - Type Hierarchy - SwiftDoc.org" {
+    pad="0.1,0.8"
+    node [shape=box, style="filled,rounded", color="#999999", fillcolor="#999999", fontcolor=white, fontname=Helvetica, fontnames="Helvetica,sansserif", fontsize=12, margin="0.07,0.05", height="0.3"]
+    edge [color="#cccccc"]
+    "BidirectionalIndexType" [URL="/protocol/BidirectionalIndexType/"]
+    "Bit" [URL="/type/Bit/", style="filled", fillcolor="#ee543d", color="#ee543d"]
+    "BitwiseOperationsType" [URL="/protocol/BitwiseOperationsType/"]
+    "CVarArgType" [URL="/protocol/CVarArgType/"]
+    "Comparable" [URL="/protocol/Comparable/"]
+    "CustomStringConvertible" [URL="/protocol/CustomStringConvertible/"]
+    "Equatable" [URL="/protocol/Equatable/"]
+    "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
+    "Hashable" [URL="/protocol/Hashable/"]
+    "Int" [URL="/type/Int/", style=filled]
+    "IntegerArithmeticType" [URL="/protocol/IntegerArithmeticType/"]
+    "IntegerLiteralConvertible" [URL="/protocol/IntegerLiteralConvertible/"]
+    "IntegerType" [URL="/protocol/IntegerType/"]
+    "MirrorPathType" [URL="/protocol/MirrorPathType/"]
+    "RandomAccessIndexType" [URL="/protocol/RandomAccessIndexType/"]
+    "SignedIntegerType" [URL="/protocol/SignedIntegerType/"]
+    "SignedNumberType" [URL="/protocol/SignedNumberType/"]
+    "Strideable" [URL="/protocol/Strideable/"]
+    "_Incrementable" [URL="/protocol/_Incrementable/"]
+    "_IntegerArithmeticType" [URL="/protocol/_IntegerArithmeticType/"]
+    "_IntegerType" [URL="/protocol/_IntegerType/"]
+    "_RandomAccessAmbiguity" [URL="/protocol/_RandomAccessAmbiguity/"]
+    "_Reflectable" [URL="/protocol/_Reflectable/"]
+    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]
+    "_Strideable" [URL="/protocol/_Strideable/"]    "Int" -> "Bit"
+    "Comparable" -> "Bit"
+    "RandomAccessIndexType" -> "Bit"
+    "_Reflectable" -> "Bit"
+    "IntegerArithmeticType" -> "Bit"
+    "SignedIntegerType" -> "Int"
+    "Comparable" -> "Int"
+    "Equatable" -> "Int"
+    "RandomAccessIndexType" -> "Int"
+    "Hashable" -> "Int"
+    "CustomStringConvertible" -> "Int"
+    "SignedNumberType" -> "Int"
+    "BitwiseOperationsType" -> "Int"
+    "_Reflectable" -> "Int"
+    "MirrorPathType" -> "Int"
+    "CVarArgType" -> "Int"
+    "_SignedIntegerType" -> "SignedIntegerType"
+    "IntegerType" -> "SignedIntegerType"
+    "_IntegerType" -> "_SignedIntegerType"
+    "SignedNumberType" -> "_SignedIntegerType"
+    "IntegerLiteralConvertible" -> "_IntegerType"
+    "CustomStringConvertible" -> "_IntegerType"
+    "Hashable" -> "_IntegerType"
+    "IntegerArithmeticType" -> "_IntegerType"
+    "BitwiseOperationsType" -> "_IntegerType"
+    "_Incrementable" -> "_IntegerType"
+    "Equatable" -> "Hashable"
+    "_IntegerArithmeticType" -> "IntegerArithmeticType"
+    "Comparable" -> "IntegerArithmeticType"
+    "Equatable" -> "Comparable"
+    "Equatable" -> "_Incrementable"
+    "Comparable" -> "SignedNumberType"
+    "IntegerLiteralConvertible" -> "SignedNumberType"
+    "Equatable" -> "Comparable"
+    "_IntegerType" -> "IntegerType"
+    "RandomAccessIndexType" -> "IntegerType"
+    "IntegerLiteralConvertible" -> "_IntegerType"
+    "CustomStringConvertible" -> "_IntegerType"
+    "Hashable" -> "_IntegerType"
+    "IntegerArithmeticType" -> "_IntegerType"
+    "BitwiseOperationsType" -> "_IntegerType"
+    "_Incrementable" -> "_IntegerType"
+    "Equatable" -> "Hashable"
+    "_IntegerArithmeticType" -> "IntegerArithmeticType"
+    "Comparable" -> "IntegerArithmeticType"
+    "Equatable" -> "Comparable"
+    "Equatable" -> "_Incrementable"
+    "BidirectionalIndexType" -> "RandomAccessIndexType"
+    "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
+    "ForwardIndexType" -> "BidirectionalIndexType"
+    "_Incrementable" -> "ForwardIndexType"
+    "Equatable" -> "_Incrementable"
+    "Comparable" -> "Strideable"
+    "_Strideable" -> "Strideable"
+    "Equatable" -> "Comparable"
+    "Equatable" -> "Comparable"
+    "BidirectionalIndexType" -> "RandomAccessIndexType"
+    "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
+    "ForwardIndexType" -> "BidirectionalIndexType"
+    "_Incrementable" -> "ForwardIndexType"
+    "Equatable" -> "_Incrementable"
+    "Comparable" -> "Strideable"
+    "_Strideable" -> "Strideable"
+    "Equatable" -> "Comparable"
+    "Equatable" -> "Hashable"
+    "Comparable" -> "SignedNumberType"
+    "IntegerLiteralConvertible" -> "SignedNumberType"
+    "Equatable" -> "Comparable"
+    "Equatable" -> "Comparable"
+    "BidirectionalIndexType" -> "RandomAccessIndexType"
+    "Strideable" -> "RandomAccessIndexType"
+    "_RandomAccessAmbiguity" -> "RandomAccessIndexType"
+    "ForwardIndexType" -> "BidirectionalIndexType"
+    "_Incrementable" -> "ForwardIndexType"
+    "Equatable" -> "_Incrementable"
+    "Comparable" -> "Strideable"
+    "_Strideable" -> "Strideable"
+    "Equatable" -> "Comparable"
+    "_IntegerArithmeticType" -> "IntegerArithmeticType"
+    "Comparable" -> "IntegerArithmeticType"
+    "Equatable" -> "Comparable"
+    subgraph Types {
+        rank = max; "Int"; "Bit";
+    }
+}
