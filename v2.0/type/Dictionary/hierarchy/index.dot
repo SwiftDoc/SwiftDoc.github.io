@@ -11,8 +11,6 @@ strict digraph "Dictionary<Key : Hashable, Value> - Type Hierarchy - SwiftDoc.or
     "SequenceType" [URL="/protocol/SequenceType/"]
     "_ObjectiveCBridgeable" [URL="/protocol/_ObjectiveCBridgeable/"]
     "_Reflectable" [URL="/protocol/_Reflectable/"]    "CollectionType" -> "Dictionary<Key : Hashable, Value>"
-    "Indexable" -> "Dictionary<Key : Hashable, Value>"
-    "SequenceType" -> "Dictionary<Key : Hashable, Value>"
     "DictionaryLiteralConvertible" -> "Dictionary<Key : Hashable, Value>"
     "CustomStringConvertible" -> "Dictionary<Key : Hashable, Value>"
     "CustomDebugStringConvertible" -> "Dictionary<Key : Hashable, Value>"

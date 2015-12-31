@@ -7,8 +7,7 @@ strict digraph "COpaquePointer - Type Hierarchy - SwiftDoc.org" {
     "DebugPrintable" [URL="/protocol/DebugPrintable/"]
     "Equatable" [URL="/protocol/Equatable/"]
     "Hashable" [URL="/protocol/Hashable/"]
-    "NilLiteralConvertible" [URL="/protocol/NilLiteralConvertible/"]    "Equatable" -> "COpaquePointer"
-    "Hashable" -> "COpaquePointer"
+    "NilLiteralConvertible" [URL="/protocol/NilLiteralConvertible/"]    "Hashable" -> "COpaquePointer"
     "NilLiteralConvertible" -> "COpaquePointer"
     "DebugPrintable" -> "COpaquePointer"
     "CVarArgType" -> "COpaquePointer"

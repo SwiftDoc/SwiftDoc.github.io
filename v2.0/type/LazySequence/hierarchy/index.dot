@@ -6,7 +6,6 @@ strict digraph "LazySequence<Base : SequenceType> - Type Hierarchy - SwiftDoc.or
     "LazySequenceType" [URL="/protocol/LazySequenceType/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
     "_SequenceWrapperType" [URL="/protocol/_SequenceWrapperType/"]    "LazySequenceType" -> "LazySequence<Base : SequenceType>"
-    "SequenceType" -> "LazySequence<Base : SequenceType>"
     "_SequenceWrapperType" -> "LazySequence<Base : SequenceType>"
     "SequenceType" -> "LazySequenceType"
     subgraph Types {

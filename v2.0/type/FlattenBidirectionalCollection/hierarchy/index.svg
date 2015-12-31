@@ -124,38 +124,28 @@
 <!-- Indexable -->
 <g id="node3" class="node">
 <g id="a_node3"><a xlink:href="/v2.0/protocol/Indexable/" target="_top">
-<path fill="#999999" stroke="#999999" d="M489.699,-138C489.699,-138 442.301,-138 442.301,-138 438.634,-138 434.968,-134.333 434.968,-130.667 434.968,-130.667 434.968,-123.333 434.968,-123.333 434.968,-119.667 438.634,-116 442.301,-116 442.301,-116 489.699,-116 489.699,-116 493.366,-116 497.032,-119.667 497.032,-123.333 497.032,-123.333 497.032,-130.667 497.032,-130.667 497.032,-134.333 493.366,-138 489.699,-138"/>
-<text text-anchor="middle" x="466" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Indexable</text>
+<path fill="#999999" stroke="#999999" d="M502.699,-138C502.699,-138 455.301,-138 455.301,-138 451.634,-138 447.968,-134.333 447.968,-130.667 447.968,-130.667 447.968,-123.333 447.968,-123.333 447.968,-119.667 451.634,-116 455.301,-116 455.301,-116 502.699,-116 502.699,-116 506.366,-116 510.032,-119.667 510.032,-123.333 510.032,-123.333 510.032,-130.667 510.032,-130.667 510.032,-134.333 506.366,-138 502.699,-138"/>
+<text text-anchor="middle" x="479" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Indexable</text>
 </a>
 </g>
 </g>
 <!-- Indexable&#45;&gt;CollectionType -->
-<g id="edge4" class="edge">
-<path fill="none" stroke="#cccccc" d="M476.727,-115.988C485.238,-108.045 497.338,-96.7512 507.417,-87.3439"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="510.038,-89.6858 514.96,-80.3039 505.261,-84.5684 510.038,-89.6858"/>
-</g>
-<!-- Indexable&#45;&gt;FlattenBidirectionalCollection&lt;Base : CollectionType where Base.Generator.Element : CollectionType, Base.Index : BidirectionalIndexType, Base.Generator.Element.Index : BidirectionalIndexType&gt; -->
 <g id="edge2" class="edge">
-<path fill="none" stroke="#cccccc" d="M464.802,-115.658C463.671,-101.724 463.368,-76.5341 473,-58 479.233,-46.0066 490.017,-35.7695 500.237,-28.0187"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="502.441,-30.7463 508.577,-22.1088 498.394,-25.0349 502.441,-30.7463"/>
+<path fill="none" stroke="#cccccc" d="M487.403,-115.988C493.872,-108.281 502.988,-97.4191 510.736,-88.187"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="513.604,-90.2137 517.352,-80.3039 508.242,-85.7136 513.604,-90.2137"/>
 </g>
 <!-- SequenceType -->
 <g id="node4" class="node">
 <g id="a_node4"><a xlink:href="/v2.0/protocol/SequenceType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M622.718,-138C622.718,-138 547.282,-138 547.282,-138 543.615,-138 539.949,-134.333 539.949,-130.667 539.949,-130.667 539.949,-123.333 539.949,-123.333 539.949,-119.667 543.615,-116 547.282,-116 547.282,-116 622.718,-116 622.718,-116 626.385,-116 630.051,-119.667 630.051,-123.333 630.051,-123.333 630.051,-130.667 630.051,-130.667 630.051,-134.333 626.385,-138 622.718,-138"/>
-<text text-anchor="middle" x="585" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
+<path fill="#999999" stroke="#999999" d="M610.718,-138C610.718,-138 535.282,-138 535.282,-138 531.615,-138 527.949,-134.333 527.949,-130.667 527.949,-130.667 527.949,-123.333 527.949,-123.333 527.949,-119.667 531.615,-116 535.282,-116 535.282,-116 610.718,-116 610.718,-116 614.385,-116 618.051,-119.667 618.051,-123.333 618.051,-123.333 618.051,-130.667 618.051,-130.667 618.051,-134.333 614.385,-138 610.718,-138"/>
+<text text-anchor="middle" x="573" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>
 </g>
 </g>
 <!-- SequenceType&#45;&gt;CollectionType -->
-<g id="edge5" class="edge">
-<path fill="none" stroke="#cccccc" d="M574.452,-115.988C566.083,-108.045 554.184,-96.7512 544.273,-87.3439"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="546.518,-84.6496 536.856,-80.3039 541.699,-89.7268 546.518,-84.6496"/>
-</g>
-<!-- SequenceType&#45;&gt;FlattenBidirectionalCollection&lt;Base : CollectionType where Base.Generator.Element : CollectionType, Base.Index : BidirectionalIndexType, Base.Generator.Element.Index : BidirectionalIndexType&gt; -->
 <g id="edge3" class="edge">
-<path fill="none" stroke="#cccccc" d="M586.387,-115.671C587.763,-101.752 588.484,-76.5779 579,-58 572.855,-45.9615 562.082,-35.7183 551.848,-27.9752"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="553.678,-24.983 543.49,-22.0745 549.64,-30.7014 553.678,-24.983"/>
+<path fill="none" stroke="#cccccc" d="M564.597,-115.988C558.128,-108.281 549.012,-97.4191 541.264,-88.187"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="543.758,-85.7136 534.648,-80.3039 538.396,-90.2137 543.758,-85.7136"/>
 </g>
 </g>
 </svg>

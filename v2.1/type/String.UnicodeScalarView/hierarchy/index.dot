@@ -9,13 +9,10 @@ strict digraph "String.UnicodeScalarView - Type Hierarchy - SwiftDoc.org" {
     "RangeReplaceableCollectionType" [URL="/protocol/RangeReplaceableCollectionType/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
     "String.UnicodeScalarView" [URL="/type/String.UnicodeScalarView/", style="filled", fillcolor="#ee543d", color="#ee543d"]
-    "_Reflectable" [URL="/protocol/_Reflectable/"]    "CollectionType" -> "String.UnicodeScalarView"
-    "_Reflectable" -> "String.UnicodeScalarView"
+    "_Reflectable" [URL="/protocol/_Reflectable/"]    "_Reflectable" -> "String.UnicodeScalarView"
     "CustomStringConvertible" -> "String.UnicodeScalarView"
     "CustomDebugStringConvertible" -> "String.UnicodeScalarView"
     "RangeReplaceableCollectionType" -> "String.UnicodeScalarView"
-    "Indexable" -> "CollectionType"
-    "SequenceType" -> "CollectionType"
     "CollectionType" -> "RangeReplaceableCollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"

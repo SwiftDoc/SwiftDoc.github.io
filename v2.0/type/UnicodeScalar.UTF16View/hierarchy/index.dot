@@ -6,8 +6,6 @@ strict digraph "UnicodeScalar.UTF16View - Type Hierarchy - SwiftDoc.org" {
     "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
     "UnicodeScalar.UTF16View" [URL="/type/UnicodeScalar.UTF16View/", style="filled", fillcolor="#ee543d", color="#ee543d"]    "CollectionType" -> "UnicodeScalar.UTF16View"
-    "Indexable" -> "UnicodeScalar.UTF16View"
-    "SequenceType" -> "UnicodeScalar.UTF16View"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {

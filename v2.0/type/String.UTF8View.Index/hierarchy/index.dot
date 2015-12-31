@@ -6,10 +6,7 @@ strict digraph "String.UTF8View.Index - Type Hierarchy - SwiftDoc.org" {
     "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
     "String.UTF8View.Index" [URL="/type/String.UTF8View.Index/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]    "ForwardIndexType" -> "String.UTF8View.Index"
-    "_Incrementable" -> "String.UTF8View.Index"
-    "Equatable" -> "String.UTF8View.Index"
     "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
     "Equatable" -> "_Incrementable"
     subgraph Types {
         rank = max; "String.UTF8View.Index";

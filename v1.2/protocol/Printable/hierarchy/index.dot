@@ -48,25 +48,14 @@ strict digraph "Printable - Type Hierarchy - SwiftDoc.org" {
     "Printable" -> "Float80"
     "Printable" -> "HalfOpenInterval"
     "Printable" -> "ImplicitlyUnwrappedOptional"
-    "Printable" -> "Int"
-    "Printable" -> "Int16"
-    "Printable" -> "Int32"
-    "Printable" -> "Int64"
-    "Printable" -> "Int8"
     "Printable" -> "Range"
     "Printable" -> "Set"
     "Printable" -> "StaticString"
-    "Printable" -> "UInt"
-    "Printable" -> "UInt16"
-    "Printable" -> "UInt32"
-    "Printable" -> "UInt64"
-    "Printable" -> "UInt8"
     "Printable" -> "UnicodeScalar"
     "Printable" -> "_IntegerType"
     "Printable" -> "String.UTF16View"
     "Printable" -> "String.UTF8View"
     "Printable" -> "String.UnicodeScalarView"
-    "Int" -> "Bit"
     "_IntegerType" -> "IntegerType"
     "_IntegerType" -> "_SignedIntegerType"
     "_IntegerType" -> "_UnsignedIntegerType"
@@ -97,6 +86,6 @@ strict digraph "Printable - Type Hierarchy - SwiftDoc.org" {
     "UnsignedIntegerType" -> "UInt64"
     "UnsignedIntegerType" -> "UInt8"
     subgraph Types {
-        rank = max; "Array"; "ArraySlice"; "Bool"; "ClosedInterval"; "ContiguousArray"; "Dictionary"; "Double"; "Float"; "Float80"; "HalfOpenInterval"; "ImplicitlyUnwrappedOptional"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Range"; "Set"; "StaticString"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnicodeScalar"; "String.UTF16View"; "String.UTF8View"; "String.UnicodeScalarView"; "Bit";
+        rank = max; "Array"; "ArraySlice"; "Bool"; "ClosedInterval"; "ContiguousArray"; "Dictionary"; "Double"; "Float"; "Float80"; "HalfOpenInterval"; "ImplicitlyUnwrappedOptional"; "Range"; "Set"; "StaticString"; "UnicodeScalar"; "String.UTF16View"; "String.UTF8View"; "String.UnicodeScalarView"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
     }
 }

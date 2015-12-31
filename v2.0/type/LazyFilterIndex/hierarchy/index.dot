@@ -6,10 +6,7 @@ strict digraph "LazyFilterIndex<BaseElements : CollectionType> - Type Hierarchy 
     "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
     "LazyFilterIndex<BaseElements : CollectionType>" [URL="/type/LazyFilterIndex/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]    "ForwardIndexType" -> "LazyFilterIndex<BaseElements : CollectionType>"
-    "_Incrementable" -> "LazyFilterIndex<BaseElements : CollectionType>"
-    "Equatable" -> "LazyFilterIndex<BaseElements : CollectionType>"
     "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
     "Equatable" -> "_Incrementable"
     subgraph Types {
         rank = max; "LazyFilterIndex<BaseElements : CollectionType>";

@@ -5,9 +5,7 @@ strict digraph "Slice<Base : Indexable> - Type Hierarchy - SwiftDoc.org" {
     "CollectionType" [URL="/protocol/CollectionType/"]
     "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
-    "Slice<Base : Indexable>" [URL="/type/Slice/", style="filled", fillcolor="#ee543d", color="#ee543d"]    "Indexable" -> "Slice<Base : Indexable>"
-    "SequenceType" -> "Slice<Base : Indexable>"
-    "CollectionType" -> "Slice<Base : Indexable>"
+    "Slice<Base : Indexable>" [URL="/type/Slice/", style="filled", fillcolor="#ee543d", color="#ee543d"]    "CollectionType" -> "Slice<Base : Indexable>"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {

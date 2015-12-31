@@ -14,10 +14,7 @@ strict digraph "MutableCollectionType - Type Hierarchy - SwiftDoc.org" {
     "SequenceType" [URL="/protocol/SequenceType/"]
     "UnsafeMutableBufferPointer" [URL="/type/UnsafeMutableBufferPointer/", style=filled]
     "_ArrayBufferType" [URL="/protocol/_ArrayBufferType/"]
-    "_ArrayType" [URL="/protocol/_ArrayType/"]    "MutableCollectionType" -> "Array"
-    "MutableCollectionType" -> "ArraySlice"
-    "MutableCollectionType" -> "ContiguousArray"
-    "MutableCollectionType" -> "MutableSlice"
+    "_ArrayType" [URL="/protocol/_ArrayType/"]    "MutableCollectionType" -> "MutableSlice"
     "MutableCollectionType" -> "MutableSliceable"
     "MutableCollectionType" -> "UnsafeMutableBufferPointer"
     "MutableCollectionType" -> "_ArrayBufferType"
@@ -30,6 +27,6 @@ strict digraph "MutableCollectionType - Type Hierarchy - SwiftDoc.org" {
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {
-        rank = max; "Array"; "ArraySlice"; "ContiguousArray"; "MutableSlice"; "UnsafeMutableBufferPointer";
+        rank = max; "MutableSlice"; "UnsafeMutableBufferPointer"; "Array"; "ArraySlice"; "ContiguousArray";
     }
 }

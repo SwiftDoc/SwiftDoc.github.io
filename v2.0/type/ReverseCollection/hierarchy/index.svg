@@ -103,10 +103,36 @@
 <!-- CollectionType -->
 <g id="node1" class="node">
 <g id="a_node1"><a xlink:href="/v2.0/protocol/CollectionType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M304.704,-138C304.704,-138 231.296,-138 231.296,-138 227.63,-138 223.963,-134.333 223.963,-130.667 223.963,-130.667 223.963,-123.333 223.963,-123.333 223.963,-119.667 227.63,-116 231.296,-116 231.296,-116 304.704,-116 304.704,-116 308.37,-116 312.037,-119.667 312.037,-123.333 312.037,-123.333 312.037,-130.667 312.037,-130.667 312.037,-134.333 308.37,-138 304.704,-138"/>
-<text text-anchor="middle" x="268" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionType</text>
+<path fill="#999999" stroke="#999999" d="M269.704,-138C269.704,-138 196.296,-138 196.296,-138 192.63,-138 188.963,-134.333 188.963,-130.667 188.963,-130.667 188.963,-123.333 188.963,-123.333 188.963,-119.667 192.63,-116 196.296,-116 196.296,-116 269.704,-116 269.704,-116 273.37,-116 277.037,-119.667 277.037,-123.333 277.037,-123.333 277.037,-130.667 277.037,-130.667 277.037,-134.333 273.37,-138 269.704,-138"/>
+<text text-anchor="middle" x="233" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionType</text>
 </a>
 </g>
+</g>
+<!-- _ReverseCollectionType -->
+<g id="node5" class="node">
+<g id="a_node5"><a xlink:href="/v2.0/protocol/_ReverseCollectionType/" target="_top">
+<path fill="#999999" stroke="#999999" d="M295.721,-80C295.721,-80 170.279,-80 170.279,-80 166.612,-80 162.946,-76.3333 162.946,-72.6667 162.946,-72.6667 162.946,-65.3333 162.946,-65.3333 162.946,-61.6667 166.612,-58 170.279,-58 170.279,-58 295.721,-58 295.721,-58 299.388,-58 303.054,-61.6667 303.054,-65.3333 303.054,-65.3333 303.054,-72.6667 303.054,-72.6667 303.054,-76.3333 299.388,-80 295.721,-80"/>
+<text text-anchor="middle" x="233" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ReverseCollectionType</text>
+</a>
+</g>
+</g>
+<!-- CollectionType&#45;&gt;_ReverseCollectionType -->
+<g id="edge2" class="edge">
+<path fill="none" stroke="#cccccc" d="M233,-115.988C233,-108.91 233,-99.1714 233,-90.4779"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="236.5,-90.3038 233,-80.3039 229.5,-90.3039 236.5,-90.3038"/>
+</g>
+<!-- Indexable -->
+<g id="node2" class="node">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/Indexable/" target="_top">
+<path fill="#999999" stroke="#999999" d="M209.699,-196C209.699,-196 162.301,-196 162.301,-196 158.634,-196 154.968,-192.333 154.968,-188.667 154.968,-188.667 154.968,-181.333 154.968,-181.333 154.968,-177.667 158.634,-174 162.301,-174 162.301,-174 209.699,-174 209.699,-174 213.366,-174 217.032,-177.667 217.032,-181.333 217.032,-181.333 217.032,-188.667 217.032,-188.667 217.032,-192.333 213.366,-196 209.699,-196"/>
+<text text-anchor="middle" x="186" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Indexable</text>
+</a>
+</g>
+</g>
+<!-- Indexable&#45;&gt;CollectionType -->
+<g id="edge3" class="edge">
+<path fill="none" stroke="#cccccc" d="M194.403,-173.988C200.872,-166.281 209.988,-155.419 217.736,-146.187"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="220.604,-148.214 224.352,-138.304 215.242,-143.714 220.604,-148.214"/>
 </g>
 <!-- ReverseCollection&lt;Base : CollectionType where Base.Index : BidirectionalIndexType&gt; -->
 <g id="node3" class="node">
@@ -116,64 +142,23 @@
 </a>
 </g>
 </g>
-<!-- CollectionType&#45;&gt;ReverseCollection&lt;Base : CollectionType where Base.Index : BidirectionalIndexType&gt; -->
-<g id="edge1" class="edge">
-<path fill="none" stroke="#cccccc" d="M243.911,-115.994C229.183,-108.462 211.576,-96.5761 203,-80 194.456,-63.4864 205.035,-44.019 215.916,-30.1549"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="218.761,-32.2124 222.562,-22.3231 213.423,-27.6832 218.761,-32.2124"/>
-</g>
-<!-- _ReverseCollectionType -->
-<g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.0/protocol/_ReverseCollectionType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M344.721,-80C344.721,-80 219.279,-80 219.279,-80 215.612,-80 211.946,-76.3333 211.946,-72.6667 211.946,-72.6667 211.946,-65.3333 211.946,-65.3333 211.946,-61.6667 215.612,-58 219.279,-58 219.279,-58 344.721,-58 344.721,-58 348.388,-58 352.054,-61.6667 352.054,-65.3333 352.054,-65.3333 352.054,-72.6667 352.054,-72.6667 352.054,-76.3333 348.388,-80 344.721,-80"/>
-<text text-anchor="middle" x="282" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ReverseCollectionType</text>
-</a>
-</g>
-</g>
-<!-- CollectionType&#45;&gt;_ReverseCollectionType -->
-<g id="edge7" class="edge">
-<path fill="none" stroke="#cccccc" d="M270.503,-115.988C272.292,-108.831 274.761,-98.9547 276.953,-90.1885"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="280.394,-90.8542 279.424,-80.3039 273.603,-89.1564 280.394,-90.8542"/>
-</g>
-<!-- Indexable -->
-<g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/Indexable/" target="_top">
-<path fill="#999999" stroke="#999999" d="M195.699,-196C195.699,-196 148.301,-196 148.301,-196 144.634,-196 140.968,-192.333 140.968,-188.667 140.968,-188.667 140.968,-181.333 140.968,-181.333 140.968,-177.667 144.634,-174 148.301,-174 148.301,-174 195.699,-174 195.699,-174 199.366,-174 203.032,-177.667 203.032,-181.333 203.032,-181.333 203.032,-188.667 203.032,-188.667 203.032,-192.333 199.366,-196 195.699,-196"/>
-<text text-anchor="middle" x="172" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Indexable</text>
-</a>
-</g>
-</g>
-<!-- Indexable&#45;&gt;CollectionType -->
-<g id="edge5" class="edge">
-<path fill="none" stroke="#cccccc" d="M189.163,-173.988C203.815,-165.441 225.116,-153.015 241.884,-143.234"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="243.788,-146.176 250.662,-138.114 240.261,-140.129 243.788,-146.176"/>
-</g>
-<!-- Indexable&#45;&gt;ReverseCollection&lt;Base : CollectionType where Base.Index : BidirectionalIndexType&gt; -->
-<g id="edge2" class="edge">
-<path fill="none" stroke="#cccccc" d="M172.29,-173.691C173.264,-151.511 177.507,-98.0257 196,-58 200.722,-47.7802 208.203,-37.8617 215.207,-29.8674"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="217.982,-32.0214 222.198,-22.3011 212.841,-27.2712 217.982,-32.0214"/>
-</g>
 <!-- SequenceType -->
 <g id="node4" class="node">
 <g id="a_node4"><a xlink:href="/v2.0/protocol/SequenceType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M316.718,-196C316.718,-196 241.282,-196 241.282,-196 237.615,-196 233.949,-192.333 233.949,-188.667 233.949,-188.667 233.949,-181.333 233.949,-181.333 233.949,-177.667 237.615,-174 241.282,-174 241.282,-174 316.718,-174 316.718,-174 320.385,-174 324.051,-177.667 324.051,-181.333 324.051,-181.333 324.051,-188.667 324.051,-188.667 324.051,-192.333 320.385,-196 316.718,-196"/>
-<text text-anchor="middle" x="279" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
+<path fill="#999999" stroke="#999999" d="M317.718,-196C317.718,-196 242.282,-196 242.282,-196 238.615,-196 234.949,-192.333 234.949,-188.667 234.949,-188.667 234.949,-181.333 234.949,-181.333 234.949,-177.667 238.615,-174 242.282,-174 242.282,-174 317.718,-174 317.718,-174 321.385,-174 325.051,-177.667 325.051,-181.333 325.051,-181.333 325.051,-188.667 325.051,-188.667 325.051,-192.333 321.385,-196 317.718,-196"/>
+<text text-anchor="middle" x="280" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>
 </g>
 </g>
 <!-- SequenceType&#45;&gt;CollectionType -->
-<g id="edge6" class="edge">
-<path fill="none" stroke="#cccccc" d="M277.033,-173.988C275.628,-166.831 273.688,-156.955 271.966,-148.189"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="275.386,-147.442 270.024,-138.304 268.517,-148.791 275.386,-147.442"/>
-</g>
-<!-- SequenceType&#45;&gt;ReverseCollection&lt;Base : CollectionType where Base.Index : BidirectionalIndexType&gt; -->
 <g id="edge4" class="edge">
-<path fill="none" stroke="#cccccc" d="M294.772,-173.709C326.074,-152 390.576,-100.057 361,-58 350.169,-42.5988 333.668,-32.329 316.08,-25.4882"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="316.82,-22.0388 306.225,-22.0296 314.502,-28.6438 316.82,-22.0388"/>
+<path fill="none" stroke="#cccccc" d="M271.597,-173.988C265.128,-166.281 256.012,-155.419 248.264,-146.187"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="250.758,-143.714 241.648,-138.304 245.396,-148.214 250.758,-143.714"/>
 </g>
 <!-- _ReverseCollectionType&#45;&gt;ReverseCollection&lt;Base : CollectionType where Base.Index : BidirectionalIndexType&gt; -->
-<g id="edge3" class="edge">
-<path fill="none" stroke="#cccccc" d="M273.24,-57.9883C266.427,-50.2019 256.797,-39.1971 248.667,-29.9049"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="251.235,-27.5249 242.016,-22.3039 245.967,-32.1344 251.235,-27.5249"/>
+<g id="edge1" class="edge">
+<path fill="none" stroke="#cccccc" d="M233,-57.9883C233,-50.9098 233,-41.1714 233,-32.4779"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="236.5,-32.3038 233,-22.3039 229.5,-32.3039 236.5,-32.3038"/>
 </g>
 </g>
 </svg>

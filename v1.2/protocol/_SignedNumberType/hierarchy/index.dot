@@ -21,16 +21,10 @@ strict digraph "_SignedNumberType - Type Hierarchy - SwiftDoc.org" {
     "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]
     "_SignedNumberType" [URL="/protocol/_SignedNumberType/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]    "_SignedNumberType" -> "SignedNumberType"
     "SignedNumberType" -> "AbsoluteValuable"
-    "SignedNumberType" -> "Int"
-    "SignedNumberType" -> "Int16"
-    "SignedNumberType" -> "Int32"
-    "SignedNumberType" -> "Int64"
-    "SignedNumberType" -> "Int8"
     "SignedNumberType" -> "_SignedIntegerType"
     "AbsoluteValuable" -> "Double"
     "AbsoluteValuable" -> "Float"
     "AbsoluteValuable" -> "Float80"
-    "Int" -> "Bit"
     "_SignedIntegerType" -> "SignedIntegerType"
     "SignedIntegerType" -> "Int"
     "SignedIntegerType" -> "Int16"
@@ -43,6 +37,6 @@ strict digraph "_SignedNumberType - Type Hierarchy - SwiftDoc.org" {
     "_Comparable" -> "Comparable"
     "Equatable" -> "Comparable"
     subgraph Types {
-        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Double"; "Float"; "Float80"; "Bit";
+        rank = max; "Double"; "Float"; "Float80"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit";
     }
 }

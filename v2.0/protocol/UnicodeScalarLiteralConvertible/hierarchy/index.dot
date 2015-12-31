@@ -8,18 +8,13 @@ strict digraph "UnicodeScalarLiteralConvertible - Type Hierarchy - SwiftDoc.org"
     "String" [URL="/type/String/", style=filled]
     "StringLiteralConvertible" [URL="/protocol/StringLiteralConvertible/"]
     "UnicodeScalar" [URL="/type/UnicodeScalar/", style=filled]
-    "UnicodeScalarLiteralConvertible" [URL="/protocol/UnicodeScalarLiteralConvertible/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]    "UnicodeScalarLiteralConvertible" -> "Character"
-    "UnicodeScalarLiteralConvertible" -> "ExtendedGraphemeClusterLiteralConvertible"
-    "UnicodeScalarLiteralConvertible" -> "StaticString"
-    "UnicodeScalarLiteralConvertible" -> "String"
+    "UnicodeScalarLiteralConvertible" [URL="/protocol/UnicodeScalarLiteralConvertible/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]    "UnicodeScalarLiteralConvertible" -> "ExtendedGraphemeClusterLiteralConvertible"
     "UnicodeScalarLiteralConvertible" -> "UnicodeScalar"
     "ExtendedGraphemeClusterLiteralConvertible" -> "Character"
-    "ExtendedGraphemeClusterLiteralConvertible" -> "StaticString"
-    "ExtendedGraphemeClusterLiteralConvertible" -> "String"
     "ExtendedGraphemeClusterLiteralConvertible" -> "StringLiteralConvertible"
     "StringLiteralConvertible" -> "StaticString"
     "StringLiteralConvertible" -> "String"
     subgraph Types {
-        rank = max; "Character"; "StaticString"; "String"; "UnicodeScalar";
+        rank = max; "UnicodeScalar"; "Character"; "StaticString"; "String";
     }
 }

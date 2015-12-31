@@ -20,13 +20,7 @@ strict digraph "_SignedIntegerType - Type Hierarchy - SwiftDoc.org" {
     "_Incrementable" [URL="/protocol/_Incrementable/"]
     "_IntegerArithmeticType" [URL="/protocol/_IntegerArithmeticType/"]
     "_IntegerType" [URL="/protocol/_IntegerType/"]
-    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]    "_SignedIntegerType" -> "Int"
-    "_SignedIntegerType" -> "Int16"
-    "_SignedIntegerType" -> "Int32"
-    "_SignedIntegerType" -> "Int64"
-    "_SignedIntegerType" -> "Int8"
-    "_SignedIntegerType" -> "SignedIntegerType"
-    "Int" -> "Bit"
+    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]    "_SignedIntegerType" -> "SignedIntegerType"
     "SignedIntegerType" -> "Int"
     "SignedIntegerType" -> "Int16"
     "SignedIntegerType" -> "Int32"

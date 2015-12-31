@@ -76,7 +76,6 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "SequenceType" -> "StrideTo"
     "SequenceType" -> "UnsafeBufferPointerGenerator"
     "SequenceType" -> "Zip2"
-    "SequenceType" -> "String.UnicodeScalarView"
     "CollectionType" -> "BidirectionalReverseView"
     "CollectionType" -> "CollectionOfOne"
     "CollectionType" -> "Dictionary"
@@ -91,15 +90,11 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "CollectionType" -> "Range"
     "CollectionType" -> "Repeat"
     "CollectionType" -> "Set"
-    "CollectionType" -> "String"
     "CollectionType" -> "UnicodeScalar.UTF16View"
     "CollectionType" -> "UnsafeBufferPointer"
     "CollectionType" -> "_ExtensibleCollectionType"
     "CollectionType" -> "_Sliceable"
     "CollectionType" -> "String.UTF8View"
-    "MutableCollectionType" -> "Array"
-    "MutableCollectionType" -> "ArraySlice"
-    "MutableCollectionType" -> "ContiguousArray"
     "MutableCollectionType" -> "MutableSliceable"
     "MutableCollectionType" -> "UnsafeMutableBufferPointer"
     "MutableCollectionType" -> "_ArrayBufferType"
@@ -109,8 +104,6 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "_ArrayType" -> "ContiguousArray"
     "_ExtensibleCollectionType" -> "ExtensibleCollectionType"
     "ExtensibleCollectionType" -> "RangeReplaceableCollectionType"
-    "ExtensibleCollectionType" -> "String"
-    "ExtensibleCollectionType" -> "String.UnicodeScalarView"
     "RangeReplaceableCollectionType" -> "String"
     "RangeReplaceableCollectionType" -> "_ArrayType"
     "RangeReplaceableCollectionType" -> "String.UnicodeScalarView"
@@ -118,9 +111,6 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "_ArrayType" -> "ArraySlice"
     "_ArrayType" -> "ContiguousArray"
     "_Sliceable" -> "Sliceable"
-    "Sliceable" -> "Array"
-    "Sliceable" -> "ArraySlice"
-    "Sliceable" -> "ContiguousArray"
     "Sliceable" -> "MutableSliceable"
     "Sliceable" -> "String"
     "Sliceable" -> "String.UTF16View"
@@ -132,6 +122,6 @@ strict digraph "SequenceType - Type Hierarchy - SwiftDoc.org" {
     "_Sequence_Type" -> "SequenceType"
     "_SequenceType" -> "_Sequence_Type"
     subgraph Types {
-        rank = max; "EmptyGenerator"; "EnumerateGenerator"; "EnumerateSequence"; "FilterGenerator"; "FilterSequenceView"; "GeneratorOf"; "GeneratorOfOne"; "GeneratorSequence"; "IndexingGenerator"; "LazySequence"; "MapSequenceGenerator"; "MapSequenceView"; "PermutationGenerator"; "RangeGenerator"; "SequenceOf"; "StrideThrough"; "StrideTo"; "UnsafeBufferPointerGenerator"; "Zip2"; "String.UnicodeScalarView"; "BidirectionalReverseView"; "CollectionOfOne"; "Dictionary"; "EmptyCollection"; "FilterCollectionView"; "LazyBidirectionalCollection"; "LazyForwardCollection"; "LazyRandomAccessCollection"; "MapCollectionView"; "RandomAccessReverseView"; "Range"; "Repeat"; "Set"; "String"; "UnicodeScalar.UTF16View"; "UnsafeBufferPointer"; "String.UTF8View"; "Array"; "ArraySlice"; "ContiguousArray"; "UnsafeMutableBufferPointer"; "String.UTF16View";
+        rank = max; "EmptyGenerator"; "EnumerateGenerator"; "EnumerateSequence"; "FilterGenerator"; "FilterSequenceView"; "GeneratorOf"; "GeneratorOfOne"; "GeneratorSequence"; "IndexingGenerator"; "LazySequence"; "MapSequenceGenerator"; "MapSequenceView"; "PermutationGenerator"; "RangeGenerator"; "SequenceOf"; "StrideThrough"; "StrideTo"; "UnsafeBufferPointerGenerator"; "Zip2"; "BidirectionalReverseView"; "CollectionOfOne"; "Dictionary"; "EmptyCollection"; "FilterCollectionView"; "LazyBidirectionalCollection"; "LazyForwardCollection"; "LazyRandomAccessCollection"; "MapCollectionView"; "RandomAccessReverseView"; "Range"; "Repeat"; "Set"; "UnicodeScalar.UTF16View"; "UnsafeBufferPointer"; "String.UTF8View"; "UnsafeMutableBufferPointer"; "Array"; "ArraySlice"; "ContiguousArray"; "String"; "String.UnicodeScalarView"; "String.UTF16View";
     }
 }

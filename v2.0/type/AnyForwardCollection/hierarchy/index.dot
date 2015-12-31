@@ -7,12 +7,7 @@ strict digraph "AnyForwardCollection<Element> - Type Hierarchy - SwiftDoc.org" {
     "CollectionType" [URL="/protocol/CollectionType/"]
     "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "AnyCollectionType" -> "AnyForwardCollection<Element>"
-    "CollectionType" -> "AnyForwardCollection<Element>"
-    "Indexable" -> "AnyForwardCollection<Element>"
-    "SequenceType" -> "AnyForwardCollection<Element>"
     "CollectionType" -> "AnyCollectionType"
-    "Indexable" -> "CollectionType"
-    "SequenceType" -> "CollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {

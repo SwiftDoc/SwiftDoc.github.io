@@ -8,15 +8,9 @@ strict digraph "String.CharacterView.Index - Type Hierarchy - SwiftDoc.org" {
     "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
     "String.CharacterView.Index" [URL="/type/String.CharacterView.Index/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]
-    "_Reflectable" [URL="/protocol/_Reflectable/"]    "ForwardIndexType" -> "String.CharacterView.Index"
-    "_Incrementable" -> "String.CharacterView.Index"
-    "Equatable" -> "String.CharacterView.Index"
-    "BidirectionalIndexType" -> "String.CharacterView.Index"
+    "_Reflectable" [URL="/protocol/_Reflectable/"]    "BidirectionalIndexType" -> "String.CharacterView.Index"
     "Comparable" -> "String.CharacterView.Index"
     "_Reflectable" -> "String.CharacterView.Index"
-    "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
-    "Equatable" -> "_Incrementable"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"

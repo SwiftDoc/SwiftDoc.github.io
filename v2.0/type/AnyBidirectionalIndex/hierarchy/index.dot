@@ -6,13 +6,7 @@ strict digraph "AnyBidirectionalIndex - Type Hierarchy - SwiftDoc.org" {
     "BidirectionalIndexType" [URL="/protocol/BidirectionalIndexType/"]
     "Equatable" [URL="/protocol/Equatable/"]
     "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
-    "_Incrementable" [URL="/protocol/_Incrementable/"]    "ForwardIndexType" -> "AnyBidirectionalIndex"
-    "_Incrementable" -> "AnyBidirectionalIndex"
-    "Equatable" -> "AnyBidirectionalIndex"
-    "BidirectionalIndexType" -> "AnyBidirectionalIndex"
-    "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
-    "Equatable" -> "_Incrementable"
+    "_Incrementable" [URL="/protocol/_Incrementable/"]    "BidirectionalIndexType" -> "AnyBidirectionalIndex"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"

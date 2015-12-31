@@ -8,8 +8,6 @@ strict digraph "DictionaryLiteral<Key, Value> - Type Hierarchy - SwiftDoc.org" {
     "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "DictionaryLiteralConvertible" -> "DictionaryLiteral<Key, Value>"
     "CollectionType" -> "DictionaryLiteral<Key, Value>"
-    "Indexable" -> "DictionaryLiteral<Key, Value>"
-    "SequenceType" -> "DictionaryLiteral<Key, Value>"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {

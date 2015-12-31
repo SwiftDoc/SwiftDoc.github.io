@@ -6,8 +6,6 @@ strict digraph "FlattenCollection<Base : CollectionType where Base.Generator.Ele
     "FlattenCollection<Base : CollectionType where Base.Generator.Element : CollectionType>" [URL="/type/FlattenCollection/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "CollectionType" -> "FlattenCollection<Base : CollectionType where Base.Generator.Element : CollectionType>"
-    "Indexable" -> "FlattenCollection<Base : CollectionType where Base.Generator.Element : CollectionType>"
-    "SequenceType" -> "FlattenCollection<Base : CollectionType where Base.Generator.Element : CollectionType>"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {

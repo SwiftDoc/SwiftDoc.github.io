@@ -8,19 +8,9 @@ strict digraph "ReverseIndex<Base : BidirectionalIndexType> - Type Hierarchy - S
     "ReverseIndex<Base : BidirectionalIndexType>" [URL="/type/ReverseIndex/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "ReverseIndexType" [URL="/protocol/ReverseIndexType/"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]    "ReverseIndexType" -> "ReverseIndex<Base : BidirectionalIndexType>"
-    "BidirectionalIndexType" -> "ReverseIndex<Base : BidirectionalIndexType>"
-    "ForwardIndexType" -> "ReverseIndex<Base : BidirectionalIndexType>"
-    "_Incrementable" -> "ReverseIndex<Base : BidirectionalIndexType>"
-    "Equatable" -> "ReverseIndex<Base : BidirectionalIndexType>"
     "BidirectionalIndexType" -> "ReverseIndexType"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
-    "ForwardIndexType" -> "BidirectionalIndexType"
-    "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
-    "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
     "Equatable" -> "_Incrementable"
     subgraph Types {
         rank = max; "ReverseIndex<Base : BidirectionalIndexType>";

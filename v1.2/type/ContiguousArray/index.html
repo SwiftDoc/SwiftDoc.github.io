@@ -11,7 +11,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Swift documentation for 'ContiguousArray': A fast, contiguously-stored array of T.">
-    <meta name="keywords" content="ContiguousArray,struct,swift,documentation,generate,reserveCapacity,append,extend,removeLast,insert,removeAtIndex,removeAll,join,reduce,sort,sorted,map,flatMap,reverse,filter,getMirror,withUnsafeBufferPointer,withUnsafeMutableBufferPointer,replaceRange,splice,removeRange,startIndex,endIndex,count,capacity,isEmpty,first,last,description,debugDescription,Element,SubSlice">
+    <meta name="keywords" content="ContiguousArray,struct,swift,documentation,append,extend,filter,flatMap,generate,getMirror,insert,join,map,reduce,removeAll,removeAtIndex,removeLast,removeRange,replaceRange,reserveCapacity,reverse,sort,sorted,splice,withUnsafeBufferPointer,withUnsafeMutableBufferPointer,capacity,count,debugDescription,description,endIndex,first,isEmpty,last,startIndex,Element,SubSlice,Index,SubSequence,Generator">
     <link rel="canonical" href="http://swiftdoc.org/v1.2/type/ContiguousArray/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -34,8 +34,8 @@
     <meta name="twitter:description" content="Swift documentation for &#39;ContiguousArray&#39;: A fast, contiguously-stored array of T."/>
     <meta name="twitter:url" content="http://swiftdoc.org/v1.2/type/ContiguousArray/index.html"/>
 
-    <link href="/assets/swift-0d01cd7187823280d004769cfb0a49ed.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-a93c7e66ac39404e15479229e3fbc78f.js" type="text/javascript"></script>
+    <link href="/assets/swift-52137ab16445d25a5ef18b0c801952a1.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/swift-e6eb1bbd9c800bad5f82054ddf963f17.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -63,7 +63,7 @@
           <h1><a href="/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
-	    <div class="collapse navbar-collapse navbar-ex1-collapse">
+	    <div class="collapse navbar-collapse navbar-ex1-collapse" id="navmenu-container">
           <form class="navbar-form navbar-left" role="search">
           
     		<div class="form-group input-group has-feedback">
@@ -72,11 +72,12 @@
     		</div>
             
           </form>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" id="navmenu">
               <li><a href="/type/">Types</a></li>
               <li><a href="/protocol/">Protocols</a></li>
               <li><a href="/operator/">Operators</a></li>
               <li><a href="/global/">Globals</a></li>
+              <li role="separator" class="divider" id="navsep"></li>
           </ul>
 	    </div>
 	</nav>				
@@ -105,71 +106,25 @@
       <div class="row">
         <div class="col-sm-4 col-md-3" id="sidebar">
 
+            <div id="fixed-sidebar" data-spy="">
+                
     		<div class="form-group input-group has-feedback">
     			<input type="hidden" class="form-control select2">
     			<span class="glyphicon glyphicon-search form-control-feedback"></span>
     		</div>
 
-            <div class="panel-group" id="accordion">
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTypes">
-          Types
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTypes" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseProtocols">
-          Protocols
-        </a>
-      </h4>
-    </div>
-    <div id="collapseProtocols" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOperators">
-          Operators
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOperators" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseGlobals">
-          Globals
-        </a>
-      </h4>
-    </div>
-    <div id="collapseGlobals" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
+            <div id="intranav">
+    <h4>On this page</h4>
+    <ul id="chapters">
+        <li><a href="#content">Declaration</a></li>
+    </ul>
+        
+    <h4>Display</h4>
+    <ul id="display">
+    </ul>
 </div>
-
+            
+            </div>
         </div>
 
         <div class="col-sm-8 col-md-9" id="content">
@@ -178,9 +133,9 @@
           </header>
           
           <article class="content">
-          <code class="language-swift">struct ContiguousArray&lt;T&gt; { ... }</code>
+          <div class="intro-declaration"><code class="language-swift">struct ContiguousArray&lt;T&gt;</code></div>
 
-<div class="comment">
+<div class="discussion comment">
     <p>A fast, contiguously-stored array of <code>T</code>.</p>
 
 <p>Efficiency is equivalent to that of <code>Array</code>, unless <code>T</code> is a
@@ -191,11 +146,19 @@ with which <code>ContiguousArray</code> shares most properties, for more
 detail.</p>
 </div>
 
-<h3>Inheritance</h3>
-<code class="inherits">MutableCollectionType, Sliceable, _DestructorSafeContainer, __ArrayType, ArrayLiteralConvertible, _ArrayType, Reflectable, Printable, DebugPrintable</code>
-<span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
+<table class="standard">
+<tr>
+<th id="inheritance">Inheritance</th>
+<td>
+<code class="inherits">ArrayLiteralConvertible, CollectionType, DebugPrintable, ExtensibleCollectionType, MutableCollectionType, MutableSliceable, Printable, RangeReplaceableCollectionType, Reflectable, SequenceType, Sliceable, _ArrayType, _CollectionType, _DestructorSafeContainer, _ExtensibleCollectionType, _SequenceType, _Sequence_Type, _Sliceable, __ArrayType</code>
+<span class="viz"><a href="hierarchy/">View Protocol Hierarchy &rarr;</a></span>
+</td>
+</tr>
 
-<h3 id="aliases">Associated types</h3>
+<tr>
+<th id="aliases">Associated Types</th>
+<td>
+<span id="aliasesmark"></span>
 <div class="declaration">
 <code class="language-swift">typealias Element = T</code>
 <div class="comment">
@@ -208,247 +171,488 @@ detail.</p>
     <p>A type that can represent a sub-range of a ContiguousArray </p>
 </div>
 </div>
+<div class="declaration">
+<code class="language-swift">typealias Index = Int</code>
+<div class="comment">
+    <p><em>Type alias inferred.</em></p>
+</div>
+</div>
+<div class="declaration">
+<code class="language-swift">typealias SubSequence = ArraySlice&lt;T&gt;</code>
+<div class="comment">
+    <p><em>Type alias inferred.</em></p>
+</div>
+</div>
+<div class="declaration">
+<code class="language-swift">typealias Generator</code>
+<div class="comment">
+    <p><em>Type alias inferred.</em></p>
+</div>
+</div>
+</td>
+</tr>
 
+
+<tr>
+<th>Import</th>
+<td><code class="language-swift">import Swift</code></td>
+</tr>
+
+</table>
 
 
 <h3>Initializers</h3>
-<div class="declaration">
-<code class="language-swift">init(_ buffer: _ContiguousArrayBuffer&lt;T&gt;)</code>
-<div class="comment">
+<div class="declaration" id="init">
+<a class="toggle-link" data-toggle="collapse" href="#comment-init">init()</a><div class="comment collapse" id="comment-init"><div class="p">
+    <p>Construct an empty ContiguousArray</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">init()</code>
+
+    </div></div>
+</div>
+<div class="declaration" id="init_-contiguousarraybuffer-t">
+<a class="toggle-link" data-toggle="collapse" href="#comment-init_-contiguousarraybuffer-t">init(_: _ContiguousArrayBuffer&lt;T&gt;)</a><div class="comment collapse" id="comment-init_-contiguousarraybuffer-t"><div class="p">
     <p>Initialization from an existing buffer does not have &quot;array.init&quot;
 semantics because the caller may retain an alias to buffer.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">init(_ buffer: _ContiguousArrayBuffer&lt;T&gt;)</code>
+
+    </div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">init(arrayLiteral elements: T...)</code>
-<div class="comment">
-    <p>Create an instance containing <code>elements</code>.</p>
-</div>
-</div>
-<div class="declaration">
-<code class="language-swift">init()</code>
-<div class="comment">
-    <p>Construct an empty ContiguousArray</p>
-</div>
-</div>
-<div class="declaration">
-<code class="language-swift">init&lt;S : SequenceType where T == T&gt;(_ s: S)</code>
-<div class="comment">
+<div class="declaration" id="init-s_-sequencetype-where-t-t_-s">
+<a class="toggle-link" data-toggle="collapse" href="#comment-init-s_-sequencetype-where-t-t_-s">init&lt;S : SequenceType where T == T&gt;(_: S)</a><div class="comment collapse" id="comment-init-s_-sequencetype-where-t-t_-s"><div class="p">
     <p>Construct from an arbitrary sequence with elements of type <code>T</code></p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">init&lt;S : SequenceType where T == T&gt;(_ s: S)</code>
+
+    </div></div>
 </div>
+<div class="declaration" id="init-arrayliteral_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-init-arrayliteral_">init(arrayLiteral:)</a><div class="comment collapse" id="comment-init-arrayliteral_"><div class="p">
+    <p>Create an instance containing <code>elements</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">init(arrayLiteral elements: T...)</code>
+
+    </div></div>
 </div>
-<div class="declaration">
-<code class="language-swift">init(count: Int, repeatedValue: T)</code>
-<div class="comment">
+<div class="declaration" id="init-count_repeatedvalue_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-init-count_repeatedvalue_">init(count:repeatedValue:)</a><div class="comment collapse" id="comment-init-count_repeatedvalue_"><div class="p">
     <p>Construct a ContiguousArray of <code>count</code> elements, each initialized to
 <code>repeatedValue</code>.</p>
-</div>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">init(count: Int, repeatedValue: T)</code>
+
+    </div></div>
 </div>
 
 
 <h3>Instance Variables</h3>
-<div class="declaration" id="prop-startIndex">
-<code class="language-swift">var startIndex: Int { get }</code>
-<div class="comment">
-    <p>Always zero, which is the index of the first element when non-empty.</p>
+<div class="declaration" id="var-capacity_-int">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-capacity_-int">var capacity: Int</a><div class="comment collapse" id="comment-var-capacity_-int"><div class="p">
+    <p>How many elements the <code>ContiguousArray</code> can store without reallocation</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var capacity: Int { get }</code>
+
+    </div></div>
 </div>
+<div class="declaration" id="var-count_-int">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-count_-int">var count: Int</a><div class="comment collapse" id="comment-var-count_-int"><div class="p">
+    <p>How many elements the ContiguousArray stores</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var count: Int { get }</code>
+
+    </div></div>
 </div>
-<div class="declaration" id="prop-endIndex">
-<code class="language-swift">var endIndex: Int { get }</code>
-<div class="comment">
+<div class="declaration" id="var-debugdescription_-string">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-debugdescription_-string">var debugDescription: String</a><div class="comment collapse" id="comment-var-debugdescription_-string"><div class="p">
+    <p>A textual representation of <code>self</code>, suitable for debugging.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var debugDescription: String { get }</code>
+
+    </div></div>
+</div>
+<div class="declaration" id="var-description_-string">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-description_-string">var description: String</a><div class="comment collapse" id="comment-var-description_-string"><div class="p">
+    <p>A textual representation of <code>self</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var description: String { get }</code>
+
+    </div></div>
+</div>
+<div class="declaration" id="var-endindex_-int">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-endindex_-int">var endIndex: Int</a><div class="comment collapse" id="comment-var-endindex_-int"><div class="p">
     <p>A &quot;past-the-end&quot; element index; the successor of the last valid
 subscript argument.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var endIndex: Int { get }</code>
+
+    </div></div>
 </div>
-</div>
-<div class="declaration" id="prop-count">
-<code class="language-swift">var count: Int { get }</code>
-<div class="comment">
-    <p>How many elements the ContiguousArray stores</p>
-</div>
-</div>
-<div class="declaration" id="prop-capacity">
-<code class="language-swift">var capacity: Int { get }</code>
-<div class="comment">
-    <p>How many elements the <code>ContiguousArray</code> can store without reallocation</p>
-</div>
-</div>
-<div class="declaration" id="prop-isEmpty">
-<code class="language-swift">var isEmpty: Bool { get }</code>
-<div class="comment">
-    <p><code>true</code> if and only if the <code>ContiguousArray</code> is empty</p>
-</div>
-</div>
-<div class="declaration" id="prop-first">
-<code class="language-swift">var first: T? { get }</code>
-<div class="comment">
+<div class="declaration" id="var-first_-t">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-first_-t">var first: T?</a><div class="comment collapse" id="comment-var-first_-t"><div class="p">
     <p>The first element, or <code>nil</code> if the array is empty</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var first: T? { get }</code>
+
+    </div></div>
 </div>
+<div class="declaration" id="var-isempty_-bool">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-isempty_-bool">var isEmpty: Bool</a><div class="comment collapse" id="comment-var-isempty_-bool"><div class="p">
+    <p><code>true</code> if and only if the <code>ContiguousArray</code> is empty</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var isEmpty: Bool { get }</code>
+
+    </div></div>
 </div>
-<div class="declaration" id="prop-last">
-<code class="language-swift">var last: T? { get }</code>
-<div class="comment">
+<div class="declaration" id="var-last_-t">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-last_-t">var last: T?</a><div class="comment collapse" id="comment-var-last_-t"><div class="p">
     <p>The last element, or <code>nil</code> if the array is empty</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var last: T? { get }</code>
+
+    </div></div>
 </div>
+<div class="declaration" id="var-startindex_-int">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-startindex_-int">var startIndex: Int</a><div class="comment collapse" id="comment-var-startindex_-int"><div class="p">
+    <p>Always zero, which is the index of the first element when non-empty.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var startIndex: Int { get }</code>
+
+    </div></div>
 </div>
-<div class="declaration" id="prop-description">
-<code class="language-swift">var description: String { get }</code>
-<div class="comment">
-    <p>A textual representation of <code>self</code>.</p>
+
+<h3>Subscripts</h3>
+<div class="declaration" id="subscript-subscript_-int">
+<a class="toggle-link" data-toggle="collapse" href="#comment-subscript-subscript_-int">subscript(_: Int)</a>
+<div class="comment collapse" id="comment-subscript-subscript_-int"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">subscript(index: Int) -&gt; T</code>
+    
+    
+</div></div>
 </div>
-</div>
-<div class="declaration" id="prop-debugDescription">
-<code class="language-swift">var debugDescription: String { get }</code>
-<div class="comment">
-    <p>A textual representation of <code>self</code>, suitable for debugging.</p>
-</div>
+<div class="declaration" id="subscript-subscript_-range-int">
+<a class="toggle-link" data-toggle="collapse" href="#comment-subscript-subscript_-range-int">subscript(_: Range&lt;Int&gt;)</a>
+<div class="comment collapse" id="comment-subscript-subscript_-range-int"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">subscript(subRange: Range&lt;Int&gt;) -&gt; ArraySlice&lt;T&gt;</code>
+    
+    
+</div></div>
 </div>
 
 
 <h3>Instance Methods</h3>
+<div class="declaration" id="func-append_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-append_">mutating func append(_:)</a>
+        
+<div class="comment collapse" id="comment-func-append_"><div class="p">
+    <p>Append newElement to the ContiguousArray</p>
+
+<p>Complexity: amortized O(1) unless <code>self</code>&#39;s storage is shared with another live array; O(<code>count</code>) otherwise.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">mutating func append(newElement: T)</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-extend_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-extend_">mutating func extend(_:)</a>
+        
+<div class="comment collapse" id="comment-func-extend_"><div class="p">
+    <p>Append the elements of <code>newElements</code> to <code>self</code>.</p>
+
+<p>Complexity: O(<em>length of result</em>) </p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">mutating func extend&lt;S : SequenceType where T == T&gt;(newElements: S)</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-filter_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-filter_">func filter(_:)</a>
+        
+<div class="comment collapse" id="comment-func-filter_"><div class="p">
+    <p>Return a ContiguousArray containing the elements <code>x</code> of <code>self</code> for which
+<code>includeElement(x)</code> is <code>true</code></p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func filter(includeElement: (T) -&gt; Bool) -&gt; ContiguousArray&lt;T&gt;</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-flatmap_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-flatmap_">func flatMap(_:)</a>
+        
+<div class="comment collapse" id="comment-func-flatmap_"><div class="p">
+    <p>Return a ContiguousArray containing the results of calling
+<code>transform(x)</code> on each element <code>x</code> of <code>self</code> and flattening the result.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func flatMap&lt;U&gt;(transform: @noescape (T) -&gt; ContiguousArray&lt;U&gt;) -&gt; ContiguousArray&lt;U&gt;</code>
+    
+    
+</div></div>
+</div>
 <div class="declaration" id="func-generate">
-<code class="language-swift">func generate() -> IndexingGenerator&lt;ContiguousArray&lt;T&gt;&gt;</code>
-<div class="comment">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-generate">func generate()</a>
+        
+<div class="comment collapse" id="comment-func-generate"><div class="p">
     <p>Return a <em>generator</em> over the elements.</p>
 
 <p>Complexity: O(1)</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func generate() -&gt; IndexingGenerator&lt;ContiguousArray&lt;T&gt;&gt;</code>
+    
+    
+</div></div>
 </div>
+<div class="declaration" id="func-getmirror">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-getmirror">func getMirror()</a>
+        
+<div class="comment collapse" id="comment-func-getmirror"><div class="p">
+    <p>Returns a mirror that reflects <code>self</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func getMirror() -&gt; MirrorType</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-reserveCapacity">
-<code class="language-swift">mutating func reserveCapacity(minimumCapacity: Int) </code>
-<div class="comment">
+<div class="declaration" id="func-insert_atindex_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-insert_atindex_">mutating func insert(_:atIndex:)</a>
+        
+<div class="comment collapse" id="comment-func-insert_atindex_"><div class="p">
+    <p>Insert <code>newElement</code> at index <code>i</code>.</p>
+
+<p>Requires: <code>i &lt;= count</code></p>
+
+<p>Complexity: O(<code>count</code>).</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">mutating func insert(newElement: T, atIndex i: Int)</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-join_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-join_">func join(_:)</a>
+        
+<div class="comment collapse" id="comment-func-join_"><div class="p">
+    <p>Interpose <code>self</code> between each consecutive pair of <code>elements</code>,
+and concatenate the elements of the resulting sequence.  For
+example, <code>[-1, -2].join([[1, 2, 3], [4, 5, 6], [7, 8, 9]])</code>
+yields <code>[1, 2, 3, -1, -2, 4, 5, 6, -1, -2, 7, 8, 9]</code></p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func join&lt;S : SequenceType where ContiguousArray&lt;T&gt; == ContiguousArray&lt;T&gt;&gt;(elements: S) -&gt; ContiguousArray&lt;T&gt;</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-map_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-map_">func map(_:)</a>
+        
+<div class="comment collapse" id="comment-func-map_"><div class="p">
+    <p>Return a ContiguousArray containing the results of calling
+<code>transform(x)</code> on each element <code>x</code> of <code>self</code></p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func map&lt;U&gt;(transform: (T) -&gt; U) -&gt; ContiguousArray&lt;U&gt;</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-reduce_combine_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-reduce_combine_">func reduce(_:combine:)</a>
+        
+<div class="comment collapse" id="comment-func-reduce_combine_"><div class="p">
+    <p>Return the result of repeatedly calling <code>combine</code> with an
+accumulated value initialized to <code>initial</code> and each element of
+<code>self</code>, in turn, i.e. return
+<code>combine(combine(...combine(combine(initial, self[0]),
+self[1]),...self[count-2]), self[count-1])</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func reduce&lt;U&gt;(initial: U, combine: @noescape (U, T) -&gt; U) -&gt; U</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-removeall_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-removeall_">mutating func removeAll(_:)</a>
+        
+<div class="comment collapse" id="comment-func-removeall_"><div class="p">
+    <p>Remove all elements.</p>
+
+<p>Postcondition: <code>capacity == 0</code> iff <code>keepCapacity</code> is <code>false</code>.</p>
+
+<p>Complexity: O(<code>count(self)</code>).</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">mutating func removeAll(keepCapacity: Bool = default)</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-removeatindex_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-removeatindex_">mutating func removeAtIndex(_:)</a>
+        
+<div class="comment collapse" id="comment-func-removeatindex_"><div class="p">
+    <p>Remove and return the element at index <code>i</code></p>
+
+<p>Invalidates all indices with respect to <code>self</code>.</p>
+
+<p>Complexity: O(<code>count</code>).</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">mutating func removeAtIndex(index: Int) -&gt; T</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-removelast">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-removelast">mutating func removeLast()</a>
+        
+<div class="comment collapse" id="comment-func-removelast"><div class="p">
+    <p>Remove an element from the end of the ContiguousArray in O(1).
+Requires: count &gt; 0</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">mutating func removeLast() -&gt; T</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-removerange_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-removerange_">mutating func removeRange(_:)</a>
+        
+<div class="comment collapse" id="comment-func-removerange_"><div class="p">
+    <p>Remove the indicated <code>subRange</code> of elements</p>
+
+<p>Complexity: O(<code>count</code>).</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">mutating func removeRange(subRange: Range&lt;Int&gt;)</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-replacerange_with_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-replacerange_with_">mutating func replaceRange(_:with:)</a>
+        
+<div class="comment collapse" id="comment-func-replacerange_with_"><div class="p">
+    <p>Replace the given <code>subRange</code> of elements with <code>newElements</code>.</p>
+
+<p>Complexity: O(<code>count(subRange)</code>) if <code>subRange.endIndex
+== self.endIndex</code> and <code>isEmpty(newElements)</code>, O(N) otherwise.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">mutating func replaceRange&lt;C : CollectionType where T == T&gt;(subRange: Range&lt;Int&gt;, with newElements: C)</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-reservecapacity_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-reservecapacity_">mutating func reserveCapacity(_:)</a>
+        
+<div class="comment collapse" id="comment-func-reservecapacity_"><div class="p">
     <p>Reserve enough space to store minimumCapacity elements.</p>
 
 <p>PostCondition: <code>capacity &gt;= minimumCapacity</code> and the array has
 mutable contiguous storage.</p>
 
 <p>Complexity: O(<code>count</code>)</p>
-</div>
-</div>
-<div class="declaration" id="func-append">
-<code class="language-swift">mutating func append(newElement: T) </code>
-<div class="comment">
-    <p>Append newElement to the ContiguousArray</p>
 
-<p>Complexity: amortized O(1) unless <code>self</code>&#39;s storage is shared with another live array; O(<code>count</code>) otherwise.</p>
+    <h4>Declaration</h4>    
+    <code class="language-swift">mutating func reserveCapacity(minimumCapacity: Int)</code>
+    
+    
+</div></div>
 </div>
-</div>
-<div class="declaration" id="func-extend">
-<code class="language-swift">mutating func extend&lt;S : SequenceType where T == T&gt;(newElements: S) </code>
-<div class="comment">
-    <p>Append the elements of <code>newElements</code> to <code>self</code>.</p>
+<div class="declaration" id="func-reverse">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-reverse">func reverse()</a>
+        
+<div class="comment collapse" id="comment-func-reverse"><div class="p">
+    <p>A ContiguousArray containing the elements of <code>self</code> in reverse order</p>
 
-<p>Complexity: O(<em>length of result</em>) </p>
+    <h4>Declaration</h4>    
+    <code class="language-swift">func reverse() -&gt; ContiguousArray&lt;T&gt;</code>
+    
+    
+</div></div>
 </div>
-</div>
-<div class="declaration" id="func-removeLast">
-<code class="language-swift">mutating func removeLast() -> T</code>
-<div class="comment">
-    <p>Remove an element from the end of the ContiguousArray in O(1).
-Requires: count &gt; 0</p>
-</div>
-</div>
-<div class="declaration" id="func-insert">
-<code class="language-swift">mutating func insert(newElement: T, atIndex i: Int) </code>
-<div class="comment">
-    <p>Insert <code>newElement</code> at index <code>i</code>.</p>
-
-<p>Requires: <code>i &lt;= count</code></p>
-
-<p>Complexity: O(<code>count</code>).</p>
-</div>
-</div>
-<div class="declaration" id="func-removeAtIndex">
-<code class="language-swift">mutating func removeAtIndex(index: Int) -> T</code>
-<div class="comment">
-    <p>Remove and return the element at index <code>i</code></p>
-
-<p>Invalidates all indices with respect to <code>self</code>.</p>
-
-<p>Complexity: O(<code>count</code>).</p>
-</div>
-</div>
-<div class="declaration" id="func-removeAll">
-<code class="language-swift">mutating func removeAll(keepCapacity: Bool = default) </code>
-<div class="comment">
-    <p>Remove all elements.</p>
-
-<p>Postcondition: <code>capacity == 0</code> iff <code>keepCapacity</code> is <code>false</code>.</p>
-
-<p>Complexity: O(<code>count(self)</code>).</p>
-</div>
-</div>
-<div class="declaration" id="func-join">
-<code class="language-swift">func join&lt;S : SequenceType where ContiguousArray&lt;T&gt; == ContiguousArray&lt;T&gt;&gt;(elements: S) -> ContiguousArray&lt;T&gt;</code>
-<div class="comment">
-    <p>Interpose <code>self</code> between each consecutive pair of <code>elements</code>,
-and concatenate the elements of the resulting sequence.  For
-example, <code>[-1, -2].join([[1, 2, 3], [4, 5, 6], [7, 8, 9]])</code>
-yields <code>[1, 2, 3, -1, -2, 4, 5, 6, -1, -2, 7, 8, 9]</code></p>
-</div>
-</div>
-<div class="declaration" id="func-reduce">
-<code class="language-swift">func reduce&lt;U&gt;(initial: U, combine: @noescape (U, T) -&gt; U) -> U</code>
-<div class="comment">
-    <p>Return the result of repeatedly calling <code>combine</code> with an
-accumulated value initialized to <code>initial</code> and each element of
-<code>self</code>, in turn, i.e. return
-<code>combine(combine(...combine(combine(initial, self[0]),
-self[1]),...self[count-2]), self[count-1])</code>.</p>
-</div>
-</div>
-<div class="declaration" id="func-sort">
-<code class="language-swift">mutating func sort(isOrderedBefore: (T, T) -&gt; Bool) </code>
-<div class="comment">
+<div class="declaration" id="func-sort_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-sort_">mutating func sort(_:)</a>
+        
+<div class="comment collapse" id="comment-func-sort_"><div class="p">
     <p>Sort <code>self</code> in-place according to <code>isOrderedBefore</code>.  Requires:
 <code>isOrderedBefore</code> induces a <a href="http://en.wikipedia.org/wiki/Strict_weak_order#Strict_weak_orderings">strict weak ordering</a>
 over the elements.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">mutating func sort(isOrderedBefore: (T, T) -&gt; Bool)</code>
+    
+    
+</div></div>
 </div>
-</div>
-<div class="declaration" id="func-sorted">
-<code class="language-swift">func sorted(isOrderedBefore: (T, T) -&gt; Bool) -> ContiguousArray&lt;T&gt;</code>
-<div class="comment">
+<div class="declaration" id="func-sorted_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-sorted_">func sorted(_:)</a>
+        
+<div class="comment collapse" id="comment-func-sorted_"><div class="p">
     <p>Return a copy of <code>self</code> that has been sorted according to
 <code>isOrderedBefore</code>.  Requires: <code>isOrderedBefore</code> induces a
 <a href="http://en.wikipedia.org/wiki/Strict_weak_order#Strict_weak_orderings">strict weak ordering</a>
 over the elements.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func sorted(isOrderedBefore: (T, T) -&gt; Bool) -&gt; ContiguousArray&lt;T&gt;</code>
+    
+    
+</div></div>
 </div>
+<div class="declaration" id="func-splice_atindex_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-splice_atindex_">mutating func splice(_:atIndex:)</a>
+        
+<div class="comment collapse" id="comment-func-splice_atindex_"><div class="p">
+    <p>Insert <code>newElements</code> at index <code>i</code></p>
+
+<p>Invalidates all indices with respect to <code>self</code>.</p>
+
+<p>Complexity: O(<code>count + count(newElements)</code>).</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">mutating func splice&lt;S : CollectionType where T == T&gt;(newElements: S, atIndex i: Int)</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-map">
-<code class="language-swift">func map&lt;U&gt;(transform: (T) -&gt; U) -> ContiguousArray&lt;U&gt;</code>
-<div class="comment">
-    <p>Return a ContiguousArray containing the results of calling
-<code>transform(x)</code> on each element <code>x</code> of <code>self</code></p>
-</div>
-</div>
-<div class="declaration" id="func-flatMap">
-<code class="language-swift">func flatMap&lt;U&gt;(transform: @noescape (T) -&gt; ContiguousArray&lt;U&gt;) -> ContiguousArray&lt;U&gt;</code>
-<div class="comment">
-    <p>Return a ContiguousArray containing the results of calling
-<code>transform(x)</code> on each element <code>x</code> of <code>self</code> and flattening the result.</p>
-</div>
-</div>
-<div class="declaration" id="func-reverse">
-<code class="language-swift">func reverse() -> ContiguousArray&lt;T&gt;</code>
-<div class="comment">
-    <p>A ContiguousArray containing the elements of <code>self</code> in reverse order</p>
-</div>
-</div>
-<div class="declaration" id="func-filter">
-<code class="language-swift">func filter(includeElement: (T) -&gt; Bool) -> ContiguousArray&lt;T&gt;</code>
-<div class="comment">
-    <p>Return a ContiguousArray containing the elements <code>x</code> of <code>self</code> for which
-<code>includeElement(x)</code> is <code>true</code></p>
-</div>
-</div>
-<div class="declaration" id="func-getMirror">
-<code class="language-swift">func getMirror() -> MirrorType</code>
-<div class="comment">
-    <p>Returns a mirror that reflects <code>self</code>.</p>
-</div>
-</div>
-<div class="declaration" id="func-withUnsafeBufferPointer">
-<code class="language-swift">func withUnsafeBufferPointer&lt;R&gt;(body: @noescape (UnsafeBufferPointer&lt;T&gt;) -&gt; R) -> R</code>
-<div class="comment">
+<div class="declaration" id="func-withunsafebufferpointer_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-withunsafebufferpointer_">func withUnsafeBufferPointer(_:)</a>
+        
+<div class="comment collapse" id="comment-func-withunsafebufferpointer_"><div class="p">
     <p>Call <code>body(p)</code>, where <code>p</code> is a pointer to the <code>ContiguousArray</code>&#39;s
 contiguous storage.</p>
 
@@ -456,11 +660,17 @@ contiguous storage.</p>
 array algorithm, but when that fails, invoking the
 same algorithm on <code>body</code>&#39;s argument lets you trade safety for
 speed.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func withUnsafeBufferPointer&lt;R&gt;(body: @noescape (UnsafeBufferPointer&lt;T&gt;) -&gt; R) -&gt; R</code>
+    
+    
+</div></div>
 </div>
-</div>
-<div class="declaration" id="func-withUnsafeMutableBufferPointer">
-<code class="language-swift">mutating func withUnsafeMutableBufferPointer&lt;R&gt;(body: @noescape (inout UnsafeMutableBufferPointer&lt;T&gt;) -&gt; R) -> R</code>
-<div class="comment">
+<div class="declaration" id="func-withunsafemutablebufferpointer_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-withunsafemutablebufferpointer_">mutating func withUnsafeMutableBufferPointer(_:)</a>
+        
+<div class="comment collapse" id="comment-func-withunsafemutablebufferpointer_"><div class="p">
     <p>Call <code>body(p)</code>, where <code>p</code> is a pointer to the <code>ContiguousArray</code>&#39;s
 mutable contiguous storage.</p>
 
@@ -468,42 +678,12 @@ mutable contiguous storage.</p>
 within an array algorithm, but when that fails, invoking the
 same algorithm on <code>body</code>&#39;s argument lets you trade safety for
 speed.</p>
-</div>
-</div>
-<div class="declaration" id="func-replaceRange">
-<code class="language-swift">mutating func replaceRange&lt;C : CollectionType where T == T&gt;(subRange: Range&lt;Int&gt;, with newElements: C) </code>
-<div class="comment">
-    <p>Replace the given <code>subRange</code> of elements with <code>newElements</code>.</p>
 
-<p>Complexity: O(<code>count(subRange)</code>) if <code>subRange.endIndex
-== self.endIndex</code> and <code>isEmpty(newElements)</code>, O(N) otherwise.</p>
-</div>
-</div>
-<div class="declaration" id="func-splice">
-<code class="language-swift">mutating func splice&lt;S : CollectionType where T == T&gt;(newElements: S, atIndex i: Int) </code>
-<div class="comment">
-    <p>Insert <code>newElements</code> at index <code>i</code></p>
-
-<p>Invalidates all indices with respect to <code>self</code>.</p>
-
-<p>Complexity: O(<code>count + count(newElements)</code>).</p>
-</div>
-</div>
-<div class="declaration" id="func-removeRange">
-<code class="language-swift">mutating func removeRange(subRange: Range&lt;Int&gt;) </code>
-<div class="comment">
-    <p>Remove the indicated <code>subRange</code> of elements</p>
-
-<p>Complexity: O(<code>count</code>).</p>
-</div>
-</div>
-
-<h3>Subscripts</h3>
-<div class="declaration">
-<code class="language-swift">subscript(index: Int) -> T</code>
-</div>
-<div class="declaration">
-<code class="language-swift">subscript(subRange: Range&lt;Int&gt;) -> ArraySlice&lt;T&gt;</code>
+    <h4>Declaration</h4>    
+    <code class="language-swift">mutating func withUnsafeMutableBufferPointer&lt;R&gt;(body: @noescape (inout UnsafeMutableBufferPointer&lt;T&gt;) -&gt; R) -&gt; R</code>
+    
+    
+</div></div>
 </div>
 
 
@@ -519,7 +699,7 @@ speed.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.1.101.6</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.1.101.15</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

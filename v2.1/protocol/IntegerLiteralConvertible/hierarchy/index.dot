@@ -24,22 +24,13 @@ strict digraph "IntegerLiteralConvertible - Type Hierarchy - SwiftDoc.org" {
     "UnsignedIntegerType" [URL="/protocol/UnsignedIntegerType/"]
     "_DisallowMixedSignArithmetic" [URL="/protocol/_DisallowMixedSignArithmetic/"]
     "_IntegerType" [URL="/protocol/_IntegerType/"]
-    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]    "IntegerLiteralConvertible" -> "Double"
-    "IntegerLiteralConvertible" -> "Float"
-    "IntegerLiteralConvertible" -> "Float80"
-    "IntegerLiteralConvertible" -> "SignedNumberType"
+    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]    "IntegerLiteralConvertible" -> "SignedNumberType"
     "IntegerLiteralConvertible" -> "_IntegerType"
     "SignedNumberType" -> "AbsoluteValuable"
-    "SignedNumberType" -> "Int"
-    "SignedNumberType" -> "Int16"
-    "SignedNumberType" -> "Int32"
-    "SignedNumberType" -> "Int64"
-    "SignedNumberType" -> "Int8"
     "SignedNumberType" -> "_SignedIntegerType"
     "AbsoluteValuable" -> "Double"
     "AbsoluteValuable" -> "Float"
     "AbsoluteValuable" -> "Float80"
-    "Int" -> "Bit"
     "_SignedIntegerType" -> "SignedIntegerType"
     "SignedIntegerType" -> "Int"
     "SignedIntegerType" -> "Int16"

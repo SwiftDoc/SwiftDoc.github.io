@@ -15,14 +15,10 @@ strict digraph "Float80 - Type Hierarchy - SwiftDoc.org" {
     "_Comparable" [URL="/protocol/_Comparable/"]
     "_SignedNumberType" [URL="/protocol/_SignedNumberType/"]
     "_Strideable" [URL="/protocol/_Strideable/"]    "Printable" -> "Float80"
-    "IntegerLiteralConvertible" -> "Float80"
     "FloatLiteralConvertible" -> "Float80"
-    "Comparable" -> "Float80"
     "Hashable" -> "Float80"
     "AbsoluteValuable" -> "Float80"
     "Strideable" -> "Float80"
-    "_Comparable" -> "Comparable"
-    "Equatable" -> "Comparable"
     "Equatable" -> "Hashable"
     "SignedNumberType" -> "AbsoluteValuable"
     "_SignedNumberType" -> "SignedNumberType"

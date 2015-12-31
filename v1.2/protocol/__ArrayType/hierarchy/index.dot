@@ -8,10 +8,7 @@ strict digraph "__ArrayType - Type Hierarchy - SwiftDoc.org" {
     "_ArrayType" [URL="/protocol/_ArrayType/"]
     "_CollectionType" [URL="/protocol/_CollectionType/"]
     "_SequenceType" [URL="/protocol/_SequenceType/"]
-    "__ArrayType" [URL="/protocol/__ArrayType/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]    "__ArrayType" -> "Array"
-    "__ArrayType" -> "ArraySlice"
-    "__ArrayType" -> "ContiguousArray"
-    "__ArrayType" -> "_ArrayType"
+    "__ArrayType" [URL="/protocol/__ArrayType/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]    "__ArrayType" -> "_ArrayType"
     "_ArrayType" -> "Array"
     "_ArrayType" -> "ArraySlice"
     "_ArrayType" -> "ContiguousArray"

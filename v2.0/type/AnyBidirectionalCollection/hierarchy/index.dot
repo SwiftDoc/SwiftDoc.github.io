@@ -7,12 +7,7 @@ strict digraph "AnyBidirectionalCollection<Element> - Type Hierarchy - SwiftDoc.
     "CollectionType" [URL="/protocol/CollectionType/"]
     "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "AnyCollectionType" -> "AnyBidirectionalCollection<Element>"
-    "CollectionType" -> "AnyBidirectionalCollection<Element>"
-    "Indexable" -> "AnyBidirectionalCollection<Element>"
-    "SequenceType" -> "AnyBidirectionalCollection<Element>"
     "CollectionType" -> "AnyCollectionType"
-    "Indexable" -> "CollectionType"
-    "SequenceType" -> "CollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {

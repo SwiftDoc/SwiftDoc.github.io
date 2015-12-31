@@ -8,15 +8,11 @@ strict digraph "LazyCollection<Base : CollectionType> - Type Hierarchy - SwiftDo
     "LazyCollectionType" [URL="/protocol/LazyCollectionType/"]
     "LazySequenceType" [URL="/protocol/LazySequenceType/"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "LazyCollectionType" -> "LazyCollection<Base : CollectionType>"
-    "SequenceType" -> "LazyCollection<Base : CollectionType>"
-    "CollectionType" -> "LazyCollection<Base : CollectionType>"
     "CollectionType" -> "LazyCollectionType"
     "LazySequenceType" -> "LazyCollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     "SequenceType" -> "LazySequenceType"
-    "Indexable" -> "CollectionType"
-    "SequenceType" -> "CollectionType"
     subgraph Types {
         rank = max; "LazyCollection<Base : CollectionType>";
     }

@@ -6,8 +6,6 @@ strict digraph "Repeat<Element> - Type Hierarchy - SwiftDoc.org" {
     "Indexable" [URL="/protocol/Indexable/"]
     "Repeat<Element>" [URL="/type/Repeat/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "CollectionType" -> "Repeat<Element>"
-    "Indexable" -> "Repeat<Element>"
-    "SequenceType" -> "Repeat<Element>"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {

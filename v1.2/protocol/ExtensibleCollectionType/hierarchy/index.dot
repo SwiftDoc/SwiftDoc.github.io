@@ -16,8 +16,6 @@ strict digraph "ExtensibleCollectionType - Type Hierarchy - SwiftDoc.org" {
     "_ExtensibleCollectionType" [URL="/protocol/_ExtensibleCollectionType/"]
     "_SequenceType" [URL="/protocol/_SequenceType/"]
     "_Sequence_Type" [URL="/protocol/_Sequence_Type/"]    "ExtensibleCollectionType" -> "RangeReplaceableCollectionType"
-    "ExtensibleCollectionType" -> "String"
-    "ExtensibleCollectionType" -> "String.UnicodeScalarView"
     "RangeReplaceableCollectionType" -> "String"
     "RangeReplaceableCollectionType" -> "_ArrayType"
     "RangeReplaceableCollectionType" -> "String.UnicodeScalarView"

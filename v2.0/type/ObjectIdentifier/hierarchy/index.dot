@@ -6,7 +6,6 @@ strict digraph "ObjectIdentifier - Type Hierarchy - SwiftDoc.org" {
     "Equatable" [URL="/protocol/Equatable/"]
     "Hashable" [URL="/protocol/Hashable/"]
     "ObjectIdentifier" [URL="/type/ObjectIdentifier/", style="filled", fillcolor="#ee543d", color="#ee543d"]    "Hashable" -> "ObjectIdentifier"
-    "Equatable" -> "ObjectIdentifier"
     "Comparable" -> "ObjectIdentifier"
     "Equatable" -> "Hashable"
     "Equatable" -> "Comparable"

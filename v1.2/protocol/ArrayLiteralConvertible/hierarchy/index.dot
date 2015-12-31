@@ -7,15 +7,12 @@ strict digraph "ArrayLiteralConvertible - Type Hierarchy - SwiftDoc.org" {
     "ArraySlice" [URL="/type/ArraySlice/", style=filled]
     "ContiguousArray" [URL="/type/ContiguousArray/", style=filled]
     "Set" [URL="/type/Set/", style=filled]
-    "_ArrayType" [URL="/protocol/_ArrayType/"]    "ArrayLiteralConvertible" -> "Array"
-    "ArrayLiteralConvertible" -> "ArraySlice"
-    "ArrayLiteralConvertible" -> "ContiguousArray"
-    "ArrayLiteralConvertible" -> "Set"
+    "_ArrayType" [URL="/protocol/_ArrayType/"]    "ArrayLiteralConvertible" -> "Set"
     "ArrayLiteralConvertible" -> "_ArrayType"
     "_ArrayType" -> "Array"
     "_ArrayType" -> "ArraySlice"
     "_ArrayType" -> "ContiguousArray"
     subgraph Types {
-        rank = max; "Array"; "ArraySlice"; "ContiguousArray"; "Set";
+        rank = max; "Set"; "Array"; "ArraySlice"; "ContiguousArray";
     }
 }

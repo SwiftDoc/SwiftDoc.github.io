@@ -28,30 +28,16 @@ strict digraph "Strideable - Type Hierarchy - SwiftDoc.org" {
     "UnsafeMutablePointer" [URL="/type/UnsafeMutablePointer/", style=filled]
     "UnsafePointer" [URL="/type/UnsafePointer/", style=filled]
     "UnsignedIntegerType" [URL="/protocol/UnsignedIntegerType/"]
-    "_Strideable" [URL="/protocol/_Strideable/"]    "Strideable" -> "Double"
-    "Strideable" -> "Float"
-    "Strideable" -> "Float80"
+    "_Strideable" [URL="/protocol/_Strideable/"]    "Strideable" -> "Float80"
     "Strideable" -> "FloatingPointType"
     "Strideable" -> "RandomAccessIndexType"
     "FloatingPointType" -> "Double"
     "FloatingPointType" -> "Float"
     "RandomAccessIndexType" -> "AnyRandomAccessIndex"
-    "RandomAccessIndexType" -> "Bit"
-    "RandomAccessIndexType" -> "Int"
-    "RandomAccessIndexType" -> "Int16"
-    "RandomAccessIndexType" -> "Int32"
-    "RandomAccessIndexType" -> "Int64"
-    "RandomAccessIndexType" -> "Int8"
     "RandomAccessIndexType" -> "IntegerType"
     "RandomAccessIndexType" -> "ReverseRandomAccessIndex"
-    "RandomAccessIndexType" -> "UInt"
-    "RandomAccessIndexType" -> "UInt16"
-    "RandomAccessIndexType" -> "UInt32"
-    "RandomAccessIndexType" -> "UInt64"
-    "RandomAccessIndexType" -> "UInt8"
     "RandomAccessIndexType" -> "UnsafeMutablePointer"
     "RandomAccessIndexType" -> "UnsafePointer"
-    "Int" -> "Bit"
     "IntegerType" -> "SignedIntegerType"
     "IntegerType" -> "UnsignedIntegerType"
     "SignedIntegerType" -> "Int"
@@ -69,6 +55,6 @@ strict digraph "Strideable - Type Hierarchy - SwiftDoc.org" {
     "_Strideable" -> "Strideable"
     "Equatable" -> "Comparable"
     subgraph Types {
-        rank = max; "Double"; "Float"; "Float80"; "AnyRandomAccessIndex"; "Bit"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "ReverseRandomAccessIndex"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnsafeMutablePointer"; "UnsafePointer";
+        rank = max; "Float80"; "Double"; "Float"; "AnyRandomAccessIndex"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
     }
 }

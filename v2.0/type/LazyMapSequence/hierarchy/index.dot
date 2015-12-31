@@ -5,7 +5,6 @@ strict digraph "LazyMapSequence<Base : SequenceType, Element> - Type Hierarchy -
     "LazyMapSequence<Base : SequenceType, Element>" [URL="/type/LazyMapSequence/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "LazySequenceType" [URL="/protocol/LazySequenceType/"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "LazySequenceType" -> "LazyMapSequence<Base : SequenceType, Element>"
-    "SequenceType" -> "LazyMapSequence<Base : SequenceType, Element>"
     "SequenceType" -> "LazySequenceType"
     subgraph Types {
         rank = max; "LazyMapSequence<Base : SequenceType, Element>";

@@ -7,8 +7,6 @@ strict digraph "EmptyCollection<Element> - Type Hierarchy - SwiftDoc.org" {
     "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
     "_Reflectable" [URL="/protocol/_Reflectable/"]    "CollectionType" -> "EmptyCollection<Element>"
-    "Indexable" -> "EmptyCollection<Element>"
-    "SequenceType" -> "EmptyCollection<Element>"
     "_Reflectable" -> "EmptyCollection<Element>"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"

@@ -11,10 +11,7 @@ strict digraph "RangeReplaceableCollectionType - Type Hierarchy - SwiftDoc.org" 
     "SequenceType" [URL="/protocol/SequenceType/"]
     "String.CharacterView" [URL="/type/String.CharacterView/", style=filled]
     "String.UnicodeScalarView" [URL="/type/String.UnicodeScalarView/", style=filled]
-    "_ArrayType" [URL="/protocol/_ArrayType/"]    "RangeReplaceableCollectionType" -> "Array"
-    "RangeReplaceableCollectionType" -> "ArraySlice"
-    "RangeReplaceableCollectionType" -> "ContiguousArray"
-    "RangeReplaceableCollectionType" -> "_ArrayType"
+    "_ArrayType" [URL="/protocol/_ArrayType/"]    "RangeReplaceableCollectionType" -> "_ArrayType"
     "RangeReplaceableCollectionType" -> "String.CharacterView"
     "RangeReplaceableCollectionType" -> "String.UnicodeScalarView"
     "_ArrayType" -> "Array"
@@ -24,6 +21,6 @@ strict digraph "RangeReplaceableCollectionType - Type Hierarchy - SwiftDoc.org" 
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {
-        rank = max; "Array"; "ArraySlice"; "ContiguousArray"; "String.CharacterView"; "String.UnicodeScalarView";
+        rank = max; "String.CharacterView"; "String.UnicodeScalarView"; "Array"; "ArraySlice"; "ContiguousArray";
     }
 }

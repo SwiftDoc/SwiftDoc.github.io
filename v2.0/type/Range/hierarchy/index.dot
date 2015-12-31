@@ -11,8 +11,6 @@ strict digraph "Range<Element : ForwardIndexType> - Type Hierarchy - SwiftDoc.or
     "SequenceType" [URL="/protocol/SequenceType/"]
     "_Reflectable" [URL="/protocol/_Reflectable/"]    "Equatable" -> "Range<Element : ForwardIndexType>"
     "CollectionType" -> "Range<Element : ForwardIndexType>"
-    "Indexable" -> "Range<Element : ForwardIndexType>"
-    "SequenceType" -> "Range<Element : ForwardIndexType>"
     "CustomStringConvertible" -> "Range<Element : ForwardIndexType>"
     "CustomDebugStringConvertible" -> "Range<Element : ForwardIndexType>"
     "_Reflectable" -> "Range<Element : ForwardIndexType>"

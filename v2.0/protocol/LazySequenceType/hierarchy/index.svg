@@ -111,15 +111,15 @@
 <!-- LazyCollectionType -->
 <g id="node2" class="node">
 <g id="a_node2"><a xlink:href="/v2.0/protocol/LazyCollectionType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M297.714,-80C297.714,-80 198.286,-80 198.286,-80 194.62,-80 190.953,-76.3333 190.953,-72.6667 190.953,-72.6667 190.953,-65.3333 190.953,-65.3333 190.953,-61.6667 194.62,-58 198.286,-58 198.286,-58 297.714,-58 297.714,-58 301.38,-58 305.047,-61.6667 305.047,-65.3333 305.047,-65.3333 305.047,-72.6667 305.047,-72.6667 305.047,-76.3333 301.38,-80 297.714,-80"/>
-<text text-anchor="middle" x="248" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyCollectionType</text>
+<path fill="#999999" stroke="#999999" d="M278.714,-80C278.714,-80 179.286,-80 179.286,-80 175.62,-80 171.953,-76.3333 171.953,-72.6667 171.953,-72.6667 171.953,-65.3333 171.953,-65.3333 171.953,-61.6667 175.62,-58 179.286,-58 179.286,-58 278.714,-58 278.714,-58 282.38,-58 286.047,-61.6667 286.047,-65.3333 286.047,-65.3333 286.047,-72.6667 286.047,-72.6667 286.047,-76.3333 282.38,-80 278.714,-80"/>
+<text text-anchor="middle" x="229" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyCollectionType</text>
 </a>
 </g>
 </g>
 <!-- LazyCollectionType&#45;&gt;LazyCollection -->
-<g id="edge8" class="edge">
-<path fill="none" stroke="#cccccc" d="M211.529,-57.9883C177.693,-48.7 127.173,-34.8318 90.4616,-24.7542"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="91.0685,-21.2913 80.4987,-22.0192 89.2154,-28.0416 91.0685,-21.2913"/>
+<g id="edge5" class="edge">
+<path fill="none" stroke="#cccccc" d="M195.926,-57.9883C165.503,-48.7794 120.208,-35.0685 86.9907,-25.0134"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="87.6845,-21.5666 77.0993,-22.0192 85.6564,-28.2664 87.6845,-21.5666"/>
 </g>
 <!-- LazyFilterCollection -->
 <g id="node3" class="node">
@@ -130,9 +130,9 @@
 </g>
 </g>
 <!-- LazyCollectionType&#45;&gt;LazyFilterCollection -->
-<g id="edge9" class="edge">
-<path fill="none" stroke="#cccccc" d="M232.804,-57.9883C220.07,-49.5993 201.666,-37.4743 186.952,-27.7804"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="188.628,-24.6927 178.351,-22.1138 184.776,-30.5382 188.628,-24.6927"/>
+<g id="edge6" class="edge">
+<path fill="none" stroke="#cccccc" d="M217.201,-57.9883C207.653,-49.8873 193.999,-38.3026 182.785,-28.7873"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="185.033,-26.1049 175.144,-22.3039 180.505,-31.4425 185.033,-26.1049"/>
 </g>
 <!-- LazyMapCollection -->
 <g id="node5" class="node">
@@ -143,9 +143,9 @@
 </g>
 </g>
 <!-- LazyCollectionType&#45;&gt;LazyMapCollection -->
-<g id="edge10" class="edge">
-<path fill="none" stroke="#cccccc" d="M256.224,-57.9883C262.555,-50.2806 271.477,-39.4191 279.061,-30.187"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="281.893,-32.2528 285.536,-22.3039 276.484,-27.8096 281.893,-32.2528"/>
+<g id="edge7" class="edge">
+<path fill="none" stroke="#cccccc" d="M240.621,-57.9883C249.932,-49.966 263.209,-38.5272 274.192,-29.065"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="276.749,-31.4826 282.04,-22.3039 272.18,-26.1794 276.749,-31.4826"/>
 </g>
 <!-- LazyFilterSequence -->
 <g id="node4" class="node">
@@ -174,58 +174,43 @@
 <!-- LazySequenceType -->
 <g id="node8" class="node">
 <g id="a_node8"><a xlink:href="/v2.0/protocol/LazySequenceType/" target="_top">
-<path fill="#ee543d" stroke="#ee543d" d="M383.228,-138C383.228,-138 282.772,-138 282.772,-138 279.105,-138 275.439,-134.333 275.439,-130.667 275.439,-130.667 275.439,-123.333 275.439,-123.333 275.439,-119.667 279.105,-116 282.772,-116 282.772,-116 383.228,-116 383.228,-116 386.895,-116 390.561,-119.667 390.561,-123.333 390.561,-123.333 390.561,-130.667 390.561,-130.667 390.561,-134.333 386.895,-138 383.228,-138"/>
-<text text-anchor="middle" x="333" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazySequenceType</text>
+<path fill="#ee543d" stroke="#ee543d" d="M542.228,-138C542.228,-138 441.772,-138 441.772,-138 438.105,-138 434.439,-134.333 434.439,-130.667 434.439,-130.667 434.439,-123.333 434.439,-123.333 434.439,-119.667 438.105,-116 441.772,-116 441.772,-116 542.228,-116 542.228,-116 545.895,-116 549.561,-119.667 549.561,-123.333 549.561,-123.333 549.561,-130.667 549.561,-130.667 549.561,-134.333 545.895,-138 542.228,-138"/>
+<text text-anchor="middle" x="492" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazySequenceType</text>
 </a>
 </g>
 </g>
-<!-- LazySequenceType&#45;&gt;LazyCollection -->
-<g id="edge1" class="edge">
-<path fill="none" stroke="#cccccc" d="M284.843,-115.968C250.924,-108.128 204.823,-95.8966 166,-80 130.183,-65.3345 91.6044,-42.5231 67.6302,-27.4242"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="69.5074,-24.4702 59.1932,-22.048 65.7457,-30.3736 69.5074,-24.4702"/>
-</g>
 <!-- LazySequenceType&#45;&gt;LazyCollectionType -->
-<g id="edge2" class="edge">
-<path fill="none" stroke="#cccccc" d="M317.804,-115.988C305.07,-107.599 286.666,-95.4743 271.952,-85.7804"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="273.628,-82.6927 263.351,-80.1138 269.776,-88.5382 273.628,-82.6927"/>
-</g>
-<!-- LazySequenceType&#45;&gt;LazyFilterCollection -->
-<g id="edge3" class="edge">
-<path fill="none" stroke="#cccccc" d="M275.515,-121.756C243.969,-116.5 206.418,-104.992 182,-80 169.713,-67.4239 165.23,-47.5928 163.663,-32.5848"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="167.13,-31.9846 162.953,-22.2483 160.147,-32.4648 167.13,-31.9846"/>
+<g id="edge1" class="edge">
+<path fill="none" stroke="#cccccc" d="M444.981,-115.988C400.427,-106.501 333.435,-92.237 285.89,-82.1134"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="286.564,-78.6787 276.055,-80.0192 285.106,-85.5252 286.564,-78.6787"/>
 </g>
 <!-- LazySequenceType&#45;&gt;LazyFilterSequence -->
-<g id="edge4" class="edge">
-<path fill="none" stroke="#cccccc" d="M341.253,-115.883C357,-96.5802 391.524,-54.2609 411.305,-30.0135"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="414.022,-32.2191 417.632,-22.2579 408.598,-27.7942 414.022,-32.2191"/>
-</g>
-<!-- LazySequenceType&#45;&gt;LazyMapCollection -->
-<g id="edge5" class="edge">
-<path fill="none" stroke="#cccccc" d="M330.598,-115.725C327.351,-102.29 321.139,-78.0983 314,-58 310.844,-49.1144 306.78,-39.5159 303.14,-31.3972"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="306.211,-29.6973 298.857,-22.07 299.849,-32.6183 306.211,-29.6973"/>
+<g id="edge2" class="edge">
+<path fill="none" stroke="#cccccc" d="M486.143,-115.883C475.114,-96.8331 451.107,-55.3658 436.986,-30.9757"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="439.978,-29.1586 431.939,-22.2579 433.92,-32.6659 439.978,-29.1586"/>
 </g>
 <!-- LazySequenceType&#45;&gt;LazyMapSequence -->
-<g id="edge6" class="edge">
-<path fill="none" stroke="#cccccc" d="M352.967,-115.883C392.913,-95.6441 482.798,-50.1025 529.148,-26.6182"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="530.739,-29.7359 538.077,-22.0941 527.575,-23.4916 530.739,-29.7359"/>
+<g id="edge3" class="edge">
+<path fill="none" stroke="#cccccc" d="M497.857,-115.883C508.886,-96.8331 532.893,-55.3658 547.014,-30.9757"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="550.08,-32.6659 552.061,-22.2579 544.022,-29.1586 550.08,-32.6659"/>
 </g>
 <!-- LazySequenceType&#45;&gt;LazySequence -->
-<g id="edge7" class="edge">
-<path fill="none" stroke="#cccccc" d="M363.226,-115.983C425.263,-95.4244 566.983,-48.4591 636.724,-25.3474"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="638.082,-28.5846 646.473,-22.1165 635.88,-21.94 638.082,-28.5846"/>
+<g id="edge4" class="edge">
+<path fill="none" stroke="#cccccc" d="M508.418,-115.883C540.919,-95.8554 613.629,-51.0505 652.072,-27.3608"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="653.942,-30.3199 660.619,-22.0941 650.27,-24.3605 653.942,-30.3199"/>
 </g>
 <!-- SequenceType -->
 <g id="node9" class="node">
 <g id="a_node9"><a xlink:href="/v2.0/protocol/SequenceType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M370.718,-196C370.718,-196 295.282,-196 295.282,-196 291.615,-196 287.949,-192.333 287.949,-188.667 287.949,-188.667 287.949,-181.333 287.949,-181.333 287.949,-177.667 291.615,-174 295.282,-174 295.282,-174 370.718,-174 370.718,-174 374.385,-174 378.051,-177.667 378.051,-181.333 378.051,-181.333 378.051,-188.667 378.051,-188.667 378.051,-192.333 374.385,-196 370.718,-196"/>
-<text text-anchor="middle" x="333" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
+<path fill="#999999" stroke="#999999" d="M529.718,-196C529.718,-196 454.282,-196 454.282,-196 450.615,-196 446.949,-192.333 446.949,-188.667 446.949,-188.667 446.949,-181.333 446.949,-181.333 446.949,-177.667 450.615,-174 454.282,-174 454.282,-174 529.718,-174 529.718,-174 533.385,-174 537.051,-177.667 537.051,-181.333 537.051,-181.333 537.051,-188.667 537.051,-188.667 537.051,-192.333 533.385,-196 529.718,-196"/>
+<text text-anchor="middle" x="492" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>
 </g>
 </g>
 <!-- SequenceType&#45;&gt;LazySequenceType -->
-<g id="edge11" class="edge">
-<path fill="none" stroke="#cccccc" d="M333,-173.988C333,-166.91 333,-157.171 333,-148.478"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="336.5,-148.304 333,-138.304 329.5,-148.304 336.5,-148.304"/>
+<g id="edge8" class="edge">
+<path fill="none" stroke="#cccccc" d="M492,-173.988C492,-166.91 492,-157.171 492,-148.478"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="495.5,-148.304 492,-138.304 488.5,-148.304 495.5,-148.304"/>
 </g>
 </g>
 </svg>

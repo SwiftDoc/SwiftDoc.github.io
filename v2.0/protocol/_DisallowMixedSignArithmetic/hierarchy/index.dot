@@ -18,12 +18,7 @@ strict digraph "_DisallowMixedSignArithmetic - Type Hierarchy - SwiftDoc.org" {
     "_DisallowMixedSignArithmetic" [URL="/protocol/_DisallowMixedSignArithmetic/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]
     "_IntegerArithmeticType" [URL="/protocol/_IntegerArithmeticType/"]
-    "_IntegerType" [URL="/protocol/_IntegerType/"]    "_DisallowMixedSignArithmetic" -> "UInt"
-    "_DisallowMixedSignArithmetic" -> "UInt16"
-    "_DisallowMixedSignArithmetic" -> "UInt32"
-    "_DisallowMixedSignArithmetic" -> "UInt64"
-    "_DisallowMixedSignArithmetic" -> "UInt8"
-    "_DisallowMixedSignArithmetic" -> "UnsignedIntegerType"
+    "_IntegerType" [URL="/protocol/_IntegerType/"]    "_DisallowMixedSignArithmetic" -> "UnsignedIntegerType"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"

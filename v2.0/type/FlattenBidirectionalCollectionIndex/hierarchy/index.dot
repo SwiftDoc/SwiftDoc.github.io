@@ -6,13 +6,7 @@ strict digraph "FlattenBidirectionalCollectionIndex<BaseElements : CollectionTyp
     "Equatable" [URL="/protocol/Equatable/"]
     "FlattenBidirectionalCollectionIndex<BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType, BaseElements.Index : BidirectionalIndexType, BaseElements.Generator.Element.Index : BidirectionalIndexType>" [URL="/type/FlattenBidirectionalCollectionIndex/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
-    "_Incrementable" [URL="/protocol/_Incrementable/"]    "ForwardIndexType" -> "FlattenBidirectionalCollectionIndex<BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType, BaseElements.Index : BidirectionalIndexType, BaseElements.Generator.Element.Index : BidirectionalIndexType>"
-    "_Incrementable" -> "FlattenBidirectionalCollectionIndex<BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType, BaseElements.Index : BidirectionalIndexType, BaseElements.Generator.Element.Index : BidirectionalIndexType>"
-    "Equatable" -> "FlattenBidirectionalCollectionIndex<BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType, BaseElements.Index : BidirectionalIndexType, BaseElements.Generator.Element.Index : BidirectionalIndexType>"
-    "BidirectionalIndexType" -> "FlattenBidirectionalCollectionIndex<BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType, BaseElements.Index : BidirectionalIndexType, BaseElements.Generator.Element.Index : BidirectionalIndexType>"
-    "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
-    "Equatable" -> "_Incrementable"
+    "_Incrementable" [URL="/protocol/_Incrementable/"]    "BidirectionalIndexType" -> "FlattenBidirectionalCollectionIndex<BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType, BaseElements.Index : BidirectionalIndexType, BaseElements.Generator.Element.Index : BidirectionalIndexType>"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"

@@ -11,7 +11,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Swift documentation for '_MirrorType': The type returned by _reflect(x); supplies an API for runtime reflection on x.">
-    <meta name="keywords" content="_MirrorType,protocol,swift,documentation,value,valueType,objectIdentifier,count,summary,quickLookObject,disposition">
+    <meta name="keywords" content="_MirrorType,protocol,swift,documentation,count,disposition,objectIdentifier,quickLookObject,summary,value,valueType">
     <link rel="canonical" href="http://swiftdoc.org/v2.0/protocol/_MirrorType/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -34,8 +34,8 @@
     <meta name="twitter:description" content="Swift documentation for &#39;_MirrorType&#39;: The type returned by _reflect(x); supplies an API for runtime reflection on x."/>
     <meta name="twitter:url" content="http://swiftdoc.org/v2.0/protocol/_MirrorType/index.html"/>
 
-    <link href="/assets/swift-0d01cd7187823280d004769cfb0a49ed.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-a93c7e66ac39404e15479229e3fbc78f.js" type="text/javascript"></script>
+    <link href="/assets/swift-52137ab16445d25a5ef18b0c801952a1.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/swift-e6eb1bbd9c800bad5f82054ddf963f17.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -63,7 +63,7 @@
           <h1><a href="/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
-	    <div class="collapse navbar-collapse navbar-ex1-collapse">
+	    <div class="collapse navbar-collapse navbar-ex1-collapse" id="navmenu-container">
           <form class="navbar-form navbar-left" role="search">
           
     		<div class="form-group input-group has-feedback">
@@ -72,11 +72,12 @@
     		</div>
             
           </form>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" id="navmenu">
               <li><a href="/type/">Types</a></li>
               <li><a href="/protocol/">Protocols</a></li>
               <li><a href="/operator/">Operators</a></li>
               <li><a href="/global/">Globals</a></li>
+              <li role="separator" class="divider" id="navsep"></li>
           </ul>
 	    </div>
 	</nav>				
@@ -105,71 +106,25 @@
       <div class="row">
         <div class="col-sm-4 col-md-3" id="sidebar">
 
+            <div id="fixed-sidebar" data-spy="">
+                
     		<div class="form-group input-group has-feedback">
     			<input type="hidden" class="form-control select2">
     			<span class="glyphicon glyphicon-search form-control-feedback"></span>
     		</div>
 
-            <div class="panel-group" id="accordion">
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTypes">
-          Types
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTypes" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseProtocols">
-          Protocols
-        </a>
-      </h4>
-    </div>
-    <div id="collapseProtocols" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOperators">
-          Operators
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOperators" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseGlobals">
-          Globals
-        </a>
-      </h4>
-    </div>
-    <div id="collapseGlobals" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
+            <div id="intranav">
+    <h4>On this page</h4>
+    <ul id="chapters">
+        <li><a href="#content">Declaration</a></li>
+    </ul>
+        
+    <h4>Display</h4>
+    <ul id="display">
+    </ul>
 </div>
-
+            
+            </div>
         </div>
 
         <div class="col-sm-8 col-md-9" id="content">
@@ -178,70 +133,107 @@
           </header>
           
           <article class="content">
-          <code class="language-swift">protocol _MirrorType { ... }</code>
+          <div class="intro-declaration"><code class="language-swift">protocol _MirrorType</code></div>
 
-<div class="comment">
+<div class="discussion comment">
     <p>The type returned by <code>_reflect(x)</code>; supplies an API for runtime
 reflection on <code>x</code>.</p>
 </div>
 
+<table class="standard">
 
 
+
+<tr>
+<th>Import</th>
+<td><code class="language-swift">import Swift</code></td>
+</tr>
+
+</table>
 
 
 
 
 <h3>Instance Variables</h3>
-<div class="declaration" id="prop-value">
-<code class="language-swift">var value: Any { get }</code>
-<div class="comment">
-    <p>The instance being reflected.</p>
+<div class="declaration" id="var-count_-int">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-count_-int">var count: Int</a> <span class="required">Required</span><div class="comment collapse" id="comment-var-count_-int"><div class="p">
+    <p>The count of <code>value</code>&#39;s logical children.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var count: Int { get }</code>
+
+    </div></div>
 </div>
+<div class="declaration" id="var-disposition_-mirrordisposition">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-disposition_-mirrordisposition">var disposition: _MirrorDisposition</a> <span class="required">Required</span><div class="comment collapse" id="comment-var-disposition_-mirrordisposition"><div class="p">
+    <p>How <code>value</code> should be presented in an IDE.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var disposition: _MirrorDisposition { get }</code>
+
+    </div></div>
 </div>
-<div class="declaration" id="prop-valueType">
-<code class="language-swift">var valueType: Any.Type { get }</code>
-<div class="comment">
-    <p>Identical to <code>value.dynamicType</code>.</p>
-</div>
-</div>
-<div class="declaration" id="prop-objectIdentifier">
-<code class="language-swift">var objectIdentifier: ObjectIdentifier? { get }</code>
-<div class="comment">
+<div class="declaration" id="var-objectidentifier_-objectidentifier">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-objectidentifier_-objectidentifier">var objectIdentifier: ObjectIdentifier?</a> <span class="required">Required</span><div class="comment collapse" id="comment-var-objectidentifier_-objectidentifier"><div class="p">
     <p>A unique identifier for <code>value</code> if it is a class instance; <code>nil</code>
 otherwise.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var objectIdentifier: ObjectIdentifier? { get }</code>
+
+    </div></div>
 </div>
-</div>
-<div class="declaration" id="prop-count">
-<code class="language-swift">var count: Int { get }</code>
-<div class="comment">
-    <p>The count of <code>value</code>&#39;s logical children.</p>
-</div>
-</div>
-<div class="declaration" id="prop-summary">
-<code class="language-swift">var summary: String { get }</code>
-<div class="comment">
-    <p>A string description of <code>value</code>.</p>
-</div>
-</div>
-<div class="declaration" id="prop-quickLookObject">
-<code class="language-swift">var quickLookObject: PlaygroundQuickLook? { get }</code>
-<div class="comment">
+<div class="declaration" id="var-quicklookobject_-playgroundquicklook">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-quicklookobject_-playgroundquicklook">var quickLookObject: PlaygroundQuickLook?</a> <span class="required">Required</span><div class="comment collapse" id="comment-var-quicklookobject_-playgroundquicklook"><div class="p">
     <p>A rich representation of <code>value</code> for an IDE, or <code>nil</code> if none is supplied.</p>
-</div>
-</div>
-<div class="declaration" id="prop-disposition">
-<code class="language-swift">var disposition: _MirrorDisposition { get }</code>
-<div class="comment">
-    <p>How <code>value</code> should be presented in an IDE.</p>
-</div>
-</div>
 
+    <h4>Declaration</h4>    
+    <code class="language-swift">var quickLookObject: PlaygroundQuickLook? { get }</code>
 
+    </div></div>
+</div>
+<div class="declaration" id="var-summary_-string">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-summary_-string">var summary: String</a> <span class="required">Required</span><div class="comment collapse" id="comment-var-summary_-string"><div class="p">
+    <p>A string description of <code>value</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var summary: String { get }</code>
+
+    </div></div>
+</div>
+<div class="declaration" id="var-value_-any">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-value_-any">var value: Any</a> <span class="required">Required</span><div class="comment collapse" id="comment-var-value_-any"><div class="p">
+    <p>The instance being reflected.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var value: Any { get }</code>
+
+    </div></div>
+</div>
+<div class="declaration" id="var-valuetype_-any-type">
+<a class="toggle-link" data-toggle="collapse" href="#comment-var-valuetype_-any-type">var valueType: Any.Type</a> <span class="required">Required</span><div class="comment collapse" id="comment-var-valuetype_-any-type"><div class="p">
+    <p>Identical to <code>value.dynamicType</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">var valueType: Any.Type { get }</code>
+
+    </div></div>
+</div>
 
 <h3>Subscripts</h3>
-<div class="declaration">
-<code class="language-swift">subscript(i: Int) -> (String, _MirrorType) { get }</code>
+<div class="declaration" id="subscript-subscript_-int">
+<a class="toggle-link" data-toggle="collapse" href="#comment-subscript-subscript_-int">subscript(_: Int)</a> <span class="required">Required</span>
+<div class="comment collapse" id="comment-subscript-subscript_-int"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">subscript(i: Int) -&gt; (String, _MirrorType) { get }</code>
+    
+    
+</div></div>
 </div>
+
+
 
 
 
@@ -256,7 +248,7 @@ otherwise.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.1.101.6</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.1.101.15</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

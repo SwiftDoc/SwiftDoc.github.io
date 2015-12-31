@@ -11,17 +11,11 @@ strict digraph "MutableSliceable - Type Hierarchy - SwiftDoc.org" {
     "MutableIndexable" [URL="/protocol/MutableIndexable/"]
     "MutableSliceable" [URL="/protocol/MutableSliceable/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]
     "SequenceType" [URL="/protocol/SequenceType/"]
-    "_ArrayType" [URL="/protocol/_ArrayType/"]    "MutableSliceable" -> "Array"
-    "MutableSliceable" -> "ArraySlice"
-    "MutableSliceable" -> "ContiguousArray"
-    "MutableSliceable" -> "_ArrayType"
+    "_ArrayType" [URL="/protocol/_ArrayType/"]    "MutableSliceable" -> "_ArrayType"
     "_ArrayType" -> "Array"
     "_ArrayType" -> "ArraySlice"
     "_ArrayType" -> "ContiguousArray"
-    "CollectionType" -> "MutableSliceable"
     "MutableCollectionType" -> "MutableSliceable"
-    "Indexable" -> "CollectionType"
-    "SequenceType" -> "CollectionType"
     "MutableIndexable" -> "MutableCollectionType"
     "CollectionType" -> "MutableCollectionType"
     "Indexable" -> "CollectionType"

@@ -7,8 +7,6 @@ strict digraph "UnsafeBufferPointer<Element> - Type Hierarchy - SwiftDoc.org" {
     "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
     "UnsafeBufferPointer<Element>" [URL="/type/UnsafeBufferPointer/", style="filled", fillcolor="#ee543d", color="#ee543d"]    "CollectionType" -> "UnsafeBufferPointer<Element>"
-    "Indexable" -> "UnsafeBufferPointer<Element>"
-    "SequenceType" -> "UnsafeBufferPointer<Element>"
     "CustomDebugStringConvertible" -> "UnsafeBufferPointer<Element>"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"

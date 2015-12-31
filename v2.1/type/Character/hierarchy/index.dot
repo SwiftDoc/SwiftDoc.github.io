@@ -11,7 +11,6 @@ strict digraph "Character - Type Hierarchy - SwiftDoc.org" {
     "Streamable" [URL="/protocol/Streamable/"]
     "UnicodeScalarLiteralConvertible" [URL="/protocol/UnicodeScalarLiteralConvertible/"]
     "_Reflectable" [URL="/protocol/_Reflectable/"]    "ExtendedGraphemeClusterLiteralConvertible" -> "Character"
-    "Equatable" -> "Character"
     "Hashable" -> "Character"
     "Comparable" -> "Character"
     "CustomDebugStringConvertible" -> "Character"

@@ -7,8 +7,7 @@ strict digraph "CFunctionPointer<T> - Type Hierarchy - SwiftDoc.org" {
     "DebugPrintable" [URL="/protocol/DebugPrintable/"]
     "Equatable" [URL="/protocol/Equatable/"]
     "Hashable" [URL="/protocol/Hashable/"]
-    "NilLiteralConvertible" [URL="/protocol/NilLiteralConvertible/"]    "Equatable" -> "CFunctionPointer<T>"
-    "Hashable" -> "CFunctionPointer<T>"
+    "NilLiteralConvertible" [URL="/protocol/NilLiteralConvertible/"]    "Hashable" -> "CFunctionPointer<T>"
     "NilLiteralConvertible" -> "CFunctionPointer<T>"
     "DebugPrintable" -> "CFunctionPointer<T>"
     "CVarArgType" -> "CFunctionPointer<T>"

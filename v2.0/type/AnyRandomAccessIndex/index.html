@@ -11,7 +11,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Swift documentation for 'AnyRandomAccessIndex': A wrapper over an underlying RandomAccessIndexType that hides the specific underlying type.">
-    <meta name="keywords" content="AnyRandomAccessIndex,struct,swift,documentation,successor,predecessor,distanceTo,advancedBy,advancedBy,Distance">
+    <meta name="keywords" content="AnyRandomAccessIndex,struct,swift,documentation,advancedBy,advancedBy,distanceTo,predecessor,stride,stride,successor,Distance">
     <link rel="canonical" href="http://swiftdoc.org/v2.0/type/AnyRandomAccessIndex/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -34,8 +34,8 @@
     <meta name="twitter:description" content="Swift documentation for &#39;AnyRandomAccessIndex&#39;: A wrapper over an underlying RandomAccessIndexType that hides the specific underlying type."/>
     <meta name="twitter:url" content="http://swiftdoc.org/v2.0/type/AnyRandomAccessIndex/index.html"/>
 
-    <link href="/assets/swift-0d01cd7187823280d004769cfb0a49ed.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-a93c7e66ac39404e15479229e3fbc78f.js" type="text/javascript"></script>
+    <link href="/assets/swift-52137ab16445d25a5ef18b0c801952a1.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/swift-e6eb1bbd9c800bad5f82054ddf963f17.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -63,7 +63,7 @@
           <h1><a href="/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
-	    <div class="collapse navbar-collapse navbar-ex1-collapse">
+	    <div class="collapse navbar-collapse navbar-ex1-collapse" id="navmenu-container">
           <form class="navbar-form navbar-left" role="search">
           
     		<div class="form-group input-group has-feedback">
@@ -72,11 +72,12 @@
     		</div>
             
           </form>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" id="navmenu">
               <li><a href="/type/">Types</a></li>
               <li><a href="/protocol/">Protocols</a></li>
               <li><a href="/operator/">Operators</a></li>
               <li><a href="/global/">Globals</a></li>
+              <li role="separator" class="divider" id="navsep"></li>
           </ul>
 	    </div>
 	</nav>				
@@ -105,71 +106,25 @@
       <div class="row">
         <div class="col-sm-4 col-md-3" id="sidebar">
 
+            <div id="fixed-sidebar" data-spy="">
+                
     		<div class="form-group input-group has-feedback">
     			<input type="hidden" class="form-control select2">
     			<span class="glyphicon glyphicon-search form-control-feedback"></span>
     		</div>
 
-            <div class="panel-group" id="accordion">
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTypes">
-          Types
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTypes" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseProtocols">
-          Protocols
-        </a>
-      </h4>
-    </div>
-    <div id="collapseProtocols" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOperators">
-          Operators
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOperators" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseGlobals">
-          Globals
-        </a>
-      </h4>
-    </div>
-    <div id="collapseGlobals" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
+            <div id="intranav">
+    <h4>On this page</h4>
+    <ul id="chapters">
+        <li><a href="#content">Declaration</a></li>
+    </ul>
+        
+    <h4>Display</h4>
+    <ul id="display">
+    </ul>
 </div>
-
+            
+            </div>
         </div>
 
         <div class="col-sm-8 col-md-9" id="content">
@@ -178,66 +133,160 @@
           </header>
           
           <article class="content">
-          <code class="language-swift">struct AnyRandomAccessIndex { ... }</code>
+          <div class="intro-declaration"><code class="language-swift">struct AnyRandomAccessIndex</code></div>
 
-<div class="comment">
+<div class="discussion comment">
     <p>A wrapper over an underlying <code>RandomAccessIndexType</code> that hides
 the specific underlying type.</p>
 
 <p><strong>See Also:</strong> <code>AnyRandomAccessCollection</code></p>
 </div>
 
-<h3>Inheritance</h3>
-<code class="inherits">ForwardIndexType, _Incrementable, Equatable, RandomAccessIndexType, BidirectionalIndexType, Strideable, Comparable, _Strideable, _RandomAccessAmbiguity</code>
-<span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
+<table class="standard">
+<tr>
+<th id="inheritance">Inheritance</th>
+<td>
+<code class="inherits">BidirectionalIndexType, Comparable, Equatable, ForwardIndexType, RandomAccessIndexType, Strideable, _Incrementable, _RandomAccessAmbiguity, _Strideable</code>
+<span class="viz"><a href="hierarchy/">View Protocol Hierarchy &rarr;</a></span>
+</td>
+</tr>
 
-<h3 id="aliases">Associated types</h3>
+<tr>
+<th id="aliases">Associated Types</th>
+<td>
+<span id="aliasesmark"></span>
 <div class="declaration">
 <code class="language-swift">typealias Distance = IntMax</code>
 </div>
+</td>
+</tr>
 
+
+<tr>
+<th>Import</th>
+<td><code class="language-swift">import Swift</code></td>
+</tr>
+
+</table>
 
 
 <h3>Initializers</h3>
-<div class="declaration">
-<code class="language-swift">init&lt;BaseIndex : RandomAccessIndexType&gt;(_ base: BaseIndex)</code>
-<div class="comment">
+<div class="declaration" id="init_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-init_">init(_:)</a><div class="comment collapse" id="comment-init_"><div class="p">
     <p>Wrap and forward operations to <code>base</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">init&lt;BaseIndex : RandomAccessIndexType&gt;(_ base: BaseIndex)</code>
+
+    </div></div>
 </div>
-</div>
+
 
 
 
 
 <h3>Instance Methods</h3>
-<div class="declaration" id="func-successor">
-<code class="language-swift">func successor() -> AnyRandomAccessIndex</code>
-<div class="comment">
-    <p>Return the next consecutive value in a discrete sequence of
-<code>AnyRandomAccessIndex</code> values.</p>
+<div class="declaration" id="func-advancedby_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-advancedby_">func advancedBy(_:)</a>
+        
+<div class="comment collapse" id="comment-func-advancedby_"><div class="p">
+    
 
-<p><strong>Requires:</strong> <code>self</code> has a well-defined successor.</p>
+    <h4>Declaration</h4>    
+    <code class="language-swift">func advancedBy(amount: Distance) -&gt; AnyRandomAccessIndex</code>
+    
+        <h4>Declared In</h4>
+        <a href="../../protocol/AnyRandomAccessIndex/"><code>AnyRandomAccessIndex</code></a>,    <a href="../../protocol/BidirectionalIndexType/"><code>BidirectionalIndexType</code></a>,    <a href="../../protocol/_RandomAccessAmbiguity/"><code>_RandomAccessAmbiguity</code></a>,    <a href="../../protocol/ForwardIndexType/"><code>ForwardIndexType</code></a>    
+</div></div>
 </div>
+<div class="declaration" id="func-advancedby_limit_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-advancedby_limit_">func advancedBy(_:limit:)</a>
+        
+<div class="comment collapse" id="comment-func-advancedby_limit_"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func advancedBy(amount: Distance, limit: AnyRandomAccessIndex) -&gt; AnyRandomAccessIndex</code>
+    
+        <h4>Declared In</h4>
+        <a href="../../protocol/AnyRandomAccessIndex/"><code>AnyRandomAccessIndex</code></a>,    <a href="../../protocol/RandomAccessIndexType/"><code>RandomAccessIndexType</code></a>,    <a href="../../protocol/BidirectionalIndexType/"><code>BidirectionalIndexType</code></a>,    <a href="../../protocol/ForwardIndexType/"><code>ForwardIndexType</code></a>    
+</div></div>
+</div>
+<div class="declaration" id="func-distanceto_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-distanceto_">func distanceTo(_:)</a>
+        
+<div class="comment collapse" id="comment-func-distanceto_"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func distanceTo(other: AnyRandomAccessIndex) -&gt; Distance</code>
+    
+        <h4>Declared In</h4>
+        <a href="../../protocol/AnyRandomAccessIndex/"><code>AnyRandomAccessIndex</code></a>,    <a href="../../protocol/ForwardIndexType/"><code>ForwardIndexType</code></a>    
+</div></div>
 </div>
 <div class="declaration" id="func-predecessor">
-<code class="language-swift">func predecessor() -> AnyRandomAccessIndex</code>
-<div class="comment">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-predecessor">func predecessor()</a>
+        
+<div class="comment collapse" id="comment-func-predecessor"><div class="p">
     <p>Return the previous consecutive value in a discrete sequence of
 <code>AnyRandomAccessIndex</code> values.</p>
 
 <p><strong>Requires:</strong> <code>self</code> has a well-defined predecessor.</p>
-</div>
-</div>
-<div class="declaration" id="func-distanceTo">
-<code class="language-swift">func distanceTo(other: AnyRandomAccessIndex) -> Distance</code>
-</div>
-<div class="declaration" id="func-advancedBy">
-<code class="language-swift">func advancedBy(amount: Distance) -> AnyRandomAccessIndex</code>
-</div>
-<div class="declaration" id="func-advancedBy">
-<code class="language-swift">func advancedBy(amount: Distance, limit: AnyRandomAccessIndex) -> AnyRandomAccessIndex</code>
-</div>
 
+    <h4>Declaration</h4>    
+    <code class="language-swift">func predecessor() -&gt; AnyRandomAccessIndex</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration inherited" id="func-stride-through_by_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-stride-through_by_">func stride(through:by:)</a>
+        
+<div class="comment collapse" id="comment-func-stride-through_by_"><div class="p">
+    <p>Return the sequence of values (<code>start</code>, <code>start + stride</code>, <code>start +
+stride + stride</code>, ... <em>last</em>) where <em>last</em> is the last value in
+the progression less than or equal to <code>end</code>.</p>
+
+<p><strong>Note:</strong> There is no guarantee that <code>end</code> is an element of the sequence.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func stride(through end: Self, by stride: Self.Stride) -&gt; StrideThrough&lt;Self&gt;</code>
+    
+        <h4>Declared In</h4>
+        <a href="../../protocol/Strideable/"><code>Strideable</code></a>    
+</div></div>
+</div>
+<div class="declaration inherited" id="func-stride-to_by_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-stride-to_by_">func stride(to:by:)</a>
+        
+<div class="comment collapse" id="comment-func-stride-to_by_"><div class="p">
+    <p>Return the sequence of values (<code>self</code>, <code>self + stride</code>, <code>self +
+stride + stride</code>, ... <em>last</em>) where <em>last</em> is the last value in
+the progression that is less than <code>end</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func stride(to end: Self, by stride: Self.Stride) -&gt; StrideTo&lt;Self&gt;</code>
+    
+        <h4>Declared In</h4>
+        <a href="../../protocol/Strideable/"><code>Strideable</code></a>    
+</div></div>
+</div>
+<div class="declaration" id="func-successor">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-successor">func successor()</a>
+        
+<div class="comment collapse" id="comment-func-successor"><div class="p">
+    <p>Return the next consecutive value in a discrete sequence of
+<code>AnyRandomAccessIndex</code> values.</p>
+
+<p><strong>Requires:</strong> <code>self</code> has a well-defined successor.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func successor() -&gt; AnyRandomAccessIndex</code>
+    
+    
+</div></div>
+</div>
 
 
 
@@ -252,7 +301,7 @@ the specific underlying type.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.1.101.6</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.1.101.15</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

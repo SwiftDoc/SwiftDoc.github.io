@@ -13,10 +13,7 @@ strict digraph "Set<Element : Hashable> - Type Hierarchy - SwiftDoc.org" {
     "Set<Element : Hashable>" [URL="/type/Set/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "_ObjectiveCBridgeable" [URL="/protocol/_ObjectiveCBridgeable/"]
     "_Reflectable" [URL="/protocol/_Reflectable/"]    "Hashable" -> "Set<Element : Hashable>"
-    "Equatable" -> "Set<Element : Hashable>"
     "CollectionType" -> "Set<Element : Hashable>"
-    "Indexable" -> "Set<Element : Hashable>"
-    "SequenceType" -> "Set<Element : Hashable>"
     "ArrayLiteralConvertible" -> "Set<Element : Hashable>"
     "CustomStringConvertible" -> "Set<Element : Hashable>"
     "CustomDebugStringConvertible" -> "Set<Element : Hashable>"

@@ -41,7 +41,6 @@ strict digraph "Reflectable - Type Hierarchy - SwiftDoc.org" {
     "UnsafeMutablePointer" [URL="/type/UnsafeMutablePointer/", style=filled]
     "UnsafePointer" [URL="/type/UnsafePointer/", style=filled]    "Reflectable" -> "Array"
     "Reflectable" -> "ArraySlice"
-    "Reflectable" -> "Bit"
     "Reflectable" -> "Bool"
     "Reflectable" -> "Character"
     "Reflectable" -> "ClosedInterval"
@@ -78,6 +77,6 @@ strict digraph "Reflectable - Type Hierarchy - SwiftDoc.org" {
     "Reflectable" -> "String.UnicodeScalarView"
     "Int" -> "Bit"
     subgraph Types {
-        rank = max; "Array"; "ArraySlice"; "Bit"; "Bool"; "Character"; "ClosedInterval"; "CollectionOfOne"; "ContiguousArray"; "Dictionary"; "Double"; "EmptyCollection"; "Float"; "HalfOpenInterval"; "ImplicitlyUnwrappedOptional"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Optional"; "Range"; "Set"; "StrideThrough"; "StrideTo"; "String"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnicodeScalar"; "UnsafeMutablePointer"; "UnsafePointer"; "String.Index"; "String.UTF16View"; "String.UTF8View"; "String.UnicodeScalarView";
+        rank = max; "Array"; "ArraySlice"; "Bool"; "Character"; "ClosedInterval"; "CollectionOfOne"; "ContiguousArray"; "Dictionary"; "Double"; "EmptyCollection"; "Float"; "HalfOpenInterval"; "ImplicitlyUnwrappedOptional"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Optional"; "Range"; "Set"; "StrideThrough"; "StrideTo"; "String"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnicodeScalar"; "UnsafeMutablePointer"; "UnsafePointer"; "String.Index"; "String.UTF16View"; "String.UTF8View"; "String.UnicodeScalarView"; "Bit";
     }
 }

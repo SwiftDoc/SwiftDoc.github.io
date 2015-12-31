@@ -8,8 +8,6 @@ strict digraph "ExtendedGraphemeClusterLiteralConvertible - Type Hierarchy - Swi
     "String" [URL="/type/String/", style=filled]
     "StringLiteralConvertible" [URL="/protocol/StringLiteralConvertible/"]
     "UnicodeScalarLiteralConvertible" [URL="/protocol/UnicodeScalarLiteralConvertible/"]    "ExtendedGraphemeClusterLiteralConvertible" -> "Character"
-    "ExtendedGraphemeClusterLiteralConvertible" -> "StaticString"
-    "ExtendedGraphemeClusterLiteralConvertible" -> "String"
     "ExtendedGraphemeClusterLiteralConvertible" -> "StringLiteralConvertible"
     "StringLiteralConvertible" -> "StaticString"
     "StringLiteralConvertible" -> "String"

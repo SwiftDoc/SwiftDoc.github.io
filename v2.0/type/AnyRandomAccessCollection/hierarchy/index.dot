@@ -7,12 +7,7 @@ strict digraph "AnyRandomAccessCollection<Element> - Type Hierarchy - SwiftDoc.o
     "CollectionType" [URL="/protocol/CollectionType/"]
     "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "AnyCollectionType" -> "AnyRandomAccessCollection<Element>"
-    "CollectionType" -> "AnyRandomAccessCollection<Element>"
-    "Indexable" -> "AnyRandomAccessCollection<Element>"
-    "SequenceType" -> "AnyRandomAccessCollection<Element>"
     "CollectionType" -> "AnyCollectionType"
-    "Indexable" -> "CollectionType"
-    "SequenceType" -> "CollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {

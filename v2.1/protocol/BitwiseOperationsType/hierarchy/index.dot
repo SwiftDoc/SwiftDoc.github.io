@@ -19,18 +19,7 @@ strict digraph "BitwiseOperationsType - Type Hierarchy - SwiftDoc.org" {
     "UnsignedIntegerType" [URL="/protocol/UnsignedIntegerType/"]
     "_DisallowMixedSignArithmetic" [URL="/protocol/_DisallowMixedSignArithmetic/"]
     "_IntegerType" [URL="/protocol/_IntegerType/"]
-    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]    "BitwiseOperationsType" -> "Int"
-    "BitwiseOperationsType" -> "Int16"
-    "BitwiseOperationsType" -> "Int32"
-    "BitwiseOperationsType" -> "Int64"
-    "BitwiseOperationsType" -> "Int8"
-    "BitwiseOperationsType" -> "UInt"
-    "BitwiseOperationsType" -> "UInt16"
-    "BitwiseOperationsType" -> "UInt32"
-    "BitwiseOperationsType" -> "UInt64"
-    "BitwiseOperationsType" -> "UInt8"
-    "BitwiseOperationsType" -> "_IntegerType"
-    "Int" -> "Bit"
+    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]    "BitwiseOperationsType" -> "_IntegerType"
     "_IntegerType" -> "IntegerType"
     "_IntegerType" -> "_DisallowMixedSignArithmetic"
     "_IntegerType" -> "_SignedIntegerType"
@@ -61,6 +50,6 @@ strict digraph "BitwiseOperationsType - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int8"
     "Int" -> "Bit"
     subgraph Types {
-        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "Bit";
+        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
     }
 }

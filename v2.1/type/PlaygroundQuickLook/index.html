@@ -34,8 +34,8 @@
     <meta name="twitter:description" content="Swift documentation for &#39;PlaygroundQuickLook&#39;: The sum of types that can be used as a quick look representation."/>
     <meta name="twitter:url" content="http://swiftdoc.org/v2.1/type/PlaygroundQuickLook/index.html"/>
 
-    <link href="/assets/swift-0d01cd7187823280d004769cfb0a49ed.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-a93c7e66ac39404e15479229e3fbc78f.js" type="text/javascript"></script>
+    <link href="/assets/swift-52137ab16445d25a5ef18b0c801952a1.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/swift-e6eb1bbd9c800bad5f82054ddf963f17.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -63,7 +63,7 @@
           <h1><a href="/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
-	    <div class="collapse navbar-collapse navbar-ex1-collapse">
+	    <div class="collapse navbar-collapse navbar-ex1-collapse" id="navmenu-container">
           <form class="navbar-form navbar-left" role="search">
           
     		<div class="form-group input-group has-feedback">
@@ -72,11 +72,12 @@
     		</div>
             
           </form>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" id="navmenu">
               <li><a href="/type/">Types</a></li>
               <li><a href="/protocol/">Protocols</a></li>
               <li><a href="/operator/">Operators</a></li>
               <li><a href="/global/">Globals</a></li>
+              <li role="separator" class="divider" id="navsep"></li>
           </ul>
 	    </div>
 	</nav>				
@@ -105,71 +106,25 @@
       <div class="row">
         <div class="col-sm-4 col-md-3" id="sidebar">
 
+            <div id="fixed-sidebar" data-spy="">
+                
     		<div class="form-group input-group has-feedback">
     			<input type="hidden" class="form-control select2">
     			<span class="glyphicon glyphicon-search form-control-feedback"></span>
     		</div>
 
-            <div class="panel-group" id="accordion">
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTypes">
-          Types
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTypes" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseProtocols">
-          Protocols
-        </a>
-      </h4>
-    </div>
-    <div id="collapseProtocols" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOperators">
-          Operators
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOperators" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseGlobals">
-          Globals
-        </a>
-      </h4>
-    </div>
-    <div id="collapseGlobals" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
+            <div id="intranav">
+    <h4>On this page</h4>
+    <ul id="chapters">
+        <li><a href="#content">Declaration</a></li>
+    </ul>
+        
+    <h4>Display</h4>
+    <ul id="display">
+    </ul>
 </div>
-
+            
+            </div>
         </div>
 
         <div class="col-sm-8 col-md-9" id="content">
@@ -178,141 +133,202 @@
           </header>
           
           <article class="content">
-          <code class="language-swift">enum PlaygroundQuickLook { ... }</code>
+          <div class="intro-declaration"><code class="language-swift">enum PlaygroundQuickLook</code></div>
 
-<div class="comment">
+<div class="discussion comment">
     <p>The sum of types that can be used as a quick look representation.</p>
 </div>
 
+<table class="standard">
 
 
+
+<tr>
+<th>Import</th>
+<td><code class="language-swift">import Swift</code></td>
+</tr>
+
+</table>
 
 <h3 id="cases">Cases</h3>
-<div class="declaration">
-<code class="language-swift">case Text(String)</code>
-<div class="comment">
+<div class="declaration" id="case-Text">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Text">case Text(String)</a>
+<div class="comment collapse" id="comment-case-Text"><div class="p">
     <p>Plain text.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case Int(Int64)</code>
-<div class="comment">
+<div class="declaration" id="case-Int">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Int">case Int(Int64)</a>
+<div class="comment collapse" id="comment-case-Int"><div class="p">
     <p>An integer numeric value.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case UInt(UInt64)</code>
-<div class="comment">
+<div class="declaration" id="case-UInt">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-UInt">case UInt(UInt64)</a>
+<div class="comment collapse" id="comment-case-UInt"><div class="p">
     <p>An unsigned integer numeric value.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case Float(Float32)</code>
-<div class="comment">
+<div class="declaration" id="case-Float">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Float">case Float(Float32)</a>
+<div class="comment collapse" id="comment-case-Float"><div class="p">
     <p>A single precision floating-point numeric value.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case Double(Float64)</code>
-<div class="comment">
+<div class="declaration" id="case-Double">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Double">case Double(Float64)</a>
+<div class="comment collapse" id="comment-case-Double"><div class="p">
     <p>A double precision floating-point numeric value.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case Image(Any)</code>
-<div class="comment">
+<div class="declaration" id="case-Image">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Image">case Image(Any)</a>
+<div class="comment collapse" id="comment-case-Image"><div class="p">
     <p>An image.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case Sound(Any)</code>
-<div class="comment">
+<div class="declaration" id="case-Sound">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Sound">case Sound(Any)</a>
+<div class="comment collapse" id="comment-case-Sound"><div class="p">
     <p>A sound.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case Color(Any)</code>
-<div class="comment">
+<div class="declaration" id="case-Color">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Color">case Color(Any)</a>
+<div class="comment collapse" id="comment-case-Color"><div class="p">
     <p>A color.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case BezierPath(Any)</code>
-<div class="comment">
+<div class="declaration" id="case-BezierPath">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-BezierPath">case BezierPath(Any)</a>
+<div class="comment collapse" id="comment-case-BezierPath"><div class="p">
     <p>A bezier path.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case AttributedString(Any)</code>
-<div class="comment">
+<div class="declaration" id="case-AttributedString">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-AttributedString">case AttributedString(Any)</a>
+<div class="comment collapse" id="comment-case-AttributedString"><div class="p">
     <p>An attributed string.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case Rectangle(Float64, Float64, Float64, Float64)</code>
-<div class="comment">
+<div class="declaration" id="case-Rectangle">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Rectangle">case Rectangle(Float64, Float64, Float64, Float64)</a>
+<div class="comment collapse" id="comment-case-Rectangle"><div class="p">
     <p>A rectangle.</p>
 
 <p>Uses explicit coordinates to avoid coupling a particular Cocoa type.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case Point(Float64, Float64)</code>
-<div class="comment">
+<div class="declaration" id="case-Point">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Point">case Point(Float64, Float64)</a>
+<div class="comment collapse" id="comment-case-Point"><div class="p">
     <p>A point.</p>
 
 <p>Uses explicit coordinates to avoid coupling a particular Cocoa type.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case Size(Float64, Float64)</code>
-<div class="comment">
+<div class="declaration" id="case-Size">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Size">case Size(Float64, Float64)</a>
+<div class="comment collapse" id="comment-case-Size"><div class="p">
     <p>A size.</p>
 
 <p>Uses explicit coordinates to avoid coupling a particular Cocoa type.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case Logical(Bool)</code>
-<div class="comment">
+<div class="declaration" id="case-Logical">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Logical">case Logical(Bool)</a>
+<div class="comment collapse" id="comment-case-Logical"><div class="p">
     <p>A logical value.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case Range(UInt64, UInt64)</code>
-<div class="comment">
+<div class="declaration" id="case-Range">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Range">case Range(UInt64, UInt64)</a>
+<div class="comment collapse" id="comment-case-Range"><div class="p">
     <p>A range.</p>
 
 <p>Uses explicit values to avoid coupling a particular Cocoa type.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case View(Any)</code>
-<div class="comment">
+<div class="declaration" id="case-View">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-View">case View(Any)</a>
+<div class="comment collapse" id="comment-case-View"><div class="p">
     <p>A GUI view.</p>
 
 <p>Uses an Any to avoid coupling a particular Cocoa type.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case Sprite(Any)</code>
-<div class="comment">
+<div class="declaration" id="case-Sprite">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-Sprite">case Sprite(Any)</a>
+<div class="comment collapse" id="comment-case-Sprite"><div class="p">
     <p>A graphical sprite.</p>
 
 <p>Uses an Any to avoid coupling a particular Cocoa type.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
-</div>
-<div class="declaration">
-<code class="language-swift">case URL(String)</code>
-<div class="comment">
+<div class="declaration" id="case-URL">
+<a class="toggle-link" data-toggle="collapse" href="#comment-case-URL">case URL(String)</a>
+<div class="comment collapse" id="comment-case-URL"><div class="p">
     <p>A Uniform Resource Locator.</p>
-</div>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift"></code>
+</div></div>
 </div>
 
 <h3>Initializers</h3>
-<div class="declaration">
-<code class="language-swift">init(reflecting subject: Any)</code>
-<div class="comment">
+<div class="declaration" id="init-reflecting_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-init-reflecting_">init(reflecting:)</a><div class="comment collapse" id="comment-init-reflecting_"><div class="p">
     <p>Initialize for the given <code>subject</code>.</p>
 
 <p>If the dynamic type of <code>subject</code> conforms to
@@ -326,7 +342,11 @@ language.  Note that in some cases the result may be
   subsequent mutations of <code>subject</code> will not observable in
   <code>Mirror</code>.  In general, though, the observability of such
 mutations is unspecified.</p>
-</div>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">init(reflecting subject: Any)</code>
+
+    </div></div>
 </div>
 
 
@@ -347,7 +367,7 @@ mutations is unspecified.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.1.101.6</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.1.101.15</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

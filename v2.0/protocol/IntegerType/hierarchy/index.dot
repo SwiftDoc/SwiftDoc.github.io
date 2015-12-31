@@ -31,19 +31,8 @@ strict digraph "IntegerType - Type Hierarchy - SwiftDoc.org" {
     "_IntegerArithmeticType" [URL="/protocol/_IntegerArithmeticType/"]
     "_IntegerType" [URL="/protocol/_IntegerType/"]
     "_RandomAccessAmbiguity" [URL="/protocol/_RandomAccessAmbiguity/"]
-    "_Strideable" [URL="/protocol/_Strideable/"]    "IntegerType" -> "Int"
-    "IntegerType" -> "Int16"
-    "IntegerType" -> "Int32"
-    "IntegerType" -> "Int64"
-    "IntegerType" -> "Int8"
-    "IntegerType" -> "SignedIntegerType"
-    "IntegerType" -> "UInt"
-    "IntegerType" -> "UInt16"
-    "IntegerType" -> "UInt32"
-    "IntegerType" -> "UInt64"
-    "IntegerType" -> "UInt8"
+    "_Strideable" [URL="/protocol/_Strideable/"]    "IntegerType" -> "SignedIntegerType"
     "IntegerType" -> "UnsignedIntegerType"
-    "Int" -> "Bit"
     "SignedIntegerType" -> "Int"
     "SignedIntegerType" -> "Int16"
     "SignedIntegerType" -> "Int32"
@@ -78,6 +67,6 @@ strict digraph "IntegerType - Type Hierarchy - SwiftDoc.org" {
     "_Strideable" -> "Strideable"
     "Equatable" -> "Comparable"
     subgraph Types {
-        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "Bit";
+        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
     }
 }

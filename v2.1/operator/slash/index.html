@@ -34,8 +34,8 @@
     <meta name="twitter:description" content="Swift documentation for the &#39;/&#39; operator."/>
     <meta name="twitter:url" content="http://swiftdoc.org/v2.1/operator/slash/index.html"/>
 
-    <link href="/assets/swift-0d01cd7187823280d004769cfb0a49ed.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-a93c7e66ac39404e15479229e3fbc78f.js" type="text/javascript"></script>
+    <link href="/assets/swift-52137ab16445d25a5ef18b0c801952a1.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/swift-e6eb1bbd9c800bad5f82054ddf963f17.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -63,7 +63,7 @@
           <h1><a href="/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
-	    <div class="collapse navbar-collapse navbar-ex1-collapse">
+	    <div class="collapse navbar-collapse navbar-ex1-collapse" id="navmenu-container">
           <form class="navbar-form navbar-left" role="search">
           
     		<div class="form-group input-group has-feedback">
@@ -72,11 +72,12 @@
     		</div>
             
           </form>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" id="navmenu">
               <li><a href="/type/">Types</a></li>
               <li><a href="/protocol/">Protocols</a></li>
               <li><a href="/operator/">Operators</a></li>
               <li><a href="/global/">Globals</a></li>
+              <li role="separator" class="divider" id="navsep"></li>
           </ul>
 	    </div>
 	</nav>				
@@ -105,71 +106,25 @@
       <div class="row">
         <div class="col-sm-4 col-md-3" id="sidebar">
 
+            <div id="fixed-sidebar" data-spy="">
+                
     		<div class="form-group input-group has-feedback">
     			<input type="hidden" class="form-control select2">
     			<span class="glyphicon glyphicon-search form-control-feedback"></span>
     		</div>
 
-            <div class="panel-group" id="accordion">
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTypes">
-          Types
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTypes" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseProtocols">
-          Protocols
-        </a>
-      </h4>
-    </div>
-    <div id="collapseProtocols" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOperators">
-          Operators
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOperators" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseGlobals">
-          Globals
-        </a>
-      </h4>
-    </div>
-    <div id="collapseGlobals" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
+            <div id="intranav">
+    <h4>On this page</h4>
+    <ul id="chapters">
+        <li><a href="#content">Declaration</a></li>
+    </ul>
+        
+    <h4>Display</h4>
+    <ul id="display">
+    </ul>
 </div>
-
+            
+            </div>
         </div>
 
         <div class="col-sm-8 col-md-9" id="content">
@@ -185,51 +140,174 @@
 
 <h3>Declarations</h3>
 
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: Double, rhs: Double) -> Double</code>
+<div class="declaration" id="func-slash_-double-rhs_-double">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-double-rhs_-double">func /(_: Double, rhs: Double)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-double-rhs_-double"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: Double, rhs: Double) -&gt; Double</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: Float, rhs: Float) -> Float</code>
+<div class="declaration" id="func-slash_-float-rhs_-float">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-float-rhs_-float">func /(_: Float, rhs: Float)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-float-rhs_-float"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: Float, rhs: Float) -&gt; Float</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: Float80, rhs: Float80) -> Float80</code>
+<div class="declaration" id="func-slash_-float80-rhs_-float80">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-float80-rhs_-float80">func /(_: Float80, rhs: Float80)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-float80-rhs_-float80"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: Float80, rhs: Float80) -&gt; Float80</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: Int, rhs: Int) -> Int</code>
+<div class="declaration" id="func-slash_-int-rhs_-int">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-int-rhs_-int">func /(_: Int, rhs: Int)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-int-rhs_-int"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: Int, rhs: Int) -&gt; Int</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: Int8, rhs: Int8) -> Int8</code>
+<div class="declaration" id="func-slash_-int8-rhs_-int8">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-int8-rhs_-int8">func /(_: Int8, rhs: Int8)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-int8-rhs_-int8"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: Int8, rhs: Int8) -&gt; Int8</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: Int16, rhs: Int16) -> Int16</code>
+<div class="declaration" id="func-slash_-int16-rhs_-int16">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-int16-rhs_-int16">func /(_: Int16, rhs: Int16)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-int16-rhs_-int16"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: Int16, rhs: Int16) -&gt; Int16</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: Int32, rhs: Int32) -> Int32</code>
+<div class="declaration" id="func-slash_-int32-rhs_-int32">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-int32-rhs_-int32">func /(_: Int32, rhs: Int32)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-int32-rhs_-int32"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: Int32, rhs: Int32) -&gt; Int32</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: Int64, rhs: Int64) -> Int64</code>
+<div class="declaration" id="func-slash_-int64-rhs_-int64">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-int64-rhs_-int64">func /(_: Int64, rhs: Int64)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-int64-rhs_-int64"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: Int64, rhs: Int64) -&gt; Int64</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: UInt, rhs: UInt) -> UInt</code>
+<div class="declaration" id="func-slash_-uint-rhs_-uint">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-uint-rhs_-uint">func /(_: UInt, rhs: UInt)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-uint-rhs_-uint"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: UInt, rhs: UInt) -&gt; UInt</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: UInt8, rhs: UInt8) -> UInt8</code>
+<div class="declaration" id="func-slash_-uint8-rhs_-uint8">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-uint8-rhs_-uint8">func /(_: UInt8, rhs: UInt8)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-uint8-rhs_-uint8"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: UInt8, rhs: UInt8) -&gt; UInt8</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: UInt16, rhs: UInt16) -> UInt16</code>
+<div class="declaration" id="func-slash_-uint16-rhs_-uint16">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-uint16-rhs_-uint16">func /(_: UInt16, rhs: UInt16)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-uint16-rhs_-uint16"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: UInt16, rhs: UInt16) -&gt; UInt16</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: UInt32, rhs: UInt32) -> UInt32</code>
+<div class="declaration" id="func-slash_-uint32-rhs_-uint32">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-uint32-rhs_-uint32">func /(_: UInt32, rhs: UInt32)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-uint32-rhs_-uint32"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: UInt32, rhs: UInt32) -&gt; UInt32</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /(lhs: UInt64, rhs: UInt64) -> UInt64</code>
+<div class="declaration" id="func-slash_-uint64-rhs_-uint64">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash_-uint64-rhs_-uint64">func /(_: UInt64, rhs: UInt64)</a>
+        
+<div class="comment collapse" id="comment-func-slash_-uint64-rhs_-uint64"><div class="p">
+    
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /(lhs: UInt64, rhs: UInt64) -&gt; UInt64</code>
+    
+    
+</div></div>
 </div>
-<div class="declaration" id="func-/">
-<code class="language-swift">func /&lt;T : _IntegerArithmeticType&gt;(lhs: T, rhs: T) -> T</code>
-<div class="comment">
+<div class="declaration" id="func-slash-t_-integerarithmetictype_-t-rhs_-t">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-slash-t_-integerarithmetictype_-t-rhs_-t">func / &lt;T : _IntegerArithmeticType&gt;(_: T, rhs: T)</a>
+        
+<div class="comment collapse" id="comment-func-slash-t_-integerarithmetictype_-t-rhs_-t"><div class="p">
     <p>Divide <code>lhs</code> and <code>rhs</code>, returning a result and trapping in case of
 arithmetic overflow (except in -Ounchecked builds).</p>
-</div>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func /&lt;T : _IntegerArithmeticType&gt;(lhs: T, rhs: T) -&gt; T</code>
+    
+    
+</div></div>
 </div>
 
           </article>
@@ -243,7 +321,7 @@ arithmetic overflow (except in -Ounchecked builds).</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.1.101.6</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.1.101.15</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

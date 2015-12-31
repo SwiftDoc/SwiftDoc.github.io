@@ -8,15 +8,8 @@ strict digraph "LazyFilterCollection<Base : CollectionType> - Type Hierarchy - S
     "LazyFilterCollection<Base : CollectionType>" [URL="/type/LazyFilterCollection/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "LazySequenceType" [URL="/protocol/LazySequenceType/"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "LazyCollectionType" -> "LazyFilterCollection<Base : CollectionType>"
-    "CollectionType" -> "LazyFilterCollection<Base : CollectionType>"
-    "Indexable" -> "LazyFilterCollection<Base : CollectionType>"
-    "SequenceType" -> "LazyFilterCollection<Base : CollectionType>"
-    "LazySequenceType" -> "LazyFilterCollection<Base : CollectionType>"
     "CollectionType" -> "LazyCollectionType"
     "LazySequenceType" -> "LazyCollectionType"
-    "Indexable" -> "CollectionType"
-    "SequenceType" -> "CollectionType"
-    "SequenceType" -> "LazySequenceType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     "SequenceType" -> "LazySequenceType"

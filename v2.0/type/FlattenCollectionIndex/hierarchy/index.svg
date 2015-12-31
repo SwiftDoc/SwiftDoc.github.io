@@ -103,10 +103,23 @@
 <!-- Equatable -->
 <g id="node1" class="node">
 <g id="a_node1"><a xlink:href="/v2.0/protocol/Equatable/" target="_top">
-<path fill="#999999" stroke="#999999" d="M332.702,-196C332.702,-196 283.298,-196 283.298,-196 279.632,-196 275.965,-192.333 275.965,-188.667 275.965,-188.667 275.965,-181.333 275.965,-181.333 275.965,-177.667 279.632,-174 283.298,-174 283.298,-174 332.702,-174 332.702,-174 336.368,-174 340.035,-177.667 340.035,-181.333 340.035,-181.333 340.035,-188.667 340.035,-188.667 340.035,-192.333 336.368,-196 332.702,-196"/>
-<text text-anchor="middle" x="308" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
+<path fill="#999999" stroke="#999999" d="M333.702,-196C333.702,-196 284.298,-196 284.298,-196 280.632,-196 276.965,-192.333 276.965,-188.667 276.965,-188.667 276.965,-181.333 276.965,-181.333 276.965,-177.667 280.632,-174 284.298,-174 284.298,-174 333.702,-174 333.702,-174 337.368,-174 341.035,-177.667 341.035,-181.333 341.035,-181.333 341.035,-188.667 341.035,-188.667 341.035,-192.333 337.368,-196 333.702,-196"/>
+<text text-anchor="middle" x="309" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>
 </g>
+</g>
+<!-- _Incrementable -->
+<g id="node4" class="node">
+<g id="a_node4"><a xlink:href="/v2.0/protocol/_Incrementable/" target="_top">
+<path fill="#999999" stroke="#999999" d="M347.705,-138C347.705,-138 270.295,-138 270.295,-138 266.628,-138 262.961,-134.333 262.961,-130.667 262.961,-130.667 262.961,-123.333 262.961,-123.333 262.961,-119.667 266.628,-116 270.295,-116 270.295,-116 347.705,-116 347.705,-116 351.372,-116 355.039,-119.667 355.039,-123.333 355.039,-123.333 355.039,-130.667 355.039,-130.667 355.039,-134.333 351.372,-138 347.705,-138"/>
+<text text-anchor="middle" x="309" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Incrementable</text>
+</a>
+</g>
+</g>
+<!-- Equatable&#45;&gt;_Incrementable -->
+<g id="edge3" class="edge">
+<path fill="none" stroke="#cccccc" d="M309,-173.988C309,-166.91 309,-157.171 309,-148.478"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="312.5,-148.304 309,-138.304 305.5,-148.304 312.5,-148.304"/>
 </g>
 <!-- FlattenCollectionIndex&lt;BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType&gt; -->
 <g id="node2" class="node">
@@ -116,46 +129,23 @@
 </a>
 </g>
 </g>
-<!-- Equatable&#45;&gt;FlattenCollectionIndex&lt;BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType&gt; -->
-<g id="edge3" class="edge">
-<path fill="none" stroke="#cccccc" d="M302.698,-173.735C298.309,-164.624 292.417,-150.809 290,-138 282.961,-100.695 293.897,-56.7859 301.872,-31.8894"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="305.271,-32.763 305.15,-22.1688 298.638,-30.526 305.271,-32.763"/>
-</g>
-<!-- _Incrementable -->
-<g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.0/protocol/_Incrementable/" target="_top">
-<path fill="#999999" stroke="#999999" d="M383.705,-138C383.705,-138 306.295,-138 306.295,-138 302.628,-138 298.961,-134.333 298.961,-130.667 298.961,-130.667 298.961,-123.333 298.961,-123.333 298.961,-119.667 302.628,-116 306.295,-116 306.295,-116 383.705,-116 383.705,-116 387.372,-116 391.039,-119.667 391.039,-123.333 391.039,-123.333 391.039,-130.667 391.039,-130.667 391.039,-134.333 387.372,-138 383.705,-138"/>
-<text text-anchor="middle" x="345" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Incrementable</text>
-</a>
-</g>
-</g>
-<!-- Equatable&#45;&gt;_Incrementable -->
-<g id="edge5" class="edge">
-<path fill="none" stroke="#cccccc" d="M314.615,-173.988C319.604,-166.438 326.592,-155.861 332.609,-146.754"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="335.6,-148.577 338.192,-138.304 329.759,-144.718 335.6,-148.577"/>
-</g>
 <!-- ForwardIndexType -->
 <g id="node3" class="node">
 <g id="a_node3"><a xlink:href="/v2.0/protocol/ForwardIndexType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M439.206,-80C439.206,-80 344.794,-80 344.794,-80 341.127,-80 337.461,-76.3333 337.461,-72.6667 337.461,-72.6667 337.461,-65.3333 337.461,-65.3333 337.461,-61.6667 341.127,-58 344.794,-58 344.794,-58 439.206,-58 439.206,-58 442.873,-58 446.539,-61.6667 446.539,-65.3333 446.539,-65.3333 446.539,-72.6667 446.539,-72.6667 446.539,-76.3333 442.873,-80 439.206,-80"/>
-<text text-anchor="middle" x="392" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ForwardIndexType</text>
+<path fill="#999999" stroke="#999999" d="M356.206,-80C356.206,-80 261.794,-80 261.794,-80 258.127,-80 254.461,-76.3333 254.461,-72.6667 254.461,-72.6667 254.461,-65.3333 254.461,-65.3333 254.461,-61.6667 258.127,-58 261.794,-58 261.794,-58 356.206,-58 356.206,-58 359.873,-58 363.539,-61.6667 363.539,-65.3333 363.539,-65.3333 363.539,-72.6667 363.539,-72.6667 363.539,-76.3333 359.873,-80 356.206,-80"/>
+<text text-anchor="middle" x="309" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ForwardIndexType</text>
 </a>
 </g>
 </g>
 <!-- ForwardIndexType&#45;&gt;FlattenCollectionIndex&lt;BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType&gt; -->
 <g id="edge1" class="edge">
-<path fill="none" stroke="#cccccc" d="M377.161,-57.9883C364.728,-49.5993 346.757,-37.4743 332.389,-27.7804"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="334.237,-24.8055 323.99,-22.1138 330.322,-30.6083 334.237,-24.8055"/>
-</g>
-<!-- _Incrementable&#45;&gt;FlattenCollectionIndex&lt;BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType&gt; -->
-<g id="edge2" class="edge">
-<path fill="none" stroke="#cccccc" d="M340.978,-115.852C337.371,-106.586 332.04,-92.4736 328,-80 322.814,-63.9894 317.726,-45.5931 314.122,-31.9753"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="317.487,-31.0084 311.577,-22.2154 310.714,-32.7751 317.487,-31.0084"/>
+<path fill="none" stroke="#cccccc" d="M309,-57.9883C309,-50.9098 309,-41.1714 309,-32.4779"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="312.5,-32.3038 309,-22.3039 305.5,-32.3039 312.5,-32.3038"/>
 </g>
 <!-- _Incrementable&#45;&gt;ForwardIndexType -->
-<g id="edge4" class="edge">
-<path fill="none" stroke="#cccccc" d="M353.403,-115.988C359.872,-108.281 368.988,-97.4191 376.736,-88.187"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="379.604,-90.2137 383.352,-80.3039 374.242,-85.7136 379.604,-90.2137"/>
+<g id="edge2" class="edge">
+<path fill="none" stroke="#cccccc" d="M309,-115.988C309,-108.91 309,-99.1714 309,-90.4779"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="312.5,-90.3038 309,-80.3039 305.5,-90.3039 312.5,-90.3038"/>
 </g>
 </g>
 </svg>

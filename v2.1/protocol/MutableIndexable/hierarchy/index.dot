@@ -12,9 +12,6 @@ strict digraph "MutableIndexable - Type Hierarchy - SwiftDoc.org" {
     "UnsafeMutableBufferPointer" [URL="/type/UnsafeMutableBufferPointer/", style=filled]
     "_ArrayBufferType" [URL="/protocol/_ArrayBufferType/"]
     "_ArrayType" [URL="/protocol/_ArrayType/"]    "MutableIndexable" -> "MutableCollectionType"
-    "MutableCollectionType" -> "Array"
-    "MutableCollectionType" -> "ArraySlice"
-    "MutableCollectionType" -> "ContiguousArray"
     "MutableCollectionType" -> "MutableSlice"
     "MutableCollectionType" -> "MutableSliceable"
     "MutableCollectionType" -> "UnsafeMutableBufferPointer"
@@ -24,6 +21,6 @@ strict digraph "MutableIndexable - Type Hierarchy - SwiftDoc.org" {
     "_ArrayType" -> "ArraySlice"
     "_ArrayType" -> "ContiguousArray"
     subgraph Types {
-        rank = max; "Array"; "ArraySlice"; "ContiguousArray"; "MutableSlice"; "UnsafeMutableBufferPointer";
+        rank = max; "MutableSlice"; "UnsafeMutableBufferPointer"; "Array"; "ArraySlice"; "ContiguousArray";
     }
 }

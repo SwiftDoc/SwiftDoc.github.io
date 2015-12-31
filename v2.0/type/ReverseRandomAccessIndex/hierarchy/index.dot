@@ -12,23 +12,9 @@ strict digraph "ReverseRandomAccessIndex<Base : RandomAccessIndexType> - Type Hi
     "Strideable" [URL="/protocol/Strideable/"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]
     "_RandomAccessAmbiguity" [URL="/protocol/_RandomAccessAmbiguity/"]
-    "_Strideable" [URL="/protocol/_Strideable/"]    "ForwardIndexType" -> "ReverseRandomAccessIndex<Base : RandomAccessIndexType>"
-    "_Incrementable" -> "ReverseRandomAccessIndex<Base : RandomAccessIndexType>"
-    "Equatable" -> "ReverseRandomAccessIndex<Base : RandomAccessIndexType>"
-    "_Strideable" -> "ReverseRandomAccessIndex<Base : RandomAccessIndexType>"
-    "ReverseIndexType" -> "ReverseRandomAccessIndex<Base : RandomAccessIndexType>"
-    "BidirectionalIndexType" -> "ReverseRandomAccessIndex<Base : RandomAccessIndexType>"
+    "_Strideable" [URL="/protocol/_Strideable/"]    "ReverseIndexType" -> "ReverseRandomAccessIndex<Base : RandomAccessIndexType>"
     "RandomAccessIndexType" -> "ReverseRandomAccessIndex<Base : RandomAccessIndexType>"
-    "Strideable" -> "ReverseRandomAccessIndex<Base : RandomAccessIndexType>"
-    "Comparable" -> "ReverseRandomAccessIndex<Base : RandomAccessIndexType>"
-    "_RandomAccessAmbiguity" -> "ReverseRandomAccessIndex<Base : RandomAccessIndexType>"
-    "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
-    "Equatable" -> "_Incrementable"
     "BidirectionalIndexType" -> "ReverseIndexType"
-    "ForwardIndexType" -> "BidirectionalIndexType"
-    "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"
@@ -40,10 +26,6 @@ strict digraph "ReverseRandomAccessIndex<Base : RandomAccessIndexType> - Type Hi
     "Equatable" -> "_Incrementable"
     "Comparable" -> "Strideable"
     "_Strideable" -> "Strideable"
-    "Equatable" -> "Comparable"
-    "Comparable" -> "Strideable"
-    "_Strideable" -> "Strideable"
-    "Equatable" -> "Comparable"
     "Equatable" -> "Comparable"
     subgraph Types {
         rank = max; "ReverseRandomAccessIndex<Base : RandomAccessIndexType>";

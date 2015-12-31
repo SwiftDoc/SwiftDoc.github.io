@@ -25,10 +25,7 @@ strict digraph "IntegerLiteralConvertible - Type Hierarchy - SwiftDoc.org" {
     "_IntegerType" [URL="/protocol/_IntegerType/"]
     "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]
     "_SignedNumberType" [URL="/protocol/_SignedNumberType/"]
-    "_UnsignedIntegerType" [URL="/protocol/_UnsignedIntegerType/"]    "IntegerLiteralConvertible" -> "Double"
-    "IntegerLiteralConvertible" -> "Float"
-    "IntegerLiteralConvertible" -> "Float80"
-    "IntegerLiteralConvertible" -> "_IntegerType"
+    "_UnsignedIntegerType" [URL="/protocol/_UnsignedIntegerType/"]    "IntegerLiteralConvertible" -> "_IntegerType"
     "IntegerLiteralConvertible" -> "_SignedNumberType"
     "_IntegerType" -> "IntegerType"
     "_IntegerType" -> "_SignedIntegerType"
@@ -61,16 +58,10 @@ strict digraph "IntegerLiteralConvertible - Type Hierarchy - SwiftDoc.org" {
     "UnsignedIntegerType" -> "UInt8"
     "_SignedNumberType" -> "SignedNumberType"
     "SignedNumberType" -> "AbsoluteValuable"
-    "SignedNumberType" -> "Int"
-    "SignedNumberType" -> "Int16"
-    "SignedNumberType" -> "Int32"
-    "SignedNumberType" -> "Int64"
-    "SignedNumberType" -> "Int8"
     "SignedNumberType" -> "_SignedIntegerType"
     "AbsoluteValuable" -> "Double"
     "AbsoluteValuable" -> "Float"
     "AbsoluteValuable" -> "Float80"
-    "Int" -> "Bit"
     "_SignedIntegerType" -> "SignedIntegerType"
     "SignedIntegerType" -> "Int"
     "SignedIntegerType" -> "Int16"
@@ -79,6 +70,6 @@ strict digraph "IntegerLiteralConvertible - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int8"
     "Int" -> "Bit"
     subgraph Types {
-        rank = max; "Double"; "Float"; "Float80"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
+        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "Double"; "Float"; "Float80";
     }
 }

@@ -7,8 +7,6 @@ strict digraph "CollectionOfOne<Element> - Type Hierarchy - SwiftDoc.org" {
     "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]
     "_Reflectable" [URL="/protocol/_Reflectable/"]    "CollectionType" -> "CollectionOfOne<Element>"
-    "Indexable" -> "CollectionOfOne<Element>"
-    "SequenceType" -> "CollectionOfOne<Element>"
     "_Reflectable" -> "CollectionOfOne<Element>"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"

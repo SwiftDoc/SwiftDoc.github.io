@@ -23,8 +23,7 @@ strict digraph "IntegerArithmeticType - Type Hierarchy - SwiftDoc.org" {
     "_IntegerArithmeticType" [URL="/protocol/_IntegerArithmeticType/"]
     "_IntegerType" [URL="/protocol/_IntegerType/"]
     "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]
-    "_UnsignedIntegerType" [URL="/protocol/_UnsignedIntegerType/"]    "IntegerArithmeticType" -> "Bit"
-    "IntegerArithmeticType" -> "_IntegerType"
+    "_UnsignedIntegerType" [URL="/protocol/_UnsignedIntegerType/"]    "IntegerArithmeticType" -> "_IntegerType"
     "_IntegerType" -> "IntegerType"
     "_IntegerType" -> "_SignedIntegerType"
     "_IntegerType" -> "_UnsignedIntegerType"
@@ -59,6 +58,6 @@ strict digraph "IntegerArithmeticType - Type Hierarchy - SwiftDoc.org" {
     "_Comparable" -> "Comparable"
     "Equatable" -> "Comparable"
     subgraph Types {
-        rank = max; "Bit"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
+        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
     }
 }

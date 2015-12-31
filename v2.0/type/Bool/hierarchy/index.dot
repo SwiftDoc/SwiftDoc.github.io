@@ -11,7 +11,6 @@ strict digraph "Bool - Type Hierarchy - SwiftDoc.org" {
     "_Reflectable" [URL="/protocol/_Reflectable/"]    "BooleanLiteralConvertible" -> "Bool"
     "BooleanType" -> "Bool"
     "CustomStringConvertible" -> "Bool"
-    "Equatable" -> "Bool"
     "Hashable" -> "Bool"
     "_Reflectable" -> "Bool"
     "Equatable" -> "Hashable"

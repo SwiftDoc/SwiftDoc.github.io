@@ -23,17 +23,13 @@ strict digraph "CVarArgType - Type Hierarchy - SwiftDoc.org" {
     "_CVarArgAlignedType" [URL="/protocol/_CVarArgAlignedType/"]
     "_CVarArgPassedAsDouble" [URL="/protocol/_CVarArgPassedAsDouble/"]    "CVarArgType" -> "AutoreleasingUnsafeMutablePointer"
     "CVarArgType" -> "COpaquePointer"
-    "CVarArgType" -> "Double"
-    "CVarArgType" -> "Float"
     "CVarArgType" -> "Int"
     "CVarArgType" -> "Int16"
     "CVarArgType" -> "Int32"
-    "CVarArgType" -> "Int64"
     "CVarArgType" -> "Int8"
     "CVarArgType" -> "UInt"
     "CVarArgType" -> "UInt16"
     "CVarArgType" -> "UInt32"
-    "CVarArgType" -> "UInt64"
     "CVarArgType" -> "UInt8"
     "CVarArgType" -> "UnsafeMutablePointer"
     "CVarArgType" -> "UnsafePointer"
@@ -47,6 +43,6 @@ strict digraph "CVarArgType - Type Hierarchy - SwiftDoc.org" {
     "_CVarArgPassedAsDouble" -> "Double"
     "_CVarArgPassedAsDouble" -> "Float"
     subgraph Types {
-        rank = max; "AutoreleasingUnsafeMutablePointer"; "COpaquePointer"; "Double"; "Float"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnsafeMutablePointer"; "UnsafePointer"; "Bit";
+        rank = max; "AutoreleasingUnsafeMutablePointer"; "COpaquePointer"; "Int"; "Int16"; "Int32"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt8"; "UnsafeMutablePointer"; "UnsafePointer"; "Bit"; "Double"; "Float"; "Int64"; "UInt64";
     }
 }

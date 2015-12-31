@@ -17,9 +17,6 @@ strict digraph "_Sliceable - Type Hierarchy - SwiftDoc.org" {
     "_SequenceType" [URL="/protocol/_SequenceType/"]
     "_Sequence_Type" [URL="/protocol/_Sequence_Type/"]
     "_Sliceable" [URL="/protocol/_Sliceable/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]    "_Sliceable" -> "Sliceable"
-    "Sliceable" -> "Array"
-    "Sliceable" -> "ArraySlice"
-    "Sliceable" -> "ContiguousArray"
     "Sliceable" -> "MutableSliceable"
     "Sliceable" -> "String"
     "Sliceable" -> "String.UTF16View"
@@ -35,6 +32,6 @@ strict digraph "_Sliceable - Type Hierarchy - SwiftDoc.org" {
     "_Sequence_Type" -> "SequenceType"
     "_SequenceType" -> "_Sequence_Type"
     subgraph Types {
-        rank = max; "Array"; "ArraySlice"; "ContiguousArray"; "String"; "String.UTF16View"; "String.UnicodeScalarView";
+        rank = max; "String"; "String.UTF16View"; "String.UnicodeScalarView"; "Array"; "ArraySlice"; "ContiguousArray";
     }
 }

@@ -6,10 +6,7 @@ strict digraph "AnyForwardIndex - Type Hierarchy - SwiftDoc.org" {
     "Equatable" [URL="/protocol/Equatable/"]
     "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]    "ForwardIndexType" -> "AnyForwardIndex"
-    "_Incrementable" -> "AnyForwardIndex"
-    "Equatable" -> "AnyForwardIndex"
     "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
     "Equatable" -> "_Incrementable"
     subgraph Types {
         rank = max; "AnyForwardIndex";

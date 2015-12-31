@@ -52,28 +52,15 @@ strict digraph "_Incrementable - Type Hierarchy - SwiftDoc.org" {
     "BidirectionalIndexType" -> "AnyBidirectionalIndex"
     "BidirectionalIndexType" -> "FlattenBidirectionalCollectionIndex"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
-    "BidirectionalIndexType" -> "ReverseIndex"
     "BidirectionalIndexType" -> "ReverseIndexType"
     "BidirectionalIndexType" -> "String.CharacterView.Index"
     "BidirectionalIndexType" -> "String.UnicodeScalarView.Index"
     "BidirectionalIndexType" -> "String.UTF16View.Index"
     "RandomAccessIndexType" -> "AnyRandomAccessIndex"
-    "RandomAccessIndexType" -> "Bit"
-    "RandomAccessIndexType" -> "Int"
-    "RandomAccessIndexType" -> "Int16"
-    "RandomAccessIndexType" -> "Int32"
-    "RandomAccessIndexType" -> "Int64"
-    "RandomAccessIndexType" -> "Int8"
     "RandomAccessIndexType" -> "IntegerType"
     "RandomAccessIndexType" -> "ReverseRandomAccessIndex"
-    "RandomAccessIndexType" -> "UInt"
-    "RandomAccessIndexType" -> "UInt16"
-    "RandomAccessIndexType" -> "UInt32"
-    "RandomAccessIndexType" -> "UInt64"
-    "RandomAccessIndexType" -> "UInt8"
     "RandomAccessIndexType" -> "UnsafeMutablePointer"
     "RandomAccessIndexType" -> "UnsafePointer"
-    "Int" -> "Bit"
     "IntegerType" -> "SignedIntegerType"
     "IntegerType" -> "UnsignedIntegerType"
     "SignedIntegerType" -> "Int"
@@ -120,6 +107,6 @@ strict digraph "_Incrementable - Type Hierarchy - SwiftDoc.org" {
     "Int" -> "Bit"
     "Equatable" -> "_Incrementable"
     subgraph Types {
-        rank = max; "AnyForwardIndex"; "DictionaryIndex"; "FlattenCollectionIndex"; "LazyFilterIndex"; "SetIndex"; "String.UTF8View.Index"; "AnyBidirectionalIndex"; "FlattenBidirectionalCollectionIndex"; "ReverseIndex"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index"; "AnyRandomAccessIndex"; "Bit"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "ReverseRandomAccessIndex"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnsafeMutablePointer"; "UnsafePointer";
+        rank = max; "AnyForwardIndex"; "DictionaryIndex"; "FlattenCollectionIndex"; "LazyFilterIndex"; "SetIndex"; "String.UTF8View.Index"; "AnyBidirectionalIndex"; "FlattenBidirectionalCollectionIndex"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index"; "AnyRandomAccessIndex"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "ReverseIndex";
     }
 }

@@ -9,7 +9,6 @@ strict digraph "String.UTF16View.Index - Type Hierarchy - SwiftDoc.org" {
     "String.UTF16View.Index" [URL="/type/String.UTF16View.Index/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]    "BidirectionalIndexType" -> "String.UTF16View.Index"
     "Comparable" -> "String.UTF16View.Index"
-    "Equatable" -> "String.UTF16View.Index"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"

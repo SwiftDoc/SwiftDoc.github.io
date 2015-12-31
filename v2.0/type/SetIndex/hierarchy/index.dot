@@ -7,11 +7,8 @@ strict digraph "SetIndex<Element : Hashable> - Type Hierarchy - SwiftDoc.org" {
     "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
     "SetIndex<Element : Hashable>" [URL="/type/SetIndex/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]    "ForwardIndexType" -> "SetIndex<Element : Hashable>"
-    "_Incrementable" -> "SetIndex<Element : Hashable>"
-    "Equatable" -> "SetIndex<Element : Hashable>"
     "Comparable" -> "SetIndex<Element : Hashable>"
     "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
     "Equatable" -> "_Incrementable"
     "Equatable" -> "Comparable"
     subgraph Types {

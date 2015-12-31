@@ -9,8 +9,6 @@ strict digraph "String.UTF16View - Type Hierarchy - SwiftDoc.org" {
     "SequenceType" [URL="/protocol/SequenceType/"]
     "String.UTF16View" [URL="/type/String.UTF16View/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "_Reflectable" [URL="/protocol/_Reflectable/"]    "CollectionType" -> "String.UTF16View"
-    "Indexable" -> "String.UTF16View"
-    "SequenceType" -> "String.UTF16View"
     "_Reflectable" -> "String.UTF16View"
     "CustomStringConvertible" -> "String.UTF16View"
     "CustomDebugStringConvertible" -> "String.UTF16View"

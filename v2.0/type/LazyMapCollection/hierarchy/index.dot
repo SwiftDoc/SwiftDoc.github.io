@@ -8,15 +8,8 @@ strict digraph "LazyMapCollection<Base : CollectionType, Element> - Type Hierarc
     "LazyMapCollection<Base : CollectionType, Element>" [URL="/type/LazyMapCollection/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "LazySequenceType" [URL="/protocol/LazySequenceType/"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "LazyCollectionType" -> "LazyMapCollection<Base : CollectionType, Element>"
-    "CollectionType" -> "LazyMapCollection<Base : CollectionType, Element>"
-    "Indexable" -> "LazyMapCollection<Base : CollectionType, Element>"
-    "SequenceType" -> "LazyMapCollection<Base : CollectionType, Element>"
-    "LazySequenceType" -> "LazyMapCollection<Base : CollectionType, Element>"
     "CollectionType" -> "LazyCollectionType"
     "LazySequenceType" -> "LazyCollectionType"
-    "Indexable" -> "CollectionType"
-    "SequenceType" -> "CollectionType"
-    "SequenceType" -> "LazySequenceType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     "SequenceType" -> "LazySequenceType"

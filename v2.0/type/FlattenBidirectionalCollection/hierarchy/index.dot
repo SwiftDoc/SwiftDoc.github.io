@@ -6,8 +6,6 @@ strict digraph "FlattenBidirectionalCollection<Base : CollectionType where Base.
     "FlattenBidirectionalCollection<Base : CollectionType where Base.Generator.Element : CollectionType, Base.Index : BidirectionalIndexType, Base.Generator.Element.Index : BidirectionalIndexType>" [URL="/type/FlattenBidirectionalCollection/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "Indexable" [URL="/protocol/Indexable/"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "CollectionType" -> "FlattenBidirectionalCollection<Base : CollectionType where Base.Generator.Element : CollectionType, Base.Index : BidirectionalIndexType, Base.Generator.Element.Index : BidirectionalIndexType>"
-    "Indexable" -> "FlattenBidirectionalCollection<Base : CollectionType where Base.Generator.Element : CollectionType, Base.Index : BidirectionalIndexType, Base.Generator.Element.Index : BidirectionalIndexType>"
-    "SequenceType" -> "FlattenBidirectionalCollection<Base : CollectionType where Base.Generator.Element : CollectionType, Base.Index : BidirectionalIndexType, Base.Generator.Element.Index : BidirectionalIndexType>"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {

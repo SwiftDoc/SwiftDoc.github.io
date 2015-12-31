@@ -11,7 +11,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Swift documentation for 'String.UnicodeScalarView.Index': A position in a String.UnicodeScalarView.">
-    <meta name="keywords" content="String.UnicodeScalarView.Index,struct,swift,documentation,successor,predecessor,samePositionIn,samePositionIn,samePositionIn">
+    <meta name="keywords" content="String.UnicodeScalarView.Index,struct,swift,documentation,advancedBy,advancedBy,distanceTo,predecessor,samePositionIn,samePositionIn,samePositionIn,successor">
     <link rel="canonical" href="http://swiftdoc.org/v2.1/type/String.UnicodeScalarView.Index/">
     <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/touch-icon-iphone.png">
@@ -34,8 +34,8 @@
     <meta name="twitter:description" content="Swift documentation for &#39;String.UnicodeScalarView.Index&#39;: A position in a String.UnicodeScalarView."/>
     <meta name="twitter:url" content="http://swiftdoc.org/v2.1/type/String.UnicodeScalarView.Index/index.html"/>
 
-    <link href="/assets/swift-0d01cd7187823280d004769cfb0a49ed.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-a93c7e66ac39404e15479229e3fbc78f.js" type="text/javascript"></script>
+    <link href="/assets/swift-52137ab16445d25a5ef18b0c801952a1.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/swift-e6eb1bbd9c800bad5f82054ddf963f17.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -63,7 +63,7 @@
           <h1><a href="/">SwiftDoc.org</a></h1>
           <span class="version"></span>
         </div>
-	    <div class="collapse navbar-collapse navbar-ex1-collapse">
+	    <div class="collapse navbar-collapse navbar-ex1-collapse" id="navmenu-container">
           <form class="navbar-form navbar-left" role="search">
           
     		<div class="form-group input-group has-feedback">
@@ -72,11 +72,12 @@
     		</div>
             
           </form>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" id="navmenu">
               <li><a href="/type/">Types</a></li>
               <li><a href="/protocol/">Protocols</a></li>
               <li><a href="/operator/">Operators</a></li>
               <li><a href="/global/">Globals</a></li>
+              <li role="separator" class="divider" id="navsep"></li>
           </ul>
 	    </div>
 	</nav>				
@@ -105,71 +106,25 @@
       <div class="row">
         <div class="col-sm-4 col-md-3" id="sidebar">
 
+            <div id="fixed-sidebar" data-spy="">
+                
     		<div class="form-group input-group has-feedback">
     			<input type="hidden" class="form-control select2">
     			<span class="glyphicon glyphicon-search form-control-feedback"></span>
     		</div>
 
-            <div class="panel-group" id="accordion">
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTypes">
-          Types
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTypes" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseProtocols">
-          Protocols
-        </a>
-      </h4>
-    </div>
-    <div id="collapseProtocols" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOperators">
-          Operators
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOperators" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseGlobals">
-          Globals
-        </a>
-      </h4>
-    </div>
-    <div id="collapseGlobals" class="panel-collapse collapse">
-      <div class="panel-body list-group">
-      </div>
-    </div>
-  </div>
-
+            <div id="intranav">
+    <h4>On this page</h4>
+    <ul id="chapters">
+        <li><a href="#content">Declaration</a></li>
+    </ul>
+        
+    <h4>Display</h4>
+    <ul id="display">
+    </ul>
 </div>
-
+            
+            </div>
         </div>
 
         <div class="col-sm-8 col-md-9" id="content">
@@ -178,99 +133,222 @@
           </header>
           
           <article class="content">
-          <code class="language-swift">struct String.UnicodeScalarView.Index { ... }</code>
+          <div class="intro-declaration"><code class="language-swift">struct String.UnicodeScalarView.Index</code></div>
 
-<div class="comment">
+<div class="discussion comment">
     <p>A position in a <code>String.UnicodeScalarView</code>.</p>
 </div>
 
-<h3>Inheritance</h3>
-<code class="inherits">BidirectionalIndexType, Comparable</code>
-<span class="viz"><a href="hierarchy/">Protocol hierarchy</a></span>
+<table class="standard">
+<tr>
+<th id="inheritance">Inheritance</th>
+<td>
+<code class="inherits">BidirectionalIndexType, Comparable, Equatable, ForwardIndexType, _Incrementable</code>
+<span class="viz"><a href="hierarchy/">View Protocol Hierarchy &rarr;</a></span>
+</td>
+</tr>
 
 
+
+<tr>
+<th>Import</th>
+<td><code class="language-swift">import Swift</code></td>
+</tr>
+
+</table>
 
 
 <h3>Initializers</h3>
-<div class="declaration">
-<code class="language-swift">init?(_ utf16Index: UTF16Index, within unicodeScalars: String.UnicodeScalarView)</code>
-<div class="comment">
-    <p>Construct the position in <code>unicodeScalars</code> that corresponds exactly to
-<code>utf16Index</code>. If no such position exists, the result is <code>nil</code>.</p>
-
-<p><strong>Requires:</strong> <code>utf16Index</code> is an element of
-  <code>String(unicodeScalars).utf16.indices</code>.</p>
-</div>
-</div>
-<div class="declaration">
-<code class="language-swift">init?(_ utf8Index: UTF8Index, within unicodeScalars: String.UnicodeScalarView)</code>
-<div class="comment">
-    <p>Construct the position in <code>unicodeScalars</code> that corresponds exactly to
-<code>utf8Index</code>. If no such position exists, the result is <code>nil</code>.</p>
-
-<p><strong>Requires:</strong> <code>utf8Index</code> is an element of
-  <code>String(unicodeScalars).utf8.indices</code>.</p>
-</div>
-</div>
-<div class="declaration">
-<code class="language-swift">init(_ characterIndex: Index, within unicodeScalars: String.UnicodeScalarView)</code>
-<div class="comment">
+<div class="declaration" id="init_within_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-init_within_">init(_:within:)</a><div class="comment collapse" id="comment-init_within_"><div class="p">
     <p>Construct the position in <code>unicodeScalars</code> that corresponds
 exactly to <code>characterIndex</code>.</p>
 
 <p><strong>Requires:</strong> <code>characterIndex</code> is an element of
   <code>String(unicodeScalars).indices</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">init(_ characterIndex: Index, within unicodeScalars: String.UnicodeScalarView)</code>
+
+    </div></div>
 </div>
+<div class="declaration" id="init_-utf8index-within_-string-unicodescalarview">
+<a class="toggle-link" data-toggle="collapse" href="#comment-init_-utf8index-within_-string-unicodescalarview">init?(_: UTF8Index, within: String.UnicodeScalarView)</a><div class="comment collapse" id="comment-init_-utf8index-within_-string-unicodescalarview"><div class="p">
+    <p>Construct the position in <code>unicodeScalars</code> that corresponds exactly to
+<code>utf8Index</code>. If no such position exists, the result is <code>nil</code>.</p>
+
+<p><strong>Requires:</strong> <code>utf8Index</code> is an element of
+  <code>String(unicodeScalars).utf8.indices</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">init?(_ utf8Index: UTF8Index, within unicodeScalars: String.UnicodeScalarView)</code>
+
+    </div></div>
 </div>
+<div class="declaration" id="init_-utf16index-within_-string-unicodescalarview">
+<a class="toggle-link" data-toggle="collapse" href="#comment-init_-utf16index-within_-string-unicodescalarview">init?(_: UTF16Index, within: String.UnicodeScalarView)</a><div class="comment collapse" id="comment-init_-utf16index-within_-string-unicodescalarview"><div class="p">
+    <p>Construct the position in <code>unicodeScalars</code> that corresponds exactly to
+<code>utf16Index</code>. If no such position exists, the result is <code>nil</code>.</p>
+
+<p><strong>Requires:</strong> <code>utf16Index</code> is an element of
+  <code>String(unicodeScalars).utf16.indices</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">init?(_ utf16Index: UTF16Index, within unicodeScalars: String.UnicodeScalarView)</code>
+
+    </div></div>
+</div>
+
 
 
 
 
 <h3>Instance Methods</h3>
-<div class="declaration" id="func-successor">
-<code class="language-swift">func successor() -> String.UnicodeScalarView.Index</code>
-<div class="comment">
-    <p>Returns the next consecutive value after <code>self</code>.</p>
+<div class="declaration inherited" id="func-advancedby_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-advancedby_">func advancedBy(_:)</a>
+        
+<div class="comment collapse" id="comment-func-advancedby_"><div class="p">
+    <p>Return the result of advancing <code>self</code> by <code>n</code> positions.</p>
 
-<p><strong>Requires:</strong> The next value is representable.</p>
+<p><strong>Returns:</strong>
+  - If <code>n &gt; 0</code>, the result of applying <code>successor</code> to <code>self</code> <code>n</code> times.
+  - If <code>n &lt; 0</code>, the result of applying <code>predecessor</code> to <code>self</code> <code>-n</code> times.
+  - Otherwise, <code>self</code>.</p>
+
+<p><strong>Requires:</strong> <code>n &gt;= 0</code> if only conforming to <code>ForwardIndexType</code>
+<strong>Complexity:</strong>
+  - O(1) if conforming to <code>RandomAccessIndexType</code>
+  - O(<code>abs(n)</code>) otherwise</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func advancedBy(n: Self.Distance) -&gt; Self</code>
+    
+        <h4>Declared In</h4>
+        <a href="../../protocol/BidirectionalIndexType/"><code>BidirectionalIndexType</code></a>,    <a href="../../protocol/ForwardIndexType/"><code>ForwardIndexType</code></a>    
+</div></div>
 </div>
+<div class="declaration inherited" id="func-advancedby_limit_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-advancedby_limit_">func advancedBy(_:limit:)</a>
+        
+<div class="comment collapse" id="comment-func-advancedby_limit_"><div class="p">
+    <p>Return the result of advancing <code>self</code> by <code>n</code> positions, or until it
+equals <code>limit</code>.</p>
+
+<p><strong>Returns:</strong>
+  - If <code>n &gt; 0</code>, the result of applying <code>successor</code> to <code>self</code> <code>n</code> times
+    but not past <code>limit</code>.
+  - If <code>n &lt; 0</code>, the result of applying <code>predecessor</code> to <code>self</code> <code>-n</code> times
+    but not past <code>limit</code>.
+  - Otherwise, <code>self</code>.</p>
+
+<p><strong>Requires:</strong> <code>n &gt;= 0</code> if only conforming to <code>ForwardIndexType</code>.</p>
+
+<p><strong>Complexity:</strong>
+  - O(1) if conforming to <code>RandomAccessIndexType</code>
+  - O(<code>abs(n)</code>) otherwise</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func advancedBy(n: Self.Distance, limit: Self) -&gt; Self</code>
+    
+        <h4>Declared In</h4>
+        <a href="../../protocol/BidirectionalIndexType/"><code>BidirectionalIndexType</code></a>,    <a href="../../protocol/ForwardIndexType/"><code>ForwardIndexType</code></a>    
+</div></div>
+</div>
+<div class="declaration inherited" id="func-distanceto_">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-distanceto_">func distanceTo(_:)</a>
+        
+<div class="comment collapse" id="comment-func-distanceto_"><div class="p">
+    <p>Measure the distance between <code>self</code> and <code>end</code>.</p>
+
+<p><strong>Requires:</strong>
+  - <code>start</code> and <code>end</code> are part of the same sequence when conforming to
+    <code>RandomAccessSequenceType</code>.
+  - <code>end</code> is reachable from <code>self</code> by incrementation otherwise.</p>
+
+<p><strong>Complexity:</strong>
+  - O(1) if conforming to <code>RandomAccessIndexType</code>
+  - O(<code>n</code>) otherwise, where <code>n</code> is the function&#39;s result.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func distanceTo(end: Self) -&gt; Self.Distance</code>
+    
+        <h4>Declared In</h4>
+        <a href="../../protocol/BidirectionalIndexType/"><code>BidirectionalIndexType</code></a>,    <a href="../../protocol/ForwardIndexType/"><code>ForwardIndexType</code></a>    
+</div></div>
 </div>
 <div class="declaration" id="func-predecessor">
-<code class="language-swift">func predecessor() -> String.UnicodeScalarView.Index</code>
-<div class="comment">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-predecessor">func predecessor()</a>
+        
+<div class="comment collapse" id="comment-func-predecessor"><div class="p">
     <p>Returns the previous consecutive value before <code>self</code>.</p>
 
 <p><strong>Requires:</strong> The previous value is representable.</p>
-</div>
-</div>
-<div class="declaration" id="func-samePositionIn">
-<code class="language-swift">func samePositionIn(utf8: String.UTF8View) -> String.UTF8View.Index</code>
-<div class="comment">
-    <p>Return the position in <code>utf8</code> that corresponds exactly
-to <code>self</code>.</p>
 
-<p><strong>Requires:</strong> <code>self</code> is an element of <code>String(utf8)!.indices</code>.</p>
+    <h4>Declaration</h4>    
+    <code class="language-swift">func predecessor() -&gt; String.UnicodeScalarView.Index</code>
+    
+    
+</div></div>
 </div>
-</div>
-<div class="declaration" id="func-samePositionIn">
-<code class="language-swift">func samePositionIn(utf16: String.UTF16View) -> String.UTF16View.Index</code>
-<div class="comment">
-    <p>Return the position in <code>utf16</code> that corresponds exactly
-to <code>self</code>.</p>
-
-<p><strong>Requires:</strong> <code>self</code> is an element of <code>String(utf16)!.indices</code>.</p>
-</div>
-</div>
-<div class="declaration" id="func-samePositionIn">
-<code class="language-swift">func samePositionIn(characters: String) -> Index?</code>
-<div class="comment">
+<div class="declaration" id="func-samepositionin_-string">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-samepositionin_-string">func samePositionIn(_: String)</a>
+        
+<div class="comment collapse" id="comment-func-samepositionin_-string"><div class="p">
     <p>Return the position in <code>characters</code> that corresponds exactly
 to <code>self</code>, or if no such position exists, <code>nil</code>.</p>
 
 <p><strong>Requires:</strong> <code>self</code> is an element of <code>characters.unicodeScalars.indices</code>.</p>
-</div>
-</div>
 
+    <h4>Declaration</h4>    
+    <code class="language-swift">func samePositionIn(characters: String) -&gt; Index?</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-samepositionin_-string-utf8view">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-samepositionin_-string-utf8view">func samePositionIn(_: String.UTF8View)</a>
+        
+<div class="comment collapse" id="comment-func-samepositionin_-string-utf8view"><div class="p">
+    <p>Return the position in <code>utf8</code> that corresponds exactly
+to <code>self</code>.</p>
+
+<p><strong>Requires:</strong> <code>self</code> is an element of <code>String(utf8)!.indices</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func samePositionIn(utf8: String.UTF8View) -&gt; String.UTF8View.Index</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-samepositionin_-string-utf16view">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-samepositionin_-string-utf16view">func samePositionIn(_: String.UTF16View)</a>
+        
+<div class="comment collapse" id="comment-func-samepositionin_-string-utf16view"><div class="p">
+    <p>Return the position in <code>utf16</code> that corresponds exactly
+to <code>self</code>.</p>
+
+<p><strong>Requires:</strong> <code>self</code> is an element of <code>String(utf16)!.indices</code>.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func samePositionIn(utf16: String.UTF16View) -&gt; String.UTF16View.Index</code>
+    
+    
+</div></div>
+</div>
+<div class="declaration" id="func-successor">
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-successor">func successor()</a>
+        
+<div class="comment collapse" id="comment-func-successor"><div class="p">
+    <p>Returns the next consecutive value after <code>self</code>.</p>
+
+<p><strong>Requires:</strong> The next value is representable.</p>
+
+    <h4>Declaration</h4>    
+    <code class="language-swift">func successor() -&gt; String.UnicodeScalarView.Index</code>
+    
+    
+</div></div>
+</div>
 
 
 
@@ -285,7 +363,7 @@ to <code>self</code>, or if no such position exists, <code>nil</code>.</p>
 
             <div id="footer">
             <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.1.101.6</span> &nbsp;&sdot;&nbsp;
+                <span class="version">Swift versions 602.0.49.3 & 700.1.101.15</span> &nbsp;&sdot;&nbsp;
                 <a href="/news/">News</a>
             </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
             <span class="line">

@@ -5,7 +5,6 @@ strict digraph "LazyFilterSequence<Base : SequenceType> - Type Hierarchy - Swift
     "LazyFilterSequence<Base : SequenceType>" [URL="/type/LazyFilterSequence/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "LazySequenceType" [URL="/protocol/LazySequenceType/"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "LazySequenceType" -> "LazyFilterSequence<Base : SequenceType>"
-    "SequenceType" -> "LazyFilterSequence<Base : SequenceType>"
     "SequenceType" -> "LazySequenceType"
     subgraph Types {
         rank = max; "LazyFilterSequence<Base : SequenceType>";

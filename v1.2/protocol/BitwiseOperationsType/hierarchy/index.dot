@@ -20,19 +20,8 @@ strict digraph "BitwiseOperationsType - Type Hierarchy - SwiftDoc.org" {
     "UnsignedIntegerType" [URL="/protocol/UnsignedIntegerType/"]
     "_IntegerType" [URL="/protocol/_IntegerType/"]
     "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]
-    "_UnsignedIntegerType" [URL="/protocol/_UnsignedIntegerType/"]    "BitwiseOperationsType" -> "Int"
-    "BitwiseOperationsType" -> "Int16"
-    "BitwiseOperationsType" -> "Int32"
-    "BitwiseOperationsType" -> "Int64"
-    "BitwiseOperationsType" -> "Int8"
-    "BitwiseOperationsType" -> "RawOptionSetType"
-    "BitwiseOperationsType" -> "UInt"
-    "BitwiseOperationsType" -> "UInt16"
-    "BitwiseOperationsType" -> "UInt32"
-    "BitwiseOperationsType" -> "UInt64"
-    "BitwiseOperationsType" -> "UInt8"
+    "_UnsignedIntegerType" [URL="/protocol/_UnsignedIntegerType/"]    "BitwiseOperationsType" -> "RawOptionSetType"
     "BitwiseOperationsType" -> "_IntegerType"
-    "Int" -> "Bit"
     "_IntegerType" -> "IntegerType"
     "_IntegerType" -> "_SignedIntegerType"
     "_IntegerType" -> "_UnsignedIntegerType"
@@ -63,6 +52,6 @@ strict digraph "BitwiseOperationsType - Type Hierarchy - SwiftDoc.org" {
     "UnsignedIntegerType" -> "UInt64"
     "UnsignedIntegerType" -> "UInt8"
     subgraph Types {
-        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "Bit";
+        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
     }
 }

@@ -7,14 +7,8 @@ strict digraph "String.UnicodeScalarView.Index - Type Hierarchy - SwiftDoc.org" 
     "Equatable" [URL="/protocol/Equatable/"]
     "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
     "String.UnicodeScalarView.Index" [URL="/type/String.UnicodeScalarView.Index/", style="filled", fillcolor="#ee543d", color="#ee543d"]
-    "_Incrementable" [URL="/protocol/_Incrementable/"]    "ForwardIndexType" -> "String.UnicodeScalarView.Index"
-    "_Incrementable" -> "String.UnicodeScalarView.Index"
-    "Equatable" -> "String.UnicodeScalarView.Index"
-    "BidirectionalIndexType" -> "String.UnicodeScalarView.Index"
+    "_Incrementable" [URL="/protocol/_Incrementable/"]    "BidirectionalIndexType" -> "String.UnicodeScalarView.Index"
     "Comparable" -> "String.UnicodeScalarView.Index"
-    "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
-    "Equatable" -> "_Incrementable"
     "ForwardIndexType" -> "BidirectionalIndexType"
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"

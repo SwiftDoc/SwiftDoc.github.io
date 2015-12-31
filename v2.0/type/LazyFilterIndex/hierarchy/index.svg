@@ -103,8 +103,29 @@
 <!-- Equatable -->
 <g id="node1" class="node">
 <g id="a_node1"><a xlink:href="/v2.0/protocol/Equatable/" target="_top">
-<path fill="#999999" stroke="#999999" d="M117.702,-196C117.702,-196 68.2982,-196 68.2982,-196 64.6315,-196 60.9648,-192.333 60.9648,-188.667 60.9648,-188.667 60.9648,-181.333 60.9648,-181.333 60.9648,-177.667 64.6315,-174 68.2982,-174 68.2982,-174 117.702,-174 117.702,-174 121.368,-174 125.035,-177.667 125.035,-181.333 125.035,-181.333 125.035,-188.667 125.035,-188.667 125.035,-192.333 121.368,-196 117.702,-196"/>
-<text text-anchor="middle" x="93" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
+<path fill="#999999" stroke="#999999" d="M159.702,-196C159.702,-196 110.298,-196 110.298,-196 106.632,-196 102.965,-192.333 102.965,-188.667 102.965,-188.667 102.965,-181.333 102.965,-181.333 102.965,-177.667 106.632,-174 110.298,-174 110.298,-174 159.702,-174 159.702,-174 163.368,-174 167.035,-177.667 167.035,-181.333 167.035,-181.333 167.035,-188.667 167.035,-188.667 167.035,-192.333 163.368,-196 159.702,-196"/>
+<text text-anchor="middle" x="135" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
+</a>
+</g>
+</g>
+<!-- _Incrementable -->
+<g id="node4" class="node">
+<g id="a_node4"><a xlink:href="/v2.0/protocol/_Incrementable/" target="_top">
+<path fill="#999999" stroke="#999999" d="M173.705,-138C173.705,-138 96.2948,-138 96.2948,-138 92.6281,-138 88.9614,-134.333 88.9614,-130.667 88.9614,-130.667 88.9614,-123.333 88.9614,-123.333 88.9614,-119.667 92.6281,-116 96.2948,-116 96.2948,-116 173.705,-116 173.705,-116 177.372,-116 181.039,-119.667 181.039,-123.333 181.039,-123.333 181.039,-130.667 181.039,-130.667 181.039,-134.333 177.372,-138 173.705,-138"/>
+<text text-anchor="middle" x="135" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Incrementable</text>
+</a>
+</g>
+</g>
+<!-- Equatable&#45;&gt;_Incrementable -->
+<g id="edge3" class="edge">
+<path fill="none" stroke="#cccccc" d="M135,-173.988C135,-166.91 135,-157.171 135,-148.478"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="138.5,-148.304 135,-138.304 131.5,-148.304 138.5,-148.304"/>
+</g>
+<!-- ForwardIndexType -->
+<g id="node2" class="node">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/ForwardIndexType/" target="_top">
+<path fill="#999999" stroke="#999999" d="M182.206,-80C182.206,-80 87.7938,-80 87.7938,-80 84.1272,-80 80.4605,-76.3333 80.4605,-72.6667 80.4605,-72.6667 80.4605,-65.3333 80.4605,-65.3333 80.4605,-61.6667 84.1272,-58 87.7938,-58 87.7938,-58 182.206,-58 182.206,-58 185.873,-58 189.539,-61.6667 189.539,-65.3333 189.539,-65.3333 189.539,-72.6667 189.539,-72.6667 189.539,-76.3333 185.873,-80 182.206,-80"/>
+<text text-anchor="middle" x="135" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ForwardIndexType</text>
 </a>
 </g>
 </g>
@@ -116,46 +137,15 @@
 </a>
 </g>
 </g>
-<!-- Equatable&#45;&gt;LazyFilterIndex&lt;BaseElements : CollectionType&gt; -->
-<g id="edge3" class="edge">
-<path fill="none" stroke="#cccccc" d="M87.215,-173.89C75.3152,-151.648 50.8375,-97.3219 71,-58 77.7823,-44.7728 90.333,-34.4882 102.535,-27.0307"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="104.284,-30.0627 111.271,-22.0985 100.842,-23.9671 104.284,-30.0627"/>
-</g>
-<!-- _Incrementable -->
-<g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.0/protocol/_Incrementable/" target="_top">
-<path fill="#999999" stroke="#999999" d="M173.705,-138C173.705,-138 96.2948,-138 96.2948,-138 92.6281,-138 88.9614,-134.333 88.9614,-130.667 88.9614,-130.667 88.9614,-123.333 88.9614,-123.333 88.9614,-119.667 92.6281,-116 96.2948,-116 96.2948,-116 173.705,-116 173.705,-116 177.372,-116 181.039,-119.667 181.039,-123.333 181.039,-123.333 181.039,-130.667 181.039,-130.667 181.039,-134.333 177.372,-138 173.705,-138"/>
-<text text-anchor="middle" x="135" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Incrementable</text>
-</a>
-</g>
-</g>
-<!-- Equatable&#45;&gt;_Incrementable -->
-<g id="edge5" class="edge">
-<path fill="none" stroke="#cccccc" d="M100.509,-173.988C106.231,-166.359 114.27,-155.64 121.147,-146.47"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="124.072,-148.404 127.272,-138.304 118.472,-144.204 124.072,-148.404"/>
-</g>
-<!-- ForwardIndexType -->
-<g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/ForwardIndexType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M182.206,-80C182.206,-80 87.7938,-80 87.7938,-80 84.1272,-80 80.4605,-76.3333 80.4605,-72.6667 80.4605,-72.6667 80.4605,-65.3333 80.4605,-65.3333 80.4605,-61.6667 84.1272,-58 87.7938,-58 87.7938,-58 182.206,-58 182.206,-58 185.873,-58 189.539,-61.6667 189.539,-65.3333 189.539,-65.3333 189.539,-72.6667 189.539,-72.6667 189.539,-76.3333 185.873,-80 182.206,-80"/>
-<text text-anchor="middle" x="135" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ForwardIndexType</text>
-</a>
-</g>
-</g>
 <!-- ForwardIndexType&#45;&gt;LazyFilterIndex&lt;BaseElements : CollectionType&gt; -->
 <g id="edge1" class="edge">
 <path fill="none" stroke="#cccccc" d="M135,-57.9883C135,-50.9098 135,-41.1714 135,-32.4779"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="138.5,-32.3038 135,-22.3039 131.5,-32.3039 138.5,-32.3038"/>
 </g>
 <!-- _Incrementable&#45;&gt;ForwardIndexType -->
-<g id="edge4" class="edge">
+<g id="edge2" class="edge">
 <path fill="none" stroke="#cccccc" d="M135,-115.988C135,-108.91 135,-99.1714 135,-90.4779"/>
 <polygon fill="#cccccc" stroke="#cccccc" points="138.5,-90.3038 135,-80.3039 131.5,-90.3039 138.5,-90.3038"/>
-</g>
-<!-- _Incrementable&#45;&gt;LazyFilterIndex&lt;BaseElements : CollectionType&gt; -->
-<g id="edge2" class="edge">
-<path fill="none" stroke="#cccccc" d="M156.556,-115.964C179.287,-103.857 210.246,-82.1047 198,-58 191.352,-44.9148 179.042,-34.6647 167.056,-27.1942"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="168.466,-23.9682 158.052,-22.0224 164.98,-30.0382 168.466,-23.9682"/>
 </g>
 </g>
 </svg>

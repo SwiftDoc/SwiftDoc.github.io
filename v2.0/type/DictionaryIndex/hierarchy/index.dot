@@ -7,11 +7,8 @@ strict digraph "DictionaryIndex<Key : Hashable, Value> - Type Hierarchy - SwiftD
     "Equatable" [URL="/protocol/Equatable/"]
     "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]    "ForwardIndexType" -> "DictionaryIndex<Key : Hashable, Value>"
-    "_Incrementable" -> "DictionaryIndex<Key : Hashable, Value>"
-    "Equatable" -> "DictionaryIndex<Key : Hashable, Value>"
     "Comparable" -> "DictionaryIndex<Key : Hashable, Value>"
     "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
     "Equatable" -> "_Incrementable"
     "Equatable" -> "Comparable"
     subgraph Types {

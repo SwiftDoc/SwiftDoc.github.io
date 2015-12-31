@@ -111,15 +111,15 @@
 <!-- LazySequenceType -->
 <g id="node2" class="node">
 <g id="a_node2"><a xlink:href="/v2.0/protocol/LazySequenceType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M240.228,-80C240.228,-80 139.772,-80 139.772,-80 136.105,-80 132.439,-76.3333 132.439,-72.6667 132.439,-72.6667 132.439,-65.3333 132.439,-65.3333 132.439,-61.6667 136.105,-58 139.772,-58 139.772,-58 240.228,-58 240.228,-58 243.895,-58 247.561,-61.6667 247.561,-65.3333 247.561,-65.3333 247.561,-72.6667 247.561,-72.6667 247.561,-76.3333 243.895,-80 240.228,-80"/>
-<text text-anchor="middle" x="190" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazySequenceType</text>
+<path fill="#999999" stroke="#999999" d="M197.228,-80C197.228,-80 96.7718,-80 96.7718,-80 93.1052,-80 89.4385,-76.3333 89.4385,-72.6667 89.4385,-72.6667 89.4385,-65.3333 89.4385,-65.3333 89.4385,-61.6667 93.1052,-58 96.7718,-58 96.7718,-58 197.228,-58 197.228,-58 200.895,-58 204.561,-61.6667 204.561,-65.3333 204.561,-65.3333 204.561,-72.6667 204.561,-72.6667 204.561,-76.3333 200.895,-80 197.228,-80"/>
+<text text-anchor="middle" x="147" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazySequenceType</text>
 </a>
 </g>
 </g>
 <!-- LazySequenceType&#45;&gt;LazyMapSequence&lt;Base : SequenceType, Element&gt; -->
 <g id="edge1" class="edge">
-<path fill="none" stroke="#cccccc" d="M182.312,-57.9883C176.454,-50.3592 168.224,-39.6405 161.182,-30.4702"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="163.778,-28.1038 154.912,-22.3039 158.226,-32.367 163.778,-28.1038"/>
+<path fill="none" stroke="#cccccc" d="M147,-57.9883C147,-50.9098 147,-41.1714 147,-32.4779"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="150.5,-32.3038 147,-22.3039 143.5,-32.3039 150.5,-32.3038"/>
 </g>
 <!-- SequenceType -->
 <g id="node3" class="node">
@@ -129,15 +129,10 @@
 </a>
 </g>
 </g>
-<!-- SequenceType&#45;&gt;LazyMapSequence&lt;Base : SequenceType, Element&gt; -->
-<g id="edge2" class="edge">
-<path fill="none" stroke="#cccccc" d="M139.95,-115.977C134.11,-107.021 126.26,-93.2979 123,-80 120.672,-70.5035 120.672,-67.4965 123,-58 125.343,-48.4422 130.058,-38.6645 134.692,-30.5953"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="137.705,-32.3774 139.95,-22.0231 131.738,-28.7177 137.705,-32.3774"/>
-</g>
 <!-- SequenceType&#45;&gt;LazySequenceType -->
-<g id="edge3" class="edge">
-<path fill="none" stroke="#cccccc" d="M154.688,-115.988C160.546,-108.359 168.776,-97.6405 175.818,-88.4702"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="178.774,-90.367 182.088,-80.3039 173.222,-86.1038 178.774,-90.367"/>
+<g id="edge2" class="edge">
+<path fill="none" stroke="#cccccc" d="M147,-115.988C147,-108.91 147,-99.1714 147,-90.4779"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="150.5,-90.3038 147,-80.3039 143.5,-90.3039 150.5,-90.3038"/>
 </g>
 </g>
 </svg>

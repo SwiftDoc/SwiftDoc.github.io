@@ -10,11 +10,8 @@ strict digraph "LazySequenceType - Type Hierarchy - SwiftDoc.org" {
     "LazyMapSequence" [URL="/type/LazyMapSequence/", style=filled]
     "LazySequence" [URL="/type/LazySequence/", style=filled]
     "LazySequenceType" [URL="/protocol/LazySequenceType/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]
-    "SequenceType" [URL="/protocol/SequenceType/"]    "LazySequenceType" -> "LazyCollection"
-    "LazySequenceType" -> "LazyCollectionType"
-    "LazySequenceType" -> "LazyFilterCollection"
+    "SequenceType" [URL="/protocol/SequenceType/"]    "LazySequenceType" -> "LazyCollectionType"
     "LazySequenceType" -> "LazyFilterSequence"
-    "LazySequenceType" -> "LazyMapCollection"
     "LazySequenceType" -> "LazyMapSequence"
     "LazySequenceType" -> "LazySequence"
     "LazyCollectionType" -> "LazyCollection"
@@ -22,6 +19,6 @@ strict digraph "LazySequenceType - Type Hierarchy - SwiftDoc.org" {
     "LazyCollectionType" -> "LazyMapCollection"
     "SequenceType" -> "LazySequenceType"
     subgraph Types {
-        rank = max; "LazyCollection"; "LazyFilterCollection"; "LazyFilterSequence"; "LazyMapCollection"; "LazyMapSequence"; "LazySequence";
+        rank = max; "LazyFilterSequence"; "LazyMapSequence"; "LazySequence"; "LazyCollection"; "LazyFilterCollection"; "LazyMapCollection";
     }
 }

@@ -8,14 +8,8 @@ strict digraph "MutableSlice<Base : MutableIndexable> - Type Hierarchy - SwiftDo
     "MutableIndexable" [URL="/protocol/MutableIndexable/"]
     "MutableSlice<Base : MutableIndexable>" [URL="/type/MutableSlice/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "SequenceType" [URL="/protocol/SequenceType/"]    "MutableCollectionType" -> "MutableSlice<Base : MutableIndexable>"
-    "CollectionType" -> "MutableSlice<Base : MutableIndexable>"
-    "Indexable" -> "MutableSlice<Base : MutableIndexable>"
-    "SequenceType" -> "MutableSlice<Base : MutableIndexable>"
-    "MutableIndexable" -> "MutableSlice<Base : MutableIndexable>"
     "MutableIndexable" -> "MutableCollectionType"
     "CollectionType" -> "MutableCollectionType"
-    "Indexable" -> "CollectionType"
-    "SequenceType" -> "CollectionType"
     "Indexable" -> "CollectionType"
     "SequenceType" -> "CollectionType"
     subgraph Types {

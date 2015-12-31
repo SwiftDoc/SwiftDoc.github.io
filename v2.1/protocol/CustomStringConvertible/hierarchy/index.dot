@@ -49,26 +49,15 @@ strict digraph "CustomStringConvertible - Type Hierarchy - SwiftDoc.org" {
     "CustomStringConvertible" -> "Float80"
     "CustomStringConvertible" -> "HalfOpenInterval"
     "CustomStringConvertible" -> "ImplicitlyUnwrappedOptional"
-    "CustomStringConvertible" -> "Int"
-    "CustomStringConvertible" -> "Int16"
-    "CustomStringConvertible" -> "Int32"
-    "CustomStringConvertible" -> "Int64"
-    "CustomStringConvertible" -> "Int8"
     "CustomStringConvertible" -> "Mirror"
     "CustomStringConvertible" -> "Range"
     "CustomStringConvertible" -> "Set"
     "CustomStringConvertible" -> "StaticString"
-    "CustomStringConvertible" -> "UInt"
-    "CustomStringConvertible" -> "UInt16"
-    "CustomStringConvertible" -> "UInt32"
-    "CustomStringConvertible" -> "UInt64"
-    "CustomStringConvertible" -> "UInt8"
     "CustomStringConvertible" -> "UnicodeScalar"
     "CustomStringConvertible" -> "_IntegerType"
     "CustomStringConvertible" -> "String.UnicodeScalarView"
     "CustomStringConvertible" -> "String.UTF16View"
     "CustomStringConvertible" -> "String.UTF8View"
-    "Int" -> "Bit"
     "_IntegerType" -> "IntegerType"
     "_IntegerType" -> "_DisallowMixedSignArithmetic"
     "_IntegerType" -> "_SignedIntegerType"
@@ -99,6 +88,6 @@ strict digraph "CustomStringConvertible - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int8"
     "Int" -> "Bit"
     subgraph Types {
-        rank = max; "Array"; "ArraySlice"; "Bool"; "ClosedInterval"; "ContiguousArray"; "Dictionary"; "Double"; "Float"; "Float80"; "HalfOpenInterval"; "ImplicitlyUnwrappedOptional"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Mirror"; "Range"; "Set"; "StaticString"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "UnicodeScalar"; "String.UnicodeScalarView"; "String.UTF16View"; "String.UTF8View"; "Bit";
+        rank = max; "Array"; "ArraySlice"; "Bool"; "ClosedInterval"; "ContiguousArray"; "Dictionary"; "Double"; "Float"; "Float80"; "HalfOpenInterval"; "ImplicitlyUnwrappedOptional"; "Mirror"; "Range"; "Set"; "StaticString"; "UnicodeScalar"; "String.UnicodeScalarView"; "String.UTF16View"; "String.UTF8View"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
     }
 }

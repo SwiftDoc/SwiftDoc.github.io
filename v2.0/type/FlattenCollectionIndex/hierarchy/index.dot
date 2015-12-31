@@ -6,10 +6,7 @@ strict digraph "FlattenCollectionIndex<BaseElements : CollectionType where BaseE
     "FlattenCollectionIndex<BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType>" [URL="/type/FlattenCollectionIndex/", style="filled", fillcolor="#ee543d", color="#ee543d"]
     "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
     "_Incrementable" [URL="/protocol/_Incrementable/"]    "ForwardIndexType" -> "FlattenCollectionIndex<BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType>"
-    "_Incrementable" -> "FlattenCollectionIndex<BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType>"
-    "Equatable" -> "FlattenCollectionIndex<BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType>"
     "_Incrementable" -> "ForwardIndexType"
-    "Equatable" -> "_Incrementable"
     "Equatable" -> "_Incrementable"
     subgraph Types {
         rank = max; "FlattenCollectionIndex<BaseElements : CollectionType where BaseElements.Generator.Element : CollectionType>";

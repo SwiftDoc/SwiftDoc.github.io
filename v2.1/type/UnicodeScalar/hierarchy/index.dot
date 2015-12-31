@@ -17,7 +17,6 @@ strict digraph "UnicodeScalar - Type Hierarchy - SwiftDoc.org" {
     "CustomDebugStringConvertible" -> "UnicodeScalar"
     "Hashable" -> "UnicodeScalar"
     "Comparable" -> "UnicodeScalar"
-    "Equatable" -> "UnicodeScalar"
     "Equatable" -> "Hashable"
     "Equatable" -> "Comparable"
     subgraph Types {
