@@ -34,8 +34,8 @@
     <meta name="twitter:description" content="Swift documentation for &#39;RangeReplaceableCollectionType&#39;: A collection that supports replacement of an arbitrary subRange of elements with the elements of another collection."/>
     <meta name="twitter:url" content="http://swiftdoc.org/v1.2/protocol/RangeReplaceableCollectionType/index.html"/>
 
-    <link href="/assets/swift-52137ab16445d25a5ef18b0c801952a1.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/swift-e6eb1bbd9c800bad5f82054ddf963f17.js" type="text/javascript"></script>
+    <link href="/assets/swift-78884f8d964ef005484e336345ece8e8.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/swift-1a2ccb95b01d63e63ed84740cb51bcb9.js" type="text/javascript"></script>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -146,6 +146,16 @@ of elements with the elements of another collection.</p>
 <td>
 <code class="inherits">CollectionType, ExtensibleCollectionType, SequenceType, _CollectionType, _ExtensibleCollectionType, _SequenceType, _Sequence_Type</code>
 <span class="viz"><a href="hierarchy/">View Protocol Hierarchy &rarr;</a></span>
+</td>
+</tr>
+
+<tr>
+<th id="conforming">Conforming</th>
+<td class="conforming">
+<h5>Protocols</h5>
+<code class="inherits">_ArrayType</code>
+<h5>Types</h5>
+<code class="inherits">Array, ArraySlice, ContiguousArray, String, String.UnicodeScalarView</code>
 </td>
 </tr>
 
@@ -263,7 +273,7 @@ reachable from <code>startIndex</code> by zero or more applications of
 
 <h3>Instance Methods</h3>
 <div class="declaration inherited" id="func-append_">
-<a class="toggle-link" data-toggle="collapse" href="#comment-func-append_">mutating func append(_:)</a>
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-append_">mutating func append(<wbr>_:)</a>
      <span class="required">Required</span>    
 <div class="comment collapse" id="comment-func-append_"><div class="p">
     <p>Append <code>x</code> to <code>self</code>.</p>
@@ -281,7 +291,7 @@ reachable from <code>startIndex</code> by zero or more applications of
 </div></div>
 </div>
 <div class="declaration inherited" id="func-extend_">
-<a class="toggle-link" data-toggle="collapse" href="#comment-func-extend_">mutating func extend(_:)</a>
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-extend_">mutating func extend(<wbr>_:)</a>
      <span class="required">Required</span>    
 <div class="comment collapse" id="comment-func-extend_"><div class="p">
     <p>Append the elements of <code>newElements</code> to <code>self</code>.</p>
@@ -318,7 +328,7 @@ for x in newElements {
 </div></div>
 </div>
 <div class="declaration" id="func-insert_atindex_">
-<a class="toggle-link" data-toggle="collapse" href="#comment-func-insert_atindex_">mutating func insert(_:atIndex:)</a>
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-insert_atindex_">mutating func insert(<wbr>_:<wbr>atIndex:)</a>
      <span class="required">Required</span>    
 <div class="comment collapse" id="comment-func-insert_atindex_"><div class="p">
     <p>Insert <code>newElement</code> at index <code>i</code>.</p>
@@ -338,7 +348,7 @@ for x in newElements {
 </div></div>
 </div>
 <div class="declaration" id="func-removeall_">
-<a class="toggle-link" data-toggle="collapse" href="#comment-func-removeall_">mutating func removeAll(_:)</a>
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-removeall_">mutating func removeAll(<wbr>_:)</a>
      <span class="required">Required</span>    
 <div class="comment collapse" id="comment-func-removeall_"><div class="p">
     <p>Remove all elements</p>
@@ -362,7 +372,7 @@ for x in newElements {
 </div></div>
 </div>
 <div class="declaration" id="func-removeatindex_">
-<a class="toggle-link" data-toggle="collapse" href="#comment-func-removeatindex_">mutating func removeAtIndex(_:)</a>
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-removeatindex_">mutating func removeAtIndex(<wbr>_:)</a>
      <span class="required">Required</span>    
 <div class="comment collapse" id="comment-func-removeatindex_"><div class="p">
     <p>Remove the element at index <code>i</code></p>
@@ -382,7 +392,7 @@ for x in newElements {
 </div></div>
 </div>
 <div class="declaration" id="func-removerange_">
-<a class="toggle-link" data-toggle="collapse" href="#comment-func-removerange_">mutating func removeRange(_:)</a>
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-removerange_">mutating func removeRange(<wbr>_:)</a>
      <span class="required">Required</span>    
 <div class="comment collapse" id="comment-func-removerange_"><div class="p">
     <p>Remove the indicated <code>subRange</code> of elements</p>
@@ -402,7 +412,7 @@ for x in newElements {
 </div></div>
 </div>
 <div class="declaration" id="func-replacerange_with_">
-<a class="toggle-link" data-toggle="collapse" href="#comment-func-replacerange_with_">mutating func replaceRange(_:with:)</a>
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-replacerange_with_">mutating func replaceRange(<wbr>_:<wbr>with:)</a>
      <span class="required">Required</span>    
 <div class="comment collapse" id="comment-func-replacerange_with_"><div class="p">
     <p>Replace the given <code>subRange</code> of elements with <code>newElements</code>.</p>
@@ -420,7 +430,7 @@ O(<code>count(self)</code> + <code>count(newElements)</code>) otherwise.</p>
 </div></div>
 </div>
 <div class="declaration inherited" id="func-reservecapacity_">
-<a class="toggle-link" data-toggle="collapse" href="#comment-func-reservecapacity_">mutating func reserveCapacity(_:)</a>
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-reservecapacity_">mutating func reserveCapacity(<wbr>_:)</a>
      <span class="required">Required</span>    
 <div class="comment collapse" id="comment-func-reservecapacity_"><div class="p">
     <p>A non-binding request to ensure <code>n</code> elements of available storage.</p>
@@ -438,7 +448,7 @@ storage, or even ignore the request completely.</p>
 </div></div>
 </div>
 <div class="declaration" id="func-splice_atindex_">
-<a class="toggle-link" data-toggle="collapse" href="#comment-func-splice_atindex_">mutating func splice(_:atIndex:)</a>
+<a class="toggle-link" data-toggle="collapse" href="#comment-func-splice_atindex_">mutating func splice(<wbr>_:<wbr>atIndex:)</a>
      <span class="required">Required</span>    
 <div class="comment collapse" id="comment-func-splice_atindex_"><div class="p">
     <p>Insert <code>newElements</code> at index <code>i</code></p>
@@ -469,16 +479,29 @@ storage, or even ignore the request completely.</p>
         <div class="push"></div>
     </div><!-- wrapper -->
 
-            <div id="footer">
-            <span class="line">
-                <span class="version">Swift versions 602.0.49.3 & 700.1.101.15</span> &nbsp;&sdot;&nbsp;
-                <a href="/news/">News</a>
-            </span> <span class="sep">&nbsp;&sdot;&nbsp;</span>
-            <span class="line">
-                <a href="https://twitter.com/SwiftDocOrg">@SwiftDocOrg</a> &nbsp;&sdot;&nbsp;
-                <a href="https://github.com/SwiftDocOrg">github.com/SwiftDocOrg</a>
-            </span>
+        <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3" id="about">
+            <p><strong class="logo">SwiftDoc.org</strong><br />
+            Auto-generated documentation for Swift. Command-click no more.</p>
+            <p><a href="http://nshipster.com/"><img src="/assets/images/nshipster@2x.png" class="nshipster" alt="NSMustachio" width="45" height="26"></a><br>
+            An <strong>NSHipster</strong> Project</p>
+          </div>
+          <div class="col-sm-9" id="colophon">
+            <p>
+              <a href="/news/">News</a> &nbsp;&sdot;&nbsp;
+              <a href="https://twitter.com/SwiftDocOrg">@SwiftDocOrg</a> &nbsp;&sdot;&nbsp;
+              <a href="https://github.com/SwiftDocOrg">github.com/SwiftDocOrg</a><br />
+              <span class="version">Swift versions 602.0.49.3 & 700.1.101.15</span>
+            </p>
+            <p>Created by parsing and analyzing the autogenerated header for the Swift standard library. Built using <a href="https://nodejs.org/en/">Node.js</a> and <a href="http://jekyllrb.com/">Jekyll</a>, hosted with <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+
+            <p>All content copyright © 2014–2016 Apple Inc. All rights reserved.</p>
+          </div>
         </div>
+      </div>
+    </div>
         
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
