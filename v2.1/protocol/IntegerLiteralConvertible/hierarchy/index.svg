@@ -102,7 +102,7 @@
 
 <!-- AbsoluteValuable -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/AbsoluteValuable/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/AbsoluteValuable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M178.558,-138C178.558,-138 91.442,-138 91.442,-138 87.7753,-138 84.1086,-134.333 84.1086,-130.667 84.1086,-130.667 84.1086,-123.333 84.1086,-123.333 84.1086,-119.667 87.7753,-116 91.442,-116 91.442,-116 178.558,-116 178.558,-116 182.225,-116 185.891,-119.667 185.891,-123.333 185.891,-123.333 185.891,-130.667 185.891,-130.667 185.891,-134.333 182.225,-138 178.558,-138"/>
 <text text-anchor="middle" x="135" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AbsoluteValuable</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- Double -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/Double/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/Double/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="54,-22 0,-22 0,-0 54,-0 54,-22"/>
 <text text-anchor="middle" x="27" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Double</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Float -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/type/Float/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/type/Float/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="126,-22 72,-22 72,-0 126,-0 126,-22"/>
 <text text-anchor="middle" x="99" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Float</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- Float80 -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/type/Float80/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/type/Float80/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="198,-22 144,-22 144,-0 198,-0 198,-22"/>
 <text text-anchor="middle" x="171" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Float80</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- Bit -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/type/Bit/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/type/Bit/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="342,-22 288,-22 288,-0 342,-0 342,-22"/>
 <text text-anchor="middle" x="315" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Bit</text>
 </a>
@@ -157,7 +157,7 @@
 </g>
 <!-- Int -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/type/Int/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/type/Int/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="270,-22 216,-22 216,-0 270,-0 270,-22"/>
 <text text-anchor="middle" x="243" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int</text>
 </a>
@@ -170,7 +170,7 @@
 </g>
 <!-- Int16 -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.1/type/Int16/" target="_top">
+<g id="a_node7"><a xlink:href="/v2.1/type/Int16/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="414,-22 360,-22 360,-0 414,-0 414,-22"/>
 <text text-anchor="middle" x="387" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int16</text>
 </a>
@@ -178,7 +178,7 @@
 </g>
 <!-- Int32 -->
 <g id="node8" class="node">
-<g id="a_node8"><a xlink:href="/v2.1/type/Int32/" target="_top">
+<g id="a_node8"><a xlink:href="/v2.1/type/Int32/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="486,-22 432,-22 432,-0 486,-0 486,-22"/>
 <text text-anchor="middle" x="459" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int32</text>
 </a>
@@ -186,7 +186,7 @@
 </g>
 <!-- Int64 -->
 <g id="node9" class="node">
-<g id="a_node9"><a xlink:href="/v2.1/type/Int64/" target="_top">
+<g id="a_node9"><a xlink:href="/v2.1/type/Int64/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="558,-22 504,-22 504,-0 558,-0 558,-22"/>
 <text text-anchor="middle" x="531" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int64</text>
 </a>
@@ -194,7 +194,7 @@
 </g>
 <!-- Int8 -->
 <g id="node10" class="node">
-<g id="a_node10"><a xlink:href="/v2.1/type/Int8/" target="_top">
+<g id="a_node10"><a xlink:href="/v2.1/type/Int8/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="630,-22 576,-22 576,-0 630,-0 630,-22"/>
 <text text-anchor="middle" x="603" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int8</text>
 </a>
@@ -210,7 +210,7 @@
 </g>
 <!-- SignedNumberType -->
 <g id="node14" class="node">
-<g id="a_node14"><a xlink:href="/v2.1/protocol/SignedNumberType/" target="_top">
+<g id="a_node14"><a xlink:href="/v2.1/protocol/SignedNumberType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M516.716,-196C516.716,-196 415.284,-196 415.284,-196 411.617,-196 407.95,-192.333 407.95,-188.667 407.95,-188.667 407.95,-181.333 407.95,-181.333 407.95,-177.667 411.617,-174 415.284,-174 415.284,-174 516.716,-174 516.716,-174 520.383,-174 524.05,-177.667 524.05,-181.333 524.05,-181.333 524.05,-188.667 524.05,-188.667 524.05,-192.333 520.383,-196 516.716,-196"/>
 <text text-anchor="middle" x="466" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SignedNumberType</text>
 </a>
@@ -223,7 +223,7 @@
 </g>
 <!-- _IntegerType -->
 <g id="node22" class="node">
-<g id="a_node22"><a xlink:href="/v2.1/protocol/_IntegerType/" target="_top">
+<g id="a_node22"><a xlink:href="/v2.1/protocol/_IntegerType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M614.708,-196C614.708,-196 549.292,-196 549.292,-196 545.626,-196 541.959,-192.333 541.959,-188.667 541.959,-188.667 541.959,-181.333 541.959,-181.333 541.959,-177.667 545.626,-174 549.292,-174 549.292,-174 614.708,-174 614.708,-174 618.374,-174 622.041,-177.667 622.041,-181.333 622.041,-181.333 622.041,-188.667 622.041,-188.667 622.041,-192.333 618.374,-196 614.708,-196"/>
 <text text-anchor="middle" x="582" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_IntegerType</text>
 </a>
@@ -236,7 +236,7 @@
 </g>
 <!-- IntegerType -->
 <g id="node12" class="node">
-<g id="a_node12"><a xlink:href="/v2.1/protocol/IntegerType/" target="_top">
+<g id="a_node12"><a xlink:href="/v2.1/protocol/IntegerType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M611.202,-138C611.202,-138 552.798,-138 552.798,-138 549.132,-138 545.465,-134.333 545.465,-130.667 545.465,-130.667 545.465,-123.333 545.465,-123.333 545.465,-119.667 549.132,-116 552.798,-116 552.798,-116 611.202,-116 611.202,-116 614.868,-116 618.535,-119.667 618.535,-123.333 618.535,-123.333 618.535,-130.667 618.535,-130.667 618.535,-134.333 614.868,-138 611.202,-138"/>
 <text text-anchor="middle" x="582" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">IntegerType</text>
 </a>
@@ -244,7 +244,7 @@
 </g>
 <!-- SignedIntegerType -->
 <g id="node13" class="node">
-<g id="a_node13"><a xlink:href="/v2.1/protocol/SignedIntegerType/" target="_top">
+<g id="a_node13"><a xlink:href="/v2.1/protocol/SignedIntegerType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M514.727,-80C514.727,-80 419.273,-80 419.273,-80 415.606,-80 411.94,-76.3333 411.94,-72.6667 411.94,-72.6667 411.94,-65.3333 411.94,-65.3333 411.94,-61.6667 415.606,-58 419.273,-58 419.273,-58 514.727,-58 514.727,-58 518.394,-58 522.06,-61.6667 522.06,-65.3333 522.06,-65.3333 522.06,-72.6667 522.06,-72.6667 522.06,-76.3333 518.394,-80 514.727,-80"/>
 <text text-anchor="middle" x="467" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SignedIntegerType</text>
 </a>
@@ -257,7 +257,7 @@
 </g>
 <!-- UnsignedIntegerType -->
 <g id="node20" class="node">
-<g id="a_node20"><a xlink:href="/v2.1/protocol/UnsignedIntegerType/" target="_top">
+<g id="a_node20"><a xlink:href="/v2.1/protocol/UnsignedIntegerType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M801.728,-80C801.728,-80 692.272,-80 692.272,-80 688.605,-80 684.938,-76.3333 684.938,-72.6667 684.938,-72.6667 684.938,-65.3333 684.938,-65.3333 684.938,-61.6667 688.605,-58 692.272,-58 692.272,-58 801.728,-58 801.728,-58 805.395,-58 809.062,-61.6667 809.062,-65.3333 809.062,-65.3333 809.062,-72.6667 809.062,-72.6667 809.062,-76.3333 805.395,-80 801.728,-80"/>
 <text text-anchor="middle" x="747" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsignedIntegerType</text>
 </a>
@@ -300,7 +300,7 @@
 </g>
 <!-- _SignedIntegerType -->
 <g id="node23" class="node">
-<g id="a_node23"><a xlink:href="/v2.1/protocol/_SignedIntegerType/" target="_top">
+<g id="a_node23"><a xlink:href="/v2.1/protocol/_SignedIntegerType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M518.231,-138C518.231,-138 415.769,-138 415.769,-138 412.102,-138 408.436,-134.333 408.436,-130.667 408.436,-130.667 408.436,-123.333 408.436,-123.333 408.436,-119.667 412.102,-116 415.769,-116 415.769,-116 518.231,-116 518.231,-116 521.898,-116 525.564,-119.667 525.564,-123.333 525.564,-123.333 525.564,-130.667 525.564,-130.667 525.564,-134.333 521.898,-138 518.231,-138"/>
 <text text-anchor="middle" x="467" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_SignedIntegerType</text>
 </a>
@@ -313,7 +313,7 @@
 </g>
 <!-- UInt -->
 <g id="node15" class="node">
-<g id="a_node15"><a xlink:href="/v2.1/type/UInt/" target="_top">
+<g id="a_node15"><a xlink:href="/v2.1/type/UInt/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="702,-22 648,-22 648,-0 702,-0 702,-22"/>
 <text text-anchor="middle" x="675" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt</text>
 </a>
@@ -321,7 +321,7 @@
 </g>
 <!-- UInt16 -->
 <g id="node16" class="node">
-<g id="a_node16"><a xlink:href="/v2.1/type/UInt16/" target="_top">
+<g id="a_node16"><a xlink:href="/v2.1/type/UInt16/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="774,-22 720,-22 720,-0 774,-0 774,-22"/>
 <text text-anchor="middle" x="747" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt16</text>
 </a>
@@ -329,7 +329,7 @@
 </g>
 <!-- UInt32 -->
 <g id="node17" class="node">
-<g id="a_node17"><a xlink:href="/v2.1/type/UInt32/" target="_top">
+<g id="a_node17"><a xlink:href="/v2.1/type/UInt32/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="846,-22 792,-22 792,-0 846,-0 846,-22"/>
 <text text-anchor="middle" x="819" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt32</text>
 </a>
@@ -337,7 +337,7 @@
 </g>
 <!-- UInt64 -->
 <g id="node18" class="node">
-<g id="a_node18"><a xlink:href="/v2.1/type/UInt64/" target="_top">
+<g id="a_node18"><a xlink:href="/v2.1/type/UInt64/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="918,-22 864,-22 864,-0 918,-0 918,-22"/>
 <text text-anchor="middle" x="891" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt64</text>
 </a>
@@ -345,7 +345,7 @@
 </g>
 <!-- UInt8 -->
 <g id="node19" class="node">
-<g id="a_node19"><a xlink:href="/v2.1/type/UInt8/" target="_top">
+<g id="a_node19"><a xlink:href="/v2.1/type/UInt8/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="990,-22 936,-22 936,-0 990,-0 990,-22"/>
 <text text-anchor="middle" x="963" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt8</text>
 </a>
@@ -378,7 +378,7 @@
 </g>
 <!-- _DisallowMixedSignArithmetic -->
 <g id="node21" class="node">
-<g id="a_node21"><a xlink:href="/v2.1/protocol/_DisallowMixedSignArithmetic/" target="_top">
+<g id="a_node21"><a xlink:href="/v2.1/protocol/_DisallowMixedSignArithmetic/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M808.709,-138C808.709,-138 653.291,-138 653.291,-138 649.624,-138 645.957,-134.333 645.957,-130.667 645.957,-130.667 645.957,-123.333 645.957,-123.333 645.957,-119.667 649.624,-116 653.291,-116 653.291,-116 808.709,-116 808.709,-116 812.376,-116 816.043,-119.667 816.043,-123.333 816.043,-123.333 816.043,-130.667 816.043,-130.667 816.043,-134.333 812.376,-138 808.709,-138"/>
 <text text-anchor="middle" x="731" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_DisallowMixedSignArithmetic</text>
 </a>

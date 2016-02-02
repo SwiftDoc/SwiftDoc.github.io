@@ -102,7 +102,7 @@
 
 <!-- Character -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/type/Character/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/type/Character/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="62.0173,-22 -0.0172526,-22 -0.0172526,-0 62.0173,-0 62.0173,-22"/>
 <text text-anchor="middle" x="31" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Character</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- String -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/type/String/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/type/String/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="134,-22 80,-22 80,-0 134,-0 134,-22"/>
 <text text-anchor="middle" x="107" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- UnicodeScalar -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v1.2/type/UnicodeScalar/" target="_top">
+<g id="a_node4"><a xlink:href="/v1.2/type/UnicodeScalar/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="240.031,-22 151.969,-22 151.969,-0 240.031,-0 240.031,-22"/>
 <text text-anchor="middle" x="196" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnicodeScalar</text>
 </a>

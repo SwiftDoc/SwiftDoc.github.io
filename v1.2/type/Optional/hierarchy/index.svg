@@ -102,7 +102,7 @@
 
 <!-- DebugPrintable -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/protocol/DebugPrintable/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/protocol/DebugPrintable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M84.7096,-80C84.7096,-80 7.29039,-80 7.29039,-80 3.62372,-80 -0.0429445,-76.3333 -0.0429445,-72.6667 -0.0429445,-72.6667 -0.0429445,-65.3333 -0.0429445,-65.3333 -0.0429445,-61.6667 3.62372,-58 7.29039,-58 7.29039,-58 84.7096,-58 84.7096,-58 88.3763,-58 92.0429,-61.6667 92.0429,-65.3333 92.0429,-65.3333 92.0429,-72.6667 92.0429,-72.6667 92.0429,-76.3333 88.3763,-80 84.7096,-80"/>
 <text text-anchor="middle" x="46" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">DebugPrintable</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- NilLiteralConvertible -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/protocol/NilLiteralConvertible/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/protocol/NilLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M220.2,-80C220.2,-80 117.8,-80 117.8,-80 114.133,-80 110.466,-76.3333 110.466,-72.6667 110.466,-72.6667 110.466,-65.3333 110.466,-65.3333 110.466,-61.6667 114.133,-58 117.8,-58 117.8,-58 220.2,-58 220.2,-58 223.867,-58 227.534,-61.6667 227.534,-65.3333 227.534,-65.3333 227.534,-72.6667 227.534,-72.6667 227.534,-76.3333 223.867,-80 220.2,-80"/>
 <text text-anchor="middle" x="169" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">NilLiteralConvertible</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- Reflectable -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v1.2/protocol/Reflectable/" target="_top">
+<g id="a_node4"><a xlink:href="/v1.2/protocol/Reflectable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M308.693,-80C308.693,-80 253.307,-80 253.307,-80 249.64,-80 245.974,-76.3333 245.974,-72.6667 245.974,-72.6667 245.974,-65.3333 245.974,-65.3333 245.974,-61.6667 249.64,-58 253.307,-58 253.307,-58 308.693,-58 308.693,-58 312.36,-58 316.026,-61.6667 316.026,-65.3333 316.026,-65.3333 316.026,-72.6667 316.026,-72.6667 316.026,-76.3333 312.36,-80 308.693,-80"/>
 <text text-anchor="middle" x="281" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Reflectable</text>
 </a>

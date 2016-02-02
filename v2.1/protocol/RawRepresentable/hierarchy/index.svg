@@ -102,7 +102,7 @@
 
 <!-- OptionSetType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/OptionSetType/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/OptionSetType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M93.2075,-22C93.2075,-22 18.7925,-22 18.7925,-22 15.1258,-22 11.4592,-18.3333 11.4592,-14.6667 11.4592,-14.6667 11.4592,-7.33333 11.4592,-7.33333 11.4592,-3.66667 15.1258,-0 18.7925,-0 18.7925,-0 93.2075,-0 93.2075,-0 96.8742,-0 100.541,-3.66667 100.541,-7.33333 100.541,-7.33333 100.541,-14.6667 100.541,-14.6667 100.541,-18.3333 96.8742,-22 93.2075,-22"/>
 <text text-anchor="middle" x="56" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">OptionSetType</text>
 </a>

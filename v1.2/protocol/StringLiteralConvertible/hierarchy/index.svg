@@ -102,7 +102,7 @@
 
 <!-- ExtendedGraphemeClusterLiteralConvertible -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/protocol/ExtendedGraphemeClusterLiteralConvertible/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/protocol/ExtendedGraphemeClusterLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M240.762,-138C240.762,-138 7.23836,-138 7.23836,-138 3.57169,-138 -0.0949775,-134.333 -0.0949775,-130.667 -0.0949775,-130.667 -0.0949775,-123.333 -0.0949775,-123.333 -0.0949775,-119.667 3.57169,-116 7.23836,-116 7.23836,-116 240.762,-116 240.762,-116 244.428,-116 248.095,-119.667 248.095,-123.333 248.095,-123.333 248.095,-130.667 248.095,-130.667 248.095,-134.333 244.428,-138 240.762,-138"/>
 <text text-anchor="middle" x="124" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ExtendedGraphemeClusterLiteralConvertible</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- StaticString -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/type/StaticString/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/type/StaticString/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="119.519,-22 48.4813,-22 48.4813,-0 119.519,-0 119.519,-22"/>
 <text text-anchor="middle" x="84" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">StaticString</text>
 </a>
@@ -131,7 +131,7 @@
 </g>
 <!-- String -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/type/String/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/type/String/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="192,-22 138,-22 138,-0 192,-0 192,-22"/>
 <text text-anchor="middle" x="165" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- UnicodeScalarLiteralConvertible -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v1.2/protocol/UnicodeScalarLiteralConvertible/" target="_top">
+<g id="a_node5"><a xlink:href="/v1.2/protocol/UnicodeScalarLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M207.233,-196C207.233,-196 40.7673,-196 40.7673,-196 37.1006,-196 33.4339,-192.333 33.4339,-188.667 33.4339,-188.667 33.4339,-181.333 33.4339,-181.333 33.4339,-177.667 37.1006,-174 40.7673,-174 40.7673,-174 207.233,-174 207.233,-174 210.899,-174 214.566,-177.667 214.566,-181.333 214.566,-181.333 214.566,-188.667 214.566,-188.667 214.566,-192.333 210.899,-196 207.233,-196"/>
 <text text-anchor="middle" x="124" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnicodeScalarLiteralConvertible</text>
 </a>

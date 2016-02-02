@@ -102,7 +102,7 @@
 
 <!-- Comparable -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/Comparable/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/Comparable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M156.191,-196C156.191,-196 95.8087,-196 95.8087,-196 92.1421,-196 88.4754,-192.333 88.4754,-188.667 88.4754,-188.667 88.4754,-181.333 88.4754,-181.333 88.4754,-177.667 92.1421,-174 95.8087,-174 95.8087,-174 156.191,-174 156.191,-174 159.858,-174 163.525,-177.667 163.525,-181.333 163.525,-181.333 163.525,-188.667 163.525,-188.667 163.525,-192.333 159.858,-196 156.191,-196"/>
 <text text-anchor="middle" x="126" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Comparable</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- Strideable -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/protocol/Strideable/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/protocol/Strideable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M104.693,-138C104.693,-138 55.307,-138 55.307,-138 51.6403,-138 47.9736,-134.333 47.9736,-130.667 47.9736,-130.667 47.9736,-123.333 47.9736,-123.333 47.9736,-119.667 51.6403,-116 55.307,-116 55.307,-116 104.693,-116 104.693,-116 108.36,-116 112.026,-119.667 112.026,-123.333 112.026,-123.333 112.026,-130.667 112.026,-130.667 112.026,-134.333 108.36,-138 104.693,-138"/>
 <text text-anchor="middle" x="80" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Strideable</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Double -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/type/Double/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/type/Double/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="71,-22 17,-22 17,-0 71,-0 71,-22"/>
 <text text-anchor="middle" x="44" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Double</text>
 </a>
@@ -131,7 +131,7 @@
 </g>
 <!-- Equatable -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/protocol/Equatable/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/protocol/Equatable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M150.702,-254C150.702,-254 101.298,-254 101.298,-254 97.6315,-254 93.9648,-250.333 93.9648,-246.667 93.9648,-246.667 93.9648,-239.333 93.9648,-239.333 93.9648,-235.667 97.6315,-232 101.298,-232 101.298,-232 150.702,-232 150.702,-232 154.368,-232 158.035,-235.667 158.035,-239.333 158.035,-239.333 158.035,-246.667 158.035,-246.667 158.035,-250.333 154.368,-254 150.702,-254"/>
 <text text-anchor="middle" x="126" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>
@@ -144,7 +144,7 @@
 </g>
 <!-- Float -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/type/Float/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/type/Float/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="143,-22 89,-22 89,-0 143,-0 143,-22"/>
 <text text-anchor="middle" x="116" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Float</text>
 </a>
@@ -175,7 +175,7 @@
 </g>
 <!-- _Strideable -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.1/protocol/_Strideable/" target="_top">
+<g id="a_node7"><a xlink:href="/v2.1/protocol/_Strideable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M62.6997,-196C62.6997,-196 7.30027,-196 7.30027,-196 3.63361,-196 -0.0330612,-192.333 -0.0330612,-188.667 -0.0330612,-188.667 -0.0330612,-181.333 -0.0330612,-181.333 -0.0330612,-177.667 3.63361,-174 7.30027,-174 7.30027,-174 62.6997,-174 62.6997,-174 66.3664,-174 70.0331,-177.667 70.0331,-181.333 70.0331,-181.333 70.0331,-188.667 70.0331,-188.667 70.0331,-192.333 66.3664,-196 62.6997,-196"/>
 <text text-anchor="middle" x="35" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Strideable</text>
 </a>

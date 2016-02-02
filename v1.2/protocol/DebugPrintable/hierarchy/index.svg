@@ -102,7 +102,7 @@
 
 <!-- Array -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/type/Array/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/type/Array/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="54,-22 0,-22 0,-0 54,-0 54,-22"/>
 <text text-anchor="middle" x="27" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Array</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- ArraySlice -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/type/ArraySlice/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/type/ArraySlice/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="136.011,-22 71.9886,-22 71.9886,-0 136.011,-0 136.011,-22"/>
 <text text-anchor="middle" x="104" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ArraySlice</text>
 </a>
@@ -118,7 +118,7 @@
 </g>
 <!-- AutoreleasingUnsafeMutablePointer -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/type/AutoreleasingUnsafeMutablePointer/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/type/AutoreleasingUnsafeMutablePointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="356.088,-22 153.912,-22 153.912,-0 356.088,-0 356.088,-22"/>
 <text text-anchor="middle" x="255" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AutoreleasingUnsafeMutablePointer</text>
 </a>
@@ -126,7 +126,7 @@
 </g>
 <!-- CFunctionPointer -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v1.2/type/CFunctionPointer/" target="_top">
+<g id="a_node4"><a xlink:href="/v1.2/type/CFunctionPointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="476.036,-22 373.964,-22 373.964,-0 476.036,-0 476.036,-22"/>
 <text text-anchor="middle" x="425" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CFunctionPointer</text>
 </a>
@@ -134,7 +134,7 @@
 </g>
 <!-- COpaquePointer -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v1.2/type/COpaquePointer/" target="_top">
+<g id="a_node5"><a xlink:href="/v1.2/type/COpaquePointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="593.542,-22 494.458,-22 494.458,-0 593.542,-0 593.542,-22"/>
 <text text-anchor="middle" x="544" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">COpaquePointer</text>
 </a>
@@ -142,7 +142,7 @@
 </g>
 <!-- CVaListPointer -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v1.2/type/CVaListPointer/" target="_top">
+<g id="a_node6"><a xlink:href="/v1.2/type/CVaListPointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="700.365,-22 611.635,-22 611.635,-0 700.365,-0 700.365,-22"/>
 <text text-anchor="middle" x="656" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CVaListPointer</text>
 </a>
@@ -150,7 +150,7 @@
 </g>
 <!-- Character -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v1.2/type/Character/" target="_top">
+<g id="a_node7"><a xlink:href="/v1.2/type/Character/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="781.017,-22 718.983,-22 718.983,-0 781.017,-0 781.017,-22"/>
 <text text-anchor="middle" x="750" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Character</text>
 </a>
@@ -158,7 +158,7 @@
 </g>
 <!-- ClosedInterval -->
 <g id="node8" class="node">
-<g id="a_node8"><a xlink:href="/v1.2/type/ClosedInterval/" target="_top">
+<g id="a_node8"><a xlink:href="/v1.2/type/ClosedInterval/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="886.03,-22 799.97,-22 799.97,-0 886.03,-0 886.03,-22"/>
 <text text-anchor="middle" x="843" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ClosedInterval</text>
 </a>
@@ -166,7 +166,7 @@
 </g>
 <!-- ContiguousArray -->
 <g id="node9" class="node">
-<g id="a_node9"><a xlink:href="/v1.2/type/ContiguousArray/" target="_top">
+<g id="a_node9"><a xlink:href="/v1.2/type/ContiguousArray/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1003.53,-22 904.466,-22 904.466,-0 1003.53,-0 1003.53,-22"/>
 <text text-anchor="middle" x="954" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ContiguousArray</text>
 </a>
@@ -227,7 +227,7 @@
 </g>
 <!-- Dictionary -->
 <g id="node11" class="node">
-<g id="a_node11"><a xlink:href="/v1.2/type/Dictionary/" target="_top">
+<g id="a_node11"><a xlink:href="/v1.2/type/Dictionary/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1084.51,-22 1021.49,-22 1021.49,-0 1084.51,-0 1084.51,-22"/>
 <text text-anchor="middle" x="1053" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Dictionary</text>
 </a>
@@ -240,7 +240,7 @@
 </g>
 <!-- HalfOpenInterval -->
 <g id="node12" class="node">
-<g id="a_node12"><a xlink:href="/v1.2/type/HalfOpenInterval/" target="_top">
+<g id="a_node12"><a xlink:href="/v1.2/type/HalfOpenInterval/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1203.04,-22 1102.96,-22 1102.96,-0 1203.04,-0 1203.04,-22"/>
 <text text-anchor="middle" x="1153" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">HalfOpenInterval</text>
 </a>
@@ -253,7 +253,7 @@
 </g>
 <!-- Optional -->
 <g id="node13" class="node">
-<g id="a_node13"><a xlink:href="/v1.2/type/Optional/" target="_top">
+<g id="a_node13"><a xlink:href="/v1.2/type/Optional/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1275.02,-22 1220.98,-22 1220.98,-0 1275.02,-0 1275.02,-22"/>
 <text text-anchor="middle" x="1248" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Optional</text>
 </a>
@@ -266,7 +266,7 @@
 </g>
 <!-- Range -->
 <g id="node14" class="node">
-<g id="a_node14"><a xlink:href="/v1.2/type/Range/" target="_top">
+<g id="a_node14"><a xlink:href="/v1.2/type/Range/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1347,-22 1293,-22 1293,-0 1347,-0 1347,-22"/>
 <text text-anchor="middle" x="1320" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Range</text>
 </a>
@@ -279,7 +279,7 @@
 </g>
 <!-- Set -->
 <g id="node15" class="node">
-<g id="a_node15"><a xlink:href="/v1.2/type/Set/" target="_top">
+<g id="a_node15"><a xlink:href="/v1.2/type/Set/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1419,-22 1365,-22 1365,-0 1419,-0 1419,-22"/>
 <text text-anchor="middle" x="1392" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Set</text>
 </a>
@@ -292,7 +292,7 @@
 </g>
 <!-- StaticString -->
 <g id="node16" class="node">
-<g id="a_node16"><a xlink:href="/v1.2/type/StaticString/" target="_top">
+<g id="a_node16"><a xlink:href="/v1.2/type/StaticString/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1508.52,-22 1437.48,-22 1437.48,-0 1508.52,-0 1508.52,-22"/>
 <text text-anchor="middle" x="1473" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">StaticString</text>
 </a>
@@ -305,7 +305,7 @@
 </g>
 <!-- String -->
 <g id="node17" class="node">
-<g id="a_node17"><a xlink:href="/v1.2/type/String/" target="_top">
+<g id="a_node17"><a xlink:href="/v1.2/type/String/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1581,-22 1527,-22 1527,-0 1581,-0 1581,-22"/>
 <text text-anchor="middle" x="1554" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String</text>
 </a>
@@ -318,7 +318,7 @@
 </g>
 <!-- String.UTF16View -->
 <g id="node18" class="node">
-<g id="a_node18"><a xlink:href="/v1.2/type/String.UTF16View/" target="_top">
+<g id="a_node18"><a xlink:href="/v1.2/type/String.UTF16View/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1706.37,-22 1599.63,-22 1599.63,-0 1706.37,-0 1706.37,-22"/>
 <text text-anchor="middle" x="1653" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String.UTF16View</text>
 </a>
@@ -331,7 +331,7 @@
 </g>
 <!-- String.UTF8View -->
 <g id="node19" class="node">
-<g id="a_node19"><a xlink:href="/v1.2/type/String.UTF8View/" target="_top">
+<g id="a_node19"><a xlink:href="/v1.2/type/String.UTF8View/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1825.36,-22 1724.64,-22 1724.64,-0 1825.36,-0 1825.36,-22"/>
 <text text-anchor="middle" x="1775" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String.UTF8View</text>
 </a>
@@ -344,7 +344,7 @@
 </g>
 <!-- String.UnicodeScalarView -->
 <g id="node20" class="node">
-<g id="a_node20"><a xlink:href="/v1.2/type/String.UnicodeScalarView/" target="_top">
+<g id="a_node20"><a xlink:href="/v1.2/type/String.UnicodeScalarView/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1991.89,-22 1844.11,-22 1844.11,-0 1991.89,-0 1991.89,-22"/>
 <text text-anchor="middle" x="1918" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String.UnicodeScalarView</text>
 </a>
@@ -357,7 +357,7 @@
 </g>
 <!-- UnicodeScalar -->
 <g id="node21" class="node">
-<g id="a_node21"><a xlink:href="/v1.2/type/UnicodeScalar/" target="_top">
+<g id="a_node21"><a xlink:href="/v1.2/type/UnicodeScalar/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2098.03,-22 2009.97,-22 2009.97,-0 2098.03,-0 2098.03,-22"/>
 <text text-anchor="middle" x="2054" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnicodeScalar</text>
 </a>
@@ -370,7 +370,7 @@
 </g>
 <!-- UnsafeBufferPointer -->
 <g id="node22" class="node">
-<g id="a_node22"><a xlink:href="/v1.2/type/UnsafeBufferPointer/" target="_top">
+<g id="a_node22"><a xlink:href="/v1.2/type/UnsafeBufferPointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2233.39,-22 2116.61,-22 2116.61,-0 2233.39,-0 2233.39,-22"/>
 <text text-anchor="middle" x="2175" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafeBufferPointer</text>
 </a>
@@ -383,7 +383,7 @@
 </g>
 <!-- UnsafeMutableBufferPointer -->
 <g id="node23" class="node">
-<g id="a_node23"><a xlink:href="/v1.2/type/UnsafeMutableBufferPointer/" target="_top">
+<g id="a_node23"><a xlink:href="/v1.2/type/UnsafeMutableBufferPointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2411.91,-22 2252.09,-22 2252.09,-0 2411.91,-0 2411.91,-22"/>
 <text text-anchor="middle" x="2332" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafeMutableBufferPointer</text>
 </a>
@@ -396,7 +396,7 @@
 </g>
 <!-- UnsafeMutablePointer -->
 <g id="node24" class="node">
-<g id="a_node24"><a xlink:href="/v1.2/type/UnsafeMutablePointer/" target="_top">
+<g id="a_node24"><a xlink:href="/v1.2/type/UnsafeMutablePointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2559.05,-22 2430.95,-22 2430.95,-0 2559.05,-0 2559.05,-22"/>
 <text text-anchor="middle" x="2495" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafeMutablePointer</text>
 </a>
@@ -409,7 +409,7 @@
 </g>
 <!-- UnsafePointer -->
 <g id="node25" class="node">
-<g id="a_node25"><a xlink:href="/v1.2/type/UnsafePointer/" target="_top">
+<g id="a_node25"><a xlink:href="/v1.2/type/UnsafePointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2663.03,-22 2576.97,-22 2576.97,-0 2663.03,-0 2663.03,-22"/>
 <text text-anchor="middle" x="2620" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafePointer</text>
 </a>

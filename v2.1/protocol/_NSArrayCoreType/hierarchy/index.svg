@@ -110,7 +110,7 @@
 </g>
 <!-- _NSCopyingType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/_NSCopyingType/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/_NSCopyingType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M95.2105,-80C95.2105,-80 6.78948,-80 6.78948,-80 3.12281,-80 -0.543855,-76.3333 -0.543855,-72.6667 -0.543855,-72.6667 -0.543855,-65.3333 -0.543855,-65.3333 -0.543855,-61.6667 3.12281,-58 6.78948,-58 6.78948,-58 95.2105,-58 95.2105,-58 98.8772,-58 102.544,-61.6667 102.544,-65.3333 102.544,-65.3333 102.544,-72.6667 102.544,-72.6667 102.544,-76.3333 98.8772,-80 95.2105,-80"/>
 <text text-anchor="middle" x="51" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_NSCopyingType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- _NSFastEnumerationType -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/protocol/_NSFastEnumerationType/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/protocol/_NSFastEnumerationType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M263.724,-80C263.724,-80 128.276,-80 128.276,-80 124.609,-80 120.943,-76.3333 120.943,-72.6667 120.943,-72.6667 120.943,-65.3333 120.943,-65.3333 120.943,-61.6667 124.609,-58 128.276,-58 128.276,-58 263.724,-58 263.724,-58 267.391,-58 271.057,-61.6667 271.057,-65.3333 271.057,-65.3333 271.057,-72.6667 271.057,-72.6667 271.057,-76.3333 267.391,-80 263.724,-80"/>
 <text text-anchor="middle" x="196" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_NSFastEnumerationType</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- _ShadowProtocol -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/protocol/_ShadowProtocol/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/protocol/_ShadowProtocol/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M167.712,-138C167.712,-138 78.2879,-138 78.2879,-138 74.6212,-138 70.9546,-134.333 70.9546,-130.667 70.9546,-130.667 70.9546,-123.333 70.9546,-123.333 70.9546,-119.667 74.6212,-116 78.2879,-116 78.2879,-116 167.712,-116 167.712,-116 171.379,-116 175.045,-119.667 175.045,-123.333 175.045,-123.333 175.045,-130.667 175.045,-130.667 175.045,-134.333 171.379,-138 167.712,-138"/>
 <text text-anchor="middle" x="123" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ShadowProtocol</text>
 </a>

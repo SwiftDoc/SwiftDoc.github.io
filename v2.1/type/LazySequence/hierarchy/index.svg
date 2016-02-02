@@ -110,7 +110,7 @@
 </g>
 <!-- LazySequenceType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/LazySequenceType/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/LazySequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M107.228,-80C107.228,-80 6.77185,-80 6.77185,-80 3.10518,-80 -0.561484,-76.3333 -0.561484,-72.6667 -0.561484,-72.6667 -0.561484,-65.3333 -0.561484,-65.3333 -0.561484,-61.6667 3.10518,-58 6.77185,-58 6.77185,-58 107.228,-58 107.228,-58 110.895,-58 114.561,-61.6667 114.561,-65.3333 114.561,-65.3333 114.561,-72.6667 114.561,-72.6667 114.561,-76.3333 110.895,-80 107.228,-80"/>
 <text text-anchor="middle" x="57" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazySequenceType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- SequenceType -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/protocol/SequenceType/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M94.7179,-138C94.7179,-138 19.2821,-138 19.2821,-138 15.6154,-138 11.9487,-134.333 11.9487,-130.667 11.9487,-130.667 11.9487,-123.333 11.9487,-123.333 11.9487,-119.667 15.6154,-116 19.2821,-116 19.2821,-116 94.7179,-116 94.7179,-116 98.3846,-116 102.051,-119.667 102.051,-123.333 102.051,-123.333 102.051,-130.667 102.051,-130.667 102.051,-134.333 98.3846,-138 94.7179,-138"/>
 <text text-anchor="middle" x="57" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- _SequenceWrapperType -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/protocol/_SequenceWrapperType/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/protocol/_SequenceWrapperType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M267.577,-80C267.577,-80 140.423,-80 140.423,-80 136.757,-80 133.09,-76.3333 133.09,-72.6667 133.09,-72.6667 133.09,-65.3333 133.09,-65.3333 133.09,-61.6667 136.757,-58 140.423,-58 140.423,-58 267.577,-58 267.577,-58 271.243,-58 274.91,-61.6667 274.91,-65.3333 274.91,-65.3333 274.91,-72.6667 274.91,-72.6667 274.91,-76.3333 271.243,-80 267.577,-80"/>
 <text text-anchor="middle" x="204" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_SequenceWrapperType</text>
 </a>

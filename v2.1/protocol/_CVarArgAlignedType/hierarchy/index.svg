@@ -102,7 +102,7 @@
 
 <!-- CVarArgType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/CVarArgType/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/CVarArgType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M168.029,-138C168.029,-138 101.971,-138 101.971,-138 98.3043,-138 94.6376,-134.333 94.6376,-130.667 94.6376,-130.667 94.6376,-123.333 94.6376,-123.333 94.6376,-119.667 98.3043,-116 101.971,-116 101.971,-116 168.029,-116 168.029,-116 171.696,-116 175.362,-119.667 175.362,-123.333 175.362,-123.333 175.362,-130.667 175.362,-130.667 175.362,-134.333 171.696,-138 168.029,-138"/>
 <text text-anchor="middle" x="135" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CVarArgType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Double -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/type/Double/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/type/Double/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="54,-22 0,-22 0,-0 54,-0 54,-22"/>
 <text text-anchor="middle" x="27" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Double</text>
 </a>
@@ -131,7 +131,7 @@
 </g>
 <!-- Float -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/Float/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/Float/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="126,-22 72,-22 72,-0 126,-0 126,-22"/>
 <text text-anchor="middle" x="99" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Float</text>
 </a>
@@ -139,7 +139,7 @@
 </g>
 <!-- Int64 -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/type/Int64/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/type/Int64/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="198,-22 144,-22 144,-0 198,-0 198,-22"/>
 <text text-anchor="middle" x="171" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int64</text>
 </a>
@@ -147,7 +147,7 @@
 </g>
 <!-- UInt64 -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/type/UInt64/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/type/UInt64/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="270,-22 216,-22 216,-0 270,-0 270,-22"/>
 <text text-anchor="middle" x="243" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt64</text>
 </a>

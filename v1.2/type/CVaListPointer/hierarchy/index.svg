@@ -110,7 +110,7 @@
 </g>
 <!-- DebugPrintable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/protocol/DebugPrintable/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/protocol/DebugPrintable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M84.7096,-80C84.7096,-80 7.29039,-80 7.29039,-80 3.62372,-80 -0.0429445,-76.3333 -0.0429445,-72.6667 -0.0429445,-72.6667 -0.0429445,-65.3333 -0.0429445,-65.3333 -0.0429445,-61.6667 3.62372,-58 7.29039,-58 7.29039,-58 84.7096,-58 84.7096,-58 88.3763,-58 92.0429,-61.6667 92.0429,-65.3333 92.0429,-65.3333 92.0429,-72.6667 92.0429,-72.6667 92.0429,-76.3333 88.3763,-80 84.7096,-80"/>
 <text text-anchor="middle" x="46" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">DebugPrintable</text>
 </a>

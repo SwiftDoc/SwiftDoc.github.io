@@ -102,7 +102,7 @@
 
 <!-- AnyBidirectionalCollection -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/type/AnyBidirectionalCollection/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/type/AnyBidirectionalCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="148.054,-22 -0.054265,-22 -0.054265,-0 148.054,-0 148.054,-22"/>
 <text text-anchor="middle" x="74" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AnyBidirectionalCollection</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- AnyForwardCollection -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/AnyForwardCollection/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/AnyForwardCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="293.535,-22 166.465,-22 166.465,-0 293.535,-0 293.535,-22"/>
 <text text-anchor="middle" x="230" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AnyForwardCollection</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- AnyRandomAccessCollection -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/type/AnyRandomAccessCollection/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/type/AnyRandomAccessCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="478.554,-22 311.446,-22 311.446,-0 478.554,-0 478.554,-22"/>
 <text text-anchor="middle" x="395" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AnyRandomAccessCollection</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- CollectionType -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/protocol/CollectionType/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/protocol/CollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M266.704,-138C266.704,-138 193.296,-138 193.296,-138 189.63,-138 185.963,-134.333 185.963,-130.667 185.963,-130.667 185.963,-123.333 185.963,-123.333 185.963,-119.667 189.63,-116 193.296,-116 193.296,-116 266.704,-116 266.704,-116 270.37,-116 274.037,-119.667 274.037,-123.333 274.037,-123.333 274.037,-130.667 274.037,-130.667 274.037,-134.333 270.37,-138 266.704,-138"/>
 <text text-anchor="middle" x="230" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionType</text>
 </a>
@@ -162,7 +162,7 @@
 </g>
 <!-- Indexable -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/protocol/Indexable/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/protocol/Indexable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M206.699,-196C206.699,-196 159.301,-196 159.301,-196 155.634,-196 151.968,-192.333 151.968,-188.667 151.968,-188.667 151.968,-181.333 151.968,-181.333 151.968,-177.667 155.634,-174 159.301,-174 159.301,-174 206.699,-174 206.699,-174 210.366,-174 214.032,-177.667 214.032,-181.333 214.032,-181.333 214.032,-188.667 214.032,-188.667 214.032,-192.333 210.366,-196 206.699,-196"/>
 <text text-anchor="middle" x="183" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Indexable</text>
 </a>
@@ -175,7 +175,7 @@
 </g>
 <!-- SequenceType -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.1/protocol/SequenceType/" target="_top">
+<g id="a_node7"><a xlink:href="/v2.1/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M314.718,-196C314.718,-196 239.282,-196 239.282,-196 235.615,-196 231.949,-192.333 231.949,-188.667 231.949,-188.667 231.949,-181.333 231.949,-181.333 231.949,-177.667 235.615,-174 239.282,-174 239.282,-174 314.718,-174 314.718,-174 318.385,-174 322.051,-177.667 322.051,-181.333 322.051,-181.333 322.051,-188.667 322.051,-188.667 322.051,-192.333 318.385,-196 314.718,-196"/>
 <text text-anchor="middle" x="277" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>

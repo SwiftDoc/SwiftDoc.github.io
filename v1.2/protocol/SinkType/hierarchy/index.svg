@@ -102,7 +102,7 @@
 
 <!-- SinkOf -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/type/SinkOf/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/type/SinkOf/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="54,-22 0,-22 0,-0 54,-0 54,-22"/>
 <text text-anchor="middle" x="27" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SinkOf</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- UnsafeMutablePointer -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/type/UnsafeMutablePointer/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/type/UnsafeMutablePointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="200.051,-22 71.9486,-22 71.9486,-0 200.051,-0 200.051,-22"/>
 <text text-anchor="middle" x="136" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafeMutablePointer</text>
 </a>

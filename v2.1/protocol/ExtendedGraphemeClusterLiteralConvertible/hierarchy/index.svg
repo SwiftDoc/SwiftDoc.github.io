@@ -102,7 +102,7 @@
 
 <!-- Character -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/type/Character/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/type/Character/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="108.017,-22 45.9827,-22 45.9827,-0 108.017,-0 108.017,-22"/>
 <text text-anchor="middle" x="77" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Character</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- StringLiteralConvertible -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/protocol/StringLiteralConvertible/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/protocol/StringLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M231.714,-80C231.714,-80 112.286,-80 112.286,-80 108.62,-80 104.953,-76.3333 104.953,-72.6667 104.953,-72.6667 104.953,-65.3333 104.953,-65.3333 104.953,-61.6667 108.62,-58 112.286,-58 112.286,-58 231.714,-58 231.714,-58 235.38,-58 239.047,-61.6667 239.047,-65.3333 239.047,-65.3333 239.047,-72.6667 239.047,-72.6667 239.047,-76.3333 235.38,-80 231.714,-80"/>
 <text text-anchor="middle" x="172" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">StringLiteralConvertible</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- StaticString -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/StaticString/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/StaticString/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="202.519,-22 131.481,-22 131.481,-0 202.519,-0 202.519,-22"/>
 <text text-anchor="middle" x="167" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">StaticString</text>
 </a>
@@ -144,7 +144,7 @@
 </g>
 <!-- String -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/type/String/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/type/String/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="275,-22 221,-22 221,-0 275,-0 275,-22"/>
 <text text-anchor="middle" x="248" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String</text>
 </a>
@@ -162,7 +162,7 @@
 </g>
 <!-- UnicodeScalarLiteralConvertible -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/protocol/UnicodeScalarLiteralConvertible/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/protocol/UnicodeScalarLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M207.233,-196C207.233,-196 40.7673,-196 40.7673,-196 37.1006,-196 33.4339,-192.333 33.4339,-188.667 33.4339,-188.667 33.4339,-181.333 33.4339,-181.333 33.4339,-177.667 37.1006,-174 40.7673,-174 40.7673,-174 207.233,-174 207.233,-174 210.899,-174 214.566,-177.667 214.566,-181.333 214.566,-181.333 214.566,-188.667 214.566,-188.667 214.566,-192.333 210.899,-196 207.233,-196"/>
 <text text-anchor="middle" x="124" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnicodeScalarLiteralConvertible</text>
 </a>

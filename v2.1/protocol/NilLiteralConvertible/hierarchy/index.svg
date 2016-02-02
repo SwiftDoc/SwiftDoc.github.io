@@ -102,7 +102,7 @@
 
 <!-- AutoreleasingUnsafeMutablePointer -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/type/AutoreleasingUnsafeMutablePointer/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/type/AutoreleasingUnsafeMutablePointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="202.088,-22 -0.0879076,-22 -0.0879076,-0 202.088,-0 202.088,-22"/>
 <text text-anchor="middle" x="101" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AutoreleasingUnsafeMutablePointer</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- COpaquePointer -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/type/COpaquePointer/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/type/COpaquePointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="319.542,-22 220.458,-22 220.458,-0 319.542,-0 319.542,-22"/>
 <text text-anchor="middle" x="270" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">COpaquePointer</text>
 </a>
@@ -118,7 +118,7 @@
 </g>
 <!-- ImplicitlyUnwrappedOptional -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/ImplicitlyUnwrappedOptional/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/ImplicitlyUnwrappedOptional/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="500.051,-22 337.949,-22 337.949,-0 500.051,-0 500.051,-22"/>
 <text text-anchor="middle" x="419" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ImplicitlyUnwrappedOptional</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- Optional -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/type/Optional/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/type/Optional/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="572.023,-22 517.977,-22 517.977,-0 572.023,-0 572.023,-22"/>
 <text text-anchor="middle" x="545" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Optional</text>
 </a>
@@ -162,7 +162,7 @@
 </g>
 <!-- UnsafeMutablePointer -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/type/UnsafeMutablePointer/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/type/UnsafeMutablePointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="719.051,-22 590.949,-22 590.949,-0 719.051,-0 719.051,-22"/>
 <text text-anchor="middle" x="655" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafeMutablePointer</text>
 </a>
@@ -175,7 +175,7 @@
 </g>
 <!-- UnsafePointer -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.1/type/UnsafePointer/" target="_top">
+<g id="a_node7"><a xlink:href="/v2.1/type/UnsafePointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="823.032,-22 736.968,-22 736.968,-0 823.032,-0 823.032,-22"/>
 <text text-anchor="middle" x="780" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafePointer</text>
 </a>

@@ -102,7 +102,7 @@
 
 <!-- ClosedInterval -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/type/ClosedInterval/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/type/ClosedInterval/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="86.0299,-22 -0.029906,-22 -0.029906,-0 86.0299,-0 86.0299,-22"/>
 <text text-anchor="middle" x="43" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ClosedInterval</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- HalfOpenInterval -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/type/HalfOpenInterval/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/type/HalfOpenInterval/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="204.035,-22 103.965,-22 103.965,-0 204.035,-0 204.035,-22"/>
 <text text-anchor="middle" x="154" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">HalfOpenInterval</text>
 </a>

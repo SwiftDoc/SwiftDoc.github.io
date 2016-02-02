@@ -102,7 +102,7 @@
 
 <!-- CustomStringConvertible -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/CustomStringConvertible/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/CustomStringConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M135.208,-80C135.208,-80 6.79224,-80 6.79224,-80 3.12558,-80 -0.541089,-76.3333 -0.541089,-72.6667 -0.541089,-72.6667 -0.541089,-65.3333 -0.541089,-65.3333 -0.541089,-61.6667 3.12558,-58 6.79224,-58 6.79224,-58 135.208,-58 135.208,-58 138.874,-58 142.541,-61.6667 142.541,-65.3333 142.541,-65.3333 142.541,-72.6667 142.541,-72.6667 142.541,-76.3333 138.874,-80 135.208,-80"/>
 <text text-anchor="middle" x="71" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CustomStringConvertible</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- NilLiteralConvertible -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/protocol/NilLiteralConvertible/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/protocol/NilLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M270.2,-80C270.2,-80 167.8,-80 167.8,-80 164.133,-80 160.466,-76.3333 160.466,-72.6667 160.466,-72.6667 160.466,-65.3333 160.466,-65.3333 160.466,-61.6667 164.133,-58 167.8,-58 167.8,-58 270.2,-58 270.2,-58 273.867,-58 277.534,-61.6667 277.534,-65.3333 277.534,-65.3333 277.534,-72.6667 277.534,-72.6667 277.534,-76.3333 273.867,-80 270.2,-80"/>
 <text text-anchor="middle" x="219" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">NilLiteralConvertible</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- _ObjectiveCBridgeable -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/protocol/_ObjectiveCBridgeable/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/protocol/_ObjectiveCBridgeable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M420.72,-80C420.72,-80 303.28,-80 303.28,-80 299.614,-80 295.947,-76.3333 295.947,-72.6667 295.947,-72.6667 295.947,-65.3333 295.947,-65.3333 295.947,-61.6667 299.614,-58 303.28,-58 303.28,-58 420.72,-58 420.72,-58 424.386,-58 428.053,-61.6667 428.053,-65.3333 428.053,-65.3333 428.053,-72.6667 428.053,-72.6667 428.053,-76.3333 424.386,-80 420.72,-80"/>
 <text text-anchor="middle" x="362" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ObjectiveCBridgeable</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- _Reflectable -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/protocol/_Reflectable/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/protocol/_Reflectable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M515.7,-80C515.7,-80 454.3,-80 454.3,-80 450.634,-80 446.967,-76.3333 446.967,-72.6667 446.967,-72.6667 446.967,-65.3333 446.967,-65.3333 446.967,-61.6667 450.634,-58 454.3,-58 454.3,-58 515.7,-58 515.7,-58 519.366,-58 523.033,-61.6667 523.033,-65.3333 523.033,-65.3333 523.033,-72.6667 523.033,-72.6667 523.033,-76.3333 519.366,-80 515.7,-80"/>
 <text text-anchor="middle" x="485" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Reflectable</text>
 </a>

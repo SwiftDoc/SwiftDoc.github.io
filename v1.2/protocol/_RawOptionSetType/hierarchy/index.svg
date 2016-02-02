@@ -102,7 +102,7 @@
 
 <!-- Equatable -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/protocol/Equatable/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/protocol/Equatable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M56.7018,-138C56.7018,-138 7.29817,-138 7.29817,-138 3.6315,-138 -0.0351648,-134.333 -0.0351648,-130.667 -0.0351648,-130.667 -0.0351648,-123.333 -0.0351648,-123.333 -0.0351648,-119.667 3.6315,-116 7.29817,-116 7.29817,-116 56.7018,-116 56.7018,-116 60.3685,-116 64.0352,-119.667 64.0352,-123.333 64.0352,-123.333 64.0352,-130.667 64.0352,-130.667 64.0352,-134.333 60.3685,-138 56.7018,-138"/>
 <text text-anchor="middle" x="32" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- RawOptionSetType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/protocol/RawOptionSetType/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/protocol/RawOptionSetType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M134.212,-22C134.212,-22 35.788,-22 35.788,-22 32.1213,-22 28.4546,-18.3333 28.4546,-14.6667 28.4546,-14.6667 28.4546,-7.33333 28.4546,-7.33333 28.4546,-3.66667 32.1213,-0 35.788,-0 35.788,-0 134.212,-0 134.212,-0 137.879,-0 141.545,-3.66667 141.545,-7.33333 141.545,-7.33333 141.545,-14.6667 141.545,-14.6667 141.545,-18.3333 137.879,-22 134.212,-22"/>
 <text text-anchor="middle" x="85" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">RawOptionSetType</text>
 </a>
@@ -131,7 +131,7 @@
 </g>
 <!-- RawRepresentable -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/protocol/RawRepresentable/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/protocol/RawRepresentable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M186.711,-138C186.711,-138 89.2894,-138 89.2894,-138 85.6227,-138 81.956,-134.333 81.956,-130.667 81.956,-130.667 81.956,-123.333 81.956,-123.333 81.956,-119.667 85.6227,-116 89.2894,-116 89.2894,-116 186.711,-116 186.711,-116 190.377,-116 194.044,-119.667 194.044,-123.333 194.044,-123.333 194.044,-130.667 194.044,-130.667 194.044,-134.333 190.377,-138 186.711,-138"/>
 <text text-anchor="middle" x="138" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">RawRepresentable</text>
 </a>

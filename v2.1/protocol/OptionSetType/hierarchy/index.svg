@@ -102,7 +102,7 @@
 
 <!-- ArrayLiteralConvertible -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/ArrayLiteralConvertible/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/ArrayLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M124.705,-138C124.705,-138 7.29524,-138 7.29524,-138 3.62858,-138 -0.0380908,-134.333 -0.0380908,-130.667 -0.0380908,-130.667 -0.0380908,-123.333 -0.0380908,-123.333 -0.0380908,-119.667 3.62858,-116 7.29524,-116 7.29524,-116 124.705,-116 124.705,-116 128.371,-116 132.038,-119.667 132.038,-123.333 132.038,-123.333 132.038,-130.667 132.038,-130.667 132.038,-134.333 128.371,-138 124.705,-138"/>
 <text text-anchor="middle" x="66" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ArrayLiteralConvertible</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- SetAlgebraType -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/protocol/SetAlgebraType/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/protocol/SetAlgebraType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M164.212,-80C164.212,-80 83.7881,-80 83.7881,-80 80.1214,-80 76.4547,-76.3333 76.4547,-72.6667 76.4547,-72.6667 76.4547,-65.3333 76.4547,-65.3333 76.4547,-61.6667 80.1214,-58 83.7881,-58 83.7881,-58 164.212,-58 164.212,-58 167.879,-58 171.545,-61.6667 171.545,-65.3333 171.545,-65.3333 171.545,-72.6667 171.545,-72.6667 171.545,-76.3333 167.879,-80 164.212,-80"/>
 <text text-anchor="middle" x="124" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SetAlgebraType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Equatable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/Equatable/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/Equatable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M206.702,-138C206.702,-138 157.298,-138 157.298,-138 153.632,-138 149.965,-134.333 149.965,-130.667 149.965,-130.667 149.965,-123.333 149.965,-123.333 149.965,-119.667 153.632,-116 157.298,-116 157.298,-116 206.702,-116 206.702,-116 210.368,-116 214.035,-119.667 214.035,-123.333 214.035,-123.333 214.035,-130.667 214.035,-130.667 214.035,-134.333 210.368,-138 206.702,-138"/>
 <text text-anchor="middle" x="182" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>
@@ -144,7 +144,7 @@
 </g>
 <!-- RawRepresentable -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/protocol/RawRepresentable/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/protocol/RawRepresentable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M294.711,-80C294.711,-80 197.289,-80 197.289,-80 193.623,-80 189.956,-76.3333 189.956,-72.6667 189.956,-72.6667 189.956,-65.3333 189.956,-65.3333 189.956,-61.6667 193.623,-58 197.289,-58 197.289,-58 294.711,-58 294.711,-58 298.377,-58 302.044,-61.6667 302.044,-65.3333 302.044,-65.3333 302.044,-72.6667 302.044,-72.6667 302.044,-76.3333 298.377,-80 294.711,-80"/>
 <text text-anchor="middle" x="246" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">RawRepresentable</text>
 </a>

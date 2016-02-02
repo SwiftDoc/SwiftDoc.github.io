@@ -102,7 +102,7 @@
 
 <!-- DictionaryGenerator -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/type/DictionaryGenerator/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/type/DictionaryGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="116.534,-22 -0.533677,-22 -0.533677,-0 116.534,-0 116.534,-22"/>
 <text text-anchor="middle" x="58" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">DictionaryGenerator</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- EmptyGenerator -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/type/EmptyGenerator/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/type/EmptyGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="233.028,-22 134.972,-22 134.972,-0 233.028,-0 233.028,-22"/>
 <text text-anchor="middle" x="184" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">EmptyGenerator</text>
 </a>
@@ -118,7 +118,7 @@
 </g>
 <!-- EnumerateGenerator -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/type/EnumerateGenerator/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/type/EnumerateGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="373.047,-22 250.953,-22 250.953,-0 373.047,-0 373.047,-22"/>
 <text text-anchor="middle" x="312" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">EnumerateGenerator</text>
 </a>
@@ -126,7 +126,7 @@
 </g>
 <!-- FilterGenerator -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v1.2/type/FilterGenerator/" target="_top">
+<g id="a_node4"><a xlink:href="/v1.2/type/FilterGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="482.023,-22 391.977,-22 391.977,-0 482.023,-0 482.023,-22"/>
 <text text-anchor="middle" x="437" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">FilterGenerator</text>
 </a>
@@ -134,7 +134,7 @@
 </g>
 <!-- GeneratorOf -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v1.2/type/GeneratorOf/" target="_top">
+<g id="a_node5"><a xlink:href="/v1.2/type/GeneratorOf/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="577.024,-22 500.976,-22 500.976,-0 577.024,-0 577.024,-22"/>
 <text text-anchor="middle" x="539" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">GeneratorOf</text>
 </a>
@@ -142,7 +142,7 @@
 </g>
 <!-- GeneratorOfOne -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v1.2/type/GeneratorOfOne/" target="_top">
+<g id="a_node6"><a xlink:href="/v1.2/type/GeneratorOfOne/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="694.534,-22 595.466,-22 595.466,-0 694.534,-0 694.534,-22"/>
 <text text-anchor="middle" x="645" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">GeneratorOfOne</text>
 </a>
@@ -150,7 +150,7 @@
 </g>
 <!-- GeneratorSequence -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v1.2/type/GeneratorSequence/" target="_top">
+<g id="a_node7"><a xlink:href="/v1.2/type/GeneratorSequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="831.057,-22 712.943,-22 712.943,-0 831.057,-0 831.057,-22"/>
 <text text-anchor="middle" x="772" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">GeneratorSequence</text>
 </a>
@@ -201,7 +201,7 @@
 </g>
 <!-- IndexingGenerator -->
 <g id="node9" class="node">
-<g id="a_node9"><a xlink:href="/v1.2/type/IndexingGenerator/" target="_top">
+<g id="a_node9"><a xlink:href="/v1.2/type/IndexingGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="958.548,-22 849.452,-22 849.452,-0 958.548,-0 958.548,-22"/>
 <text text-anchor="middle" x="904" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">IndexingGenerator</text>
 </a>
@@ -214,7 +214,7 @@
 </g>
 <!-- MapSequenceGenerator -->
 <g id="node10" class="node">
-<g id="a_node10"><a xlink:href="/v1.2/type/MapSequenceGenerator/" target="_top">
+<g id="a_node10"><a xlink:href="/v1.2/type/MapSequenceGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1117.56,-22 976.435,-22 976.435,-0 1117.56,-0 1117.56,-22"/>
 <text text-anchor="middle" x="1047" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">MapSequenceGenerator</text>
 </a>
@@ -227,7 +227,7 @@
 </g>
 <!-- PermutationGenerator -->
 <g id="node11" class="node">
-<g id="a_node11"><a xlink:href="/v1.2/type/PermutationGenerator/" target="_top">
+<g id="a_node11"><a xlink:href="/v1.2/type/PermutationGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1264.05,-22 1135.95,-22 1135.95,-0 1264.05,-0 1264.05,-22"/>
 <text text-anchor="middle" x="1200" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">PermutationGenerator</text>
 </a>
@@ -240,7 +240,7 @@
 </g>
 <!-- RangeGenerator -->
 <g id="node12" class="node">
-<g id="a_node12"><a xlink:href="/v1.2/type/RangeGenerator/" target="_top">
+<g id="a_node12"><a xlink:href="/v1.2/type/RangeGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1381.54,-22 1282.46,-22 1282.46,-0 1381.54,-0 1381.54,-22"/>
 <text text-anchor="middle" x="1332" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">RangeGenerator</text>
 </a>
@@ -253,7 +253,7 @@
 </g>
 <!-- SetGenerator -->
 <g id="node13" class="node">
-<g id="a_node13"><a xlink:href="/v1.2/type/SetGenerator/" target="_top">
+<g id="a_node13"><a xlink:href="/v1.2/type/SetGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1482.03,-22 1399.97,-22 1399.97,-0 1482.03,-0 1482.03,-22"/>
 <text text-anchor="middle" x="1441" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SetGenerator</text>
 </a>
@@ -266,7 +266,7 @@
 </g>
 <!-- StrideThroughGenerator -->
 <g id="node14" class="node">
-<g id="a_node14"><a xlink:href="/v1.2/type/StrideThroughGenerator/" target="_top">
+<g id="a_node14"><a xlink:href="/v1.2/type/StrideThroughGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1640.05,-22 1499.95,-22 1499.95,-0 1640.05,-0 1640.05,-22"/>
 <text text-anchor="middle" x="1570" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">StrideThroughGenerator</text>
 </a>
@@ -279,7 +279,7 @@
 </g>
 <!-- StrideToGenerator -->
 <g id="node15" class="node">
-<g id="a_node15"><a xlink:href="/v1.2/type/StrideToGenerator/" target="_top">
+<g id="a_node15"><a xlink:href="/v1.2/type/StrideToGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1766.04,-22 1657.96,-22 1657.96,-0 1766.04,-0 1766.04,-22"/>
 <text text-anchor="middle" x="1712" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">StrideToGenerator</text>
 </a>
@@ -292,7 +292,7 @@
 </g>
 <!-- String.UnicodeScalarView.Generator -->
 <g id="node16" class="node">
-<g id="a_node16"><a xlink:href="/v1.2/type/String.UnicodeScalarView.Generator/" target="_top">
+<g id="a_node16"><a xlink:href="/v1.2/type/String.UnicodeScalarView.Generator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1989.42,-22 1784.58,-22 1784.58,-0 1989.42,-0 1989.42,-22"/>
 <text text-anchor="middle" x="1887" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String.UnicodeScalarView.Generator</text>
 </a>
@@ -305,7 +305,7 @@
 </g>
 <!-- UnsafeBufferPointerGenerator -->
 <g id="node17" class="node">
-<g id="a_node17"><a xlink:href="/v1.2/type/UnsafeBufferPointerGenerator/" target="_top">
+<g id="a_node17"><a xlink:href="/v1.2/type/UnsafeBufferPointerGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2179.41,-22 2008.59,-22 2008.59,-0 2179.41,-0 2179.41,-22"/>
 <text text-anchor="middle" x="2094" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafeBufferPointerGenerator</text>
 </a>
@@ -318,7 +318,7 @@
 </g>
 <!-- ZipGenerator2 -->
 <g id="node18" class="node">
-<g id="a_node18"><a xlink:href="/v1.2/type/ZipGenerator2/" target="_top">
+<g id="a_node18"><a xlink:href="/v1.2/type/ZipGenerator2/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2285.53,-22 2198.47,-22 2198.47,-0 2285.53,-0 2285.53,-22"/>
 <text text-anchor="middle" x="2242" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ZipGenerator2</text>
 </a>

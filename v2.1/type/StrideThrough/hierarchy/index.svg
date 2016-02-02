@@ -102,7 +102,7 @@
 
 <!-- SequenceType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/SequenceType/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M91.7179,-80C91.7179,-80 16.2821,-80 16.2821,-80 12.6154,-80 8.94872,-76.3333 8.94872,-72.6667 8.94872,-72.6667 8.94872,-65.3333 8.94872,-65.3333 8.94872,-61.6667 12.6154,-58 16.2821,-58 16.2821,-58 91.7179,-58 91.7179,-58 95.3846,-58 99.0513,-61.6667 99.0513,-65.3333 99.0513,-65.3333 99.0513,-72.6667 99.0513,-72.6667 99.0513,-76.3333 95.3846,-80 91.7179,-80"/>
 <text text-anchor="middle" x="54" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- _Reflectable -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/protocol/_Reflectable/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/protocol/_Reflectable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M185.7,-80C185.7,-80 124.3,-80 124.3,-80 120.634,-80 116.967,-76.3333 116.967,-72.6667 116.967,-72.6667 116.967,-65.3333 116.967,-65.3333 116.967,-61.6667 120.634,-58 124.3,-58 124.3,-58 185.7,-58 185.7,-58 189.366,-58 193.033,-61.6667 193.033,-65.3333 193.033,-65.3333 193.033,-72.6667 193.033,-72.6667 193.033,-76.3333 189.366,-80 185.7,-80"/>
 <text text-anchor="middle" x="155" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Reflectable</text>
 </a>

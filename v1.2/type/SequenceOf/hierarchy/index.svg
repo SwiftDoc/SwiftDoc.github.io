@@ -110,7 +110,7 @@
 </g>
 <!-- SequenceType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/protocol/SequenceType/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M88.7179,-80C88.7179,-80 13.2821,-80 13.2821,-80 9.61538,-80 5.94872,-76.3333 5.94872,-72.6667 5.94872,-72.6667 5.94872,-65.3333 5.94872,-65.3333 5.94872,-61.6667 9.61538,-58 13.2821,-58 13.2821,-58 88.7179,-58 88.7179,-58 92.3846,-58 96.0513,-61.6667 96.0513,-65.3333 96.0513,-65.3333 96.0513,-72.6667 96.0513,-72.6667 96.0513,-76.3333 92.3846,-80 88.7179,-80"/>
 <text text-anchor="middle" x="51" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- _SequenceType -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/protocol/_SequenceType/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/protocol/_SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M91.7241,-196C91.7241,-196 10.2759,-196 10.2759,-196 6.60919,-196 2.94252,-192.333 2.94252,-188.667 2.94252,-188.667 2.94252,-181.333 2.94252,-181.333 2.94252,-177.667 6.60919,-174 10.2759,-174 10.2759,-174 91.7241,-174 91.7241,-174 95.3908,-174 99.0575,-177.667 99.0575,-181.333 99.0575,-181.333 99.0575,-188.667 99.0575,-188.667 99.0575,-192.333 95.3908,-196 91.7241,-196"/>
 <text text-anchor="middle" x="51" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_SequenceType</text>
 </a>
@@ -131,7 +131,7 @@
 </g>
 <!-- _Sequence_Type -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v1.2/protocol/_Sequence_Type/" target="_top">
+<g id="a_node4"><a xlink:href="/v1.2/protocol/_Sequence_Type/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M95.2281,-138C95.2281,-138 6.77191,-138 6.77191,-138 3.10524,-138 -0.561422,-134.333 -0.561422,-130.667 -0.561422,-130.667 -0.561422,-123.333 -0.561422,-123.333 -0.561422,-119.667 3.10524,-116 6.77191,-116 6.77191,-116 95.2281,-116 95.2281,-116 98.8948,-116 102.561,-119.667 102.561,-123.333 102.561,-123.333 102.561,-130.667 102.561,-130.667 102.561,-134.333 98.8948,-138 95.2281,-138"/>
 <text text-anchor="middle" x="51" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Sequence_Type</text>
 </a>

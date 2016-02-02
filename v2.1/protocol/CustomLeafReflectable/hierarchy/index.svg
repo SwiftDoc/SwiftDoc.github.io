@@ -110,7 +110,7 @@
 </g>
 <!-- CustomReflectable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/CustomReflectable/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/CustomReflectable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M115.2,-80C115.2,-80 18.7997,-80 18.7997,-80 15.133,-80 11.4664,-76.3333 11.4664,-72.6667 11.4664,-72.6667 11.4664,-65.3333 11.4664,-65.3333 11.4664,-61.6667 15.133,-58 18.7997,-58 18.7997,-58 115.2,-58 115.2,-58 118.867,-58 122.534,-61.6667 122.534,-65.3333 122.534,-65.3333 122.534,-72.6667 122.534,-72.6667 122.534,-76.3333 118.867,-80 115.2,-80"/>
 <text text-anchor="middle" x="67" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CustomReflectable</text>
 </a>

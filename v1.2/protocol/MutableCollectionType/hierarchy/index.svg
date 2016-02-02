@@ -102,7 +102,7 @@
 
 <!-- Array -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/type/Array/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/type/Array/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="54,-22 0,-22 0,-0 54,-0 54,-22"/>
 <text text-anchor="middle" x="27" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Array</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- ArraySlice -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/type/ArraySlice/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/type/ArraySlice/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="136.011,-22 71.9886,-22 71.9886,-0 136.011,-0 136.011,-22"/>
 <text text-anchor="middle" x="104" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ArraySlice</text>
 </a>
@@ -118,7 +118,7 @@
 </g>
 <!-- CollectionType -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/protocol/CollectionType/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/protocol/CollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M388.704,-254C388.704,-254 315.296,-254 315.296,-254 311.63,-254 307.963,-250.333 307.963,-246.667 307.963,-246.667 307.963,-239.333 307.963,-239.333 307.963,-235.667 311.63,-232 315.296,-232 315.296,-232 388.704,-232 388.704,-232 392.37,-232 396.037,-235.667 396.037,-239.333 396.037,-239.333 396.037,-246.667 396.037,-246.667 396.037,-250.333 392.37,-254 388.704,-254"/>
 <text text-anchor="middle" x="352" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionType</text>
 </a>
@@ -139,7 +139,7 @@
 </g>
 <!-- ContiguousArray -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v1.2/type/ContiguousArray/" target="_top">
+<g id="a_node4"><a xlink:href="/v1.2/type/ContiguousArray/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="253.534,-22 154.466,-22 154.466,-0 253.534,-0 253.534,-22"/>
 <text text-anchor="middle" x="204" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ContiguousArray</text>
 </a>
@@ -147,7 +147,7 @@
 </g>
 <!-- MutableSliceable -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v1.2/protocol/MutableSliceable/" target="_top">
+<g id="a_node6"><a xlink:href="/v1.2/protocol/MutableSliceable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M273.208,-138C273.208,-138 186.792,-138 186.792,-138 183.126,-138 179.459,-134.333 179.459,-130.667 179.459,-130.667 179.459,-123.333 179.459,-123.333 179.459,-119.667 183.126,-116 186.792,-116 186.792,-116 273.208,-116 273.208,-116 276.874,-116 280.541,-119.667 280.541,-123.333 280.541,-123.333 280.541,-130.667 280.541,-130.667 280.541,-134.333 276.874,-138 273.208,-138"/>
 <text text-anchor="middle" x="230" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">MutableSliceable</text>
 </a>
@@ -160,7 +160,7 @@
 </g>
 <!-- UnsafeMutableBufferPointer -->
 <g id="node8" class="node">
-<g id="a_node8"><a xlink:href="/v1.2/type/UnsafeMutableBufferPointer/" target="_top">
+<g id="a_node8"><a xlink:href="/v1.2/type/UnsafeMutableBufferPointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="431.905,-22 272.095,-22 272.095,-0 431.905,-0 431.905,-22"/>
 <text text-anchor="middle" x="352" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafeMutableBufferPointer</text>
 </a>
@@ -173,7 +173,7 @@
 </g>
 <!-- _ArrayBufferType -->
 <g id="node9" class="node">
-<g id="a_node9"><a xlink:href="/v1.2/protocol/_ArrayBufferType/" target="_top">
+<g id="a_node9"><a xlink:href="/v1.2/protocol/_ArrayBufferType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M476.044,-138C476.044,-138 387.956,-138 387.956,-138 384.29,-138 380.623,-134.333 380.623,-130.667 380.623,-130.667 380.623,-123.333 380.623,-123.333 380.623,-119.667 384.29,-116 387.956,-116 387.956,-116 476.044,-116 476.044,-116 479.71,-116 483.377,-119.667 483.377,-123.333 483.377,-123.333 483.377,-130.667 483.377,-130.667 483.377,-134.333 479.71,-138 476.044,-138"/>
 <text text-anchor="middle" x="432" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ArrayBufferType</text>
 </a>
@@ -186,7 +186,7 @@
 </g>
 <!-- _ArrayType -->
 <g id="node10" class="node">
-<g id="a_node10"><a xlink:href="/v1.2/protocol/_ArrayType/" target="_top">
+<g id="a_node10"><a xlink:href="/v1.2/protocol/_ArrayType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M174.19,-80C174.19,-80 117.81,-80 117.81,-80 114.144,-80 110.477,-76.3333 110.477,-72.6667 110.477,-72.6667 110.477,-65.3333 110.477,-65.3333 110.477,-61.6667 114.144,-58 117.81,-58 117.81,-58 174.19,-58 174.19,-58 177.856,-58 181.523,-61.6667 181.523,-65.3333 181.523,-65.3333 181.523,-72.6667 181.523,-72.6667 181.523,-76.3333 177.856,-80 174.19,-80"/>
 <text text-anchor="middle" x="146" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ArrayType</text>
 </a>
@@ -199,7 +199,7 @@
 </g>
 <!-- SequenceType -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v1.2/protocol/SequenceType/" target="_top">
+<g id="a_node7"><a xlink:href="/v1.2/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M445.718,-312C445.718,-312 370.282,-312 370.282,-312 366.615,-312 362.949,-308.333 362.949,-304.667 362.949,-304.667 362.949,-297.333 362.949,-297.333 362.949,-293.667 366.615,-290 370.282,-290 370.282,-290 445.718,-290 445.718,-290 449.385,-290 453.051,-293.667 453.051,-297.333 453.051,-297.333 453.051,-304.667 453.051,-304.667 453.051,-308.333 449.385,-312 445.718,-312"/>
 <text text-anchor="middle" x="408" y="-297.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>
@@ -227,7 +227,7 @@
 </g>
 <!-- _CollectionType -->
 <g id="node11" class="node">
-<g id="a_node11"><a xlink:href="/v1.2/protocol/_CollectionType/" target="_top">
+<g id="a_node11"><a xlink:href="/v1.2/protocol/_CollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M337.208,-312C337.208,-312 256.792,-312 256.792,-312 253.126,-312 249.459,-308.333 249.459,-304.667 249.459,-304.667 249.459,-297.333 249.459,-297.333 249.459,-293.667 253.126,-290 256.792,-290 256.792,-290 337.208,-290 337.208,-290 340.874,-290 344.541,-293.667 344.541,-297.333 344.541,-297.333 344.541,-304.667 344.541,-304.667 344.541,-308.333 340.874,-312 337.208,-312"/>
 <text text-anchor="middle" x="297" y="-297.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_CollectionType</text>
 </a>
@@ -240,7 +240,7 @@
 </g>
 <!-- _SequenceType -->
 <g id="node12" class="node">
-<g id="a_node12"><a xlink:href="/v1.2/protocol/_SequenceType/" target="_top">
+<g id="a_node12"><a xlink:href="/v1.2/protocol/_SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M396.724,-428C396.724,-428 315.276,-428 315.276,-428 311.609,-428 307.943,-424.333 307.943,-420.667 307.943,-420.667 307.943,-413.333 307.943,-413.333 307.943,-409.667 311.609,-406 315.276,-406 315.276,-406 396.724,-406 396.724,-406 400.391,-406 404.057,-409.667 404.057,-413.333 404.057,-413.333 404.057,-420.667 404.057,-420.667 404.057,-424.333 400.391,-428 396.724,-428"/>
 <text text-anchor="middle" x="356" y="-413.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_SequenceType</text>
 </a>
@@ -253,7 +253,7 @@
 </g>
 <!-- _Sequence_Type -->
 <g id="node13" class="node">
-<g id="a_node13"><a xlink:href="/v1.2/protocol/_Sequence_Type/" target="_top">
+<g id="a_node13"><a xlink:href="/v1.2/protocol/_Sequence_Type/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M444.228,-370C444.228,-370 355.772,-370 355.772,-370 352.105,-370 348.439,-366.333 348.439,-362.667 348.439,-362.667 348.439,-355.333 348.439,-355.333 348.439,-351.667 352.105,-348 355.772,-348 355.772,-348 444.228,-348 444.228,-348 447.895,-348 451.561,-351.667 451.561,-355.333 451.561,-355.333 451.561,-362.667 451.561,-362.667 451.561,-366.333 447.895,-370 444.228,-370"/>
 <text text-anchor="middle" x="400" y="-355.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Sequence_Type</text>
 </a>

@@ -102,7 +102,7 @@
 
 <!-- CVarArgType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/protocol/CVarArgType/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/protocol/CVarArgType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M109.029,-138C109.029,-138 42.9709,-138 42.9709,-138 39.3043,-138 35.6376,-134.333 35.6376,-130.667 35.6376,-130.667 35.6376,-123.333 35.6376,-123.333 35.6376,-119.667 39.3043,-116 42.9709,-116 42.9709,-116 109.029,-116 109.029,-116 112.696,-116 116.362,-119.667 116.362,-123.333 116.362,-123.333 116.362,-130.667 116.362,-130.667 116.362,-134.333 112.696,-138 109.029,-138"/>
 <text text-anchor="middle" x="76" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CVarArgType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Double -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/type/Double/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/type/Double/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="67,-22 13,-22 13,-0 67,-0 67,-22"/>
 <text text-anchor="middle" x="40" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Double</text>
 </a>
@@ -131,7 +131,7 @@
 </g>
 <!-- Float -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/type/Float/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/type/Float/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="139,-22 85,-22 85,-0 139,-0 139,-22"/>
 <text text-anchor="middle" x="112" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Float</text>
 </a>

@@ -102,7 +102,7 @@
 
 <!-- Array -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/type/Array/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/type/Array/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="54,-22 0,-22 0,-0 54,-0 54,-22"/>
 <text text-anchor="middle" x="27" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Array</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- ArraySlice -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/type/ArraySlice/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/type/ArraySlice/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="136.011,-22 71.9886,-22 71.9886,-0 136.011,-0 136.011,-22"/>
 <text text-anchor="middle" x="104" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ArraySlice</text>
 </a>
@@ -118,7 +118,7 @@
 </g>
 <!-- ContiguousArray -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/type/ContiguousArray/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/type/ContiguousArray/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="253.534,-22 154.466,-22 154.466,-0 253.534,-0 253.534,-22"/>
 <text text-anchor="middle" x="204" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ContiguousArray</text>
 </a>
@@ -126,7 +126,7 @@
 </g>
 <!-- _ArrayType -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v1.2/protocol/_ArrayType/" target="_top">
+<g id="a_node4"><a xlink:href="/v1.2/protocol/_ArrayType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M132.19,-80C132.19,-80 75.8102,-80 75.8102,-80 72.1436,-80 68.4769,-76.3333 68.4769,-72.6667 68.4769,-72.6667 68.4769,-65.3333 68.4769,-65.3333 68.4769,-61.6667 72.1436,-58 75.8102,-58 75.8102,-58 132.19,-58 132.19,-58 135.856,-58 139.523,-61.6667 139.523,-65.3333 139.523,-65.3333 139.523,-72.6667 139.523,-72.6667 139.523,-76.3333 135.856,-80 132.19,-80"/>
 <text text-anchor="middle" x="104" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ArrayType</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- _CollectionType -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v1.2/protocol/_CollectionType/" target="_top">
+<g id="a_node5"><a xlink:href="/v1.2/protocol/_CollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M144.208,-196C144.208,-196 63.7925,-196 63.7925,-196 60.1258,-196 56.4591,-192.333 56.4591,-188.667 56.4591,-188.667 56.4591,-181.333 56.4591,-181.333 56.4591,-177.667 60.1258,-174 63.7925,-174 63.7925,-174 144.208,-174 144.208,-174 147.874,-174 151.541,-177.667 151.541,-181.333 151.541,-181.333 151.541,-188.667 151.541,-188.667 151.541,-192.333 147.874,-196 144.208,-196"/>
 <text text-anchor="middle" x="104" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_CollectionType</text>
 </a>
@@ -170,7 +170,7 @@
 </g>
 <!-- _SequenceType -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v1.2/protocol/_SequenceType/" target="_top">
+<g id="a_node6"><a xlink:href="/v1.2/protocol/_SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M144.724,-254C144.724,-254 63.2759,-254 63.2759,-254 59.6092,-254 55.9425,-250.333 55.9425,-246.667 55.9425,-246.667 55.9425,-239.333 55.9425,-239.333 55.9425,-235.667 59.6092,-232 63.2759,-232 63.2759,-232 144.724,-232 144.724,-232 148.391,-232 152.057,-235.667 152.057,-239.333 152.057,-239.333 152.057,-246.667 152.057,-246.667 152.057,-250.333 148.391,-254 144.724,-254"/>
 <text text-anchor="middle" x="104" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_SequenceType</text>
 </a>

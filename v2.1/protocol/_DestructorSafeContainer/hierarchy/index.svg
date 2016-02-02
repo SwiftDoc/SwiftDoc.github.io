@@ -102,7 +102,7 @@
 
 <!-- Array -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/type/Array/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/type/Array/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="54,-22 0,-22 0,-0 54,-0 54,-22"/>
 <text text-anchor="middle" x="27" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Array</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- ArraySlice -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/type/ArraySlice/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/type/ArraySlice/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="136.011,-22 71.9886,-22 71.9886,-0 136.011,-0 136.011,-22"/>
 <text text-anchor="middle" x="104" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ArraySlice</text>
 </a>
@@ -118,7 +118,7 @@
 </g>
 <!-- ContiguousArray -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/ContiguousArray/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/ContiguousArray/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="253.534,-22 154.466,-22 154.466,-0 253.534,-0 253.534,-22"/>
 <text text-anchor="middle" x="204" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ContiguousArray</text>
 </a>

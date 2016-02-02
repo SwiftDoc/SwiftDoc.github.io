@@ -110,7 +110,7 @@
 </g>
 <!-- SinkType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/protocol/SinkType/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/protocol/SinkType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M55.1896,-80C55.1896,-80 10.8104,-80 10.8104,-80 7.14372,-80 3.47706,-76.3333 3.47706,-72.6667 3.47706,-72.6667 3.47706,-65.3333 3.47706,-65.3333 3.47706,-61.6667 7.14372,-58 10.8104,-58 10.8104,-58 55.1896,-58 55.1896,-58 58.8563,-58 62.5229,-61.6667 62.5229,-65.3333 62.5229,-65.3333 62.5229,-72.6667 62.5229,-72.6667 62.5229,-76.3333 58.8563,-80 55.1896,-80"/>
 <text text-anchor="middle" x="33" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SinkType</text>
 </a>

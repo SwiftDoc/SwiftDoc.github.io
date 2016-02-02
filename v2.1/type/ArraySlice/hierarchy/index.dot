@@ -2,20 +2,20 @@ strict digraph "ArraySlice<Element> - Type Hierarchy - SwiftDoc.org" {
     pad="0.1,0.8"
     node [shape=box, style="filled,rounded", color="#999999", fillcolor="#999999", fontcolor=white, fontname=Helvetica, fontnames="Helvetica,sansserif", fontsize=12, margin="0.07,0.05", height="0.3"]
     edge [color="#cccccc"]
-    "ArrayLiteralConvertible" [URL="/protocol/ArrayLiteralConvertible/"]
+    "ArrayLiteralConvertible" [URL="/protocol/ArrayLiteralConvertible/hierarchy/"]
     "ArraySlice<Element>" [URL="/type/ArraySlice/", style="filled", fillcolor="#ee543d", color="#ee543d"]
-    "CollectionType" [URL="/protocol/CollectionType/"]
-    "CustomDebugStringConvertible" [URL="/protocol/CustomDebugStringConvertible/"]
-    "CustomStringConvertible" [URL="/protocol/CustomStringConvertible/"]
-    "Indexable" [URL="/protocol/Indexable/"]
-    "MutableCollectionType" [URL="/protocol/MutableCollectionType/"]
-    "MutableIndexable" [URL="/protocol/MutableIndexable/"]
-    "MutableSliceable" [URL="/protocol/MutableSliceable/"]
-    "RangeReplaceableCollectionType" [URL="/protocol/RangeReplaceableCollectionType/"]
-    "SequenceType" [URL="/protocol/SequenceType/"]
-    "_ArrayType" [URL="/protocol/_ArrayType/"]
-    "_DestructorSafeContainer" [URL="/protocol/_DestructorSafeContainer/"]
-    "_Reflectable" [URL="/protocol/_Reflectable/"]    "_DestructorSafeContainer" -> "ArraySlice<Element>"
+    "CollectionType" [URL="/protocol/CollectionType/hierarchy/"]
+    "CustomDebugStringConvertible" [URL="/protocol/CustomDebugStringConvertible/hierarchy/"]
+    "CustomStringConvertible" [URL="/protocol/CustomStringConvertible/hierarchy/"]
+    "Indexable" [URL="/protocol/Indexable/hierarchy/"]
+    "MutableCollectionType" [URL="/protocol/MutableCollectionType/hierarchy/"]
+    "MutableIndexable" [URL="/protocol/MutableIndexable/hierarchy/"]
+    "MutableSliceable" [URL="/protocol/MutableSliceable/hierarchy/"]
+    "RangeReplaceableCollectionType" [URL="/protocol/RangeReplaceableCollectionType/hierarchy/"]
+    "SequenceType" [URL="/protocol/SequenceType/hierarchy/"]
+    "_ArrayType" [URL="/protocol/_ArrayType/hierarchy/"]
+    "_DestructorSafeContainer" [URL="/protocol/_DestructorSafeContainer/hierarchy/"]
+    "_Reflectable" [URL="/protocol/_Reflectable/hierarchy/"]    "_DestructorSafeContainer" -> "ArraySlice<Element>"
     "_ArrayType" -> "ArraySlice<Element>"
     "_Reflectable" -> "ArraySlice<Element>"
     "CustomStringConvertible" -> "ArraySlice<Element>"

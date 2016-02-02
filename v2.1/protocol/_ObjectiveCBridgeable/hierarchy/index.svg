@@ -102,7 +102,7 @@
 
 <!-- Dictionary -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/type/Dictionary/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/type/Dictionary/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="62.5113,-22 -0.511305,-22 -0.511305,-0 62.5113,-0 62.5113,-22"/>
 <text text-anchor="middle" x="31" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Dictionary</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- Double -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/type/Double/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/type/Double/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="135,-22 81,-22 81,-0 135,-0 135,-22"/>
 <text text-anchor="middle" x="108" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Double</text>
 </a>
@@ -118,7 +118,7 @@
 </g>
 <!-- Float -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/Float/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/Float/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="207,-22 153,-22 153,-0 207,-0 207,-22"/>
 <text text-anchor="middle" x="180" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Float</text>
 </a>
@@ -126,7 +126,7 @@
 </g>
 <!-- ImplicitlyUnwrappedOptional -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/type/ImplicitlyUnwrappedOptional/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/type/ImplicitlyUnwrappedOptional/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="387.051,-22 224.949,-22 224.949,-0 387.051,-0 387.051,-22"/>
 <text text-anchor="middle" x="306" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ImplicitlyUnwrappedOptional</text>
 </a>
@@ -134,7 +134,7 @@
 </g>
 <!-- Set -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/type/Set/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/type/Set/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="459,-22 405,-22 405,-0 459,-0 459,-22"/>
 <text text-anchor="middle" x="432" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Set</text>
 </a>
@@ -142,7 +142,7 @@
 </g>
 <!-- String -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/type/String/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/type/String/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="531,-22 477,-22 477,-0 531,-0 531,-22"/>
 <text text-anchor="middle" x="504" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String</text>
 </a>

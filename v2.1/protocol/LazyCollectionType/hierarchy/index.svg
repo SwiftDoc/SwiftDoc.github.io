@@ -102,7 +102,7 @@
 
 <!-- CollectionType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/CollectionType/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/CollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M139.704,-138C139.704,-138 66.2962,-138 66.2962,-138 62.6295,-138 58.9628,-134.333 58.9628,-130.667 58.9628,-130.667 58.9628,-123.333 58.9628,-123.333 58.9628,-119.667 62.6295,-116 66.2962,-116 66.2962,-116 139.704,-116 139.704,-116 143.37,-116 147.037,-119.667 147.037,-123.333 147.037,-123.333 147.037,-130.667 147.037,-130.667 147.037,-134.333 143.37,-138 139.704,-138"/>
 <text text-anchor="middle" x="103" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Indexable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/Indexable/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/Indexable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M126.699,-196C126.699,-196 79.3011,-196 79.3011,-196 75.6344,-196 71.9678,-192.333 71.9678,-188.667 71.9678,-188.667 71.9678,-181.333 71.9678,-181.333 71.9678,-177.667 75.6344,-174 79.3011,-174 79.3011,-174 126.699,-174 126.699,-174 130.366,-174 134.032,-177.667 134.032,-181.333 134.032,-181.333 134.032,-188.667 134.032,-188.667 134.032,-192.333 130.366,-196 126.699,-196"/>
 <text text-anchor="middle" x="103" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Indexable</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- LazyCollection -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/LazyCollection/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/LazyCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="88.0308,-22 -0.0307665,-22 -0.0307665,-0 88.0308,-0 88.0308,-22"/>
 <text text-anchor="middle" x="44" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyCollection</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- LazyFilterCollection -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/type/LazyFilterCollection/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/type/LazyFilterCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="220.031,-22 105.969,-22 105.969,-0 220.031,-0 220.031,-22"/>
 <text text-anchor="middle" x="163" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyFilterCollection</text>
 </a>
@@ -162,7 +162,7 @@
 </g>
 <!-- LazyMapCollection -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/type/LazyMapCollection/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/type/LazyMapCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="349.538,-22 238.462,-22 238.462,-0 349.538,-0 349.538,-22"/>
 <text text-anchor="middle" x="294" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyMapCollection</text>
 </a>
@@ -175,7 +175,7 @@
 </g>
 <!-- LazySequenceType -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.1/protocol/LazySequenceType/" target="_top">
+<g id="a_node7"><a xlink:href="/v2.1/protocol/LazySequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M273.228,-138C273.228,-138 172.772,-138 172.772,-138 169.105,-138 165.439,-134.333 165.439,-130.667 165.439,-130.667 165.439,-123.333 165.439,-123.333 165.439,-119.667 169.105,-116 172.772,-116 172.772,-116 273.228,-116 273.228,-116 276.895,-116 280.561,-119.667 280.561,-123.333 280.561,-123.333 280.561,-130.667 280.561,-130.667 280.561,-134.333 276.895,-138 273.228,-138"/>
 <text text-anchor="middle" x="223" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazySequenceType</text>
 </a>
@@ -188,7 +188,7 @@
 </g>
 <!-- SequenceType -->
 <g id="node8" class="node">
-<g id="a_node8"><a xlink:href="/v2.1/protocol/SequenceType/" target="_top">
+<g id="a_node8"><a xlink:href="/v2.1/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M247.718,-196C247.718,-196 172.282,-196 172.282,-196 168.615,-196 164.949,-192.333 164.949,-188.667 164.949,-188.667 164.949,-181.333 164.949,-181.333 164.949,-177.667 168.615,-174 172.282,-174 172.282,-174 247.718,-174 247.718,-174 251.385,-174 255.051,-177.667 255.051,-181.333 255.051,-181.333 255.051,-188.667 255.051,-188.667 255.051,-192.333 251.385,-196 247.718,-196"/>
 <text text-anchor="middle" x="210" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>

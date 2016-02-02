@@ -102,7 +102,7 @@
 
 <!-- Equatable -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/Equatable/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/Equatable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M90.7018,-196C90.7018,-196 41.2982,-196 41.2982,-196 37.6315,-196 33.9648,-192.333 33.9648,-188.667 33.9648,-188.667 33.9648,-181.333 33.9648,-181.333 33.9648,-177.667 37.6315,-174 41.2982,-174 41.2982,-174 90.7018,-174 90.7018,-174 94.3685,-174 98.0352,-177.667 98.0352,-181.333 98.0352,-181.333 98.0352,-188.667 98.0352,-188.667 98.0352,-192.333 94.3685,-196 90.7018,-196"/>
 <text text-anchor="middle" x="66" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- _Incrementable -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/protocol/_Incrementable/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/protocol/_Incrementable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M104.705,-138C104.705,-138 27.2948,-138 27.2948,-138 23.6281,-138 19.9614,-134.333 19.9614,-130.667 19.9614,-130.667 19.9614,-123.333 19.9614,-123.333 19.9614,-119.667 23.6281,-116 27.2948,-116 27.2948,-116 104.705,-116 104.705,-116 108.372,-116 112.039,-119.667 112.039,-123.333 112.039,-123.333 112.039,-130.667 112.039,-130.667 112.039,-134.333 108.372,-138 104.705,-138"/>
 <text text-anchor="middle" x="66" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Incrementable</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- ForwardIndexType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/ForwardIndexType/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/ForwardIndexType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M113.206,-80C113.206,-80 18.7938,-80 18.7938,-80 15.1272,-80 11.4605,-76.3333 11.4605,-72.6667 11.4605,-72.6667 11.4605,-65.3333 11.4605,-65.3333 11.4605,-61.6667 15.1272,-58 18.7938,-58 18.7938,-58 113.206,-58 113.206,-58 116.873,-58 120.539,-61.6667 120.539,-65.3333 120.539,-65.3333 120.539,-72.6667 120.539,-72.6667 120.539,-76.3333 116.873,-80 113.206,-80"/>
 <text text-anchor="middle" x="66" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ForwardIndexType</text>
 </a>

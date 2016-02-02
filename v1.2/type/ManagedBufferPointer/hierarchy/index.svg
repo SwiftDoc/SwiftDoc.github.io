@@ -102,7 +102,7 @@
 
 <!-- Equatable -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/protocol/Equatable/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/protocol/Equatable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M136.702,-80C136.702,-80 87.2982,-80 87.2982,-80 83.6315,-80 79.9648,-76.3333 79.9648,-72.6667 79.9648,-72.6667 79.9648,-65.3333 79.9648,-65.3333 79.9648,-61.6667 83.6315,-58 87.2982,-58 87.2982,-58 136.702,-58 136.702,-58 140.368,-58 144.035,-61.6667 144.035,-65.3333 144.035,-65.3333 144.035,-72.6667 144.035,-72.6667 144.035,-76.3333 140.368,-80 136.702,-80"/>
 <text text-anchor="middle" x="112" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>

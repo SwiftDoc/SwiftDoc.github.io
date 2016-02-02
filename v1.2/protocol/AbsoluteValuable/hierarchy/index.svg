@@ -110,7 +110,7 @@
 </g>
 <!-- Double -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/type/Double/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/type/Double/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="95,-22 41,-22 41,-0 95,-0 95,-22"/>
 <text text-anchor="middle" x="68" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Double</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Float -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v1.2/type/Float/" target="_top">
+<g id="a_node5"><a xlink:href="/v1.2/type/Float/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="167,-22 113,-22 113,-0 167,-0 167,-22"/>
 <text text-anchor="middle" x="140" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Float</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- Float80 -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v1.2/type/Float80/" target="_top">
+<g id="a_node6"><a xlink:href="/v1.2/type/Float80/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="239,-22 185,-22 185,-0 239,-0 239,-22"/>
 <text text-anchor="middle" x="212" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Float80</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- Comparable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/protocol/Comparable/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/protocol/Comparable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M107.191,-254C107.191,-254 46.8087,-254 46.8087,-254 43.1421,-254 39.4754,-250.333 39.4754,-246.667 39.4754,-246.667 39.4754,-239.333 39.4754,-239.333 39.4754,-235.667 43.1421,-232 46.8087,-232 46.8087,-232 107.191,-232 107.191,-232 110.858,-232 114.525,-235.667 114.525,-239.333 114.525,-239.333 114.525,-246.667 114.525,-246.667 114.525,-250.333 110.858,-254 107.191,-254"/>
 <text text-anchor="middle" x="77" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Comparable</text>
 </a>
@@ -157,7 +157,7 @@
 </g>
 <!-- _SignedNumberType -->
 <g id="node10" class="node">
-<g id="a_node10"><a xlink:href="/v1.2/protocol/_SignedNumberType/" target="_top">
+<g id="a_node10"><a xlink:href="/v1.2/protocol/_SignedNumberType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M193.723,-196C193.723,-196 86.2775,-196 86.2775,-196 82.6108,-196 78.9442,-192.333 78.9442,-188.667 78.9442,-188.667 78.9442,-181.333 78.9442,-181.333 78.9442,-177.667 82.6108,-174 86.2775,-174 86.2775,-174 193.723,-174 193.723,-174 197.389,-174 201.056,-177.667 201.056,-181.333 201.056,-181.333 201.056,-188.667 201.056,-188.667 201.056,-192.333 197.389,-196 193.723,-196"/>
 <text text-anchor="middle" x="140" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_SignedNumberType</text>
 </a>
@@ -170,7 +170,7 @@
 </g>
 <!-- Equatable -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v1.2/protocol/Equatable/" target="_top">
+<g id="a_node4"><a xlink:href="/v1.2/protocol/Equatable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M56.7018,-312C56.7018,-312 7.29817,-312 7.29817,-312 3.6315,-312 -0.0351648,-308.333 -0.0351648,-304.667 -0.0351648,-304.667 -0.0351648,-297.333 -0.0351648,-297.333 -0.0351648,-293.667 3.6315,-290 7.29817,-290 7.29817,-290 56.7018,-290 56.7018,-290 60.3685,-290 64.0352,-293.667 64.0352,-297.333 64.0352,-297.333 64.0352,-304.667 64.0352,-304.667 64.0352,-308.333 60.3685,-312 56.7018,-312"/>
 <text text-anchor="middle" x="32" y="-297.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>
@@ -183,7 +183,7 @@
 </g>
 <!-- IntegerLiteralConvertible -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v1.2/protocol/IntegerLiteralConvertible/" target="_top">
+<g id="a_node7"><a xlink:href="/v1.2/protocol/IntegerLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M265.722,-254C265.722,-254 140.278,-254 140.278,-254 136.611,-254 132.944,-250.333 132.944,-246.667 132.944,-246.667 132.944,-239.333 132.944,-239.333 132.944,-235.667 136.611,-232 140.278,-232 140.278,-232 265.722,-232 265.722,-232 269.389,-232 273.056,-235.667 273.056,-239.333 273.056,-239.333 273.056,-246.667 273.056,-246.667 273.056,-250.333 269.389,-254 265.722,-254"/>
 <text text-anchor="middle" x="203" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">IntegerLiteralConvertible</text>
 </a>
@@ -196,7 +196,7 @@
 </g>
 <!-- SignedNumberType -->
 <g id="node8" class="node">
-<g id="a_node8"><a xlink:href="/v1.2/protocol/SignedNumberType/" target="_top">
+<g id="a_node8"><a xlink:href="/v1.2/protocol/SignedNumberType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M190.716,-138C190.716,-138 89.2835,-138 89.2835,-138 85.6169,-138 81.9502,-134.333 81.9502,-130.667 81.9502,-130.667 81.9502,-123.333 81.9502,-123.333 81.9502,-119.667 85.6169,-116 89.2835,-116 89.2835,-116 190.716,-116 190.716,-116 194.383,-116 198.05,-119.667 198.05,-123.333 198.05,-123.333 198.05,-130.667 198.05,-130.667 198.05,-134.333 194.383,-138 190.716,-138"/>
 <text text-anchor="middle" x="140" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SignedNumberType</text>
 </a>
@@ -209,7 +209,7 @@
 </g>
 <!-- _Comparable -->
 <g id="node9" class="node">
-<g id="a_node9"><a xlink:href="/v1.2/protocol/_Comparable/" target="_top">
+<g id="a_node9"><a xlink:href="/v1.2/protocol/_Comparable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M156.697,-312C156.697,-312 89.3026,-312 89.3026,-312 85.6359,-312 81.9692,-308.333 81.9692,-304.667 81.9692,-304.667 81.9692,-297.333 81.9692,-297.333 81.9692,-293.667 85.6359,-290 89.3026,-290 89.3026,-290 156.697,-290 156.697,-290 160.364,-290 164.031,-293.667 164.031,-297.333 164.031,-297.333 164.031,-304.667 164.031,-304.667 164.031,-308.333 160.364,-312 156.697,-312"/>
 <text text-anchor="middle" x="123" y="-297.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Comparable</text>
 </a>

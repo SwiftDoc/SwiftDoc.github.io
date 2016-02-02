@@ -102,7 +102,7 @@
 
 <!-- BidirectionalIndexType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/BidirectionalIndexType/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/BidirectionalIndexType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M171.725,-138C171.725,-138 56.2746,-138 56.2746,-138 52.6079,-138 48.9413,-134.333 48.9413,-130.667 48.9413,-130.667 48.9413,-123.333 48.9413,-123.333 48.9413,-119.667 52.6079,-116 56.2746,-116 56.2746,-116 171.725,-116 171.725,-116 175.392,-116 179.059,-119.667 179.059,-123.333 179.059,-123.333 179.059,-130.667 179.059,-130.667 179.059,-134.333 175.392,-138 171.725,-138"/>
 <text text-anchor="middle" x="114" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">BidirectionalIndexType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Equatable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/Equatable/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/Equatable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M138.702,-312C138.702,-312 89.2982,-312 89.2982,-312 85.6315,-312 81.9648,-308.333 81.9648,-304.667 81.9648,-304.667 81.9648,-297.333 81.9648,-297.333 81.9648,-293.667 85.6315,-290 89.2982,-290 89.2982,-290 138.702,-290 138.702,-290 142.368,-290 146.035,-293.667 146.035,-297.333 146.035,-297.333 146.035,-304.667 146.035,-304.667 146.035,-308.333 142.368,-312 138.702,-312"/>
 <text text-anchor="middle" x="114" y="-297.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>
@@ -131,7 +131,7 @@
 </g>
 <!-- _Incrementable -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.1/protocol/_Incrementable/" target="_top">
+<g id="a_node7"><a xlink:href="/v2.1/protocol/_Incrementable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M152.705,-254C152.705,-254 75.2948,-254 75.2948,-254 71.6281,-254 67.9614,-250.333 67.9614,-246.667 67.9614,-246.667 67.9614,-239.333 67.9614,-239.333 67.9614,-235.667 71.6281,-232 75.2948,-232 75.2948,-232 152.705,-232 152.705,-232 156.372,-232 160.039,-235.667 160.039,-239.333 160.039,-239.333 160.039,-246.667 160.039,-246.667 160.039,-250.333 156.372,-254 152.705,-254"/>
 <text text-anchor="middle" x="114" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Incrementable</text>
 </a>
@@ -144,7 +144,7 @@
 </g>
 <!-- ForwardIndexType -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/protocol/ForwardIndexType/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/protocol/ForwardIndexType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M161.206,-196C161.206,-196 66.7938,-196 66.7938,-196 63.1272,-196 59.4605,-192.333 59.4605,-188.667 59.4605,-188.667 59.4605,-181.333 59.4605,-181.333 59.4605,-177.667 63.1272,-174 66.7938,-174 66.7938,-174 161.206,-174 161.206,-174 164.873,-174 168.539,-177.667 168.539,-181.333 168.539,-181.333 168.539,-188.667 168.539,-188.667 168.539,-192.333 164.873,-196 161.206,-196"/>
 <text text-anchor="middle" x="114" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ForwardIndexType</text>
 </a>
@@ -157,7 +157,7 @@
 </g>
 <!-- ReverseIndex -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/type/ReverseIndex/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/type/ReverseIndex/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="84.0293,-22 -0.0293014,-22 -0.0293014,-0 84.0293,-0 84.0293,-22"/>
 <text text-anchor="middle" x="42" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ReverseIndex</text>
 </a>
@@ -170,7 +170,7 @@
 </g>
 <!-- ReverseRandomAccessIndex -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/type/ReverseRandomAccessIndex/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/type/ReverseRandomAccessIndex/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="270.056,-22 101.944,-22 101.944,-0 270.056,-0 270.056,-22"/>
 <text text-anchor="middle" x="186" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ReverseRandomAccessIndex</text>
 </a>

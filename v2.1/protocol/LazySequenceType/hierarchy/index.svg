@@ -102,7 +102,7 @@
 
 <!-- LazyCollection -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/type/LazyCollection/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/type/LazyCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="88.0308,-22 -0.0307665,-22 -0.0307665,-0 88.0308,-0 88.0308,-22"/>
 <text text-anchor="middle" x="44" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyCollection</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- LazyCollectionType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/LazyCollectionType/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/LazyCollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M278.714,-80C278.714,-80 179.286,-80 179.286,-80 175.62,-80 171.953,-76.3333 171.953,-72.6667 171.953,-72.6667 171.953,-65.3333 171.953,-65.3333 171.953,-61.6667 175.62,-58 179.286,-58 179.286,-58 278.714,-58 278.714,-58 282.38,-58 286.047,-61.6667 286.047,-65.3333 286.047,-65.3333 286.047,-72.6667 286.047,-72.6667 286.047,-76.3333 282.38,-80 278.714,-80"/>
 <text text-anchor="middle" x="229" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyCollectionType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- LazyFilterCollection -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/LazyFilterCollection/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/LazyFilterCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="220.031,-22 105.969,-22 105.969,-0 220.031,-0 220.031,-22"/>
 <text text-anchor="middle" x="163" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyFilterCollection</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- LazyMapCollection -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/type/LazyMapCollection/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/type/LazyMapCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="349.538,-22 238.462,-22 238.462,-0 349.538,-0 349.538,-22"/>
 <text text-anchor="middle" x="294" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyMapCollection</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- LazyFilterSequence -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/type/LazyFilterSequence/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/type/LazyFilterSequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="484.045,-22 367.955,-22 367.955,-0 484.045,-0 484.045,-22"/>
 <text text-anchor="middle" x="426" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyFilterSequence</text>
 </a>
@@ -157,7 +157,7 @@
 </g>
 <!-- LazyMapSequence -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/type/LazyMapSequence/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/type/LazyMapSequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="614.054,-22 501.946,-22 501.946,-0 614.054,-0 614.054,-22"/>
 <text text-anchor="middle" x="558" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyMapSequence</text>
 </a>
@@ -165,7 +165,7 @@
 </g>
 <!-- LazySequence -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.1/type/LazySequence/" target="_top">
+<g id="a_node7"><a xlink:href="/v2.1/type/LazySequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="721.545,-22 632.455,-22 632.455,-0 721.545,-0 721.545,-22"/>
 <text text-anchor="middle" x="677" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazySequence</text>
 </a>
@@ -201,7 +201,7 @@
 </g>
 <!-- SequenceType -->
 <g id="node9" class="node">
-<g id="a_node9"><a xlink:href="/v2.1/protocol/SequenceType/" target="_top">
+<g id="a_node9"><a xlink:href="/v2.1/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M529.718,-196C529.718,-196 454.282,-196 454.282,-196 450.615,-196 446.949,-192.333 446.949,-188.667 446.949,-188.667 446.949,-181.333 446.949,-181.333 446.949,-177.667 450.615,-174 454.282,-174 454.282,-174 529.718,-174 529.718,-174 533.385,-174 537.051,-177.667 537.051,-181.333 537.051,-181.333 537.051,-188.667 537.051,-188.667 537.051,-192.333 533.385,-196 529.718,-196"/>
 <text text-anchor="middle" x="492" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>

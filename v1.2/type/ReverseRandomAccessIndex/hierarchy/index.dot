@@ -2,19 +2,19 @@ strict digraph "ReverseRandomAccessIndex<I : RandomAccessIndexType> - Type Hiera
     pad="0.1,0.8"
     node [shape=box, style="filled,rounded", color="#999999", fillcolor="#999999", fontcolor=white, fontname=Helvetica, fontnames="Helvetica,sansserif", fontsize=12, margin="0.07,0.05", height="0.3"]
     edge [color="#cccccc"]
-    "BidirectionalIndexType" [URL="/protocol/BidirectionalIndexType/"]
-    "Comparable" [URL="/protocol/Comparable/"]
-    "Equatable" [URL="/protocol/Equatable/"]
-    "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
-    "RandomAccessIndexType" [URL="/protocol/RandomAccessIndexType/"]
+    "BidirectionalIndexType" [URL="/protocol/BidirectionalIndexType/hierarchy/"]
+    "Comparable" [URL="/protocol/Comparable/hierarchy/"]
+    "Equatable" [URL="/protocol/Equatable/hierarchy/"]
+    "ForwardIndexType" [URL="/protocol/ForwardIndexType/hierarchy/"]
+    "RandomAccessIndexType" [URL="/protocol/RandomAccessIndexType/hierarchy/"]
     "ReverseRandomAccessIndex<I : RandomAccessIndexType>" [URL="/type/ReverseRandomAccessIndex/", style="filled", fillcolor="#ee543d", color="#ee543d"]
-    "Strideable" [URL="/protocol/Strideable/"]
-    "_BidirectionalIndexType" [URL="/protocol/_BidirectionalIndexType/"]
-    "_Comparable" [URL="/protocol/_Comparable/"]
-    "_ForwardIndexType" [URL="/protocol/_ForwardIndexType/"]
-    "_Incrementable" [URL="/protocol/_Incrementable/"]
-    "_RandomAccessIndexType" [URL="/protocol/_RandomAccessIndexType/"]
-    "_Strideable" [URL="/protocol/_Strideable/"]    "RandomAccessIndexType" -> "ReverseRandomAccessIndex<I : RandomAccessIndexType>"
+    "Strideable" [URL="/protocol/Strideable/hierarchy/"]
+    "_BidirectionalIndexType" [URL="/protocol/_BidirectionalIndexType/hierarchy/"]
+    "_Comparable" [URL="/protocol/_Comparable/hierarchy/"]
+    "_ForwardIndexType" [URL="/protocol/_ForwardIndexType/hierarchy/"]
+    "_Incrementable" [URL="/protocol/_Incrementable/hierarchy/"]
+    "_RandomAccessIndexType" [URL="/protocol/_RandomAccessIndexType/hierarchy/"]
+    "_Strideable" [URL="/protocol/_Strideable/hierarchy/"]    "RandomAccessIndexType" -> "ReverseRandomAccessIndex<I : RandomAccessIndexType>"
     "BidirectionalIndexType" -> "RandomAccessIndexType"
     "_RandomAccessIndexType" -> "RandomAccessIndexType"
     "ForwardIndexType" -> "BidirectionalIndexType"

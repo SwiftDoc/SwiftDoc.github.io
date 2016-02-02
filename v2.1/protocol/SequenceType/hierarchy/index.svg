@@ -102,7 +102,7 @@
 
 <!-- AnyBidirectionalCollection -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/type/AnyBidirectionalCollection/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/type/AnyBidirectionalCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2870.05,-22 2721.95,-22 2721.95,-0 2870.05,-0 2870.05,-22"/>
 <text text-anchor="middle" x="2796" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AnyBidirectionalCollection</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- AnyCollectionType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/AnyCollectionType/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/AnyCollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M2755.21,-80C2755.21,-80 2660.79,-80 2660.79,-80 2657.12,-80 2653.46,-76.3333 2653.46,-72.6667 2653.46,-72.6667 2653.46,-65.3333 2653.46,-65.3333 2653.46,-61.6667 2657.12,-58 2660.79,-58 2660.79,-58 2755.21,-58 2755.21,-58 2758.88,-58 2762.54,-61.6667 2762.54,-65.3333 2762.54,-65.3333 2762.54,-72.6667 2762.54,-72.6667 2762.54,-76.3333 2758.88,-80 2755.21,-80"/>
 <text text-anchor="middle" x="2708" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AnyCollectionType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- AnyForwardCollection -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/AnyForwardCollection/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/AnyForwardCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="3015.54,-22 2888.46,-22 2888.46,-0 3015.54,-0 3015.54,-22"/>
 <text text-anchor="middle" x="2952" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AnyForwardCollection</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- AnyRandomAccessCollection -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/type/AnyRandomAccessCollection/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/type/AnyRandomAccessCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2703.55,-22 2536.45,-22 2536.45,-0 2703.55,-0 2703.55,-22"/>
 <text text-anchor="middle" x="2620" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AnyRandomAccessCollection</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- AnyGenerator -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/type/AnyGenerator/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/type/AnyGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="84.0314,-22 -0.0313876,-22 -0.0313876,-0 84.0314,-0 84.0314,-22"/>
 <text text-anchor="middle" x="42" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AnyGenerator</text>
 </a>
@@ -157,7 +157,7 @@
 </g>
 <!-- AnySequence -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/type/AnySequence/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/type/AnySequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="187.044,-22 102.956,-22 102.956,-0 187.044,-0 187.044,-22"/>
 <text text-anchor="middle" x="145" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AnySequence</text>
 </a>
@@ -165,7 +165,7 @@
 </g>
 <!-- Array -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.1/type/Array/" target="_top">
+<g id="a_node7"><a xlink:href="/v2.1/type/Array/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1036,-22 982,-22 982,-0 1036,-0 1036,-22"/>
 <text text-anchor="middle" x="1009" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Array</text>
 </a>
@@ -173,7 +173,7 @@
 </g>
 <!-- ArraySlice -->
 <g id="node8" class="node">
-<g id="a_node8"><a xlink:href="/v2.1/type/ArraySlice/" target="_top">
+<g id="a_node8"><a xlink:href="/v2.1/type/ArraySlice/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="846.011,-22 781.989,-22 781.989,-0 846.011,-0 846.011,-22"/>
 <text text-anchor="middle" x="814" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ArraySlice</text>
 </a>
@@ -181,7 +181,7 @@
 </g>
 <!-- CollectionOfOne -->
 <g id="node9" class="node">
-<g id="a_node9"><a xlink:href="/v2.1/type/CollectionOfOne/" target="_top">
+<g id="a_node9"><a xlink:href="/v2.1/type/CollectionOfOne/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="3132.03,-22 3033.97,-22 3033.97,-0 3132.03,-0 3132.03,-22"/>
 <text text-anchor="middle" x="3083" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionOfOne</text>
 </a>
@@ -189,7 +189,7 @@
 </g>
 <!-- CollectionType -->
 <g id="node10" class="node">
-<g id="a_node10"><a xlink:href="/v2.1/protocol/CollectionType/" target="_top">
+<g id="a_node10"><a xlink:href="/v2.1/protocol/CollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M1934.7,-254C1934.7,-254 1861.3,-254 1861.3,-254 1857.63,-254 1853.96,-250.333 1853.96,-246.667 1853.96,-246.667 1853.96,-239.333 1853.96,-239.333 1853.96,-235.667 1857.63,-232 1861.3,-232 1861.3,-232 1934.7,-232 1934.7,-232 1938.37,-232 1942.04,-235.667 1942.04,-239.333 1942.04,-239.333 1942.04,-246.667 1942.04,-246.667 1942.04,-250.333 1938.37,-254 1934.7,-254"/>
 <text text-anchor="middle" x="1898" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionType</text>
 </a>
@@ -207,7 +207,7 @@
 </g>
 <!-- Dictionary -->
 <g id="node12" class="node">
-<g id="a_node12"><a xlink:href="/v2.1/type/Dictionary/" target="_top">
+<g id="a_node12"><a xlink:href="/v2.1/type/Dictionary/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="3213.51,-22 3150.49,-22 3150.49,-0 3213.51,-0 3213.51,-22"/>
 <text text-anchor="middle" x="3182" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Dictionary</text>
 </a>
@@ -220,7 +220,7 @@
 </g>
 <!-- DictionaryLiteral -->
 <g id="node13" class="node">
-<g id="a_node13"><a xlink:href="/v2.1/type/DictionaryLiteral/" target="_top">
+<g id="a_node13"><a xlink:href="/v2.1/type/DictionaryLiteral/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="3328.02,-22 3231.98,-22 3231.98,-0 3328.02,-0 3328.02,-22"/>
 <text text-anchor="middle" x="3280" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">DictionaryLiteral</text>
 </a>
@@ -233,7 +233,7 @@
 </g>
 <!-- EmptyCollection -->
 <g id="node14" class="node">
-<g id="a_node14"><a xlink:href="/v2.1/type/EmptyCollection/" target="_top">
+<g id="a_node14"><a xlink:href="/v2.1/type/EmptyCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="3442.03,-22 3345.97,-22 3345.97,-0 3442.03,-0 3442.03,-22"/>
 <text text-anchor="middle" x="3394" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">EmptyCollection</text>
 </a>
@@ -246,7 +246,7 @@
 </g>
 <!-- FlattenBidirectionalCollection -->
 <g id="node18" class="node">
-<g id="a_node18"><a xlink:href="/v2.1/type/FlattenBidirectionalCollection/" target="_top">
+<g id="a_node18"><a xlink:href="/v2.1/type/FlattenBidirectionalCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="370.06,-22 205.94,-22 205.94,-0 370.06,-0 370.06,-22"/>
 <text text-anchor="middle" x="288" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">FlattenBidirectionalCollection</text>
 </a>
@@ -259,7 +259,7 @@
 </g>
 <!-- FlattenCollection -->
 <g id="node19" class="node">
-<g id="a_node19"><a xlink:href="/v2.1/type/FlattenCollection/" target="_top">
+<g id="a_node19"><a xlink:href="/v2.1/type/FlattenCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="487.534,-22 388.466,-22 388.466,-0 487.534,-0 487.534,-22"/>
 <text text-anchor="middle" x="438" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">FlattenCollection</text>
 </a>
@@ -272,7 +272,7 @@
 </g>
 <!-- LazyCollectionType -->
 <g id="node27" class="node">
-<g id="a_node27"><a xlink:href="/v2.1/protocol/LazyCollectionType/" target="_top">
+<g id="a_node27"><a xlink:href="/v2.1/protocol/LazyCollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M4069.71,-80C4069.71,-80 3970.29,-80 3970.29,-80 3966.62,-80 3962.95,-76.3333 3962.95,-72.6667 3962.95,-72.6667 3962.95,-65.3333 3962.95,-65.3333 3962.95,-61.6667 3966.62,-58 3970.29,-58 3970.29,-58 4069.71,-58 4069.71,-58 4073.38,-58 4077.05,-61.6667 4077.05,-65.3333 4077.05,-65.3333 4077.05,-72.6667 4077.05,-72.6667 4077.05,-76.3333 4073.38,-80 4069.71,-80"/>
 <text text-anchor="middle" x="4020" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyCollectionType</text>
 </a>
@@ -285,7 +285,7 @@
 </g>
 <!-- MutableCollectionType -->
 <g id="node36" class="node">
-<g id="a_node36"><a xlink:href="/v2.1/protocol/MutableCollectionType/" target="_top">
+<g id="a_node36"><a xlink:href="/v2.1/protocol/MutableCollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M900.221,-196C900.221,-196 783.779,-196 783.779,-196 780.112,-196 776.446,-192.333 776.446,-188.667 776.446,-188.667 776.446,-181.333 776.446,-181.333 776.446,-177.667 780.112,-174 783.779,-174 783.779,-174 900.221,-174 900.221,-174 903.888,-174 907.554,-177.667 907.554,-181.333 907.554,-181.333 907.554,-188.667 907.554,-188.667 907.554,-192.333 903.888,-196 900.221,-196"/>
 <text text-anchor="middle" x="842" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">MutableCollectionType</text>
 </a>
@@ -298,7 +298,7 @@
 </g>
 <!-- Range -->
 <g id="node40" class="node">
-<g id="a_node40"><a xlink:href="/v2.1/type/Range/" target="_top">
+<g id="a_node40"><a xlink:href="/v2.1/type/Range/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1108,-22 1054,-22 1054,-0 1108,-0 1108,-22"/>
 <text text-anchor="middle" x="1081" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Range</text>
 </a>
@@ -311,7 +311,7 @@
 </g>
 <!-- RangeReplaceableCollectionType -->
 <g id="node42" class="node">
-<g id="a_node42"><a xlink:href="/v2.1/protocol/RangeReplaceableCollectionType/" target="_top">
+<g id="a_node42"><a xlink:href="/v2.1/protocol/RangeReplaceableCollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M1358.76,-138C1358.76,-138 1183.24,-138 1183.24,-138 1179.57,-138 1175.91,-134.333 1175.91,-130.667 1175.91,-130.667 1175.91,-123.333 1175.91,-123.333 1175.91,-119.667 1179.57,-116 1183.24,-116 1183.24,-116 1358.76,-116 1358.76,-116 1362.43,-116 1366.09,-119.667 1366.09,-123.333 1366.09,-123.333 1366.09,-130.667 1366.09,-130.667 1366.09,-134.333 1362.43,-138 1358.76,-138"/>
 <text text-anchor="middle" x="1271" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">RangeReplaceableCollectionType</text>
 </a>
@@ -324,7 +324,7 @@
 </g>
 <!-- Repeat -->
 <g id="node43" class="node">
-<g id="a_node43"><a xlink:href="/v2.1/type/Repeat/" target="_top">
+<g id="a_node43"><a xlink:href="/v2.1/type/Repeat/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1488,-22 1434,-22 1434,-0 1488,-0 1488,-22"/>
 <text text-anchor="middle" x="1461" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Repeat</text>
 </a>
@@ -337,7 +337,7 @@
 </g>
 <!-- Set -->
 <g id="node47" class="node">
-<g id="a_node47"><a xlink:href="/v2.1/type/Set/" target="_top">
+<g id="a_node47"><a xlink:href="/v2.1/type/Set/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1560,-22 1506,-22 1506,-0 1560,-0 1560,-22"/>
 <text text-anchor="middle" x="1533" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Set</text>
 </a>
@@ -350,7 +350,7 @@
 </g>
 <!-- Slice -->
 <g id="node48" class="node">
-<g id="a_node48"><a xlink:href="/v2.1/type/Slice/" target="_top">
+<g id="a_node48"><a xlink:href="/v2.1/type/Slice/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1632,-22 1578,-22 1578,-0 1632,-0 1632,-22"/>
 <text text-anchor="middle" x="1605" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Slice</text>
 </a>
@@ -363,7 +363,7 @@
 </g>
 <!-- String.UTF16View -->
 <g id="node52" class="node">
-<g id="a_node52"><a xlink:href="/v2.1/type/String.UTF16View/" target="_top">
+<g id="a_node52"><a xlink:href="/v2.1/type/String.UTF16View/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1757.37,-22 1650.63,-22 1650.63,-0 1757.37,-0 1757.37,-22"/>
 <text text-anchor="middle" x="1704" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String.UTF16View</text>
 </a>
@@ -376,7 +376,7 @@
 </g>
 <!-- String.UTF8View -->
 <g id="node53" class="node">
-<g id="a_node53"><a xlink:href="/v2.1/type/String.UTF8View/" target="_top">
+<g id="a_node53"><a xlink:href="/v2.1/type/String.UTF8View/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1876.36,-22 1775.64,-22 1775.64,-0 1876.36,-0 1876.36,-22"/>
 <text text-anchor="middle" x="1826" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String.UTF8View</text>
 </a>
@@ -389,7 +389,7 @@
 </g>
 <!-- UnicodeScalar.UTF16View -->
 <g id="node55" class="node">
-<g id="a_node55"><a xlink:href="/v2.1/type/UnicodeScalar.UTF16View/" target="_top">
+<g id="a_node55"><a xlink:href="/v2.1/type/UnicodeScalar.UTF16View/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2047.39,-22 1894.61,-22 1894.61,-0 2047.39,-0 2047.39,-22"/>
 <text text-anchor="middle" x="1971" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnicodeScalar.UTF16View</text>
 </a>
@@ -402,7 +402,7 @@
 </g>
 <!-- UnsafeBufferPointer -->
 <g id="node56" class="node">
-<g id="a_node56"><a xlink:href="/v2.1/type/UnsafeBufferPointer/" target="_top">
+<g id="a_node56"><a xlink:href="/v2.1/type/UnsafeBufferPointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2183.39,-22 2066.61,-22 2066.61,-0 2183.39,-0 2183.39,-22"/>
 <text text-anchor="middle" x="2125" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafeBufferPointer</text>
 </a>
@@ -415,7 +415,7 @@
 </g>
 <!-- _ReverseCollectionType -->
 <g id="node62" class="node">
-<g id="a_node62"><a xlink:href="/v2.1/protocol/_ReverseCollectionType/" target="_top">
+<g id="a_node62"><a xlink:href="/v2.1/protocol/_ReverseCollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M2318.72,-80C2318.72,-80 2193.28,-80 2193.28,-80 2189.61,-80 2185.95,-76.3333 2185.95,-72.6667 2185.95,-72.6667 2185.95,-65.3333 2185.95,-65.3333 2185.95,-61.6667 2189.61,-58 2193.28,-58 2193.28,-58 2318.72,-58 2318.72,-58 2322.39,-58 2326.05,-61.6667 2326.05,-65.3333 2326.05,-65.3333 2326.05,-72.6667 2326.05,-72.6667 2326.05,-76.3333 2322.39,-80 2318.72,-80"/>
 <text text-anchor="middle" x="2256" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ReverseCollectionType</text>
 </a>
@@ -428,7 +428,7 @@
 </g>
 <!-- ContiguousArray -->
 <g id="node11" class="node">
-<g id="a_node11"><a xlink:href="/v2.1/type/ContiguousArray/" target="_top">
+<g id="a_node11"><a xlink:href="/v2.1/type/ContiguousArray/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="963.534,-22 864.466,-22 864.466,-0 963.534,-0 963.534,-22"/>
 <text text-anchor="middle" x="914" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ContiguousArray</text>
 </a>
@@ -436,7 +436,7 @@
 </g>
 <!-- EmptyGenerator -->
 <g id="node15" class="node">
-<g id="a_node15"><a xlink:href="/v2.1/type/EmptyGenerator/" target="_top">
+<g id="a_node15"><a xlink:href="/v2.1/type/EmptyGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="3558.03,-22 3459.97,-22 3459.97,-0 3558.03,-0 3558.03,-22"/>
 <text text-anchor="middle" x="3509" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">EmptyGenerator</text>
 </a>
@@ -444,7 +444,7 @@
 </g>
 <!-- EnumerateGenerator -->
 <g id="node16" class="node">
-<g id="a_node16"><a xlink:href="/v2.1/type/EnumerateGenerator/" target="_top">
+<g id="a_node16"><a xlink:href="/v2.1/type/EnumerateGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="3698.05,-22 3575.95,-22 3575.95,-0 3698.05,-0 3698.05,-22"/>
 <text text-anchor="middle" x="3637" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">EnumerateGenerator</text>
 </a>
@@ -452,7 +452,7 @@
 </g>
 <!-- EnumerateSequence -->
 <g id="node17" class="node">
-<g id="a_node17"><a xlink:href="/v2.1/type/EnumerateSequence/" target="_top">
+<g id="a_node17"><a xlink:href="/v2.1/type/EnumerateSequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="3839.06,-22 3716.94,-22 3716.94,-0 3839.06,-0 3839.06,-22"/>
 <text text-anchor="middle" x="3778" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">EnumerateSequence</text>
 </a>
@@ -460,7 +460,7 @@
 </g>
 <!-- FlattenGenerator -->
 <g id="node20" class="node">
-<g id="a_node20"><a xlink:href="/v2.1/type/FlattenGenerator/" target="_top">
+<g id="a_node20"><a xlink:href="/v2.1/type/FlattenGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="4325.04,-22 4224.96,-22 4224.96,-0 4325.04,-0 4325.04,-22"/>
 <text text-anchor="middle" x="4275" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">FlattenGenerator</text>
 </a>
@@ -468,7 +468,7 @@
 </g>
 <!-- FlattenSequence -->
 <g id="node21" class="node">
-<g id="a_node21"><a xlink:href="/v2.1/type/FlattenSequence/" target="_top">
+<g id="a_node21"><a xlink:href="/v2.1/type/FlattenSequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="4444.05,-22 4343.95,-22 4343.95,-0 4444.05,-0 4444.05,-22"/>
 <text text-anchor="middle" x="4394" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">FlattenSequence</text>
 </a>
@@ -476,7 +476,7 @@
 </g>
 <!-- GeneratorOfOne -->
 <g id="node22" class="node">
-<g id="a_node22"><a xlink:href="/v2.1/type/GeneratorOfOne/" target="_top">
+<g id="a_node22"><a xlink:href="/v2.1/type/GeneratorOfOne/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="4561.53,-22 4462.47,-22 4462.47,-0 4561.53,-0 4561.53,-22"/>
 <text text-anchor="middle" x="4512" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">GeneratorOfOne</text>
 </a>
@@ -484,7 +484,7 @@
 </g>
 <!-- GeneratorSequence -->
 <g id="node23" class="node">
-<g id="a_node23"><a xlink:href="/v2.1/type/GeneratorSequence/" target="_top">
+<g id="a_node23"><a xlink:href="/v2.1/type/GeneratorSequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="4698.06,-22 4579.94,-22 4579.94,-0 4698.06,-0 4698.06,-22"/>
 <text text-anchor="middle" x="4639" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">GeneratorSequence</text>
 </a>
@@ -492,7 +492,7 @@
 </g>
 <!-- IndexingGenerator -->
 <g id="node24" class="node">
-<g id="a_node24"><a xlink:href="/v2.1/type/IndexingGenerator/" target="_top">
+<g id="a_node24"><a xlink:href="/v2.1/type/IndexingGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="4825.55,-22 4716.45,-22 4716.45,-0 4825.55,-0 4825.55,-22"/>
 <text text-anchor="middle" x="4771" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">IndexingGenerator</text>
 </a>
@@ -500,7 +500,7 @@
 </g>
 <!-- JoinSequence -->
 <g id="node25" class="node">
-<g id="a_node25"><a xlink:href="/v2.1/type/JoinSequence/" target="_top">
+<g id="a_node25"><a xlink:href="/v2.1/type/JoinSequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="4930.05,-22 4843.95,-22 4843.95,-0 4930.05,-0 4930.05,-22"/>
 <text text-anchor="middle" x="4887" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">JoinSequence</text>
 </a>
@@ -508,7 +508,7 @@
 </g>
 <!-- LazyCollection -->
 <g id="node26" class="node">
-<g id="a_node26"><a xlink:href="/v2.1/type/LazyCollection/" target="_top">
+<g id="a_node26"><a xlink:href="/v2.1/type/LazyCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="3945.03,-22 3856.97,-22 3856.97,-0 3945.03,-0 3945.03,-22"/>
 <text text-anchor="middle" x="3901" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyCollection</text>
 </a>
@@ -521,7 +521,7 @@
 </g>
 <!-- LazyFilterCollection -->
 <g id="node28" class="node">
-<g id="a_node28"><a xlink:href="/v2.1/type/LazyFilterCollection/" target="_top">
+<g id="a_node28"><a xlink:href="/v2.1/type/LazyFilterCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="4077.03,-22 3962.97,-22 3962.97,-0 4077.03,-0 4077.03,-22"/>
 <text text-anchor="middle" x="4020" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyFilterCollection</text>
 </a>
@@ -534,7 +534,7 @@
 </g>
 <!-- LazyMapCollection -->
 <g id="node31" class="node">
-<g id="a_node31"><a xlink:href="/v2.1/type/LazyMapCollection/" target="_top">
+<g id="a_node31"><a xlink:href="/v2.1/type/LazyMapCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="4206.54,-22 4095.46,-22 4095.46,-0 4206.54,-0 4206.54,-22"/>
 <text text-anchor="middle" x="4151" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyMapCollection</text>
 </a>
@@ -547,7 +547,7 @@
 </g>
 <!-- LazyFilterGenerator -->
 <g id="node29" class="node">
-<g id="a_node29"><a xlink:href="/v2.1/type/LazyFilterGenerator/" target="_top">
+<g id="a_node29"><a xlink:href="/v2.1/type/LazyFilterGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="5064.03,-22 4947.97,-22 4947.97,-0 5064.03,-0 5064.03,-22"/>
 <text text-anchor="middle" x="5006" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyFilterGenerator</text>
 </a>
@@ -555,7 +555,7 @@
 </g>
 <!-- LazyFilterSequence -->
 <g id="node30" class="node">
-<g id="a_node30"><a xlink:href="/v2.1/type/LazyFilterSequence/" target="_top">
+<g id="a_node30"><a xlink:href="/v2.1/type/LazyFilterSequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="5328.05,-22 5211.95,-22 5211.95,-0 5328.05,-0 5328.05,-22"/>
 <text text-anchor="middle" x="5270" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyFilterSequence</text>
 </a>
@@ -563,7 +563,7 @@
 </g>
 <!-- LazyMapGenerator -->
 <g id="node32" class="node">
-<g id="a_node32"><a xlink:href="/v2.1/type/LazyMapGenerator/" target="_top">
+<g id="a_node32"><a xlink:href="/v2.1/type/LazyMapGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="5194.04,-22 5081.96,-22 5081.96,-0 5194.04,-0 5194.04,-22"/>
 <text text-anchor="middle" x="5138" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyMapGenerator</text>
 </a>
@@ -571,7 +571,7 @@
 </g>
 <!-- LazyMapSequence -->
 <g id="node33" class="node">
-<g id="a_node33"><a xlink:href="/v2.1/type/LazyMapSequence/" target="_top">
+<g id="a_node33"><a xlink:href="/v2.1/type/LazyMapSequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="5458.05,-22 5345.95,-22 5345.95,-0 5458.05,-0 5458.05,-22"/>
 <text text-anchor="middle" x="5402" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyMapSequence</text>
 </a>
@@ -579,7 +579,7 @@
 </g>
 <!-- LazySequence -->
 <g id="node34" class="node">
-<g id="a_node34"><a xlink:href="/v2.1/type/LazySequence/" target="_top">
+<g id="a_node34"><a xlink:href="/v2.1/type/LazySequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="5565.55,-22 5476.45,-22 5476.45,-0 5565.55,-0 5565.55,-22"/>
 <text text-anchor="middle" x="5521" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazySequence</text>
 </a>
@@ -587,7 +587,7 @@
 </g>
 <!-- LazySequenceType -->
 <g id="node35" class="node">
-<g id="a_node35"><a xlink:href="/v2.1/protocol/LazySequenceType/" target="_top">
+<g id="a_node35"><a xlink:href="/v2.1/protocol/LazySequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M5320.23,-138C5320.23,-138 5219.77,-138 5219.77,-138 5216.11,-138 5212.44,-134.333 5212.44,-130.667 5212.44,-130.667 5212.44,-123.333 5212.44,-123.333 5212.44,-119.667 5216.11,-116 5219.77,-116 5219.77,-116 5320.23,-116 5320.23,-116 5323.89,-116 5327.56,-119.667 5327.56,-123.333 5327.56,-123.333 5327.56,-130.667 5327.56,-130.667 5327.56,-134.333 5323.89,-138 5320.23,-138"/>
 <text text-anchor="middle" x="5270" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazySequenceType</text>
 </a>
@@ -615,7 +615,7 @@
 </g>
 <!-- MutableSlice -->
 <g id="node37" class="node">
-<g id="a_node37"><a xlink:href="/v2.1/type/MutableSlice/" target="_top">
+<g id="a_node37"><a xlink:href="/v2.1/type/MutableSlice/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="763.027,-22 684.973,-22 684.973,-0 763.027,-0 763.027,-22"/>
 <text text-anchor="middle" x="724" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">MutableSlice</text>
 </a>
@@ -628,7 +628,7 @@
 </g>
 <!-- MutableSliceable -->
 <g id="node38" class="node">
-<g id="a_node38"><a xlink:href="/v2.1/protocol/MutableSliceable/" target="_top">
+<g id="a_node38"><a xlink:href="/v2.1/protocol/MutableSliceable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M885.208,-138C885.208,-138 798.792,-138 798.792,-138 795.126,-138 791.459,-134.333 791.459,-130.667 791.459,-130.667 791.459,-123.333 791.459,-123.333 791.459,-119.667 795.126,-116 798.792,-116 798.792,-116 885.208,-116 885.208,-116 888.874,-116 892.541,-119.667 892.541,-123.333 892.541,-123.333 892.541,-130.667 892.541,-130.667 892.541,-134.333 888.874,-138 885.208,-138"/>
 <text text-anchor="middle" x="842" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">MutableSliceable</text>
 </a>
@@ -641,7 +641,7 @@
 </g>
 <!-- UnsafeMutableBufferPointer -->
 <g id="node58" class="node">
-<g id="a_node58"><a xlink:href="/v2.1/type/UnsafeMutableBufferPointer/" target="_top">
+<g id="a_node58"><a xlink:href="/v2.1/type/UnsafeMutableBufferPointer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="665.905,-22 506.095,-22 506.095,-0 665.905,-0 665.905,-22"/>
 <text text-anchor="middle" x="586" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafeMutableBufferPointer</text>
 </a>
@@ -654,7 +654,7 @@
 </g>
 <!-- _ArrayBufferType -->
 <g id="node60" class="node">
-<g id="a_node60"><a xlink:href="/v2.1/protocol/_ArrayBufferType/" target="_top">
+<g id="a_node60"><a xlink:href="/v2.1/protocol/_ArrayBufferType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M1006.04,-138C1006.04,-138 917.956,-138 917.956,-138 914.29,-138 910.623,-134.333 910.623,-130.667 910.623,-130.667 910.623,-123.333 910.623,-123.333 910.623,-119.667 914.29,-116 917.956,-116 917.956,-116 1006.04,-116 1006.04,-116 1009.71,-116 1013.38,-119.667 1013.38,-123.333 1013.38,-123.333 1013.38,-130.667 1013.38,-130.667 1013.38,-134.333 1009.71,-138 1006.04,-138"/>
 <text text-anchor="middle" x="962" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ArrayBufferType</text>
 </a>
@@ -667,7 +667,7 @@
 </g>
 <!-- _ArrayType -->
 <g id="node61" class="node">
-<g id="a_node61"><a xlink:href="/v2.1/protocol/_ArrayType/" target="_top">
+<g id="a_node61"><a xlink:href="/v2.1/protocol/_ArrayType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M942.19,-80C942.19,-80 885.81,-80 885.81,-80 882.144,-80 878.477,-76.3333 878.477,-72.6667 878.477,-72.6667 878.477,-65.3333 878.477,-65.3333 878.477,-61.6667 882.144,-58 885.81,-58 885.81,-58 942.19,-58 942.19,-58 945.856,-58 949.523,-61.6667 949.523,-65.3333 949.523,-65.3333 949.523,-72.6667 949.523,-72.6667 949.523,-76.3333 945.856,-80 942.19,-80"/>
 <text text-anchor="middle" x="914" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ArrayType</text>
 </a>
@@ -680,7 +680,7 @@
 </g>
 <!-- PermutationGenerator -->
 <g id="node39" class="node">
-<g id="a_node39"><a xlink:href="/v2.1/type/PermutationGenerator/" target="_top">
+<g id="a_node39"><a xlink:href="/v2.1/type/PermutationGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="5712.05,-22 5583.95,-22 5583.95,-0 5712.05,-0 5712.05,-22"/>
 <text text-anchor="middle" x="5648" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">PermutationGenerator</text>
 </a>
@@ -688,7 +688,7 @@
 </g>
 <!-- RangeGenerator -->
 <g id="node41" class="node">
-<g id="a_node41"><a xlink:href="/v2.1/type/RangeGenerator/" target="_top">
+<g id="a_node41"><a xlink:href="/v2.1/type/RangeGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="5829.54,-22 5730.46,-22 5730.46,-0 5829.54,-0 5829.54,-22"/>
 <text text-anchor="middle" x="5780" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">RangeGenerator</text>
 </a>
@@ -696,7 +696,7 @@
 </g>
 <!-- String.CharacterView -->
 <g id="node51" class="node">
-<g id="a_node51"><a xlink:href="/v2.1/type/String.CharacterView/" target="_top">
+<g id="a_node51"><a xlink:href="/v2.1/type/String.CharacterView/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1249.38,-22 1126.62,-22 1126.62,-0 1249.38,-0 1249.38,-22"/>
 <text text-anchor="middle" x="1188" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String.CharacterView</text>
 </a>
@@ -709,7 +709,7 @@
 </g>
 <!-- String.UnicodeScalarView -->
 <g id="node54" class="node">
-<g id="a_node54"><a xlink:href="/v2.1/type/String.UnicodeScalarView/" target="_top">
+<g id="a_node54"><a xlink:href="/v2.1/type/String.UnicodeScalarView/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1415.89,-22 1268.11,-22 1268.11,-0 1415.89,-0 1415.89,-22"/>
 <text text-anchor="middle" x="1342" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String.UnicodeScalarView</text>
 </a>
@@ -727,7 +727,7 @@
 </g>
 <!-- ReverseCollection -->
 <g id="node44" class="node">
-<g id="a_node44"><a xlink:href="/v2.1/type/ReverseCollection/" target="_top">
+<g id="a_node44"><a xlink:href="/v2.1/type/ReverseCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2309.53,-22 2202.47,-22 2202.47,-0 2309.53,-0 2309.53,-22"/>
 <text text-anchor="middle" x="2256" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ReverseCollection</text>
 </a>
@@ -735,7 +735,7 @@
 </g>
 <!-- ReverseRandomAccessCollection -->
 <g id="node45" class="node">
-<g id="a_node45"><a xlink:href="/v2.1/type/ReverseRandomAccessCollection/" target="_top">
+<g id="a_node45"><a xlink:href="/v2.1/type/ReverseRandomAccessCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2518.56,-22 2327.44,-22 2327.44,-0 2518.56,-0 2518.56,-22"/>
 <text text-anchor="middle" x="2423" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ReverseRandomAccessCollection</text>
 </a>
@@ -836,7 +836,7 @@
 </g>
 <!-- StrideThrough -->
 <g id="node49" class="node">
-<g id="a_node49"><a xlink:href="/v2.1/type/StrideThrough/" target="_top">
+<g id="a_node49"><a xlink:href="/v2.1/type/StrideThrough/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="5934.03,-22 5847.97,-22 5847.97,-0 5934.03,-0 5934.03,-22"/>
 <text text-anchor="middle" x="5891" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">StrideThrough</text>
 </a>
@@ -849,7 +849,7 @@
 </g>
 <!-- StrideTo -->
 <g id="node50" class="node">
-<g id="a_node50"><a xlink:href="/v2.1/type/StrideTo/" target="_top">
+<g id="a_node50"><a xlink:href="/v2.1/type/StrideTo/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="6006.02,-22 5951.98,-22 5951.98,-0 6006.02,-0 6006.02,-22"/>
 <text text-anchor="middle" x="5979" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">StrideTo</text>
 </a>
@@ -862,7 +862,7 @@
 </g>
 <!-- UnsafeBufferPointerGenerator -->
 <g id="node57" class="node">
-<g id="a_node57"><a xlink:href="/v2.1/type/UnsafeBufferPointerGenerator/" target="_top">
+<g id="a_node57"><a xlink:href="/v2.1/type/UnsafeBufferPointerGenerator/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="6195.41,-22 6024.59,-22 6024.59,-0 6195.41,-0 6195.41,-22"/>
 <text text-anchor="middle" x="6110" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafeBufferPointerGenerator</text>
 </a>
@@ -875,7 +875,7 @@
 </g>
 <!-- Zip2Sequence -->
 <g id="node59" class="node">
-<g id="a_node59"><a xlink:href="/v2.1/type/Zip2Sequence/" target="_top">
+<g id="a_node59"><a xlink:href="/v2.1/type/Zip2Sequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="6301.54,-22 6214.46,-22 6214.46,-0 6301.54,-0 6301.54,-22"/>
 <text text-anchor="middle" x="6258" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Zip2Sequence</text>
 </a>

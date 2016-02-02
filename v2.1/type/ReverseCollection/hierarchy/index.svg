@@ -102,7 +102,7 @@
 
 <!-- CollectionType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/CollectionType/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/CollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M269.704,-138C269.704,-138 196.296,-138 196.296,-138 192.63,-138 188.963,-134.333 188.963,-130.667 188.963,-130.667 188.963,-123.333 188.963,-123.333 188.963,-119.667 192.63,-116 196.296,-116 196.296,-116 269.704,-116 269.704,-116 273.37,-116 277.037,-119.667 277.037,-123.333 277.037,-123.333 277.037,-130.667 277.037,-130.667 277.037,-134.333 273.37,-138 269.704,-138"/>
 <text text-anchor="middle" x="233" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionType</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- _ReverseCollectionType -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/protocol/_ReverseCollectionType/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/protocol/_ReverseCollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M295.721,-80C295.721,-80 170.279,-80 170.279,-80 166.612,-80 162.946,-76.3333 162.946,-72.6667 162.946,-72.6667 162.946,-65.3333 162.946,-65.3333 162.946,-61.6667 166.612,-58 170.279,-58 170.279,-58 295.721,-58 295.721,-58 299.388,-58 303.054,-61.6667 303.054,-65.3333 303.054,-65.3333 303.054,-72.6667 303.054,-72.6667 303.054,-76.3333 299.388,-80 295.721,-80"/>
 <text text-anchor="middle" x="233" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ReverseCollectionType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Indexable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/Indexable/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/Indexable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M209.699,-196C209.699,-196 162.301,-196 162.301,-196 158.634,-196 154.968,-192.333 154.968,-188.667 154.968,-188.667 154.968,-181.333 154.968,-181.333 154.968,-177.667 158.634,-174 162.301,-174 162.301,-174 209.699,-174 209.699,-174 213.366,-174 217.032,-177.667 217.032,-181.333 217.032,-181.333 217.032,-188.667 217.032,-188.667 217.032,-192.333 213.366,-196 209.699,-196"/>
 <text text-anchor="middle" x="186" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Indexable</text>
 </a>
@@ -144,7 +144,7 @@
 </g>
 <!-- SequenceType -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/protocol/SequenceType/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M317.718,-196C317.718,-196 242.282,-196 242.282,-196 238.615,-196 234.949,-192.333 234.949,-188.667 234.949,-188.667 234.949,-181.333 234.949,-181.333 234.949,-177.667 238.615,-174 242.282,-174 242.282,-174 317.718,-174 317.718,-174 321.385,-174 325.051,-177.667 325.051,-181.333 325.051,-181.333 325.051,-188.667 325.051,-188.667 325.051,-192.333 321.385,-196 317.718,-196"/>
 <text text-anchor="middle" x="280" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>

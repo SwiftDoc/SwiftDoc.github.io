@@ -102,7 +102,7 @@
 
 <!-- Double -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/type/Double/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/type/Double/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="54,-22 0,-22 0,-0 54,-0 54,-22"/>
 <text text-anchor="middle" x="27" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Double</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- Float -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/type/Float/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/type/Float/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="126,-22 72,-22 72,-0 126,-0 126,-22"/>
 <text text-anchor="middle" x="99" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Float</text>
 </a>
@@ -118,7 +118,7 @@
 </g>
 <!-- Float80 -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/Float80/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/Float80/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="198,-22 144,-22 144,-0 198,-0 198,-22"/>
 <text text-anchor="middle" x="171" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Float80</text>
 </a>

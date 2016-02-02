@@ -102,7 +102,7 @@
 
 <!-- ManagedBuffer -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/type/ManagedBuffer/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/type/ManagedBuffer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="460.384,-22 369.616,-22 369.616,-0 460.384,-0 460.384,-22"/>
 <text text-anchor="middle" x="415" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ManagedBuffer</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- NonObjectiveCBase -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/type/NonObjectiveCBase/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/type/NonObjectiveCBase/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="118.04,-22 -0.0395567,-22 -0.0395567,-0 118.04,-0 118.04,-22"/>
 <text text-anchor="middle" x="59" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">NonObjectiveCBase</text>
 </a>

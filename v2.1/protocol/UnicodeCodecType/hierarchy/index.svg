@@ -102,7 +102,7 @@
 
 <!-- UTF16 -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/type/UTF16/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/type/UTF16/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="54,-22 0,-22 0,-0 54,-0 54,-22"/>
 <text text-anchor="middle" x="27" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UTF16</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- UTF32 -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/type/UTF32/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/type/UTF32/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="126,-22 72,-22 72,-0 126,-0 126,-22"/>
 <text text-anchor="middle" x="99" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UTF32</text>
 </a>
@@ -118,7 +118,7 @@
 </g>
 <!-- UTF8 -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/UTF8/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/UTF8/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="198,-22 144,-22 144,-0 198,-0 198,-22"/>
 <text text-anchor="middle" x="171" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UTF8</text>
 </a>

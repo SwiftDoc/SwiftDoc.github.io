@@ -110,7 +110,7 @@
 </g>
 <!-- _ShadowProtocol -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/_ShadowProtocol/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/_ShadowProtocol/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M105.712,-80C105.712,-80 16.2879,-80 16.2879,-80 12.6212,-80 8.95458,-76.3333 8.95458,-72.6667 8.95458,-72.6667 8.95458,-65.3333 8.95458,-65.3333 8.95458,-61.6667 12.6212,-58 16.2879,-58 16.2879,-58 105.712,-58 105.712,-58 109.379,-58 113.045,-61.6667 113.045,-65.3333 113.045,-65.3333 113.045,-72.6667 113.045,-72.6667 113.045,-76.3333 109.379,-80 105.712,-80"/>
 <text text-anchor="middle" x="61" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ShadowProtocol</text>
 </a>

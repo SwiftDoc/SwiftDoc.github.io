@@ -102,7 +102,7 @@
 
 <!-- DebugPrintable -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/protocol/DebugPrintable/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/protocol/DebugPrintable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M84.7096,-80C84.7096,-80 7.29039,-80 7.29039,-80 3.62372,-80 -0.0429445,-76.3333 -0.0429445,-72.6667 -0.0429445,-72.6667 -0.0429445,-65.3333 -0.0429445,-65.3333 -0.0429445,-61.6667 3.62372,-58 7.29039,-58 7.29039,-58 84.7096,-58 84.7096,-58 88.3763,-58 92.0429,-61.6667 92.0429,-65.3333 92.0429,-65.3333 92.0429,-72.6667 92.0429,-72.6667 92.0429,-76.3333 88.3763,-80 84.7096,-80"/>
 <text text-anchor="middle" x="46" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">DebugPrintable</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- ExtendedGraphemeClusterLiteralConvertible -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/protocol/ExtendedGraphemeClusterLiteralConvertible/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/protocol/ExtendedGraphemeClusterLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M369.762,-138C369.762,-138 136.238,-138 136.238,-138 132.572,-138 128.905,-134.333 128.905,-130.667 128.905,-130.667 128.905,-123.333 128.905,-123.333 128.905,-119.667 132.572,-116 136.238,-116 136.238,-116 369.762,-116 369.762,-116 373.428,-116 377.095,-119.667 377.095,-123.333 377.095,-123.333 377.095,-130.667 377.095,-130.667 377.095,-134.333 373.428,-138 369.762,-138"/>
 <text text-anchor="middle" x="253" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ExtendedGraphemeClusterLiteralConvertible</text>
 </a>
@@ -131,7 +131,7 @@
 </g>
 <!-- StringLiteralConvertible -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v1.2/protocol/StringLiteralConvertible/" target="_top">
+<g id="a_node5"><a xlink:href="/v1.2/protocol/StringLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M312.714,-80C312.714,-80 193.286,-80 193.286,-80 189.62,-80 185.953,-76.3333 185.953,-72.6667 185.953,-72.6667 185.953,-65.3333 185.953,-65.3333 185.953,-61.6667 189.62,-58 193.286,-58 193.286,-58 312.714,-58 312.714,-58 316.38,-58 320.047,-61.6667 320.047,-65.3333 320.047,-65.3333 320.047,-72.6667 320.047,-72.6667 320.047,-76.3333 316.38,-80 312.714,-80"/>
 <text text-anchor="middle" x="253" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">StringLiteralConvertible</text>
 </a>
@@ -144,7 +144,7 @@
 </g>
 <!-- Printable -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/protocol/Printable/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/protocol/Printable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M160.187,-80C160.187,-80 117.813,-80 117.813,-80 114.147,-80 110.48,-76.3333 110.48,-72.6667 110.48,-72.6667 110.48,-65.3333 110.48,-65.3333 110.48,-61.6667 114.147,-58 117.813,-58 117.813,-58 160.187,-58 160.187,-58 163.853,-58 167.52,-61.6667 167.52,-65.3333 167.52,-65.3333 167.52,-72.6667 167.52,-72.6667 167.52,-76.3333 163.853,-80 160.187,-80"/>
 <text text-anchor="middle" x="139" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Printable</text>
 </a>
@@ -162,7 +162,7 @@
 </g>
 <!-- UnicodeScalarLiteralConvertible -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v1.2/protocol/UnicodeScalarLiteralConvertible/" target="_top">
+<g id="a_node6"><a xlink:href="/v1.2/protocol/UnicodeScalarLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M336.233,-196C336.233,-196 169.767,-196 169.767,-196 166.101,-196 162.434,-192.333 162.434,-188.667 162.434,-188.667 162.434,-181.333 162.434,-181.333 162.434,-177.667 166.101,-174 169.767,-174 169.767,-174 336.233,-174 336.233,-174 339.899,-174 343.566,-177.667 343.566,-181.333 343.566,-181.333 343.566,-188.667 343.566,-188.667 343.566,-192.333 339.899,-196 336.233,-196"/>
 <text text-anchor="middle" x="253" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnicodeScalarLiteralConvertible</text>
 </a>

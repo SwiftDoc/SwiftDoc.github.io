@@ -3,15 +3,15 @@ strict digraph "Character - Type Hierarchy - SwiftDoc.org" {
     node [shape=box, style="filled,rounded", color="#999999", fillcolor="#999999", fontcolor=white, fontname=Helvetica, fontnames="Helvetica,sansserif", fontsize=12, margin="0.07,0.05", height="0.3"]
     edge [color="#cccccc"]
     "Character" [URL="/type/Character/", style="filled", fillcolor="#ee543d", color="#ee543d"]
-    "Comparable" [URL="/protocol/Comparable/"]
-    "DebugPrintable" [URL="/protocol/DebugPrintable/"]
-    "Equatable" [URL="/protocol/Equatable/"]
-    "ExtendedGraphemeClusterLiteralConvertible" [URL="/protocol/ExtendedGraphemeClusterLiteralConvertible/"]
-    "Hashable" [URL="/protocol/Hashable/"]
-    "Reflectable" [URL="/protocol/Reflectable/"]
-    "Streamable" [URL="/protocol/Streamable/"]
-    "UnicodeScalarLiteralConvertible" [URL="/protocol/UnicodeScalarLiteralConvertible/"]
-    "_Comparable" [URL="/protocol/_Comparable/"]    "ExtendedGraphemeClusterLiteralConvertible" -> "Character"
+    "Comparable" [URL="/protocol/Comparable/hierarchy/"]
+    "DebugPrintable" [URL="/protocol/DebugPrintable/hierarchy/"]
+    "Equatable" [URL="/protocol/Equatable/hierarchy/"]
+    "ExtendedGraphemeClusterLiteralConvertible" [URL="/protocol/ExtendedGraphemeClusterLiteralConvertible/hierarchy/"]
+    "Hashable" [URL="/protocol/Hashable/hierarchy/"]
+    "Reflectable" [URL="/protocol/Reflectable/hierarchy/"]
+    "Streamable" [URL="/protocol/Streamable/hierarchy/"]
+    "UnicodeScalarLiteralConvertible" [URL="/protocol/UnicodeScalarLiteralConvertible/hierarchy/"]
+    "_Comparable" [URL="/protocol/_Comparable/hierarchy/"]    "ExtendedGraphemeClusterLiteralConvertible" -> "Character"
     "Hashable" -> "Character"
     "Comparable" -> "Character"
     "DebugPrintable" -> "Character"

@@ -102,7 +102,7 @@
 
 <!-- BidirectionalIndexType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/protocol/BidirectionalIndexType/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/protocol/BidirectionalIndexType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M205.725,-80C205.725,-80 90.2746,-80 90.2746,-80 86.6079,-80 82.9413,-76.3333 82.9413,-72.6667 82.9413,-72.6667 82.9413,-65.3333 82.9413,-65.3333 82.9413,-61.6667 86.6079,-58 90.2746,-58 90.2746,-58 205.725,-58 205.725,-58 209.392,-58 213.059,-61.6667 213.059,-65.3333 213.059,-65.3333 213.059,-72.6667 213.059,-72.6667 213.059,-76.3333 209.392,-80 205.725,-80"/>
 <text text-anchor="middle" x="148" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">BidirectionalIndexType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Equatable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v1.2/protocol/Equatable/" target="_top">
+<g id="a_node2"><a xlink:href="/v1.2/protocol/Equatable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M172.702,-312C172.702,-312 123.298,-312 123.298,-312 119.632,-312 115.965,-308.333 115.965,-304.667 115.965,-304.667 115.965,-297.333 115.965,-297.333 115.965,-293.667 119.632,-290 123.298,-290 123.298,-290 172.702,-290 172.702,-290 176.368,-290 180.035,-293.667 180.035,-297.333 180.035,-297.333 180.035,-304.667 180.035,-304.667 180.035,-308.333 176.368,-312 172.702,-312"/>
 <text text-anchor="middle" x="148" y="-297.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>
@@ -131,7 +131,7 @@
 </g>
 <!-- _Incrementable -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v1.2/protocol/_Incrementable/" target="_top">
+<g id="a_node7"><a xlink:href="/v1.2/protocol/_Incrementable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M186.705,-254C186.705,-254 109.295,-254 109.295,-254 105.628,-254 101.961,-250.333 101.961,-246.667 101.961,-246.667 101.961,-239.333 101.961,-239.333 101.961,-235.667 105.628,-232 109.295,-232 109.295,-232 186.705,-232 186.705,-232 190.372,-232 194.039,-235.667 194.039,-239.333 194.039,-239.333 194.039,-246.667 194.039,-246.667 194.039,-250.333 190.372,-254 186.705,-254"/>
 <text text-anchor="middle" x="148" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Incrementable</text>
 </a>
@@ -144,7 +144,7 @@
 </g>
 <!-- ForwardIndexType -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v1.2/protocol/ForwardIndexType/" target="_top">
+<g id="a_node3"><a xlink:href="/v1.2/protocol/ForwardIndexType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M125.206,-138C125.206,-138 30.7938,-138 30.7938,-138 27.1272,-138 23.4605,-134.333 23.4605,-130.667 23.4605,-130.667 23.4605,-123.333 23.4605,-123.333 23.4605,-119.667 27.1272,-116 30.7938,-116 30.7938,-116 125.206,-116 125.206,-116 128.873,-116 132.539,-119.667 132.539,-123.333 132.539,-123.333 132.539,-130.667 132.539,-130.667 132.539,-134.333 128.873,-138 125.206,-138"/>
 <text text-anchor="middle" x="78" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ForwardIndexType</text>
 </a>
@@ -157,7 +157,7 @@
 </g>
 <!-- _BidirectionalIndexType -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v1.2/protocol/_BidirectionalIndexType/" target="_top">
+<g id="a_node5"><a xlink:href="/v1.2/protocol/_BidirectionalIndexType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M280.23,-138C280.23,-138 157.77,-138 157.77,-138 154.104,-138 150.437,-134.333 150.437,-130.667 150.437,-130.667 150.437,-123.333 150.437,-123.333 150.437,-119.667 154.104,-116 157.77,-116 157.77,-116 280.23,-116 280.23,-116 283.896,-116 287.563,-119.667 287.563,-123.333 287.563,-123.333 287.563,-130.667 287.563,-130.667 287.563,-134.333 283.896,-138 280.23,-138"/>
 <text text-anchor="middle" x="219" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_BidirectionalIndexType</text>
 </a>
@@ -170,7 +170,7 @@
 </g>
 <!-- _ForwardIndexType -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v1.2/protocol/_ForwardIndexType/" target="_top">
+<g id="a_node6"><a xlink:href="/v1.2/protocol/_ForwardIndexType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M198.712,-196C198.712,-196 97.2879,-196 97.2879,-196 93.6212,-196 89.9546,-192.333 89.9546,-188.667 89.9546,-188.667 89.9546,-181.333 89.9546,-181.333 89.9546,-177.667 93.6212,-174 97.2879,-174 97.2879,-174 198.712,-174 198.712,-174 202.379,-174 206.045,-177.667 206.045,-181.333 206.045,-181.333 206.045,-188.667 206.045,-188.667 206.045,-192.333 202.379,-196 198.712,-196"/>
 <text text-anchor="middle" x="148" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ForwardIndexType</text>
 </a>

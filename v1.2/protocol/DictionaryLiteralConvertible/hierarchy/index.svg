@@ -102,7 +102,7 @@
 
 <!-- Dictionary -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v1.2/type/Dictionary/" target="_top">
+<g id="a_node1"><a xlink:href="/v1.2/type/Dictionary/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="109.511,-22 46.4887,-22 46.4887,-0 109.511,-0 109.511,-22"/>
 <text text-anchor="middle" x="78" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Dictionary</text>
 </a>

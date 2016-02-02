@@ -102,7 +102,7 @@
 
 <!-- CustomDebugStringConvertible -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/CustomDebugStringConvertible/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/CustomDebugStringConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M170.73,-80C170.73,-80 7.2704,-80 7.2704,-80 3.60373,-80 -0.0629365,-76.3333 -0.0629365,-72.6667 -0.0629365,-72.6667 -0.0629365,-65.3333 -0.0629365,-65.3333 -0.0629365,-61.6667 3.60373,-58 7.2704,-58 7.2704,-58 170.73,-58 170.73,-58 174.396,-58 178.063,-61.6667 178.063,-65.3333 178.063,-65.3333 178.063,-72.6667 178.063,-72.6667 178.063,-76.3333 174.396,-80 170.73,-80"/>
 <text text-anchor="middle" x="89" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CustomDebugStringConvertible</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- CustomStringConvertible -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/CustomStringConvertible/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/CustomStringConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M332.208,-80C332.208,-80 203.792,-80 203.792,-80 200.126,-80 196.459,-76.3333 196.459,-72.6667 196.459,-72.6667 196.459,-65.3333 196.459,-65.3333 196.459,-61.6667 200.126,-58 203.792,-58 203.792,-58 332.208,-58 332.208,-58 335.874,-58 339.541,-61.6667 339.541,-65.3333 339.541,-65.3333 339.541,-72.6667 339.541,-72.6667 339.541,-76.3333 335.874,-80 332.208,-80"/>
 <text text-anchor="middle" x="268" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CustomStringConvertible</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- ExtendedGraphemeClusterLiteralConvertible -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/protocol/ExtendedGraphemeClusterLiteralConvertible/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/protocol/ExtendedGraphemeClusterLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M541.762,-138C541.762,-138 308.238,-138 308.238,-138 304.572,-138 300.905,-134.333 300.905,-130.667 300.905,-130.667 300.905,-123.333 300.905,-123.333 300.905,-119.667 304.572,-116 308.238,-116 308.238,-116 541.762,-116 541.762,-116 545.428,-116 549.095,-119.667 549.095,-123.333 549.095,-123.333 549.095,-130.667 549.095,-130.667 549.095,-134.333 545.428,-138 541.762,-138"/>
 <text text-anchor="middle" x="425" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ExtendedGraphemeClusterLiteralConvertible</text>
 </a>
@@ -144,7 +144,7 @@
 </g>
 <!-- StringLiteralConvertible -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/protocol/StringLiteralConvertible/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/protocol/StringLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M484.714,-80C484.714,-80 365.286,-80 365.286,-80 361.62,-80 357.953,-76.3333 357.953,-72.6667 357.953,-72.6667 357.953,-65.3333 357.953,-65.3333 357.953,-61.6667 361.62,-58 365.286,-58 365.286,-58 484.714,-58 484.714,-58 488.38,-58 492.047,-61.6667 492.047,-65.3333 492.047,-65.3333 492.047,-72.6667 492.047,-72.6667 492.047,-76.3333 488.38,-80 484.714,-80"/>
 <text text-anchor="middle" x="425" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">StringLiteralConvertible</text>
 </a>
@@ -162,7 +162,7 @@
 </g>
 <!-- UnicodeScalarLiteralConvertible -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/protocol/UnicodeScalarLiteralConvertible/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/protocol/UnicodeScalarLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M508.233,-196C508.233,-196 341.767,-196 341.767,-196 338.101,-196 334.434,-192.333 334.434,-188.667 334.434,-188.667 334.434,-181.333 334.434,-181.333 334.434,-177.667 338.101,-174 341.767,-174 341.767,-174 508.233,-174 508.233,-174 511.899,-174 515.566,-177.667 515.566,-181.333 515.566,-181.333 515.566,-188.667 515.566,-188.667 515.566,-192.333 511.899,-196 508.233,-196"/>
 <text text-anchor="middle" x="425" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnicodeScalarLiteralConvertible</text>
 </a>
@@ -175,7 +175,7 @@
 </g>
 <!-- _Reflectable -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.1/protocol/_Reflectable/" target="_top">
+<g id="a_node7"><a xlink:href="/v2.1/protocol/_Reflectable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M579.7,-80C579.7,-80 518.3,-80 518.3,-80 514.634,-80 510.967,-76.3333 510.967,-72.6667 510.967,-72.6667 510.967,-65.3333 510.967,-65.3333 510.967,-61.6667 514.634,-58 518.3,-58 518.3,-58 579.7,-58 579.7,-58 583.366,-58 587.033,-61.6667 587.033,-65.3333 587.033,-65.3333 587.033,-72.6667 587.033,-72.6667 587.033,-76.3333 583.366,-80 579.7,-80"/>
 <text text-anchor="middle" x="549" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Reflectable</text>
 </a>

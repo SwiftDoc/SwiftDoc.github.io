@@ -102,7 +102,7 @@
 
 <!-- CollectionType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/protocol/CollectionType/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/protocol/CollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M98.7038,-138C98.7038,-138 25.2962,-138 25.2962,-138 21.6295,-138 17.9628,-134.333 17.9628,-130.667 17.9628,-130.667 17.9628,-123.333 17.9628,-123.333 17.9628,-119.667 21.6295,-116 25.2962,-116 25.2962,-116 98.7038,-116 98.7038,-116 102.37,-116 106.037,-119.667 106.037,-123.333 106.037,-123.333 106.037,-130.667 106.037,-130.667 106.037,-134.333 102.37,-138 98.7038,-138"/>
 <text text-anchor="middle" x="62" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionType</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- LazyCollectionType -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/protocol/LazyCollectionType/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/protocol/LazyCollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M171.714,-80C171.714,-80 72.2864,-80 72.2864,-80 68.6198,-80 64.9531,-76.3333 64.9531,-72.6667 64.9531,-72.6667 64.9531,-65.3333 64.9531,-65.3333 64.9531,-61.6667 68.6198,-58 72.2864,-58 72.2864,-58 171.714,-58 171.714,-58 175.38,-58 179.047,-61.6667 179.047,-65.3333 179.047,-65.3333 179.047,-72.6667 179.047,-72.6667 179.047,-76.3333 175.38,-80 171.714,-80"/>
 <text text-anchor="middle" x="122" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazyCollectionType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Indexable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.1/protocol/Indexable/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.1/protocol/Indexable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M85.6989,-196C85.6989,-196 38.3011,-196 38.3011,-196 34.6344,-196 30.9678,-192.333 30.9678,-188.667 30.9678,-188.667 30.9678,-181.333 30.9678,-181.333 30.9678,-177.667 34.6344,-174 38.3011,-174 38.3011,-174 85.6989,-174 85.6989,-174 89.3656,-174 93.0322,-177.667 93.0322,-181.333 93.0322,-181.333 93.0322,-188.667 93.0322,-188.667 93.0322,-192.333 89.3656,-196 85.6989,-196"/>
 <text text-anchor="middle" x="62" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Indexable</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- LazySequenceType -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/protocol/LazySequenceType/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/protocol/LazySequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M232.228,-138C232.228,-138 131.772,-138 131.772,-138 128.105,-138 124.439,-134.333 124.439,-130.667 124.439,-130.667 124.439,-123.333 124.439,-123.333 124.439,-119.667 128.105,-116 131.772,-116 131.772,-116 232.228,-116 232.228,-116 235.895,-116 239.561,-119.667 239.561,-123.333 239.561,-123.333 239.561,-130.667 239.561,-130.667 239.561,-134.333 235.895,-138 232.228,-138"/>
 <text text-anchor="middle" x="182" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazySequenceType</text>
 </a>
@@ -162,7 +162,7 @@
 </g>
 <!-- SequenceType -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/protocol/SequenceType/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M206.718,-196C206.718,-196 131.282,-196 131.282,-196 127.615,-196 123.949,-192.333 123.949,-188.667 123.949,-188.667 123.949,-181.333 123.949,-181.333 123.949,-177.667 127.615,-174 131.282,-174 131.282,-174 206.718,-174 206.718,-174 210.385,-174 214.051,-177.667 214.051,-181.333 214.051,-181.333 214.051,-188.667 214.051,-188.667 214.051,-192.333 210.385,-196 206.718,-196"/>
 <text text-anchor="middle" x="169" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>

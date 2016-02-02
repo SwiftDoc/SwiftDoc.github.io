@@ -102,7 +102,7 @@
 
 <!-- Array -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.1/type/Array/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.1/type/Array/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="234,-22 180,-22 180,-0 234,-0 234,-22"/>
 <text text-anchor="middle" x="207" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Array</text>
 </a>
@@ -118,7 +118,7 @@
 </g>
 <!-- Set -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.1/type/Set/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.1/type/Set/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="54,-22 0,-22 0,-0 54,-0 54,-22"/>
 <text text-anchor="middle" x="27" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Set</text>
 </a>
@@ -131,7 +131,7 @@
 </g>
 <!-- SetAlgebraType -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.1/protocol/SetAlgebraType/" target="_top">
+<g id="a_node7"><a xlink:href="/v2.1/protocol/SetAlgebraType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M157.212,-80C157.212,-80 76.7881,-80 76.7881,-80 73.1214,-80 69.4547,-76.3333 69.4547,-72.6667 69.4547,-72.6667 69.4547,-65.3333 69.4547,-65.3333 69.4547,-61.6667 73.1214,-58 76.7881,-58 76.7881,-58 157.212,-58 157.212,-58 160.879,-58 164.545,-61.6667 164.545,-65.3333 164.545,-65.3333 164.545,-72.6667 164.545,-72.6667 164.545,-76.3333 160.879,-80 157.212,-80"/>
 <text text-anchor="middle" x="117" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SetAlgebraType</text>
 </a>
@@ -144,7 +144,7 @@
 </g>
 <!-- _ArrayType -->
 <g id="node8" class="node">
-<g id="a_node8"><a xlink:href="/v2.1/protocol/_ArrayType/" target="_top">
+<g id="a_node8"><a xlink:href="/v2.1/protocol/_ArrayType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M279.19,-80C279.19,-80 222.81,-80 222.81,-80 219.144,-80 215.477,-76.3333 215.477,-72.6667 215.477,-72.6667 215.477,-65.3333 215.477,-65.3333 215.477,-61.6667 219.144,-58 222.81,-58 222.81,-58 279.19,-58 279.19,-58 282.856,-58 286.523,-61.6667 286.523,-65.3333 286.523,-65.3333 286.523,-72.6667 286.523,-72.6667 286.523,-76.3333 282.856,-80 279.19,-80"/>
 <text text-anchor="middle" x="251" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ArrayType</text>
 </a>
@@ -157,7 +157,7 @@
 </g>
 <!-- ArraySlice -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.1/type/ArraySlice/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.1/type/ArraySlice/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="316.011,-22 251.989,-22 251.989,-0 316.011,-0 316.011,-22"/>
 <text text-anchor="middle" x="284" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ArraySlice</text>
 </a>
@@ -165,7 +165,7 @@
 </g>
 <!-- ContiguousArray -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.1/type/ContiguousArray/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.1/type/ContiguousArray/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="433.534,-22 334.466,-22 334.466,-0 433.534,-0 433.534,-22"/>
 <text text-anchor="middle" x="384" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ContiguousArray</text>
 </a>
@@ -173,7 +173,7 @@
 </g>
 <!-- OptionSetType -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.1/protocol/OptionSetType/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.1/protocol/OptionSetType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M154.208,-22C154.208,-22 79.7925,-22 79.7925,-22 76.1258,-22 72.4592,-18.3333 72.4592,-14.6667 72.4592,-14.6667 72.4592,-7.33333 72.4592,-7.33333 72.4592,-3.66667 76.1258,-0 79.7925,-0 79.7925,-0 154.208,-0 154.208,-0 157.874,-0 161.541,-3.66667 161.541,-7.33333 161.541,-7.33333 161.541,-14.6667 161.541,-14.6667 161.541,-18.3333 157.874,-22 154.208,-22"/>
 <text text-anchor="middle" x="117" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">OptionSetType</text>
 </a>
