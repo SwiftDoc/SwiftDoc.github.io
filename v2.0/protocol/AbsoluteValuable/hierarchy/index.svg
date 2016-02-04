@@ -110,7 +110,7 @@
 </g>
 <!-- Double -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.0/type/Double/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.0/type/Double/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="55,-22 1,-22 1,-0 55,-0 55,-22"/>
 <text text-anchor="middle" x="28" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Double</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Float -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.0/type/Float/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.0/type/Float/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="127,-22 73,-22 73,-0 127,-0 127,-22"/>
 <text text-anchor="middle" x="100" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Float</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- Float80 -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.0/type/Float80/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.0/type/Float80/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="199,-22 145,-22 145,-0 199,-0 199,-22"/>
 <text text-anchor="middle" x="172" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Float80</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- Comparable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/Comparable/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/Comparable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M67.1913,-196C67.1913,-196 6.80872,-196 6.80872,-196 3.14205,-196 -0.524616,-192.333 -0.524616,-188.667 -0.524616,-188.667 -0.524616,-181.333 -0.524616,-181.333 -0.524616,-177.667 3.14205,-174 6.80872,-174 6.80872,-174 67.1913,-174 67.1913,-174 70.8579,-174 74.5246,-177.667 74.5246,-181.333 74.5246,-181.333 74.5246,-188.667 74.5246,-188.667 74.5246,-192.333 70.8579,-196 67.1913,-196"/>
 <text text-anchor="middle" x="37" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Comparable</text>
 </a>
@@ -157,7 +157,7 @@
 </g>
 <!-- SignedNumberType -->
 <g id="node8" class="node">
-<g id="a_node8"><a xlink:href="/v2.0/protocol/SignedNumberType/" target="_top">
+<g id="a_node8"><a xlink:href="/v2.0/protocol/SignedNumberType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M150.716,-138C150.716,-138 49.2835,-138 49.2835,-138 45.6169,-138 41.9502,-134.333 41.9502,-130.667 41.9502,-130.667 41.9502,-123.333 41.9502,-123.333 41.9502,-119.667 45.6169,-116 49.2835,-116 49.2835,-116 150.716,-116 150.716,-116 154.383,-116 158.05,-119.667 158.05,-123.333 158.05,-123.333 158.05,-130.667 158.05,-130.667 158.05,-134.333 154.383,-138 150.716,-138"/>
 <text text-anchor="middle" x="100" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SignedNumberType</text>
 </a>
@@ -170,7 +170,7 @@
 </g>
 <!-- Equatable -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.0/protocol/Equatable/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.0/protocol/Equatable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M61.7018,-254C61.7018,-254 12.2982,-254 12.2982,-254 8.6315,-254 4.96484,-250.333 4.96484,-246.667 4.96484,-246.667 4.96484,-239.333 4.96484,-239.333 4.96484,-235.667 8.6315,-232 12.2982,-232 12.2982,-232 61.7018,-232 61.7018,-232 65.3685,-232 69.0352,-235.667 69.0352,-239.333 69.0352,-239.333 69.0352,-246.667 69.0352,-246.667 69.0352,-250.333 65.3685,-254 61.7018,-254"/>
 <text text-anchor="middle" x="37" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>
@@ -183,7 +183,7 @@
 </g>
 <!-- IntegerLiteralConvertible -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.0/protocol/IntegerLiteralConvertible/" target="_top">
+<g id="a_node7"><a xlink:href="/v2.0/protocol/IntegerLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M225.722,-196C225.722,-196 100.278,-196 100.278,-196 96.6109,-196 92.9442,-192.333 92.9442,-188.667 92.9442,-188.667 92.9442,-181.333 92.9442,-181.333 92.9442,-177.667 96.6109,-174 100.278,-174 100.278,-174 225.722,-174 225.722,-174 229.389,-174 233.056,-177.667 233.056,-181.333 233.056,-181.333 233.056,-188.667 233.056,-188.667 233.056,-192.333 229.389,-196 225.722,-196"/>
 <text text-anchor="middle" x="163" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">IntegerLiteralConvertible</text>
 </a>

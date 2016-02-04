@@ -102,7 +102,7 @@
 
 <!-- CustomReflectable -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/protocol/CustomReflectable/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/protocol/CustomReflectable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M103.2,-80C103.2,-80 6.79968,-80 6.79968,-80 3.13302,-80 -0.53365,-76.3333 -0.53365,-72.6667 -0.53365,-72.6667 -0.53365,-65.3333 -0.53365,-65.3333 -0.53365,-61.6667 3.13302,-58 6.79968,-58 6.79968,-58 103.2,-58 103.2,-58 106.867,-58 110.534,-61.6667 110.534,-65.3333 110.534,-65.3333 110.534,-72.6667 110.534,-72.6667 110.534,-76.3333 106.867,-80 103.2,-80"/>
 <text text-anchor="middle" x="55" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CustomReflectable</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- CustomStringConvertible -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/CustomStringConvertible/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/CustomStringConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M264.208,-80C264.208,-80 135.792,-80 135.792,-80 132.126,-80 128.459,-76.3333 128.459,-72.6667 128.459,-72.6667 128.459,-65.3333 128.459,-65.3333 128.459,-61.6667 132.126,-58 135.792,-58 135.792,-58 264.208,-58 264.208,-58 267.874,-58 271.541,-61.6667 271.541,-65.3333 271.541,-65.3333 271.541,-72.6667 271.541,-72.6667 271.541,-76.3333 267.874,-80 264.208,-80"/>
 <text text-anchor="middle" x="200" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CustomStringConvertible</text>
 </a>

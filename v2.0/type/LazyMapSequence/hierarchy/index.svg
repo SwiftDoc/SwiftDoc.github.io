@@ -110,7 +110,7 @@
 </g>
 <!-- LazySequenceType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/LazySequenceType/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/LazySequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M197.228,-80C197.228,-80 96.7718,-80 96.7718,-80 93.1052,-80 89.4385,-76.3333 89.4385,-72.6667 89.4385,-72.6667 89.4385,-65.3333 89.4385,-65.3333 89.4385,-61.6667 93.1052,-58 96.7718,-58 96.7718,-58 197.228,-58 197.228,-58 200.895,-58 204.561,-61.6667 204.561,-65.3333 204.561,-65.3333 204.561,-72.6667 204.561,-72.6667 204.561,-76.3333 200.895,-80 197.228,-80"/>
 <text text-anchor="middle" x="147" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazySequenceType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- SequenceType -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.0/protocol/SequenceType/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.0/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M184.718,-138C184.718,-138 109.282,-138 109.282,-138 105.615,-138 101.949,-134.333 101.949,-130.667 101.949,-130.667 101.949,-123.333 101.949,-123.333 101.949,-119.667 105.615,-116 109.282,-116 109.282,-116 184.718,-116 184.718,-116 188.385,-116 192.051,-119.667 192.051,-123.333 192.051,-123.333 192.051,-130.667 192.051,-130.667 192.051,-134.333 188.385,-138 184.718,-138"/>
 <text text-anchor="middle" x="147" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>

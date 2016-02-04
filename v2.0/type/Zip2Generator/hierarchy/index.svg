@@ -102,7 +102,7 @@
 
 <!-- GeneratorType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/protocol/GeneratorType/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/protocol/GeneratorType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M241.705,-80C241.705,-80 166.295,-80 166.295,-80 162.629,-80 158.962,-76.3333 158.962,-72.6667 158.962,-72.6667 158.962,-65.3333 158.962,-65.3333 158.962,-61.6667 162.629,-58 166.295,-58 166.295,-58 241.705,-58 241.705,-58 245.371,-58 249.038,-61.6667 249.038,-65.3333 249.038,-65.3333 249.038,-72.6667 249.038,-72.6667 249.038,-76.3333 245.371,-80 241.705,-80"/>
 <text text-anchor="middle" x="204" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">GeneratorType</text>
 </a>

@@ -2,12 +2,12 @@ strict digraph "_ObjectiveCBridgeable - Type Hierarchy - SwiftDoc.org" {
     pad="0.1,0.8"
     node [shape=box, style="filled,rounded", color="#999999", fillcolor="#999999", fontcolor=white, fontname=Helvetica, fontnames="Helvetica,sansserif", fontsize=12, margin="0.07,0.05", height="0.3"]
     edge [color="#cccccc"]
-    "Dictionary" [URL="/type/Dictionary/", style=filled]
-    "Double" [URL="/type/Double/", style=filled]
-    "Float" [URL="/type/Float/", style=filled]
-    "ImplicitlyUnwrappedOptional" [URL="/type/ImplicitlyUnwrappedOptional/", style=filled]
-    "Set" [URL="/type/Set/", style=filled]
-    "String" [URL="/type/String/", style=filled]
+    "Dictionary" [URL="/type/Dictionary/hierarchy/", style=filled]
+    "Double" [URL="/type/Double/hierarchy/", style=filled]
+    "Float" [URL="/type/Float/hierarchy/", style=filled]
+    "ImplicitlyUnwrappedOptional" [URL="/type/ImplicitlyUnwrappedOptional/hierarchy/", style=filled]
+    "Set" [URL="/type/Set/hierarchy/", style=filled]
+    "String" [URL="/type/String/hierarchy/", style=filled]
     "_ObjectiveCBridgeable" [URL="/protocol/_ObjectiveCBridgeable/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]    "_ObjectiveCBridgeable" -> "Dictionary"
     "_ObjectiveCBridgeable" -> "Double"
     "_ObjectiveCBridgeable" -> "Float"

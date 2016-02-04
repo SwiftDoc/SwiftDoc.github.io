@@ -102,7 +102,7 @@
 
 <!-- LazySequence -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/type/LazySequence/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/type/LazySequence/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="88.5452,-22 -0.545227,-22 -0.545227,-0 88.5452,-0 88.5452,-22"/>
 <text text-anchor="middle" x="44" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">LazySequence</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- _CollectionWrapperType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/_CollectionWrapperType/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/_CollectionWrapperType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M240.06,-22C240.06,-22 113.94,-22 113.94,-22 110.273,-22 106.607,-18.3333 106.607,-14.6667 106.607,-14.6667 106.607,-7.33333 106.607,-7.33333 106.607,-3.66667 110.273,-0 113.94,-0 113.94,-0 240.06,-0 240.06,-0 243.727,-0 247.393,-3.66667 247.393,-7.33333 247.393,-7.33333 247.393,-14.6667 247.393,-14.6667 247.393,-18.3333 243.727,-22 240.06,-22"/>
 <text text-anchor="middle" x="177" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_CollectionWrapperType</text>
 </a>

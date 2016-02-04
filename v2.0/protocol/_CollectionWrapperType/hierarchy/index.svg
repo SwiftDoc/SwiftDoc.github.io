@@ -110,7 +110,7 @@
 </g>
 <!-- _SequenceWrapperType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/_SequenceWrapperType/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/_SequenceWrapperType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M134.577,-80C134.577,-80 7.42348,-80 7.42348,-80 3.75682,-80 0.0901509,-76.3333 0.0901509,-72.6667 0.0901509,-72.6667 0.0901509,-65.3333 0.0901509,-65.3333 0.0901509,-61.6667 3.75682,-58 7.42348,-58 7.42348,-58 134.577,-58 134.577,-58 138.243,-58 141.91,-61.6667 141.91,-65.3333 141.91,-65.3333 141.91,-72.6667 141.91,-72.6667 141.91,-76.3333 138.243,-80 134.577,-80"/>
 <text text-anchor="middle" x="71" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_SequenceWrapperType</text>
 </a>

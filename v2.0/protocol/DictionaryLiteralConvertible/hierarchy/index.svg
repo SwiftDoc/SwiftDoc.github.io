@@ -102,7 +102,7 @@
 
 <!-- Dictionary -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/type/Dictionary/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/type/Dictionary/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="62.5113,-22 -0.511305,-22 -0.511305,-0 62.5113,-0 62.5113,-22"/>
 <text text-anchor="middle" x="31" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Dictionary</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- DictionaryLiteral -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/type/DictionaryLiteral/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/type/DictionaryLiteral/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="177.025,-22 80.9751,-22 80.9751,-0 177.025,-0 177.025,-22"/>
 <text text-anchor="middle" x="129" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">DictionaryLiteral</text>
 </a>

@@ -102,7 +102,7 @@
 
 <!-- BidirectionalIndexType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/protocol/BidirectionalIndexType/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/protocol/BidirectionalIndexType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M199.725,-80C199.725,-80 84.2746,-80 84.2746,-80 80.6079,-80 76.9413,-76.3333 76.9413,-72.6667 76.9413,-72.6667 76.9413,-65.3333 76.9413,-65.3333 76.9413,-61.6667 80.6079,-58 84.2746,-58 84.2746,-58 199.725,-58 199.725,-58 203.392,-58 207.059,-61.6667 207.059,-65.3333 207.059,-65.3333 207.059,-72.6667 207.059,-72.6667 207.059,-76.3333 203.392,-80 199.725,-80"/>
 <text text-anchor="middle" x="142" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">BidirectionalIndexType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Comparable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/Comparable/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/Comparable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M67.1913,-138C67.1913,-138 6.80872,-138 6.80872,-138 3.14205,-138 -0.524616,-134.333 -0.524616,-130.667 -0.524616,-130.667 -0.524616,-123.333 -0.524616,-123.333 -0.524616,-119.667 3.14205,-116 6.80872,-116 6.80872,-116 67.1913,-116 67.1913,-116 70.8579,-116 74.5246,-119.667 74.5246,-123.333 74.5246,-123.333 74.5246,-130.667 74.5246,-130.667 74.5246,-134.333 70.8579,-138 67.1913,-138"/>
 <text text-anchor="middle" x="37" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Comparable</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- Equatable -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.0/protocol/Equatable/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.0/protocol/Equatable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M120.702,-254C120.702,-254 71.2982,-254 71.2982,-254 67.6315,-254 63.9648,-250.333 63.9648,-246.667 63.9648,-246.667 63.9648,-239.333 63.9648,-239.333 63.9648,-235.667 67.6315,-232 71.2982,-232 71.2982,-232 120.702,-232 120.702,-232 124.368,-232 128.035,-235.667 128.035,-239.333 128.035,-239.333 128.035,-246.667 128.035,-246.667 128.035,-250.333 124.368,-254 120.702,-254"/>
 <text text-anchor="middle" x="96" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- _Incrementable -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.0/protocol/_Incrementable/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.0/protocol/_Incrementable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M176.705,-196C176.705,-196 99.2948,-196 99.2948,-196 95.6281,-196 91.9614,-192.333 91.9614,-188.667 91.9614,-188.667 91.9614,-181.333 91.9614,-181.333 91.9614,-177.667 95.6281,-174 99.2948,-174 99.2948,-174 176.705,-174 176.705,-174 180.372,-174 184.039,-177.667 184.039,-181.333 184.039,-181.333 184.039,-188.667 184.039,-188.667 184.039,-192.333 180.372,-196 176.705,-196"/>
 <text text-anchor="middle" x="138" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Incrementable</text>
 </a>
@@ -162,7 +162,7 @@
 </g>
 <!-- ForwardIndexType -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.0/protocol/ForwardIndexType/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.0/protocol/ForwardIndexType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M194.206,-138C194.206,-138 99.7938,-138 99.7938,-138 96.1272,-138 92.4605,-134.333 92.4605,-130.667 92.4605,-130.667 92.4605,-123.333 92.4605,-123.333 92.4605,-119.667 96.1272,-116 99.7938,-116 99.7938,-116 194.206,-116 194.206,-116 197.873,-116 201.539,-119.667 201.539,-123.333 201.539,-123.333 201.539,-130.667 201.539,-130.667 201.539,-134.333 197.873,-138 194.206,-138"/>
 <text text-anchor="middle" x="147" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ForwardIndexType</text>
 </a>
@@ -180,7 +180,7 @@
 </g>
 <!-- _Reflectable -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.0/protocol/_Reflectable/" target="_top">
+<g id="a_node7"><a xlink:href="/v2.0/protocol/_Reflectable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M294.7,-80C294.7,-80 233.3,-80 233.3,-80 229.634,-80 225.967,-76.3333 225.967,-72.6667 225.967,-72.6667 225.967,-65.3333 225.967,-65.3333 225.967,-61.6667 229.634,-58 233.3,-58 233.3,-58 294.7,-58 294.7,-58 298.366,-58 302.033,-61.6667 302.033,-65.3333 302.033,-65.3333 302.033,-72.6667 302.033,-72.6667 302.033,-76.3333 298.366,-80 294.7,-80"/>
 <text text-anchor="middle" x="264" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Reflectable</text>
 </a>

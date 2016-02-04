@@ -2,70 +2,70 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     pad="0.1,0.8"
     node [shape=box, style="filled,rounded", color="#999999", fillcolor="#999999", fontcolor=white, fontname=Helvetica, fontnames="Helvetica,sansserif", fontsize=12, margin="0.07,0.05", height="0.3"]
     edge [color="#cccccc"]
-    "AbsoluteValuable" [URL="/protocol/AbsoluteValuable/"]
-    "AnyBidirectionalIndex" [URL="/type/AnyBidirectionalIndex/", style=filled]
-    "AnyForwardIndex" [URL="/type/AnyForwardIndex/", style=filled]
-    "AnyRandomAccessIndex" [URL="/type/AnyRandomAccessIndex/", style=filled]
-    "AutoreleasingUnsafeMutablePointer" [URL="/type/AutoreleasingUnsafeMutablePointer/", style=filled]
-    "BidirectionalIndexType" [URL="/protocol/BidirectionalIndexType/"]
-    "Bit" [URL="/type/Bit/", style=filled]
-    "Bool" [URL="/type/Bool/", style=filled]
-    "COpaquePointer" [URL="/type/COpaquePointer/", style=filled]
-    "Character" [URL="/type/Character/", style=filled]
-    "ClosedInterval" [URL="/type/ClosedInterval/", style=filled]
-    "Comparable" [URL="/protocol/Comparable/"]
-    "DictionaryIndex" [URL="/type/DictionaryIndex/", style=filled]
-    "Double" [URL="/type/Double/", style=filled]
+    "AbsoluteValuable" [URL="/protocol/AbsoluteValuable/hierarchy/"]
+    "AnyBidirectionalIndex" [URL="/type/AnyBidirectionalIndex/hierarchy/", style=filled]
+    "AnyForwardIndex" [URL="/type/AnyForwardIndex/hierarchy/", style=filled]
+    "AnyRandomAccessIndex" [URL="/type/AnyRandomAccessIndex/hierarchy/", style=filled]
+    "AutoreleasingUnsafeMutablePointer" [URL="/type/AutoreleasingUnsafeMutablePointer/hierarchy/", style=filled]
+    "BidirectionalIndexType" [URL="/protocol/BidirectionalIndexType/hierarchy/"]
+    "Bit" [URL="/type/Bit/hierarchy/", style=filled]
+    "Bool" [URL="/type/Bool/hierarchy/", style=filled]
+    "COpaquePointer" [URL="/type/COpaquePointer/hierarchy/", style=filled]
+    "Character" [URL="/type/Character/hierarchy/", style=filled]
+    "ClosedInterval" [URL="/type/ClosedInterval/hierarchy/", style=filled]
+    "Comparable" [URL="/protocol/Comparable/hierarchy/"]
+    "DictionaryIndex" [URL="/type/DictionaryIndex/hierarchy/", style=filled]
+    "Double" [URL="/type/Double/hierarchy/", style=filled]
     "Equatable" [URL="/protocol/Equatable/", style="filled,rounded", fillcolor="#ee543d", color="#ee543d"]
-    "FlattenBidirectionalCollectionIndex" [URL="/type/FlattenBidirectionalCollectionIndex/", style=filled]
-    "FlattenCollectionIndex" [URL="/type/FlattenCollectionIndex/", style=filled]
-    "Float" [URL="/type/Float/", style=filled]
-    "Float80" [URL="/type/Float80/", style=filled]
-    "FloatingPointClassification" [URL="/type/FloatingPointClassification/", style=filled]
-    "FloatingPointType" [URL="/protocol/FloatingPointType/"]
-    "ForwardIndexType" [URL="/protocol/ForwardIndexType/"]
-    "HalfOpenInterval" [URL="/type/HalfOpenInterval/", style=filled]
-    "Hashable" [URL="/protocol/Hashable/"]
-    "Int" [URL="/type/Int/", style=filled]
-    "Int16" [URL="/type/Int16/", style=filled]
-    "Int32" [URL="/type/Int32/", style=filled]
-    "Int64" [URL="/type/Int64/", style=filled]
-    "Int8" [URL="/type/Int8/", style=filled]
-    "IntegerArithmeticType" [URL="/protocol/IntegerArithmeticType/"]
-    "IntegerType" [URL="/protocol/IntegerType/"]
-    "LazyFilterIndex" [URL="/type/LazyFilterIndex/", style=filled]
-    "ManagedBufferPointer" [URL="/type/ManagedBufferPointer/", style=filled]
-    "ObjectIdentifier" [URL="/type/ObjectIdentifier/", style=filled]
-    "OptionSetType" [URL="/protocol/OptionSetType/"]
-    "RandomAccessIndexType" [URL="/protocol/RandomAccessIndexType/"]
-    "Range" [URL="/type/Range/", style=filled]
-    "ReverseIndex" [URL="/type/ReverseIndex/", style=filled]
-    "ReverseIndexType" [URL="/protocol/ReverseIndexType/"]
-    "ReverseRandomAccessIndex" [URL="/type/ReverseRandomAccessIndex/", style=filled]
-    "Set" [URL="/type/Set/", style=filled]
-    "SetAlgebraType" [URL="/protocol/SetAlgebraType/"]
-    "SetIndex" [URL="/type/SetIndex/", style=filled]
-    "SignedIntegerType" [URL="/protocol/SignedIntegerType/"]
-    "SignedNumberType" [URL="/protocol/SignedNumberType/"]
-    "Strideable" [URL="/protocol/Strideable/"]
-    "String" [URL="/type/String/", style=filled]
-    "String.CharacterView.Index" [URL="/type/String.CharacterView.Index/", style=filled]
-    "String.UTF16View.Index" [URL="/type/String.UTF16View.Index/", style=filled]
-    "String.UTF8View.Index" [URL="/type/String.UTF8View.Index/", style=filled]
-    "String.UnicodeScalarView.Index" [URL="/type/String.UnicodeScalarView.Index/", style=filled]
-    "UInt" [URL="/type/UInt/", style=filled]
-    "UInt16" [URL="/type/UInt16/", style=filled]
-    "UInt32" [URL="/type/UInt32/", style=filled]
-    "UInt64" [URL="/type/UInt64/", style=filled]
-    "UInt8" [URL="/type/UInt8/", style=filled]
-    "UnicodeScalar" [URL="/type/UnicodeScalar/", style=filled]
-    "UnsafeMutablePointer" [URL="/type/UnsafeMutablePointer/", style=filled]
-    "UnsafePointer" [URL="/type/UnsafePointer/", style=filled]
-    "UnsignedIntegerType" [URL="/protocol/UnsignedIntegerType/"]
-    "_DisallowMixedSignArithmetic" [URL="/protocol/_DisallowMixedSignArithmetic/"]
-    "_Incrementable" [URL="/protocol/_Incrementable/"]
-    "_IntegerType" [URL="/protocol/_IntegerType/"]
-    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/"]    "Equatable" -> "AutoreleasingUnsafeMutablePointer"
+    "FlattenBidirectionalCollectionIndex" [URL="/type/FlattenBidirectionalCollectionIndex/hierarchy/", style=filled]
+    "FlattenCollectionIndex" [URL="/type/FlattenCollectionIndex/hierarchy/", style=filled]
+    "Float" [URL="/type/Float/hierarchy/", style=filled]
+    "Float80" [URL="/type/Float80/hierarchy/", style=filled]
+    "FloatingPointClassification" [URL="/type/FloatingPointClassification/hierarchy/", style=filled]
+    "FloatingPointType" [URL="/protocol/FloatingPointType/hierarchy/"]
+    "ForwardIndexType" [URL="/protocol/ForwardIndexType/hierarchy/"]
+    "HalfOpenInterval" [URL="/type/HalfOpenInterval/hierarchy/", style=filled]
+    "Hashable" [URL="/protocol/Hashable/hierarchy/"]
+    "Int" [URL="/type/Int/hierarchy/", style=filled]
+    "Int16" [URL="/type/Int16/hierarchy/", style=filled]
+    "Int32" [URL="/type/Int32/hierarchy/", style=filled]
+    "Int64" [URL="/type/Int64/hierarchy/", style=filled]
+    "Int8" [URL="/type/Int8/hierarchy/", style=filled]
+    "IntegerArithmeticType" [URL="/protocol/IntegerArithmeticType/hierarchy/"]
+    "IntegerType" [URL="/protocol/IntegerType/hierarchy/"]
+    "LazyFilterIndex" [URL="/type/LazyFilterIndex/hierarchy/", style=filled]
+    "ManagedBufferPointer" [URL="/type/ManagedBufferPointer/hierarchy/", style=filled]
+    "ObjectIdentifier" [URL="/type/ObjectIdentifier/hierarchy/", style=filled]
+    "OptionSetType" [URL="/protocol/OptionSetType/hierarchy/"]
+    "RandomAccessIndexType" [URL="/protocol/RandomAccessIndexType/hierarchy/"]
+    "Range" [URL="/type/Range/hierarchy/", style=filled]
+    "ReverseIndex" [URL="/type/ReverseIndex/hierarchy/", style=filled]
+    "ReverseIndexType" [URL="/protocol/ReverseIndexType/hierarchy/"]
+    "ReverseRandomAccessIndex" [URL="/type/ReverseRandomAccessIndex/hierarchy/", style=filled]
+    "Set" [URL="/type/Set/hierarchy/", style=filled]
+    "SetAlgebraType" [URL="/protocol/SetAlgebraType/hierarchy/"]
+    "SetIndex" [URL="/type/SetIndex/hierarchy/", style=filled]
+    "SignedIntegerType" [URL="/protocol/SignedIntegerType/hierarchy/"]
+    "SignedNumberType" [URL="/protocol/SignedNumberType/hierarchy/"]
+    "Strideable" [URL="/protocol/Strideable/hierarchy/"]
+    "String" [URL="/type/String/hierarchy/", style=filled]
+    "String.CharacterView.Index" [URL="/type/String.CharacterView.Index/hierarchy/", style=filled]
+    "String.UTF16View.Index" [URL="/type/String.UTF16View.Index/hierarchy/", style=filled]
+    "String.UTF8View.Index" [URL="/type/String.UTF8View.Index/hierarchy/", style=filled]
+    "String.UnicodeScalarView.Index" [URL="/type/String.UnicodeScalarView.Index/hierarchy/", style=filled]
+    "UInt" [URL="/type/UInt/hierarchy/", style=filled]
+    "UInt16" [URL="/type/UInt16/hierarchy/", style=filled]
+    "UInt32" [URL="/type/UInt32/hierarchy/", style=filled]
+    "UInt64" [URL="/type/UInt64/hierarchy/", style=filled]
+    "UInt8" [URL="/type/UInt8/hierarchy/", style=filled]
+    "UnicodeScalar" [URL="/type/UnicodeScalar/hierarchy/", style=filled]
+    "UnsafeMutablePointer" [URL="/type/UnsafeMutablePointer/hierarchy/", style=filled]
+    "UnsafePointer" [URL="/type/UnsafePointer/hierarchy/", style=filled]
+    "UnsignedIntegerType" [URL="/protocol/UnsignedIntegerType/hierarchy/"]
+    "_DisallowMixedSignArithmetic" [URL="/protocol/_DisallowMixedSignArithmetic/hierarchy/"]
+    "_Incrementable" [URL="/protocol/_Incrementable/hierarchy/"]
+    "_IntegerType" [URL="/protocol/_IntegerType/hierarchy/"]
+    "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/hierarchy/"]    "Equatable" -> "AutoreleasingUnsafeMutablePointer"
     "Equatable" -> "ClosedInterval"
     "Equatable" -> "Comparable"
     "Equatable" -> "FloatingPointClassification"
@@ -87,6 +87,7 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "Comparable" -> "String.CharacterView.Index"
     "Comparable" -> "String.UnicodeScalarView.Index"
     "Comparable" -> "String.UTF16View.Index"
+    "IntegerArithmeticType" -> "Bit"
     "IntegerArithmeticType" -> "_IntegerType"
     "_IntegerType" -> "IntegerType"
     "_IntegerType" -> "_DisallowMixedSignArithmetic"
@@ -98,7 +99,6 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -116,7 +116,6 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "SignedNumberType" -> "AbsoluteValuable"
     "SignedNumberType" -> "_SignedIntegerType"
     "AbsoluteValuable" -> "Double"
@@ -128,13 +127,13 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "Strideable" -> "Float80"
     "Strideable" -> "FloatingPointType"
     "Strideable" -> "RandomAccessIndexType"
     "FloatingPointType" -> "Double"
     "FloatingPointType" -> "Float"
     "RandomAccessIndexType" -> "AnyRandomAccessIndex"
+    "RandomAccessIndexType" -> "Bit"
     "RandomAccessIndexType" -> "IntegerType"
     "RandomAccessIndexType" -> "ReverseRandomAccessIndex"
     "RandomAccessIndexType" -> "UnsafeMutablePointer"
@@ -146,7 +145,6 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -175,7 +173,6 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -193,7 +190,6 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "SetAlgebraType" -> "OptionSetType"
     "_Incrementable" -> "ForwardIndexType"
     "_Incrementable" -> "_IntegerType"
@@ -212,6 +208,7 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "BidirectionalIndexType" -> "String.UnicodeScalarView.Index"
     "BidirectionalIndexType" -> "String.UTF16View.Index"
     "RandomAccessIndexType" -> "AnyRandomAccessIndex"
+    "RandomAccessIndexType" -> "Bit"
     "RandomAccessIndexType" -> "IntegerType"
     "RandomAccessIndexType" -> "ReverseRandomAccessIndex"
     "RandomAccessIndexType" -> "UnsafeMutablePointer"
@@ -223,7 +220,6 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -241,7 +237,6 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -259,8 +254,7 @@ strict digraph "Equatable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     subgraph Types {
-        rank = max; "AutoreleasingUnsafeMutablePointer"; "ClosedInterval"; "FloatingPointClassification"; "HalfOpenInterval"; "ManagedBufferPointer"; "Range"; "Character"; "DictionaryIndex"; "ObjectIdentifier"; "SetIndex"; "String"; "UnicodeScalar"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "Double"; "Float"; "Float80"; "AnyRandomAccessIndex"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer"; "Bool"; "COpaquePointer"; "Set"; "AnyForwardIndex"; "FlattenCollectionIndex"; "LazyFilterIndex"; "String.UTF8View.Index"; "AnyBidirectionalIndex"; "FlattenBidirectionalCollectionIndex"; "ReverseIndex";
+        rank = max; "AutoreleasingUnsafeMutablePointer"; "ClosedInterval"; "FloatingPointClassification"; "HalfOpenInterval"; "ManagedBufferPointer"; "Range"; "Character"; "DictionaryIndex"; "ObjectIdentifier"; "SetIndex"; "String"; "UnicodeScalar"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index"; "Bit"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "Double"; "Float"; "Float80"; "AnyRandomAccessIndex"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer"; "Bool"; "COpaquePointer"; "Set"; "AnyForwardIndex"; "FlattenCollectionIndex"; "LazyFilterIndex"; "String.UTF8View.Index"; "AnyBidirectionalIndex"; "FlattenBidirectionalCollectionIndex"; "ReverseIndex";
     }
 }

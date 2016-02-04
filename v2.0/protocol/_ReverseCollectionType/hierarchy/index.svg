@@ -102,7 +102,7 @@
 
 <!-- CollectionType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/protocol/CollectionType/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/protocol/CollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M172.704,-138C172.704,-138 99.2962,-138 99.2962,-138 95.6295,-138 91.9628,-134.333 91.9628,-130.667 91.9628,-130.667 91.9628,-123.333 91.9628,-123.333 91.9628,-119.667 95.6295,-116 99.2962,-116 99.2962,-116 172.704,-116 172.704,-116 176.37,-116 180.037,-119.667 180.037,-123.333 180.037,-123.333 180.037,-130.667 180.037,-130.667 180.037,-134.333 176.37,-138 172.704,-138"/>
 <text text-anchor="middle" x="136" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Indexable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/Indexable/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/Indexable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M112.699,-196C112.699,-196 65.3011,-196 65.3011,-196 61.6344,-196 57.9678,-192.333 57.9678,-188.667 57.9678,-188.667 57.9678,-181.333 57.9678,-181.333 57.9678,-177.667 61.6344,-174 65.3011,-174 65.3011,-174 112.699,-174 112.699,-174 116.366,-174 120.032,-177.667 120.032,-181.333 120.032,-181.333 120.032,-188.667 120.032,-188.667 120.032,-192.333 116.366,-196 112.699,-196"/>
 <text text-anchor="middle" x="89" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Indexable</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- ReverseCollection -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.0/type/ReverseCollection/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.0/type/ReverseCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="106.532,-22 -0.532166,-22 -0.532166,-0 106.532,-0 106.532,-22"/>
 <text text-anchor="middle" x="53" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ReverseCollection</text>
 </a>
@@ -144,7 +144,7 @@
 </g>
 <!-- ReverseRandomAccessCollection -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.0/type/ReverseRandomAccessCollection/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.0/type/ReverseRandomAccessCollection/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="315.559,-22 124.441,-22 124.441,-0 315.559,-0 315.559,-22"/>
 <text text-anchor="middle" x="220" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ReverseRandomAccessCollection</text>
 </a>
@@ -152,7 +152,7 @@
 </g>
 <!-- SequenceType -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.0/protocol/SequenceType/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.0/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M220.718,-196C220.718,-196 145.282,-196 145.282,-196 141.615,-196 137.949,-192.333 137.949,-188.667 137.949,-188.667 137.949,-181.333 137.949,-181.333 137.949,-177.667 141.615,-174 145.282,-174 145.282,-174 220.718,-174 220.718,-174 224.385,-174 228.051,-177.667 228.051,-181.333 228.051,-181.333 228.051,-188.667 228.051,-188.667 228.051,-192.333 224.385,-196 220.718,-196"/>
 <text text-anchor="middle" x="183" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>

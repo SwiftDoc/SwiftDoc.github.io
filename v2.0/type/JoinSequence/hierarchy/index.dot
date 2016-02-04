@@ -3,7 +3,7 @@ strict digraph "JoinSequence<Base : SequenceType where Base.Generator.Element : 
     node [shape=box, style="filled,rounded", color="#999999", fillcolor="#999999", fontcolor=white, fontname=Helvetica, fontnames="Helvetica,sansserif", fontsize=12, margin="0.07,0.05", height="0.3"]
     edge [color="#cccccc"]
     "JoinSequence<Base : SequenceType where Base.Generator.Element : SequenceType>" [URL="/type/JoinSequence/", style="filled", fillcolor="#ee543d", color="#ee543d"]
-    "SequenceType" [URL="/protocol/SequenceType/"]    "SequenceType" -> "JoinSequence<Base : SequenceType where Base.Generator.Element : SequenceType>"
+    "SequenceType" [URL="/protocol/SequenceType/hierarchy/"]    "SequenceType" -> "JoinSequence<Base : SequenceType where Base.Generator.Element : SequenceType>"
     subgraph Types {
         rank = max; "JoinSequence<Base : SequenceType where Base.Generator.Element : SequenceType>";
     }

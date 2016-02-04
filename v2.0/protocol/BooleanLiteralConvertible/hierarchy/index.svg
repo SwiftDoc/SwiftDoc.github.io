@@ -102,7 +102,7 @@
 
 <!-- Bool -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/type/Bool/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/type/Bool/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="100,-22 46,-22 46,-0 100,-0 100,-22"/>
 <text text-anchor="middle" x="73" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Bool</text>
 </a>

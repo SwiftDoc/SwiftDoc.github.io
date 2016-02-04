@@ -102,7 +102,7 @@
 
 <!-- Character -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/type/Character/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/type/Character/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="62.0173,-22 -0.0172526,-22 -0.0172526,-0 62.0173,-0 62.0173,-22"/>
 <text text-anchor="middle" x="31" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Character</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- ExtendedGraphemeClusterLiteralConvertible -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/ExtendedGraphemeClusterLiteralConvertible/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/ExtendedGraphemeClusterLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M246.762,-138C246.762,-138 13.2384,-138 13.2384,-138 9.57169,-138 5.90502,-134.333 5.90502,-130.667 5.90502,-130.667 5.90502,-123.333 5.90502,-123.333 5.90502,-119.667 9.57169,-116 13.2384,-116 13.2384,-116 246.762,-116 246.762,-116 250.428,-116 254.095,-119.667 254.095,-123.333 254.095,-123.333 254.095,-130.667 254.095,-130.667 254.095,-134.333 250.428,-138 246.762,-138"/>
 <text text-anchor="middle" x="130" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ExtendedGraphemeClusterLiteralConvertible</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- StringLiteralConvertible -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.0/protocol/StringLiteralConvertible/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.0/protocol/StringLiteralConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M189.714,-80C189.714,-80 70.2863,-80 70.2863,-80 66.6196,-80 62.953,-76.3333 62.953,-72.6667 62.953,-72.6667 62.953,-65.3333 62.953,-65.3333 62.953,-61.6667 66.6196,-58 70.2863,-58 70.2863,-58 189.714,-58 189.714,-58 193.38,-58 197.047,-61.6667 197.047,-65.3333 197.047,-65.3333 197.047,-72.6667 197.047,-72.6667 197.047,-76.3333 193.38,-80 189.714,-80"/>
 <text text-anchor="middle" x="130" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">StringLiteralConvertible</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- StaticString -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.0/type/StaticString/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.0/type/StaticString/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="151.519,-22 80.4813,-22 80.4813,-0 151.519,-0 151.519,-22"/>
 <text text-anchor="middle" x="116" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">StaticString</text>
 </a>
@@ -144,7 +144,7 @@
 </g>
 <!-- String -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.0/type/String/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.0/type/String/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="224,-22 170,-22 170,-0 224,-0 224,-22"/>
 <text text-anchor="middle" x="197" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String</text>
 </a>
@@ -162,7 +162,7 @@
 </g>
 <!-- UnicodeScalar -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.0/type/UnicodeScalar/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.0/type/UnicodeScalar/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="330.031,-22 241.969,-22 241.969,-0 330.031,-0 330.031,-22"/>
 <text text-anchor="middle" x="286" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnicodeScalar</text>
 </a>

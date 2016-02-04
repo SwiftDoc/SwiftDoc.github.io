@@ -3,7 +3,6 @@ strict digraph "IntegerLiteralConvertible - Type Hierarchy - SwiftDoc.org" {
     node [shape=box, style="filled,rounded", color="#999999", fillcolor="#999999", fontcolor=white, fontname=Helvetica, fontnames="Helvetica,sansserif", fontsize=12, margin="0.07,0.05", height="0.3"]
     edge [color="#cccccc"]
     "AbsoluteValuable" [URL="/protocol/AbsoluteValuable/hierarchy/"]
-    "Bit" [URL="/type/Bit/hierarchy/", style=filled]
     "Double" [URL="/type/Double/hierarchy/", style=filled]
     "Float" [URL="/type/Float/hierarchy/", style=filled]
     "Float80" [URL="/type/Float80/hierarchy/", style=filled]
@@ -37,7 +36,6 @@ strict digraph "IntegerLiteralConvertible - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -49,7 +47,6 @@ strict digraph "IntegerLiteralConvertible - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "_UnsignedIntegerType" -> "UnsignedIntegerType"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
@@ -68,8 +65,7 @@ strict digraph "IntegerLiteralConvertible - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     subgraph Types {
-        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "Double"; "Float"; "Float80";
+        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "Double"; "Float"; "Float80";
     }
 }

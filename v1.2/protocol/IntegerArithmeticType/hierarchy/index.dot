@@ -23,7 +23,8 @@ strict digraph "IntegerArithmeticType - Type Hierarchy - SwiftDoc.org" {
     "_IntegerArithmeticType" [URL="/protocol/_IntegerArithmeticType/hierarchy/"]
     "_IntegerType" [URL="/protocol/_IntegerType/hierarchy/"]
     "_SignedIntegerType" [URL="/protocol/_SignedIntegerType/hierarchy/"]
-    "_UnsignedIntegerType" [URL="/protocol/_UnsignedIntegerType/hierarchy/"]    "IntegerArithmeticType" -> "_IntegerType"
+    "_UnsignedIntegerType" [URL="/protocol/_UnsignedIntegerType/hierarchy/"]    "IntegerArithmeticType" -> "Bit"
+    "IntegerArithmeticType" -> "_IntegerType"
     "_IntegerType" -> "IntegerType"
     "_IntegerType" -> "_SignedIntegerType"
     "_IntegerType" -> "_UnsignedIntegerType"
@@ -34,7 +35,6 @@ strict digraph "IntegerArithmeticType - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -46,7 +46,6 @@ strict digraph "IntegerArithmeticType - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "_UnsignedIntegerType" -> "UnsignedIntegerType"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
@@ -58,6 +57,6 @@ strict digraph "IntegerArithmeticType - Type Hierarchy - SwiftDoc.org" {
     "_Comparable" -> "Comparable"
     "Equatable" -> "Comparable"
     subgraph Types {
-        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
+        rank = max; "Bit"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
     }
 }

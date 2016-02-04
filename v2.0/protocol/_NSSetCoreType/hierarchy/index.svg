@@ -102,7 +102,7 @@
 
 <!-- _NSCopyingType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/protocol/_NSCopyingType/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/protocol/_NSCopyingType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M95.2105,-138C95.2105,-138 6.78948,-138 6.78948,-138 3.12281,-138 -0.543855,-134.333 -0.543855,-130.667 -0.543855,-130.667 -0.543855,-123.333 -0.543855,-123.333 -0.543855,-119.667 3.12281,-116 6.78948,-116 6.78948,-116 95.2105,-116 95.2105,-116 98.8772,-116 102.544,-119.667 102.544,-123.333 102.544,-123.333 102.544,-130.667 102.544,-130.667 102.544,-134.333 98.8772,-138 95.2105,-138"/>
 <text text-anchor="middle" x="51" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_NSCopyingType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- _NSFastEnumerationType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/_NSFastEnumerationType/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/_NSFastEnumerationType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M263.724,-138C263.724,-138 128.276,-138 128.276,-138 124.609,-138 120.943,-134.333 120.943,-130.667 120.943,-130.667 120.943,-123.333 120.943,-123.333 120.943,-119.667 124.609,-116 128.276,-116 128.276,-116 263.724,-116 263.724,-116 267.391,-116 271.057,-119.667 271.057,-123.333 271.057,-123.333 271.057,-130.667 271.057,-130.667 271.057,-134.333 267.391,-138 263.724,-138"/>
 <text text-anchor="middle" x="196" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_NSFastEnumerationType</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- _NSSetType -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.0/protocol/_NSSetType/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.0/protocol/_NSSetType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M154.199,-22C154.199,-22 91.8014,-22 91.8014,-22 88.1347,-22 84.468,-18.3333 84.468,-14.6667 84.468,-14.6667 84.468,-7.33333 84.468,-7.33333 84.468,-3.66667 88.1347,-0 91.8014,-0 91.8014,-0 154.199,-0 154.199,-0 157.865,-0 161.532,-3.66667 161.532,-7.33333 161.532,-7.33333 161.532,-14.6667 161.532,-14.6667 161.532,-18.3333 157.865,-22 154.199,-22"/>
 <text text-anchor="middle" x="123" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_NSSetType</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- _ShadowProtocol -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.0/protocol/_ShadowProtocol/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.0/protocol/_ShadowProtocol/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M167.712,-196C167.712,-196 78.2879,-196 78.2879,-196 74.6212,-196 70.9546,-192.333 70.9546,-188.667 70.9546,-188.667 70.9546,-181.333 70.9546,-181.333 70.9546,-177.667 74.6212,-174 78.2879,-174 78.2879,-174 167.712,-174 167.712,-174 171.379,-174 175.045,-177.667 175.045,-181.333 175.045,-181.333 175.045,-188.667 175.045,-188.667 175.045,-192.333 171.379,-196 167.712,-196"/>
 <text text-anchor="middle" x="123" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_ShadowProtocol</text>
 </a>

@@ -102,7 +102,7 @@
 
 <!-- ManagedBuffer -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/type/ManagedBuffer/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/type/ManagedBuffer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="365.384,-22 274.616,-22 274.616,-0 365.384,-0 365.384,-22"/>
 <text text-anchor="middle" x="320" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ManagedBuffer</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- ManagedProtoBuffer -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/type/ManagedProtoBuffer/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/type/ManagedProtoBuffer/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="255.895,-22 136.105,-22 136.105,-0 255.895,-0 255.895,-22"/>
 <text text-anchor="middle" x="196" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ManagedProtoBuffer</text>
 </a>

@@ -102,7 +102,7 @@
 
 <!-- Comparable -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/protocol/Comparable/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/protocol/Comparable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M67.1913,-80C67.1913,-80 6.80872,-80 6.80872,-80 3.14205,-80 -0.524616,-76.3333 -0.524616,-72.6667 -0.524616,-72.6667 -0.524616,-65.3333 -0.524616,-65.3333 -0.524616,-61.6667 3.14205,-58 6.80872,-58 6.80872,-58 67.1913,-58 67.1913,-58 70.8579,-58 74.5246,-61.6667 74.5246,-65.3333 74.5246,-65.3333 74.5246,-72.6667 74.5246,-72.6667 74.5246,-76.3333 70.8579,-80 67.1913,-80"/>
 <text text-anchor="middle" x="37" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Comparable</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- Equatable -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/Equatable/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/Equatable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M104.702,-138C104.702,-138 55.2982,-138 55.2982,-138 51.6315,-138 47.9648,-134.333 47.9648,-130.667 47.9648,-130.667 47.9648,-123.333 47.9648,-123.333 47.9648,-119.667 51.6315,-116 55.2982,-116 55.2982,-116 104.702,-116 104.702,-116 108.368,-116 112.035,-119.667 112.035,-123.333 112.035,-123.333 112.035,-130.667 112.035,-130.667 112.035,-134.333 108.368,-138 104.702,-138"/>
 <text text-anchor="middle" x="80" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- Hashable -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.0/protocol/Hashable/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.0/protocol/Hashable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M145.694,-80C145.694,-80 100.306,-80 100.306,-80 96.6392,-80 92.9725,-76.3333 92.9725,-72.6667 92.9725,-72.6667 92.9725,-65.3333 92.9725,-65.3333 92.9725,-61.6667 96.6392,-58 100.306,-58 100.306,-58 145.694,-58 145.694,-58 149.361,-58 153.027,-61.6667 153.027,-65.3333 153.027,-65.3333 153.027,-72.6667 153.027,-72.6667 153.027,-76.3333 149.361,-80 145.694,-80"/>
 <text text-anchor="middle" x="123" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Hashable</text>
 </a>

@@ -102,7 +102,7 @@
 
 <!-- CollectionType -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/protocol/CollectionType/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/protocol/CollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M584.704,-138C584.704,-138 511.296,-138 511.296,-138 507.63,-138 503.963,-134.333 503.963,-130.667 503.963,-130.667 503.963,-123.333 503.963,-123.333 503.963,-119.667 507.63,-116 511.296,-116 511.296,-116 584.704,-116 584.704,-116 588.37,-116 592.037,-119.667 592.037,-123.333 592.037,-123.333 592.037,-130.667 592.037,-130.667 592.037,-134.333 588.37,-138 584.704,-138"/>
 <text text-anchor="middle" x="548" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CollectionType</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- RangeReplaceableCollectionType -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.0/protocol/RangeReplaceableCollectionType/" target="_top">
+<g id="a_node5"><a xlink:href="/v2.0/protocol/RangeReplaceableCollectionType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M635.76,-80C635.76,-80 460.24,-80 460.24,-80 456.573,-80 452.906,-76.3333 452.906,-72.6667 452.906,-72.6667 452.906,-65.3333 452.906,-65.3333 452.906,-61.6667 456.573,-58 460.24,-58 460.24,-58 635.76,-58 635.76,-58 639.427,-58 643.094,-61.6667 643.094,-65.3333 643.094,-65.3333 643.094,-72.6667 643.094,-72.6667 643.094,-76.3333 639.427,-80 635.76,-80"/>
 <text text-anchor="middle" x="548" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">RangeReplaceableCollectionType</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- CustomDebugStringConvertible -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/CustomDebugStringConvertible/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/CustomDebugStringConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M170.73,-80C170.73,-80 7.2704,-80 7.2704,-80 3.60373,-80 -0.0629365,-76.3333 -0.0629365,-72.6667 -0.0629365,-72.6667 -0.0629365,-65.3333 -0.0629365,-65.3333 -0.0629365,-61.6667 3.60373,-58 7.2704,-58 7.2704,-58 170.73,-58 170.73,-58 174.396,-58 178.063,-61.6667 178.063,-65.3333 178.063,-65.3333 178.063,-72.6667 178.063,-72.6667 178.063,-76.3333 174.396,-80 170.73,-80"/>
 <text text-anchor="middle" x="89" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CustomDebugStringConvertible</text>
 </a>
@@ -144,7 +144,7 @@
 </g>
 <!-- CustomStringConvertible -->
 <g id="node3" class="node">
-<g id="a_node3"><a xlink:href="/v2.0/protocol/CustomStringConvertible/" target="_top">
+<g id="a_node3"><a xlink:href="/v2.0/protocol/CustomStringConvertible/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M332.208,-80C332.208,-80 203.792,-80 203.792,-80 200.126,-80 196.459,-76.3333 196.459,-72.6667 196.459,-72.6667 196.459,-65.3333 196.459,-65.3333 196.459,-61.6667 200.126,-58 203.792,-58 203.792,-58 332.208,-58 332.208,-58 335.874,-58 339.541,-61.6667 339.541,-65.3333 339.541,-65.3333 339.541,-72.6667 339.541,-72.6667 339.541,-76.3333 335.874,-80 332.208,-80"/>
 <text text-anchor="middle" x="268" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">CustomStringConvertible</text>
 </a>
@@ -157,7 +157,7 @@
 </g>
 <!-- Indexable -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.0/protocol/Indexable/" target="_top">
+<g id="a_node4"><a xlink:href="/v2.0/protocol/Indexable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M524.699,-196C524.699,-196 477.301,-196 477.301,-196 473.634,-196 469.968,-192.333 469.968,-188.667 469.968,-188.667 469.968,-181.333 469.968,-181.333 469.968,-177.667 473.634,-174 477.301,-174 477.301,-174 524.699,-174 524.699,-174 528.366,-174 532.032,-177.667 532.032,-181.333 532.032,-181.333 532.032,-188.667 532.032,-188.667 532.032,-192.333 528.366,-196 524.699,-196"/>
 <text text-anchor="middle" x="501" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Indexable</text>
 </a>
@@ -175,7 +175,7 @@
 </g>
 <!-- SequenceType -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.0/protocol/SequenceType/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.0/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M632.718,-196C632.718,-196 557.282,-196 557.282,-196 553.615,-196 549.949,-192.333 549.949,-188.667 549.949,-188.667 549.949,-181.333 549.949,-181.333 549.949,-177.667 553.615,-174 557.282,-174 557.282,-174 632.718,-174 632.718,-174 636.385,-174 640.051,-177.667 640.051,-181.333 640.051,-181.333 640.051,-188.667 640.051,-188.667 640.051,-192.333 636.385,-196 632.718,-196"/>
 <text text-anchor="middle" x="595" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>
@@ -188,7 +188,7 @@
 </g>
 <!-- _Reflectable -->
 <g id="node8" class="node">
-<g id="a_node8"><a xlink:href="/v2.0/protocol/_Reflectable/" target="_top">
+<g id="a_node8"><a xlink:href="/v2.0/protocol/_Reflectable/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M426.7,-80C426.7,-80 365.3,-80 365.3,-80 361.634,-80 357.967,-76.3333 357.967,-72.6667 357.967,-72.6667 357.967,-65.3333 357.967,-65.3333 357.967,-61.6667 361.634,-58 365.3,-58 365.3,-58 426.7,-58 426.7,-58 430.366,-58 434.033,-61.6667 434.033,-65.3333 434.033,-65.3333 434.033,-72.6667 434.033,-72.6667 434.033,-76.3333 430.366,-80 426.7,-80"/>
 <text text-anchor="middle" x="396" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Reflectable</text>
 </a>

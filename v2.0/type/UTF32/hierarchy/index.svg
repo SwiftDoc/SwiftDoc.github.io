@@ -110,7 +110,7 @@
 </g>
 <!-- UnicodeCodecType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/UnicodeCodecType/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/UnicodeCodecType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M106.72,-80C106.72,-80 7.28036,-80 7.28036,-80 3.6137,-80 -0.0529704,-76.3333 -0.0529704,-72.6667 -0.0529704,-72.6667 -0.0529704,-65.3333 -0.0529704,-65.3333 -0.0529704,-61.6667 3.6137,-58 7.28036,-58 7.28036,-58 106.72,-58 106.72,-58 110.386,-58 114.053,-61.6667 114.053,-65.3333 114.053,-65.3333 114.053,-72.6667 114.053,-72.6667 114.053,-76.3333 110.386,-80 106.72,-80"/>
 <text text-anchor="middle" x="57" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnicodeCodecType</text>
 </a>

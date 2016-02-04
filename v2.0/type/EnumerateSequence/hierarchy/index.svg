@@ -110,7 +110,7 @@
 </g>
 <!-- SequenceType -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/protocol/SequenceType/" target="_top">
+<g id="a_node2"><a xlink:href="/v2.0/protocol/SequenceType/hierarchy/" target="_top">
 <path fill="#999999" stroke="#999999" d="M164.718,-80C164.718,-80 89.2821,-80 89.2821,-80 85.6154,-80 81.9487,-76.3333 81.9487,-72.6667 81.9487,-72.6667 81.9487,-65.3333 81.9487,-65.3333 81.9487,-61.6667 85.6154,-58 89.2821,-58 89.2821,-58 164.718,-58 164.718,-58 168.385,-58 172.051,-61.6667 172.051,-65.3333 172.051,-65.3333 172.051,-72.6667 172.051,-72.6667 172.051,-76.3333 168.385,-80 164.718,-80"/>
 <text text-anchor="middle" x="127" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SequenceType</text>
 </a>

@@ -102,7 +102,7 @@
 
 <!-- AnyBidirectionalIndex -->
 <g id="node1" class="node">
-<g id="a_node1"><a xlink:href="/v2.0/type/AnyBidirectionalIndex/" target="_top">
+<g id="a_node1"><a xlink:href="/v2.0/type/AnyBidirectionalIndex/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="124.55,-22 -0.549813,-22 -0.549813,-0 124.55,-0 124.55,-22"/>
 <text text-anchor="middle" x="62" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AnyBidirectionalIndex</text>
 </a>
@@ -110,28 +110,28 @@
 </g>
 <!-- AnyRandomAccessIndex -->
 <g id="node2" class="node">
-<g id="a_node2"><a xlink:href="/v2.0/type/AnyRandomAccessIndex/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="1541.05,-22 1396.95,-22 1396.95,-0 1541.05,-0 1541.05,-22"/>
-<text text-anchor="middle" x="1469" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AnyRandomAccessIndex</text>
+<g id="a_node2"><a xlink:href="/v2.0/type/AnyRandomAccessIndex/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="499.051,-22 354.949,-22 354.949,-0 499.051,-0 499.051,-22"/>
+<text text-anchor="middle" x="427" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">AnyRandomAccessIndex</text>
 </a>
 </g>
 </g>
 <!-- BidirectionalIndexType -->
 <g id="node3" class="node">
 <g id="a_node3"><a xlink:href="/v2.0/protocol/BidirectionalIndexType/" target="_top">
-<path fill="#ee543d" stroke="#ee543d" d="M1754.73,-254C1754.73,-254 1639.27,-254 1639.27,-254 1635.61,-254 1631.94,-250.333 1631.94,-246.667 1631.94,-246.667 1631.94,-239.333 1631.94,-239.333 1631.94,-235.667 1635.61,-232 1639.27,-232 1639.27,-232 1754.73,-232 1754.73,-232 1758.39,-232 1762.06,-235.667 1762.06,-239.333 1762.06,-239.333 1762.06,-246.667 1762.06,-246.667 1762.06,-250.333 1758.39,-254 1754.73,-254"/>
-<text text-anchor="middle" x="1697" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">BidirectionalIndexType</text>
+<path fill="#ee543d" stroke="#ee543d" d="M1747.73,-254C1747.73,-254 1632.27,-254 1632.27,-254 1628.61,-254 1624.94,-250.333 1624.94,-246.667 1624.94,-246.667 1624.94,-239.333 1624.94,-239.333 1624.94,-235.667 1628.61,-232 1632.27,-232 1632.27,-232 1747.73,-232 1747.73,-232 1751.39,-232 1755.06,-235.667 1755.06,-239.333 1755.06,-239.333 1755.06,-246.667 1755.06,-246.667 1755.06,-250.333 1751.39,-254 1747.73,-254"/>
+<text text-anchor="middle" x="1690" y="-239.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">BidirectionalIndexType</text>
 </a>
 </g>
 </g>
 <!-- BidirectionalIndexType&#45;&gt;AnyBidirectionalIndex -->
 <g id="edge1" class="edge">
-<path fill="none" stroke="#cccccc" d="M1631.93,-239.193C1515.52,-233.761 1264.03,-220.168 1053,-196 888.937,-177.211 848.527,-167.238 686,-138 475.83,-100.191 227.447,-47.6782 118.26,-24.1955"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="118.959,-20.7658 108.446,-22.0824 117.486,-27.609 118.959,-20.7658"/>
+<path fill="none" stroke="#cccccc" d="M1624.59,-239.483C1505.03,-234.438 1243.33,-221.337 1024,-196 864.315,-177.553 825.057,-167.283 667,-138 463.118,-100.227 222.261,-47.6743 116.458,-24.1862"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="117.167,-20.7586 106.646,-22.0054 115.648,-27.5918 117.167,-20.7586"/>
 </g>
 <!-- FlattenBidirectionalCollectionIndex -->
 <g id="node6" class="node">
-<g id="a_node6"><a xlink:href="/v2.0/type/FlattenBidirectionalCollectionIndex/" target="_top">
+<g id="a_node6"><a xlink:href="/v2.0/type/FlattenBidirectionalCollectionIndex/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="337.076,-22 142.924,-22 142.924,-0 337.076,-0 337.076,-22"/>
 <text text-anchor="middle" x="240" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">FlattenBidirectionalCollectionIndex</text>
 </a>
@@ -139,38 +139,38 @@
 </g>
 <!-- BidirectionalIndexType&#45;&gt;FlattenBidirectionalCollectionIndex -->
 <g id="edge2" class="edge">
-<path fill="none" stroke="#cccccc" d="M1631.64,-236.974C1449.42,-222.157 920.846,-173.699 491,-80 417.13,-63.8976 332.498,-39.7638 282.794,-24.9966"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="283.616,-21.5897 273.033,-22.0836 281.614,-28.2973 283.616,-21.5897"/>
+<path fill="none" stroke="#cccccc" d="M1624.66,-237.179C1474.4,-225.52 1093.01,-192.657 778,-138 593.972,-106.069 378.67,-49.8253 286.113,-24.7209"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="286.798,-21.28 276.23,-22.0318 284.96,-28.0345 286.798,-21.28"/>
 </g>
 <!-- RandomAccessIndexType -->
 <g id="node14" class="node">
-<g id="a_node14"><a xlink:href="/v2.0/protocol/RandomAccessIndexType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M1470.23,-196C1470.23,-196 1335.77,-196 1335.77,-196 1332.11,-196 1328.44,-192.333 1328.44,-188.667 1328.44,-188.667 1328.44,-181.333 1328.44,-181.333 1328.44,-177.667 1332.11,-174 1335.77,-174 1335.77,-174 1470.23,-174 1470.23,-174 1473.89,-174 1477.56,-177.667 1477.56,-181.333 1477.56,-181.333 1477.56,-188.667 1477.56,-188.667 1477.56,-192.333 1473.89,-196 1470.23,-196"/>
-<text text-anchor="middle" x="1403" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">RandomAccessIndexType</text>
+<g id="a_node14"><a xlink:href="/v2.0/protocol/RandomAccessIndexType/hierarchy/" target="_top">
+<path fill="#999999" stroke="#999999" d="M1440.23,-196C1440.23,-196 1305.77,-196 1305.77,-196 1302.11,-196 1298.44,-192.333 1298.44,-188.667 1298.44,-188.667 1298.44,-181.333 1298.44,-181.333 1298.44,-177.667 1302.11,-174 1305.77,-174 1305.77,-174 1440.23,-174 1440.23,-174 1443.89,-174 1447.56,-177.667 1447.56,-181.333 1447.56,-181.333 1447.56,-188.667 1447.56,-188.667 1447.56,-192.333 1443.89,-196 1440.23,-196"/>
+<text text-anchor="middle" x="1373" y="-181.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">RandomAccessIndexType</text>
 </a>
 </g>
 </g>
 <!-- BidirectionalIndexType&#45;&gt;RandomAccessIndexType -->
 <g id="edge3" class="edge">
-<path fill="none" stroke="#cccccc" d="M1644.44,-231.988C1594.32,-222.442 1518.8,-208.058 1465.6,-197.923"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1466.08,-194.452 1455.6,-196.019 1464.77,-201.329 1466.08,-194.452"/>
+<path fill="none" stroke="#cccccc" d="M1633.33,-231.988C1579.06,-222.402 1497.19,-207.938 1439.78,-197.797"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1440.17,-194.312 1429.72,-196.019 1438.95,-201.206 1440.17,-194.312"/>
 </g>
 <!-- ReverseIndexType -->
 <g id="node16" class="node">
-<g id="a_node16"><a xlink:href="/v2.0/protocol/ReverseIndexType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M1744.71,-80C1744.71,-80 1649.29,-80 1649.29,-80 1645.62,-80 1641.95,-76.3333 1641.95,-72.6667 1641.95,-72.6667 1641.95,-65.3333 1641.95,-65.3333 1641.95,-61.6667 1645.62,-58 1649.29,-58 1649.29,-58 1744.71,-58 1744.71,-58 1748.38,-58 1752.05,-61.6667 1752.05,-65.3333 1752.05,-65.3333 1752.05,-72.6667 1752.05,-72.6667 1752.05,-76.3333 1748.38,-80 1744.71,-80"/>
-<text text-anchor="middle" x="1697" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ReverseIndexType</text>
+<g id="a_node16"><a xlink:href="/v2.0/protocol/ReverseIndexType/hierarchy/" target="_top">
+<path fill="#999999" stroke="#999999" d="M1737.71,-80C1737.71,-80 1642.29,-80 1642.29,-80 1638.62,-80 1634.95,-76.3333 1634.95,-72.6667 1634.95,-72.6667 1634.95,-65.3333 1634.95,-65.3333 1634.95,-61.6667 1638.62,-58 1642.29,-58 1642.29,-58 1737.71,-58 1737.71,-58 1741.38,-58 1745.05,-61.6667 1745.05,-65.3333 1745.05,-65.3333 1745.05,-72.6667 1745.05,-72.6667 1745.05,-76.3333 1741.38,-80 1737.71,-80"/>
+<text text-anchor="middle" x="1690" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ReverseIndexType</text>
 </a>
 </g>
 </g>
 <!-- BidirectionalIndexType&#45;&gt;ReverseIndexType -->
 <g id="edge4" class="edge">
-<path fill="none" stroke="#cccccc" d="M1697,-231.756C1697,-204.097 1697,-127.509 1697,-90.5186"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1700.5,-90.408 1697,-80.4081 1693.5,-90.4081 1700.5,-90.408"/>
+<path fill="none" stroke="#cccccc" d="M1690,-231.756C1690,-204.097 1690,-127.509 1690,-90.5186"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1693.5,-90.408 1690,-80.4081 1686.5,-90.4081 1693.5,-90.408"/>
 </g>
 <!-- String.CharacterView.Index -->
 <g id="node19" class="node">
-<g id="a_node19"><a xlink:href="/v2.0/type/String.CharacterView.Index/" target="_top">
+<g id="a_node19"><a xlink:href="/v2.0/type/String.CharacterView.Index/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2002.4,-22 1847.6,-22 1847.6,-0 2002.4,-0 2002.4,-22"/>
 <text text-anchor="middle" x="1925" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String.CharacterView.Index</text>
 </a>
@@ -178,12 +178,12 @@
 </g>
 <!-- BidirectionalIndexType&#45;&gt;String.CharacterView.Index -->
 <g id="edge5" class="edge">
-<path fill="none" stroke="#cccccc" d="M1707.09,-231.82C1742.7,-195.899 1862.75,-74.7927 1907.76,-29.3871"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1910.47,-31.628 1915.03,-22.062 1905.5,-26.6999 1910.47,-31.628"/>
+<path fill="none" stroke="#cccccc" d="M1700.4,-231.82C1737.18,-195.824 1861.35,-74.2909 1907.52,-29.1061"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1910.02,-31.558 1914.72,-22.062 1905.12,-26.5553 1910.02,-31.558"/>
 </g>
 <!-- String.UTF16View.Index -->
 <g id="node20" class="node">
-<g id="a_node20"><a xlink:href="/v2.0/type/String.UTF16View.Index/" target="_top">
+<g id="a_node20"><a xlink:href="/v2.0/type/String.UTF16View.Index/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2159.39,-22 2020.61,-22 2020.61,-0 2159.39,-0 2159.39,-22"/>
 <text text-anchor="middle" x="2090" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String.UTF16View.Index</text>
 </a>
@@ -191,12 +191,12 @@
 </g>
 <!-- BidirectionalIndexType&#45;&gt;String.UTF16View.Index -->
 <g id="edge7" class="edge">
-<path fill="none" stroke="#cccccc" d="M1714.14,-231.969C1776.19,-195.652 1989.4,-70.878 2063.98,-27.226"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="2065.91,-30.1553 2072.77,-22.0835 2062.37,-24.1138 2065.91,-30.1553"/>
+<path fill="none" stroke="#cccccc" d="M1707.44,-231.969C1770.6,-195.652 1987.6,-70.878 2063.52,-27.226"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="2065.54,-30.1025 2072.46,-22.0835 2062.05,-24.0341 2065.54,-30.1025"/>
 </g>
 <!-- String.UnicodeScalarView.Index -->
 <g id="node21" class="node">
-<g id="a_node21"><a xlink:href="/v2.0/type/String.UnicodeScalarView.Index/" target="_top">
+<g id="a_node21"><a xlink:href="/v2.0/type/String.UnicodeScalarView.Index/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="2357.92,-22 2178.08,-22 2178.08,-0 2357.92,-0 2357.92,-22"/>
 <text text-anchor="middle" x="2268" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">String.UnicodeScalarView.Index</text>
 </a>
@@ -204,182 +204,182 @@
 </g>
 <!-- BidirectionalIndexType&#45;&gt;String.UnicodeScalarView.Index -->
 <g id="edge6" class="edge">
-<path fill="none" stroke="#cccccc" d="M1721.9,-231.969C1812.98,-195.283 2128.16,-68.3276 2233.45,-25.9179"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="2235,-29.0664 2242.97,-22.0835 2232.38,-22.5734 2235,-29.0664"/>
+<path fill="none" stroke="#cccccc" d="M1715.21,-231.969C1807.5,-195.246 2127.09,-68.0715 2233.35,-25.7899"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="2234.66,-29.0328 2242.66,-22.0835 2232.07,-22.5289 2234.66,-29.0328"/>
 </g>
 <!-- Bit -->
 <g id="node4" class="node">
-<g id="a_node4"><a xlink:href="/v2.0/type/Bit/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="1129,-22 1075,-22 1075,-0 1129,-0 1129,-22"/>
-<text text-anchor="middle" x="1102" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Bit</text>
+<g id="a_node4"><a xlink:href="/v2.0/type/Bit/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="571,-22 517,-22 517,-0 571,-0 571,-22"/>
+<text text-anchor="middle" x="544" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Bit</text>
 </a>
 </g>
 </g>
 <!-- Equatable -->
 <g id="node5" class="node">
-<g id="a_node5"><a xlink:href="/v2.0/protocol/Equatable/" target="_top">
-<path fill="#999999" stroke="#999999" d="M1721.7,-428C1721.7,-428 1672.3,-428 1672.3,-428 1668.63,-428 1664.96,-424.333 1664.96,-420.667 1664.96,-420.667 1664.96,-413.333 1664.96,-413.333 1664.96,-409.667 1668.63,-406 1672.3,-406 1672.3,-406 1721.7,-406 1721.7,-406 1725.37,-406 1729.04,-409.667 1729.04,-413.333 1729.04,-413.333 1729.04,-420.667 1729.04,-420.667 1729.04,-424.333 1725.37,-428 1721.7,-428"/>
-<text text-anchor="middle" x="1697" y="-413.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
+<g id="a_node5"><a xlink:href="/v2.0/protocol/Equatable/hierarchy/" target="_top">
+<path fill="#999999" stroke="#999999" d="M1714.7,-428C1714.7,-428 1665.3,-428 1665.3,-428 1661.63,-428 1657.96,-424.333 1657.96,-420.667 1657.96,-420.667 1657.96,-413.333 1657.96,-413.333 1657.96,-409.667 1661.63,-406 1665.3,-406 1665.3,-406 1714.7,-406 1714.7,-406 1718.37,-406 1722.04,-409.667 1722.04,-413.333 1722.04,-413.333 1722.04,-420.667 1722.04,-420.667 1722.04,-424.333 1718.37,-428 1714.7,-428"/>
+<text text-anchor="middle" x="1690" y="-413.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Equatable</text>
 </a>
 </g>
 </g>
 <!-- _Incrementable -->
 <g id="node30" class="node">
-<g id="a_node30"><a xlink:href="/v2.0/protocol/_Incrementable/" target="_top">
-<path fill="#999999" stroke="#999999" d="M1735.71,-370C1735.71,-370 1658.29,-370 1658.29,-370 1654.63,-370 1650.96,-366.333 1650.96,-362.667 1650.96,-362.667 1650.96,-355.333 1650.96,-355.333 1650.96,-351.667 1654.63,-348 1658.29,-348 1658.29,-348 1735.71,-348 1735.71,-348 1739.37,-348 1743.04,-351.667 1743.04,-355.333 1743.04,-355.333 1743.04,-362.667 1743.04,-362.667 1743.04,-366.333 1739.37,-370 1735.71,-370"/>
-<text text-anchor="middle" x="1697" y="-355.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Incrementable</text>
+<g id="a_node30"><a xlink:href="/v2.0/protocol/_Incrementable/hierarchy/" target="_top">
+<path fill="#999999" stroke="#999999" d="M1728.71,-370C1728.71,-370 1651.29,-370 1651.29,-370 1647.63,-370 1643.96,-366.333 1643.96,-362.667 1643.96,-362.667 1643.96,-355.333 1643.96,-355.333 1643.96,-351.667 1647.63,-348 1651.29,-348 1651.29,-348 1728.71,-348 1728.71,-348 1732.37,-348 1736.04,-351.667 1736.04,-355.333 1736.04,-355.333 1736.04,-362.667 1736.04,-362.667 1736.04,-366.333 1732.37,-370 1728.71,-370"/>
+<text text-anchor="middle" x="1690" y="-355.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">_Incrementable</text>
 </a>
 </g>
 </g>
 <!-- Equatable&#45;&gt;_Incrementable -->
 <g id="edge30" class="edge">
-<path fill="none" stroke="#cccccc" d="M1697,-405.988C1697,-398.91 1697,-389.171 1697,-380.478"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1700.5,-380.304 1697,-370.304 1693.5,-380.304 1700.5,-380.304"/>
+<path fill="none" stroke="#cccccc" d="M1690,-405.988C1690,-398.91 1690,-389.171 1690,-380.478"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1693.5,-380.304 1690,-370.304 1686.5,-380.304 1693.5,-380.304"/>
 </g>
 <!-- ForwardIndexType -->
 <g id="node7" class="node">
-<g id="a_node7"><a xlink:href="/v2.0/protocol/ForwardIndexType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M1744.21,-312C1744.21,-312 1649.79,-312 1649.79,-312 1646.13,-312 1642.46,-308.333 1642.46,-304.667 1642.46,-304.667 1642.46,-297.333 1642.46,-297.333 1642.46,-293.667 1646.13,-290 1649.79,-290 1649.79,-290 1744.21,-290 1744.21,-290 1747.87,-290 1751.54,-293.667 1751.54,-297.333 1751.54,-297.333 1751.54,-304.667 1751.54,-304.667 1751.54,-308.333 1747.87,-312 1744.21,-312"/>
-<text text-anchor="middle" x="1697" y="-297.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ForwardIndexType</text>
+<g id="a_node7"><a xlink:href="/v2.0/protocol/ForwardIndexType/hierarchy/" target="_top">
+<path fill="#999999" stroke="#999999" d="M1737.21,-312C1737.21,-312 1642.79,-312 1642.79,-312 1639.13,-312 1635.46,-308.333 1635.46,-304.667 1635.46,-304.667 1635.46,-297.333 1635.46,-297.333 1635.46,-293.667 1639.13,-290 1642.79,-290 1642.79,-290 1737.21,-290 1737.21,-290 1740.87,-290 1744.54,-293.667 1744.54,-297.333 1744.54,-297.333 1744.54,-304.667 1744.54,-304.667 1744.54,-308.333 1740.87,-312 1737.21,-312"/>
+<text text-anchor="middle" x="1690" y="-297.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ForwardIndexType</text>
 </a>
 </g>
 </g>
 <!-- ForwardIndexType&#45;&gt;BidirectionalIndexType -->
 <g id="edge28" class="edge">
-<path fill="none" stroke="#cccccc" d="M1697,-289.988C1697,-282.91 1697,-273.171 1697,-264.478"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1700.5,-264.304 1697,-254.304 1693.5,-264.304 1700.5,-264.304"/>
+<path fill="none" stroke="#cccccc" d="M1690,-289.988C1690,-282.91 1690,-273.171 1690,-264.478"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1693.5,-264.304 1690,-254.304 1686.5,-264.304 1693.5,-264.304"/>
 </g>
 <!-- Int -->
 <g id="node8" class="node">
-<g id="a_node8"><a xlink:href="/v2.0/type/Int/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="841,-22 787,-22 787,-0 841,-0 841,-22"/>
-<text text-anchor="middle" x="814" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int</text>
+<g id="a_node8"><a xlink:href="/v2.0/type/Int/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="1291,-22 1237,-22 1237,-0 1291,-0 1291,-22"/>
+<text text-anchor="middle" x="1264" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int</text>
 </a>
 </g>
 </g>
-<!-- Int&#45;&gt;Bit -->
-<g id="edge20" class="edge">
-<path fill="none" stroke="#cccccc" d="M826.779,-22.0854C835.283,-28.7029 847.052,-36.4837 859,-40 901.21,-52.4229 1014.79,-52.4229 1057,-40 1065.4,-37.5276 1073.71,-32.9469 1080.86,-28.1447"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1083.18,-30.7891 1089.22,-22.0854 1079.07,-25.122 1083.18,-30.7891"/>
-</g>
 <!-- Int16 -->
 <g id="node9" class="node">
-<g id="a_node9"><a xlink:href="/v2.0/type/Int16/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="913,-22 859,-22 859,-0 913,-0 913,-22"/>
-<text text-anchor="middle" x="886" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int16</text>
+<g id="a_node9"><a xlink:href="/v2.0/type/Int16/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="1003,-22 949,-22 949,-0 1003,-0 1003,-22"/>
+<text text-anchor="middle" x="976" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int16</text>
 </a>
 </g>
 </g>
 <!-- Int32 -->
 <g id="node10" class="node">
-<g id="a_node10"><a xlink:href="/v2.0/type/Int32/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="985,-22 931,-22 931,-0 985,-0 985,-22"/>
-<text text-anchor="middle" x="958" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int32</text>
+<g id="a_node10"><a xlink:href="/v2.0/type/Int32/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="1075,-22 1021,-22 1021,-0 1075,-0 1075,-22"/>
+<text text-anchor="middle" x="1048" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int32</text>
 </a>
 </g>
 </g>
 <!-- Int64 -->
 <g id="node11" class="node">
-<g id="a_node11"><a xlink:href="/v2.0/type/Int64/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="1057,-22 1003,-22 1003,-0 1057,-0 1057,-22"/>
-<text text-anchor="middle" x="1030" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int64</text>
+<g id="a_node11"><a xlink:href="/v2.0/type/Int64/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="1147,-22 1093,-22 1093,-0 1147,-0 1147,-22"/>
+<text text-anchor="middle" x="1120" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int64</text>
 </a>
 </g>
 </g>
 <!-- Int8 -->
 <g id="node12" class="node">
-<g id="a_node12"><a xlink:href="/v2.0/type/Int8/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="769,-22 715,-22 715,-0 769,-0 769,-22"/>
-<text text-anchor="middle" x="742" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int8</text>
+<g id="a_node12"><a xlink:href="/v2.0/type/Int8/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="1219,-22 1165,-22 1165,-0 1219,-0 1219,-22"/>
+<text text-anchor="middle" x="1192" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">Int8</text>
 </a>
 </g>
 </g>
 <!-- IntegerType -->
 <g id="node13" class="node">
-<g id="a_node13"><a xlink:href="/v2.0/protocol/IntegerType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M915.202,-138C915.202,-138 856.798,-138 856.798,-138 853.132,-138 849.465,-134.333 849.465,-130.667 849.465,-130.667 849.465,-123.333 849.465,-123.333 849.465,-119.667 853.132,-116 856.798,-116 856.798,-116 915.202,-116 915.202,-116 918.868,-116 922.535,-119.667 922.535,-123.333 922.535,-123.333 922.535,-130.667 922.535,-130.667 922.535,-134.333 918.868,-138 915.202,-138"/>
-<text text-anchor="middle" x="886" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">IntegerType</text>
+<g id="a_node13"><a xlink:href="/v2.0/protocol/IntegerType/hierarchy/" target="_top">
+<path fill="#999999" stroke="#999999" d="M1149.2,-138C1149.2,-138 1090.8,-138 1090.8,-138 1087.13,-138 1083.47,-134.333 1083.47,-130.667 1083.47,-130.667 1083.47,-123.333 1083.47,-123.333 1083.47,-119.667 1087.13,-116 1090.8,-116 1090.8,-116 1149.2,-116 1149.2,-116 1152.87,-116 1156.53,-119.667 1156.53,-123.333 1156.53,-123.333 1156.53,-130.667 1156.53,-130.667 1156.53,-134.333 1152.87,-138 1149.2,-138"/>
+<text text-anchor="middle" x="1120" y="-123.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">IntegerType</text>
 </a>
 </g>
 </g>
 <!-- SignedIntegerType -->
 <g id="node18" class="node">
-<g id="a_node18"><a xlink:href="/v2.0/protocol/SignedIntegerType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M933.727,-80C933.727,-80 838.273,-80 838.273,-80 834.606,-80 830.94,-76.3333 830.94,-72.6667 830.94,-72.6667 830.94,-65.3333 830.94,-65.3333 830.94,-61.6667 834.606,-58 838.273,-58 838.273,-58 933.727,-58 933.727,-58 937.394,-58 941.06,-61.6667 941.06,-65.3333 941.06,-65.3333 941.06,-72.6667 941.06,-72.6667 941.06,-76.3333 937.394,-80 933.727,-80"/>
-<text text-anchor="middle" x="886" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SignedIntegerType</text>
+<g id="a_node18"><a xlink:href="/v2.0/protocol/SignedIntegerType/hierarchy/" target="_top">
+<path fill="#999999" stroke="#999999" d="M1167.73,-80C1167.73,-80 1072.27,-80 1072.27,-80 1068.61,-80 1064.94,-76.3333 1064.94,-72.6667 1064.94,-72.6667 1064.94,-65.3333 1064.94,-65.3333 1064.94,-61.6667 1068.61,-58 1072.27,-58 1072.27,-58 1167.73,-58 1167.73,-58 1171.39,-58 1175.06,-61.6667 1175.06,-65.3333 1175.06,-65.3333 1175.06,-72.6667 1175.06,-72.6667 1175.06,-76.3333 1171.39,-80 1167.73,-80"/>
+<text text-anchor="middle" x="1120" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">SignedIntegerType</text>
 </a>
 </g>
 </g>
 <!-- IntegerType&#45;&gt;SignedIntegerType -->
-<g id="edge13" class="edge">
-<path fill="none" stroke="#cccccc" d="M886,-115.988C886,-108.91 886,-99.1714 886,-90.4779"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="889.5,-90.3038 886,-80.3039 882.5,-90.3039 889.5,-90.3038"/>
+<g id="edge14" class="edge">
+<path fill="none" stroke="#cccccc" d="M1120,-115.988C1120,-108.91 1120,-99.1714 1120,-90.4779"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1123.5,-90.3038 1120,-80.3039 1116.5,-90.3039 1123.5,-90.3038"/>
 </g>
 <!-- UnsignedIntegerType -->
 <g id="node29" class="node">
-<g id="a_node29"><a xlink:href="/v2.0/protocol/UnsignedIntegerType/" target="_top">
-<path fill="#999999" stroke="#999999" d="M616.728,-80C616.728,-80 507.272,-80 507.272,-80 503.605,-80 499.938,-76.3333 499.938,-72.6667 499.938,-72.6667 499.938,-65.3333 499.938,-65.3333 499.938,-61.6667 503.605,-58 507.272,-58 507.272,-58 616.728,-58 616.728,-58 620.395,-58 624.062,-61.6667 624.062,-65.3333 624.062,-65.3333 624.062,-72.6667 624.062,-72.6667 624.062,-76.3333 620.395,-80 616.728,-80"/>
-<text text-anchor="middle" x="562" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsignedIntegerType</text>
+<g id="a_node29"><a xlink:href="/v2.0/protocol/UnsignedIntegerType/hierarchy/" target="_top">
+<path fill="#999999" stroke="#999999" d="M850.728,-80C850.728,-80 741.272,-80 741.272,-80 737.605,-80 733.938,-76.3333 733.938,-72.6667 733.938,-72.6667 733.938,-65.3333 733.938,-65.3333 733.938,-61.6667 737.605,-58 741.272,-58 741.272,-58 850.728,-58 850.728,-58 854.395,-58 858.062,-61.6667 858.062,-65.3333 858.062,-65.3333 858.062,-72.6667 858.062,-72.6667 858.062,-76.3333 854.395,-80 850.728,-80"/>
+<text text-anchor="middle" x="796" y="-65.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsignedIntegerType</text>
 </a>
 </g>
 </g>
 <!-- IntegerType&#45;&gt;UnsignedIntegerType -->
-<g id="edge14" class="edge">
-<path fill="none" stroke="#cccccc" d="M849.463,-119.685C796.335,-110.502 696.821,-93.3024 629.975,-81.7487"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="630.399,-78.2702 619.949,-80.0158 629.207,-85.1679 630.399,-78.2702"/>
+<g id="edge15" class="edge">
+<path fill="none" stroke="#cccccc" d="M1083.46,-119.685C1030.34,-110.502 930.821,-93.3024 863.975,-81.7487"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="864.399,-78.2702 853.949,-80.0158 863.207,-85.1679 864.399,-78.2702"/>
 </g>
 <!-- RandomAccessIndexType&#45;&gt;AnyRandomAccessIndex -->
 <g id="edge8" class="edge">
-<path fill="none" stroke="#cccccc" d="M1406.93,-173.756C1417.59,-145.978 1447.19,-68.848 1461.31,-32.0425"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1464.69,-32.9982 1465.01,-22.4081 1458.16,-30.4904 1464.69,-32.9982"/>
+<path fill="none" stroke="#cccccc" d="M1298.39,-180.518C1202.09,-175.216 1029.6,-162.978 884,-138 779.671,-120.102 755.043,-108.146 653,-80 588.187,-62.1229 513.609,-39.2255 468.413,-25.0885"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="469.268,-21.6888 458.679,-22.0372 467.174,-28.3683 469.268,-21.6888"/>
+</g>
+<!-- RandomAccessIndexType&#45;&gt;Bit -->
+<g id="edge9" class="edge">
+<path fill="none" stroke="#cccccc" d="M1298.59,-177.089C1177.01,-164.681 928.869,-134.677 725,-80 671.359,-65.6137 611.454,-41.421 575.785,-26.1057"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="576.96,-22.8005 566.393,-22.037 574.177,-29.2237 576.96,-22.8005"/>
 </g>
 <!-- RandomAccessIndexType&#45;&gt;IntegerType -->
-<g id="edge9" class="edge">
-<path fill="none" stroke="#cccccc" d="M1328.38,-175.917C1220.11,-164.19 1022.62,-142.798 932.758,-133.065"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="932.922,-129.562 922.603,-131.965 932.168,-136.521 932.922,-129.562"/>
+<g id="edge10" class="edge">
+<path fill="none" stroke="#cccccc" d="M1327.77,-173.988C1282.31,-163.927 1212.58,-148.492 1166.63,-138.322"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1167.16,-134.853 1156.64,-136.109 1165.64,-141.688 1167.16,-134.853"/>
 </g>
 <!-- ReverseRandomAccessIndex -->
 <g id="node17" class="node">
-<g id="a_node17"><a xlink:href="/v2.0/type/ReverseRandomAccessIndex/" target="_top">
+<g id="a_node17"><a xlink:href="/v2.0/type/ReverseRandomAccessIndex/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1727.06,-22 1558.94,-22 1558.94,-0 1727.06,-0 1727.06,-22"/>
 <text text-anchor="middle" x="1643" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ReverseRandomAccessIndex</text>
 </a>
 </g>
 </g>
 <!-- RandomAccessIndexType&#45;&gt;ReverseRandomAccessIndex -->
-<g id="edge10" class="edge">
-<path fill="none" stroke="#cccccc" d="M1417.29,-173.756C1457.48,-144.956 1571.69,-63.1066 1620.47,-28.1489"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1622.69,-30.8607 1628.78,-22.1906 1618.61,-25.171 1622.69,-30.8607"/>
+<g id="edge11" class="edge">
+<path fill="none" stroke="#cccccc" d="M1389.08,-173.756C1434.48,-144.837 1563.84,-62.4264 1618.33,-27.7162"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1620.45,-30.5154 1627,-22.1906 1616.69,-24.6115 1620.45,-30.5154"/>
 </g>
 <!-- UnsafeMutablePointer -->
 <g id="node27" class="node">
-<g id="a_node27"><a xlink:href="/v2.0/type/UnsafeMutablePointer/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="1275.05,-22 1146.95,-22 1146.95,-0 1275.05,-0 1275.05,-22"/>
-<text text-anchor="middle" x="1211" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafeMutablePointer</text>
+<g id="a_node27"><a xlink:href="/v2.0/type/UnsafeMutablePointer/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="1437.05,-22 1308.95,-22 1308.95,-0 1437.05,-0 1437.05,-22"/>
+<text text-anchor="middle" x="1373" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafeMutablePointer</text>
 </a>
 </g>
 </g>
 <!-- RandomAccessIndexType&#45;&gt;UnsafeMutablePointer -->
-<g id="edge11" class="edge">
-<path fill="none" stroke="#cccccc" d="M1391.56,-173.756C1359.76,-145.263 1269.99,-64.8429 1230.29,-29.2809"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1232.4,-26.4737 1222.62,-22.4081 1227.73,-31.6875 1232.4,-26.4737"/>
+<g id="edge12" class="edge">
+<path fill="none" stroke="#cccccc" d="M1373,-173.756C1373,-146.097 1373,-69.5091 1373,-32.5186"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1376.5,-32.408 1373,-22.4081 1369.5,-32.4081 1376.5,-32.408"/>
 </g>
 <!-- UnsafePointer -->
 <g id="node28" class="node">
-<g id="a_node28"><a xlink:href="/v2.0/type/UnsafePointer/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="1379.03,-22 1292.97,-22 1292.97,-0 1379.03,-0 1379.03,-22"/>
-<text text-anchor="middle" x="1336" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafePointer</text>
+<g id="a_node28"><a xlink:href="/v2.0/type/UnsafePointer/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="1541.03,-22 1454.97,-22 1454.97,-0 1541.03,-0 1541.03,-22"/>
+<text text-anchor="middle" x="1498" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UnsafePointer</text>
 </a>
 </g>
 </g>
 <!-- RandomAccessIndexType&#45;&gt;UnsafePointer -->
-<g id="edge12" class="edge">
-<path fill="none" stroke="#cccccc" d="M1399.01,-173.756C1388.19,-145.978 1358.14,-68.848 1343.81,-32.0425"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1346.95,-30.4557 1340.05,-22.4081 1340.42,-32.9965 1346.95,-30.4557"/>
+<g id="edge13" class="edge">
+<path fill="none" stroke="#cccccc" d="M1380.44,-173.756C1400.89,-145.621 1458.14,-66.8536 1484.45,-30.6411"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1487.39,-32.5551 1490.44,-22.4081 1481.73,-28.4399 1487.39,-32.5551"/>
 </g>
 <!-- ReverseIndex -->
 <g id="node15" class="node">
-<g id="a_node15"><a xlink:href="/v2.0/type/ReverseIndex/" target="_top">
+<g id="a_node15"><a xlink:href="/v2.0/type/ReverseIndex/hierarchy/" target="_top">
 <polygon fill="#999999" stroke="#999999" points="1829.03,-22 1744.97,-22 1744.97,-0 1829.03,-0 1829.03,-22"/>
 <text text-anchor="middle" x="1787" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">ReverseIndex</text>
 </a>
@@ -387,108 +387,108 @@
 </g>
 <!-- ReverseIndexType&#45;&gt;ReverseIndex -->
 <g id="edge26" class="edge">
-<path fill="none" stroke="#cccccc" d="M1713.09,-57.9883C1726.7,-49.5201 1746.43,-37.2452 1762.08,-27.5067"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1764.1,-30.3686 1770.75,-22.1138 1760.41,-24.4252 1764.1,-30.3686"/>
+<path fill="none" stroke="#cccccc" d="M1707.34,-57.9883C1722.15,-49.441 1743.67,-37.0155 1760.61,-27.2343"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1762.57,-30.1448 1769.48,-22.1138 1759.07,-24.0825 1762.57,-30.1448"/>
 </g>
 <!-- ReverseIndexType&#45;&gt;ReverseRandomAccessIndex -->
 <g id="edge27" class="edge">
-<path fill="none" stroke="#cccccc" d="M1687.35,-57.9883C1679.76,-50.1233 1669.01,-38.9745 1659.99,-29.6239"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1662.4,-27.0729 1652.94,-22.3039 1657.36,-31.9318 1662.4,-27.0729"/>
+<path fill="none" stroke="#cccccc" d="M1681.6,-57.9883C1675.13,-50.2806 1666.01,-39.4191 1658.26,-30.187"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1660.76,-27.7136 1651.65,-22.3039 1655.4,-32.2137 1660.76,-27.7136"/>
 </g>
 <!-- SignedIntegerType&#45;&gt;Int -->
-<g id="edge15" class="edge">
-<path fill="none" stroke="#cccccc" d="M873.128,-57.9883C862.611,-49.8087 847.528,-38.0773 835.228,-28.5108"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="837.29,-25.6806 827.248,-22.3039 832.993,-31.2061 837.29,-25.6806"/>
+<g id="edge16" class="edge">
+<path fill="none" stroke="#cccccc" d="M1145.74,-57.9883C1168.84,-49.0057 1202.95,-35.7398 1228.61,-25.7614"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1229.94,-29.0004 1237.99,-22.1138 1227.4,-22.4763 1229.94,-29.0004"/>
 </g>
 <!-- SignedIntegerType&#45;&gt;Int16 -->
-<g id="edge16" class="edge">
-<path fill="none" stroke="#cccccc" d="M886,-57.9883C886,-50.9098 886,-41.1714 886,-32.4779"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="889.5,-32.3038 886,-22.3039 882.5,-32.3039 889.5,-32.3038"/>
+<g id="edge17" class="edge">
+<path fill="none" stroke="#cccccc" d="M1094.26,-57.9883C1071.16,-49.0057 1037.05,-35.7398 1011.39,-25.7614"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1012.6,-22.4763 1002.01,-22.1138 1010.06,-29.0004 1012.6,-22.4763"/>
 </g>
 <!-- SignedIntegerType&#45;&gt;Int32 -->
-<g id="edge17" class="edge">
-<path fill="none" stroke="#cccccc" d="M898.872,-57.9883C909.389,-49.8087 924.472,-38.0773 936.772,-28.5108"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="939.007,-31.2061 944.752,-22.3039 934.71,-25.6806 939.007,-31.2061"/>
+<g id="edge18" class="edge">
+<path fill="none" stroke="#cccccc" d="M1107.13,-57.9883C1096.61,-49.8087 1081.53,-38.0773 1069.23,-28.5108"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1071.29,-25.6806 1061.25,-22.3039 1066.99,-31.2061 1071.29,-25.6806"/>
 </g>
 <!-- SignedIntegerType&#45;&gt;Int64 -->
-<g id="edge18" class="edge">
-<path fill="none" stroke="#cccccc" d="M911.744,-57.9883C934.842,-49.0057 968.955,-35.7398 994.614,-25.7614"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="995.942,-29.0004 1003.99,-22.1138 993.404,-22.4763 995.942,-29.0004"/>
+<g id="edge19" class="edge">
+<path fill="none" stroke="#cccccc" d="M1120,-57.9883C1120,-50.9098 1120,-41.1714 1120,-32.4779"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1123.5,-32.3038 1120,-22.3039 1116.5,-32.3039 1123.5,-32.3038"/>
 </g>
 <!-- SignedIntegerType&#45;&gt;Int8 -->
-<g id="edge19" class="edge">
-<path fill="none" stroke="#cccccc" d="M860.256,-57.9883C837.158,-49.0057 803.045,-35.7398 777.386,-25.7614"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="778.596,-22.4763 768.007,-22.1138 776.058,-29.0004 778.596,-22.4763"/>
+<g id="edge20" class="edge">
+<path fill="none" stroke="#cccccc" d="M1132.87,-57.9883C1143.39,-49.8087 1158.47,-38.0773 1170.77,-28.5108"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1173.01,-31.2061 1178.75,-22.3039 1168.71,-25.6806 1173.01,-31.2061"/>
 </g>
 <!-- UInt -->
 <g id="node22" class="node">
-<g id="a_node22"><a xlink:href="/v2.0/type/UInt/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="481,-22 427,-22 427,-0 481,-0 481,-22"/>
-<text text-anchor="middle" x="454" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt</text>
+<g id="a_node22"><a xlink:href="/v2.0/type/UInt/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="931,-22 877,-22 877,-0 931,-0 931,-22"/>
+<text text-anchor="middle" x="904" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt</text>
 </a>
 </g>
 </g>
 <!-- UInt16 -->
 <g id="node23" class="node">
-<g id="a_node23"><a xlink:href="/v2.0/type/UInt16/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="553,-22 499,-22 499,-0 553,-0 553,-22"/>
-<text text-anchor="middle" x="526" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt16</text>
+<g id="a_node23"><a xlink:href="/v2.0/type/UInt16/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="643,-22 589,-22 589,-0 643,-0 643,-22"/>
+<text text-anchor="middle" x="616" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt16</text>
 </a>
 </g>
 </g>
 <!-- UInt32 -->
 <g id="node24" class="node">
-<g id="a_node24"><a xlink:href="/v2.0/type/UInt32/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="625,-22 571,-22 571,-0 625,-0 625,-22"/>
-<text text-anchor="middle" x="598" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt32</text>
+<g id="a_node24"><a xlink:href="/v2.0/type/UInt32/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="715,-22 661,-22 661,-0 715,-0 715,-22"/>
+<text text-anchor="middle" x="688" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt32</text>
 </a>
 </g>
 </g>
 <!-- UInt64 -->
 <g id="node25" class="node">
-<g id="a_node25"><a xlink:href="/v2.0/type/UInt64/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="697,-22 643,-22 643,-0 697,-0 697,-22"/>
-<text text-anchor="middle" x="670" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt64</text>
+<g id="a_node25"><a xlink:href="/v2.0/type/UInt64/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="787,-22 733,-22 733,-0 787,-0 787,-22"/>
+<text text-anchor="middle" x="760" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt64</text>
 </a>
 </g>
 </g>
 <!-- UInt8 -->
 <g id="node26" class="node">
-<g id="a_node26"><a xlink:href="/v2.0/type/UInt8/" target="_top">
-<polygon fill="#999999" stroke="#999999" points="409,-22 355,-22 355,-0 409,-0 409,-22"/>
-<text text-anchor="middle" x="382" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt8</text>
+<g id="a_node26"><a xlink:href="/v2.0/type/UInt8/hierarchy/" target="_top">
+<polygon fill="#999999" stroke="#999999" points="859,-22 805,-22 805,-0 859,-0 859,-22"/>
+<text text-anchor="middle" x="832" y="-7.4" font-family="Helvetica,sans-Serif" font-size="12.00" fill="white">UInt8</text>
 </a>
 </g>
 </g>
 <!-- UnsignedIntegerType&#45;&gt;UInt -->
 <g id="edge21" class="edge">
-<path fill="none" stroke="#cccccc" d="M542.692,-57.9883C525.979,-49.3223 501.577,-36.6696 482.597,-26.8283"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="483.994,-23.6099 473.505,-22.1138 480.772,-29.8242 483.994,-23.6099"/>
+<path fill="none" stroke="#cccccc" d="M815.308,-57.9883C832.021,-49.3223 856.423,-36.6696 875.403,-26.8283"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="877.228,-29.8242 884.495,-22.1138 874.006,-23.6099 877.228,-29.8242"/>
 </g>
 <!-- UnsignedIntegerType&#45;&gt;UInt16 -->
 <g id="edge22" class="edge">
-<path fill="none" stroke="#cccccc" d="M555.564,-57.9883C550.71,-50.4379 543.911,-39.8611 538.056,-30.7543"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="540.976,-28.823 532.624,-22.3039 535.087,-32.6083 540.976,-28.823"/>
+<path fill="none" stroke="#cccccc" d="M763.82,-57.9883C732.661,-48.2947 685.47,-33.6128 652.827,-23.4573"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="653.786,-20.0902 643.198,-20.4615 651.706,-26.7742 653.786,-20.0902"/>
 </g>
 <!-- UnsignedIntegerType&#45;&gt;UInt32 -->
 <g id="edge23" class="edge">
-<path fill="none" stroke="#cccccc" d="M568.436,-57.9883C573.29,-50.4379 580.089,-39.8611 585.944,-30.7543"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="588.913,-32.6083 591.376,-22.3039 583.024,-28.823 588.913,-32.6083"/>
+<path fill="none" stroke="#cccccc" d="M776.692,-57.9883C759.979,-49.3223 735.577,-36.6696 716.597,-26.8283"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="717.994,-23.6099 707.505,-22.1138 714.772,-29.8242 717.994,-23.6099"/>
 </g>
 <!-- UnsignedIntegerType&#45;&gt;UInt64 -->
 <g id="edge24" class="edge">
-<path fill="none" stroke="#cccccc" d="M581.308,-57.9883C598.021,-49.3223 622.423,-36.6696 641.403,-26.8283"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="643.228,-29.8242 650.495,-22.1138 640.006,-23.6099 643.228,-29.8242"/>
+<path fill="none" stroke="#cccccc" d="M789.564,-57.9883C784.71,-50.4379 777.911,-39.8611 772.056,-30.7543"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="774.976,-28.823 766.624,-22.3039 769.087,-32.6083 774.976,-28.823"/>
 </g>
 <!-- UnsignedIntegerType&#45;&gt;UInt8 -->
 <g id="edge25" class="edge">
-<path fill="none" stroke="#cccccc" d="M529.82,-57.9883C498.661,-48.2947 451.47,-33.6128 418.827,-23.4573"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="419.786,-20.0902 409.198,-20.4615 417.706,-26.7742 419.786,-20.0902"/>
+<path fill="none" stroke="#cccccc" d="M802.436,-57.9883C807.29,-50.4379 814.089,-39.8611 819.944,-30.7543"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="822.913,-32.6083 825.376,-22.3039 817.024,-28.823 822.913,-32.6083"/>
 </g>
 <!-- _Incrementable&#45;&gt;ForwardIndexType -->
 <g id="edge29" class="edge">
-<path fill="none" stroke="#cccccc" d="M1697,-347.988C1697,-340.91 1697,-331.171 1697,-322.478"/>
-<polygon fill="#cccccc" stroke="#cccccc" points="1700.5,-322.304 1697,-312.304 1693.5,-322.304 1700.5,-322.304"/>
+<path fill="none" stroke="#cccccc" d="M1690,-347.988C1690,-340.91 1690,-331.171 1690,-322.478"/>
+<polygon fill="#cccccc" stroke="#cccccc" points="1693.5,-322.304 1690,-312.304 1686.5,-322.304 1693.5,-322.304"/>
 </g>
 </g>
 </svg>

@@ -2,7 +2,6 @@ strict digraph "_SignedIntegerType - Type Hierarchy - SwiftDoc.org" {
     pad="0.1,0.8"
     node [shape=box, style="filled,rounded", color="#999999", fillcolor="#999999", fontcolor=white, fontname=Helvetica, fontnames="Helvetica,sansserif", fontsize=12, margin="0.07,0.05", height="0.3"]
     edge [color="#cccccc"]
-    "Bit" [URL="/type/Bit/hierarchy/", style=filled]
     "BitwiseOperationsType" [URL="/protocol/BitwiseOperationsType/hierarchy/"]
     "Comparable" [URL="/protocol/Comparable/hierarchy/"]
     "Equatable" [URL="/protocol/Equatable/hierarchy/"]
@@ -28,7 +27,6 @@ strict digraph "_SignedIntegerType - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "_IntegerType" -> "_SignedIntegerType"
     "SignedNumberType" -> "_SignedIntegerType"
     "IntegerLiteralConvertible" -> "_IntegerType"
@@ -49,6 +47,6 @@ strict digraph "_SignedIntegerType - Type Hierarchy - SwiftDoc.org" {
     "_Comparable" -> "Comparable"
     "Equatable" -> "Comparable"
     subgraph Types {
-        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit";
+        rank = max; "Int"; "Int16"; "Int32"; "Int64"; "Int8";
     }
 }

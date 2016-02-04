@@ -55,6 +55,7 @@ strict digraph "_Comparable - Type Hierarchy - SwiftDoc.org" {
     "Comparable" -> "_SignedNumberType"
     "Comparable" -> "String.Index"
     "Comparable" -> "String.UnicodeScalarView.Index"
+    "IntegerArithmeticType" -> "Bit"
     "IntegerArithmeticType" -> "_IntegerType"
     "_IntegerType" -> "IntegerType"
     "_IntegerType" -> "_SignedIntegerType"
@@ -66,7 +67,6 @@ strict digraph "_Comparable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -78,7 +78,6 @@ strict digraph "_Comparable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "_UnsignedIntegerType" -> "UnsignedIntegerType"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
@@ -91,6 +90,7 @@ strict digraph "_Comparable - Type Hierarchy - SwiftDoc.org" {
     "FloatingPointType" -> "Double"
     "FloatingPointType" -> "Float"
     "_RandomAccessIndexType" -> "RandomAccessIndexType"
+    "RandomAccessIndexType" -> "Bit"
     "RandomAccessIndexType" -> "IntegerType"
     "RandomAccessIndexType" -> "ReverseRandomAccessIndex"
     "RandomAccessIndexType" -> "UnsafeMutablePointer"
@@ -103,7 +103,6 @@ strict digraph "_Comparable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -121,8 +120,7 @@ strict digraph "_Comparable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     subgraph Types {
-        rank = max; "Character"; "DictionaryIndex"; "ObjectIdentifier"; "SetIndex"; "String"; "UnicodeScalar"; "String.Index"; "String.UnicodeScalarView.Index"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "Float80"; "Double"; "Float"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer"; "String.UTF16View.Index";
+        rank = max; "Character"; "DictionaryIndex"; "ObjectIdentifier"; "SetIndex"; "String"; "UnicodeScalar"; "String.Index"; "String.UnicodeScalarView.Index"; "Bit"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "Float80"; "Double"; "Float"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer"; "String.UTF16View.Index";
     }
 }
