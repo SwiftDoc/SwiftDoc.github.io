@@ -52,6 +52,7 @@ strict digraph "ForwardIndexType - Type Hierarchy - SwiftDoc.org" {
     "BidirectionalIndexType" -> "String.UnicodeScalarView.Index"
     "BidirectionalIndexType" -> "String.UTF16View.Index"
     "RandomAccessIndexType" -> "AnyRandomAccessIndex"
+    "RandomAccessIndexType" -> "Bit"
     "RandomAccessIndexType" -> "IntegerType"
     "RandomAccessIndexType" -> "ReverseRandomAccessIndex"
     "RandomAccessIndexType" -> "UnsafeMutablePointer"
@@ -63,7 +64,6 @@ strict digraph "ForwardIndexType - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -74,6 +74,6 @@ strict digraph "ForwardIndexType - Type Hierarchy - SwiftDoc.org" {
     "_Incrementable" -> "ForwardIndexType"
     "Equatable" -> "_Incrementable"
     subgraph Types {
-        rank = max; "AnyForwardIndex"; "DictionaryIndex"; "FlattenCollectionIndex"; "LazyFilterIndex"; "SetIndex"; "String.UTF8View.Index"; "AnyBidirectionalIndex"; "FlattenBidirectionalCollectionIndex"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index"; "AnyRandomAccessIndex"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "ReverseIndex";
+        rank = max; "AnyForwardIndex"; "DictionaryIndex"; "FlattenCollectionIndex"; "LazyFilterIndex"; "SetIndex"; "String.UTF8View.Index"; "AnyBidirectionalIndex"; "FlattenBidirectionalCollectionIndex"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index"; "AnyRandomAccessIndex"; "Bit"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "ReverseIndex";
     }
 }

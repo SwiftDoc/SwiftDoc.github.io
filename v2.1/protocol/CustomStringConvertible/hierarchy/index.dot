@@ -4,7 +4,6 @@ strict digraph "CustomStringConvertible - Type Hierarchy - SwiftDoc.org" {
     edge [color="#cccccc"]
     "Array" [URL="/type/Array/hierarchy/", style=filled]
     "ArraySlice" [URL="/type/ArraySlice/hierarchy/", style=filled]
-    "Bit" [URL="/type/Bit/hierarchy/", style=filled]
     "Bool" [URL="/type/Bool/hierarchy/", style=filled]
     "ClosedInterval" [URL="/type/ClosedInterval/hierarchy/", style=filled]
     "ContiguousArray" [URL="/type/ContiguousArray/hierarchy/", style=filled]
@@ -68,7 +67,6 @@ strict digraph "CustomStringConvertible - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -86,8 +84,7 @@ strict digraph "CustomStringConvertible - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     subgraph Types {
-        rank = max; "Array"; "ArraySlice"; "Bool"; "ClosedInterval"; "ContiguousArray"; "Dictionary"; "Double"; "Float"; "Float80"; "HalfOpenInterval"; "ImplicitlyUnwrappedOptional"; "Mirror"; "Range"; "Set"; "StaticString"; "UnicodeScalar"; "String.UnicodeScalarView"; "String.UTF16View"; "String.UTF8View"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
+        rank = max; "Array"; "ArraySlice"; "Bool"; "ClosedInterval"; "ContiguousArray"; "Dictionary"; "Double"; "Float"; "Float80"; "HalfOpenInterval"; "ImplicitlyUnwrappedOptional"; "Mirror"; "Range"; "Set"; "StaticString"; "UnicodeScalar"; "String.UnicodeScalarView"; "String.UTF16View"; "String.UTF8View"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
     }
 }

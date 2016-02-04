@@ -34,6 +34,7 @@ strict digraph "Strideable - Type Hierarchy - SwiftDoc.org" {
     "FloatingPointType" -> "Double"
     "FloatingPointType" -> "Float"
     "RandomAccessIndexType" -> "AnyRandomAccessIndex"
+    "RandomAccessIndexType" -> "Bit"
     "RandomAccessIndexType" -> "IntegerType"
     "RandomAccessIndexType" -> "ReverseRandomAccessIndex"
     "RandomAccessIndexType" -> "UnsafeMutablePointer"
@@ -45,7 +46,6 @@ strict digraph "Strideable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -55,6 +55,6 @@ strict digraph "Strideable - Type Hierarchy - SwiftDoc.org" {
     "_Strideable" -> "Strideable"
     "Equatable" -> "Comparable"
     subgraph Types {
-        rank = max; "Float80"; "Double"; "Float"; "AnyRandomAccessIndex"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
+        rank = max; "Float80"; "Double"; "Float"; "AnyRandomAccessIndex"; "Bit"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
     }
 }

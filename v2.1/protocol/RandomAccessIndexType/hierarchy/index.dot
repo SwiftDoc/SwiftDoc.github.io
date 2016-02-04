@@ -29,6 +29,7 @@ strict digraph "RandomAccessIndexType - Type Hierarchy - SwiftDoc.org" {
     "_Incrementable" [URL="/protocol/_Incrementable/hierarchy/"]
     "_RandomAccessAmbiguity" [URL="/protocol/_RandomAccessAmbiguity/hierarchy/"]
     "_Strideable" [URL="/protocol/_Strideable/hierarchy/"]    "RandomAccessIndexType" -> "AnyRandomAccessIndex"
+    "RandomAccessIndexType" -> "Bit"
     "RandomAccessIndexType" -> "IntegerType"
     "RandomAccessIndexType" -> "ReverseRandomAccessIndex"
     "RandomAccessIndexType" -> "UnsafeMutablePointer"
@@ -40,7 +41,6 @@ strict digraph "RandomAccessIndexType - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -56,6 +56,6 @@ strict digraph "RandomAccessIndexType - Type Hierarchy - SwiftDoc.org" {
     "_Strideable" -> "Strideable"
     "Equatable" -> "Comparable"
     subgraph Types {
-        rank = max; "AnyRandomAccessIndex"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
+        rank = max; "AnyRandomAccessIndex"; "Bit"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8";
     }
 }

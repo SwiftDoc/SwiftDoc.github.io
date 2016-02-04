@@ -54,6 +54,7 @@ strict digraph "Comparable - Type Hierarchy - SwiftDoc.org" {
     "Comparable" -> "String.CharacterView.Index"
     "Comparable" -> "String.UnicodeScalarView.Index"
     "Comparable" -> "String.UTF16View.Index"
+    "IntegerArithmeticType" -> "Bit"
     "IntegerArithmeticType" -> "_IntegerType"
     "_IntegerType" -> "IntegerType"
     "_IntegerType" -> "_DisallowMixedSignArithmetic"
@@ -65,7 +66,6 @@ strict digraph "Comparable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -83,7 +83,6 @@ strict digraph "Comparable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "SignedNumberType" -> "AbsoluteValuable"
     "SignedNumberType" -> "_SignedIntegerType"
     "AbsoluteValuable" -> "Double"
@@ -95,13 +94,13 @@ strict digraph "Comparable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "Strideable" -> "Float80"
     "Strideable" -> "FloatingPointType"
     "Strideable" -> "RandomAccessIndexType"
     "FloatingPointType" -> "Double"
     "FloatingPointType" -> "Float"
     "RandomAccessIndexType" -> "AnyRandomAccessIndex"
+    "RandomAccessIndexType" -> "Bit"
     "RandomAccessIndexType" -> "IntegerType"
     "RandomAccessIndexType" -> "ReverseRandomAccessIndex"
     "RandomAccessIndexType" -> "UnsafeMutablePointer"
@@ -113,7 +112,6 @@ strict digraph "Comparable - Type Hierarchy - SwiftDoc.org" {
     "SignedIntegerType" -> "Int32"
     "SignedIntegerType" -> "Int64"
     "SignedIntegerType" -> "Int8"
-    "Int" -> "Bit"
     "UnsignedIntegerType" -> "UInt"
     "UnsignedIntegerType" -> "UInt16"
     "UnsignedIntegerType" -> "UInt32"
@@ -121,6 +119,6 @@ strict digraph "Comparable - Type Hierarchy - SwiftDoc.org" {
     "UnsignedIntegerType" -> "UInt8"
     "Equatable" -> "Comparable"
     subgraph Types {
-        rank = max; "Character"; "DictionaryIndex"; "ObjectIdentifier"; "SetIndex"; "String"; "UnicodeScalar"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "Bit"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "Double"; "Float"; "Float80"; "AnyRandomAccessIndex"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer";
+        rank = max; "Character"; "DictionaryIndex"; "ObjectIdentifier"; "SetIndex"; "String"; "UnicodeScalar"; "String.CharacterView.Index"; "String.UnicodeScalarView.Index"; "String.UTF16View.Index"; "Bit"; "Int"; "Int16"; "Int32"; "Int64"; "Int8"; "UInt"; "UInt16"; "UInt32"; "UInt64"; "UInt8"; "Double"; "Float"; "Float80"; "AnyRandomAccessIndex"; "ReverseRandomAccessIndex"; "UnsafeMutablePointer"; "UnsafePointer";
     }
 }
